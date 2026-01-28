@@ -46,10 +46,9 @@ async def execute_task(
     dry_run: bool = Query(False, description="If true, only plan without executing"),
     vision=Depends(get_vision_service)
 ):
-    """Execute a task by decomposing and running each step."""
+    """Execute a task by decomposing and running each step using OnihandService."""
     from app.services.deep_reasoning import DeepReasoningService
-    import pyautogui
-    import asyncio
+    from app.services.onihand_service import OnihandService
     
     try:
         # Get context
@@ -66,38 +65,48 @@ async def execute_task(
                 "plan": analysis
             }
         
-        # Execute each action in plan
+        # Execute using Onihand (Visual Grounding)
+        onihand = OnihandService()
         results = []
+        
+        # We pass the high-level intent to Onihand, 
+        # as it is better equipped to handle the micro-steps visually
+        # than iterating blindly here.
+        # However, if analysis returned discrete steps, we can iterate them.
+        
         actions = analysis.get("actions", [])
-        
-        for i, action in enumerate(actions):
-            action_type = action.get("type", "")
-            params = action.get("params", {})
-            
-            try:
-                if action_type == "click":
-                    pyautogui.click(params.get("x", 0), params.get("y", 0))
-                elif action_type == "drag":
-                    pyautogui.drag(
-                        params.get("x1", 0), params.get("y1", 0),
-                        params.get("x2", 0), params.get("y2", 0),
-                        duration=0.5
-                    )
-                elif action_type == "hotkey":
+        if actions:
+            for i, action in enumerate(actions):
+                # Convert structured action to natural language instruction for Onihand
+                # e.g. type="click", params={"target": "File Menu"} -> "Click on File Menu"
+                
+                instruction = ""
+                a_type = action.get("type", "")
+                params = action.get("params", {})
+                
+                if a_type == "click":
+                    target = params.get("element") or params.get("target") or "target"
+                    instruction = f"Click on {target}"
+                elif a_type == "type":
+                    text = params.get("text", "")
+                    instruction = f"Type '{text}'"
+                elif a_type == "hotkey":
                     keys = params.get("keys", [])
-                    if keys:
-                        pyautogui.hotkey(*keys)
-                elif action_type == "type":
-                    pyautogui.write(params.get("text", ""), interval=0.02)
-                elif action_type == "wait":
-                    await asyncio.sleep(params.get("seconds", 0.5))
+                    instruction = f"Press keys {'+'.join(keys)}"
+                else:
+                    instruction = description # Fallback to full description
                 
-                results.append({"step": i+1, "action": action_type, "success": True})
-                await asyncio.sleep(0.2)  # Delay between actions
+                logger.info("task_step_executing", step=i+1, instruction=instruction)
                 
-            except Exception as step_err:
-                results.append({"step": i+1, "action": action_type, "success": False, "error": str(step_err)})
-        
+                # Execute via Onihand with Visual Grounding
+                step_result = await onihand.act(instruction, app_name)
+                results.append({"step": i+1, "instruction": instruction, "result": step_result})
+                
+        else:
+            # If no discrete actions, just pass the full description
+            step_result = await onihand.act(description, app_name)
+            results.append({"step": 1, "instruction": description, "result": step_result})
+
         return {
             "success": True,
             "task": description,

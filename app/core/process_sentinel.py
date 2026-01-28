@@ -42,16 +42,18 @@ class ProcessSentinel:
                 p_pid = p_info['pid']
                 p_name = p_info['name'].lower()
                 
-                # Check for explicit tracking or general target list
+                # STRICT SAFETY: Only track explicitly registered PIDs
                 is_tracked = p_pid in self._tracked_pids
-                is_target = p_name in self.TARGET_PROCESS_NAMES
                 
-                if is_tracked or is_target:
+                # Name matching is now only for logging/monitoring, NOT for killing
+                # is_target = p_name in self.TARGET_PROCESS_NAMES (Removed from kill logic)
+                
+                if is_tracked:
                     create_time = datetime.fromtimestamp(p_info['create_time'])
                     age = datetime.now() - create_time
                     
                     # Conditions for termination:
-                    # 1. Force all (emergency purge) -> Ignores age, but MUST be a target/tracked process
+                    # 1. Force all (emergency purge) -> Ignores age
                     # 2. Exceeds max age
                     
                     should_kill = force_all_targets or age.total_seconds() > (self.MAX_PROCESS_AGE_MINUTES * 60)
@@ -64,8 +66,7 @@ class ProcessSentinel:
                                        age_seconds=int(age.total_seconds()))
                         proc.terminate()
                         count += 1
-                        if p_pid in self._tracked_pids:
-                            self._tracked_pids.remove(p_pid)
+                        self._tracked_pids.remove(p_pid)
                             
             except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                 continue
