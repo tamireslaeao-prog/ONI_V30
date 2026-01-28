@@ -1,0 +1,17 @@
+{
+    "id": "oni-desktop",
+    "name": "ONI Desktop Automation",
+    "description": "Control local desktop apps (Photoshop, Blender, Browser) via ONI Engine",
+    "capabilities": [
+        "desktop_automation"
+    ],
+    "configSchema": {
+        "type": "object",
+        "properties": {
+            "gatewayUrl": {
+                "type": "string",
+                "default": "http://localhost:8000"
+            }
+        }
+    }
+}
