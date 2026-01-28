@@ -15,7 +15,33 @@ from pathlib import Path
 # This file is at: ONIV24/Modules/AfterEffects/oni_ae_bridge.py
 _ONI_ROOT = Path(__file__).parent.parent.parent.resolve()
 JOB_FOLDER = str(_ONI_ROOT / "temp" / "ae_jobs")
-AE_PATH = r"C:\Program Files\Adobe\Adobe After Effects 2025\Support Files\AfterFX.exe"
+
+def _resolve_ae_path() -> str:
+    """Resolves AE path from app_paths.json or defaults."""
+    # 1. Try app_paths.json (Dynamic Discovery)
+    try:
+        paths_file = _ONI_ROOT / "Modules" / "Core" / "Knowledge" / "app_paths.json"
+        if paths_file.exists():
+            with open(paths_file, 'r', encoding='utf-8-sig') as f:
+                data = json.load(f)
+                path = data.get("apps", {}).get("AfterEffects", {}).get("path")
+                if path and os.path.exists(path):
+                    return path
+    except Exception as e:
+        print(f"⚠️ Failed to load app_paths.json: {e}")
+
+    # 2. Hardcoded Fallbacks
+    defaults = [
+        r"C:\Program Files\Adobe\Adobe After Effects 2026\Support Files\AfterFX.exe",
+        r"C:\Program Files\Adobe\Adobe After Effects 2025\Support Files\AfterFX.exe",
+        r"C:\Program Files\Adobe\Adobe After Effects 2024\Support Files\AfterFX.exe"
+    ]
+    for p in defaults:
+        if os.path.exists(p):
+            return p
+    return defaults[0]
+
+AE_PATH = _resolve_ae_path()
 DEFAULT_TIMEOUT = 30  # seconds
 
 

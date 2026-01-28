@@ -15,6 +15,7 @@ Capabilities:
 import os
 import time
 import subprocess
+import json
 from typing import Optional, Dict, Any, List
 
 try:
@@ -38,7 +39,7 @@ class PhotoshopBridge:
         self.app = None
         self.doc = None
         self.use_fallback = False
-        self.executable_path = r"C:\Program Files\Adobe\Adobe Photoshop 2026\Photoshop.exe"
+        self.executable_path = self._resolve_executable_path()
         self.lib_code = ""
         
         # Load Library Code
@@ -69,6 +70,35 @@ class PhotoshopBridge:
             
             if not found:
                 raise RuntimeError(f"Fallback Executable not found at: {self.executable_path}")
+
+    def _resolve_executable_path(self) -> str:
+        """Resolves Photoshop path from app_paths.json or defaults."""
+        # 1. Try app_paths.json (Dynamic Discovery)
+        try:
+            paths_file = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 
+                                    "Core", "Knowledge", "app_paths.json")
+            if os.path.exists(paths_file):
+                with open(paths_file, 'r', encoding='utf-8-sig') as f:
+                    data = json.load(f)
+                    path = data.get("apps", {}).get("Photoshop", {}).get("path")
+                    if path and os.path.exists(path):
+                        return path
+        except Exception as e:
+            print(f"⚠️ Failed to load app_paths.json: {e}")
+
+        # 2. Hardcoded Fallbacks (Legacy/Default)
+        defaults = [
+            r"C:\Program Files\Adobe\Adobe Photoshop 2026\Photoshop.exe",
+            r"C:\Program Files\Adobe\Adobe Photoshop 2025\Photoshop.exe",
+            r"C:\Program Files\Adobe\Adobe Photoshop 2024\Photoshop.exe"
+        ]
+        
+        for p in defaults:
+            if os.path.exists(p):
+                return p
+                
+        # 3. Return a default even if missing, to let the bridge try COM
+        return defaults[0]
 
     def _load_library(self):
         """Reads the ONI_PS JS Library into memory."""

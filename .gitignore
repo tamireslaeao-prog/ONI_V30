@@ -1,0 +1,25 @@
+# Environment Variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+logs/
+server.log
+
+# Memory / Data (ONI Specific)
+data/memory/
+data/temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini

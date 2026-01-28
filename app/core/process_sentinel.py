@@ -44,21 +44,23 @@ class ProcessSentinel:
                 
                 # Check for explicit tracking or general target list
                 is_tracked = p_pid in self._tracked_pids
-                is_target = p_name in self.TARGET_PROCESS_NAMES or force_all_targets
+                is_target = p_name in self.TARGET_PROCESS_NAMES
                 
                 if is_tracked or is_target:
                     create_time = datetime.fromtimestamp(p_info['create_time'])
                     age = datetime.now() - create_time
                     
                     # Conditions for termination:
-                    # 1. Force all (emergency purge)
+                    # 1. Force all (emergency purge) -> Ignores age, but MUST be a target/tracked process
                     # 2. Exceeds max age
-                    # 3. Tracked but process is zombie/hanging (implemented via status check if needed)
                     
-                    if force_all_targets or age.total_seconds() > (self.MAX_PROCESS_AGE_MINUTES * 60):
+                    should_kill = force_all_targets or age.total_seconds() > (self.MAX_PROCESS_AGE_MINUTES * 60)
+
+                    if should_kill:
                         logger.warning("sentinel_terminating_process", 
                                        pid=p_pid, 
                                        name=p_name, 
+                                       reason="emergency" if force_all_targets else "age",
                                        age_seconds=int(age.total_seconds()))
                         proc.terminate()
                         count += 1
