@@ -1,0 +1,1132 @@
+{
+    "software": "Microsoft Word",
+    "version": "2024+ (Microsoft 365)",
+    "category": "word_processing",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para Microsoft Word",
+    "essential_shortcuts": {
+        "file_operations": {
+            "new_document": "ctrl+n",
+            "open": "ctrl+o",
+            "save": "ctrl+s",
+            "save_as": "f12 ou ctrl+shift+s",
+            "print": "ctrl+p",
+            "print_preview": "ctrl+f2",
+            "close": "ctrl+w ou ctrl+f4",
+            "properties": "alt+enter",
+            "recent_documents": "ctrl+o depois recent"
+        },
+        "editing": {
+            "undo": "ctrl+z",
+            "redo": "ctrl+y",
+            "cut": "ctrl+x",
+            "copy": "ctrl+c",
+            "paste": "ctrl+v",
+            "paste_special": "ctrl+alt+v",
+            "paste_text_only": "ctrl+shift+v",
+            "select_all": "ctrl+a",
+            "find": "ctrl+f",
+            "replace": "ctrl+h",
+            "go_to": "ctrl+g",
+            "repeat_last_action": "f4 ou ctrl+y"
+        }
+    },
+    "formatting_shortcuts": {
+        "text_formatting": {
+            "bold": "ctrl+b",
+            "italic": "ctrl+i",
+            "underline": "ctrl+u",
+            "double_underline": "ctrl+shift+d",
+            "word_underline": "ctrl+shift+w",
+            "strikethrough": "alt+shift+5",
+            "subscript": "ctrl+=",
+            "superscript": "ctrl+shift+=",
+            "small_caps": "ctrl+shift+k",
+            "all_caps": "ctrl+shift+a",
+            "change_case": "shift+f3",
+            "clear_formatting": "ctrl+space",
+            "increase_font": "ctrl+]",
+            "decrease_font": "ctrl+[",
+            "increase_font_1pt": "ctrl+shift+>",
+            "decrease_font_1pt": "ctrl+shift+<",
+            "font_dialog": "ctrl+d",
+            "highlight": "alt+h+i"
+        },
+        "paragraph_formatting": {
+            "align_left": "ctrl+l",
+            "align_center": "ctrl+e",
+            "align_right": "ctrl+r",
+            "justify": "ctrl+j",
+            "single_spacing": "ctrl+1",
+            "double_spacing": "ctrl+2",
+            "1.5_spacing": "ctrl+5",
+            "add_space_before": "ctrl+0",
+            "indent_left": "ctrl+m",
+            "indent_hanging": "ctrl+t",
+            "decrease_indent": "ctrl+shift+m",
+            "remove_hanging": "ctrl+shift+t",
+            "paragraph_dialog": "alt+h+p+g"
+        },
+        "styles": {
+            "apply_style": "ctrl+shift+s",
+            "normal": "ctrl+shift+n",
+            "heading_1": "ctrl+alt+1",
+            "heading_2": "ctrl+alt+2",
+            "heading_3": "ctrl+alt+3",
+            "list_bullet": "ctrl+shift+l",
+            "open_styles_pane": "alt+ctrl+shift+s"
+        }
+    },
+    "navigation_shortcuts": {
+        "cursor_movement": {
+            "word_left": "ctrl+left",
+            "word_right": "ctrl+right",
+            "paragraph_up": "ctrl+up",
+            "paragraph_down": "ctrl+down",
+            "beginning_line": "home",
+            "end_line": "end",
+            "beginning_document": "ctrl+home",
+            "end_document": "ctrl+end",
+            "previous_page": "ctrl+page_up",
+            "next_page": "ctrl+page_down",
+            "previous_edit": "shift+f5",
+            "go_back": "alt+ctrl+home",
+            "go_forward": "alt+ctrl+end"
+        },
+        "selection": {
+            "select_word": "double_click",
+            "select_paragraph": "triple_click",
+            "select_line": "click_in_margin",
+            "select_to_end_line": "shift+end",
+            "select_to_start_line": "shift+home",
+            "select_to_end_document": "ctrl+shift+end",
+            "select_to_start_document": "ctrl+shift+home",
+            "select_word_right": "ctrl+shift+right",
+            "select_word_left": "ctrl+shift+left",
+            "extend_selection": "f8",
+            "reduce_selection": "shift+f8",
+            "column_selection": "alt+drag"
+        }
+    },
+    "insertion_shortcuts": {
+        "special_insertions": {
+            "page_break": "ctrl+enter",
+            "column_break": "ctrl+shift+enter",
+            "line_break": "shift+enter",
+            "non_breaking_space": "ctrl+shift+space",
+            "non_breaking_hyphen": "ctrl+shift+-",
+            "optional_hyphen": "ctrl+-",
+            "em_dash": "ctrl+alt+minus",
+            "en_dash": "ctrl+minus",
+            "copyright": "ctrl+alt+c",
+            "registered": "ctrl+alt+r",
+            "trademark": "ctrl+alt+t",
+            "ellipsis": "alt+ctrl+.",
+            "symbol": "alt+n+u"
+        },
+        "fields_and_objects": {
+            "field": "ctrl+f9",
+            "update_field": "f9",
+            "update_all_fields": "ctrl+a depois f9",
+            "hyperlink": "ctrl+k",
+            "footnote": "alt+ctrl+f",
+            "endnote": "alt+ctrl+d",
+            "comment": "ctrl+alt+m",
+            "date_field": "alt+shift+d",
+            "time_field": "alt+shift+t",
+            "page_field": "alt+shift+p"
+        }
+    },
+    "table_shortcuts": {
+        "creation_and_navigation": {
+            "insert_table": "alt+n+t",
+            "next_cell": "tab",
+            "previous_cell": "shift+tab",
+            "next_row": "down_arrow (última célula)",
+            "new_row": "tab (última célula)",
+            "new_paragraph_in_cell": "enter",
+            "select_cell": "click_in_selection_bar",
+            "select_column": "click_top_border",
+            "select_row": "click_left_border",
+            "select_table": "alt+5 (numpad)"
+        },
+        "formatting": {
+            "table_properties": "alt+j+l+o",
+            "insert_row_above": "alt+j+l+a",
+            "insert_row_below": "alt+j+l+b",
+            "insert_column_left": "alt+j+l+l",
+            "insert_column_right": "alt+j+l+r",
+            "delete_row": "alt+j+l+d+r",
+            "delete_column": "alt+j+l+d+c",
+            "merge_cells": "alt+j+l+m",
+            "split_cells": "alt+j+l+p",
+            "distribute_rows": "alt+j+l+h+r",
+            "distribute_columns": "alt+j+l+h+c"
+        }
+    },
+    "review_shortcuts": {
+        "track_changes": {
+            "toggle_tracking": "ctrl+shift+e",
+            "accept_change": "alt+shift+r depois a",
+            "reject_change": "alt+shift+r depois r",
+            "next_change": "alt+shift+r depois n",
+            "previous_change": "alt+shift+r depois p",
+            "show_markup": "alt+r+t+m"
+        },
+        "comments": {
+            "insert_comment": "ctrl+alt+m",
+            "next_comment": "ctrl+page_down",
+            "previous_comment": "ctrl+page_up",
+            "delete_comment": "ctrl+alt+m (no comentário)",
+            "reply_comment": "ctrl+alt+r"
+        },
+        "spelling_grammar": {
+            "spell_check": "f7",
+            "thesaurus": "shift+f7",
+            "word_count": "ctrl+shift+g",
+            "accessibility_checker": "alt+r+a"
+        }
+    },
+    "view_shortcuts": {
+        "display_modes": {
+            "print_layout": "alt+w+p",
+            "web_layout": "alt+w+l",
+            "outline_view": "alt+w+u",
+            "draft_view": "alt+w+e",
+            "read_mode": "alt+w+f",
+            "focus_mode": "alt+w+focus",
+            "full_screen": "alt+w+i"
+        },
+        "zoom_and_display": {
+            "zoom_dialog": "alt+w+q",
+            "100_percent": "alt+w+j",
+            "page_width": "alt+w+i",
+            "one_page": "alt+w+1",
+            "multiple_pages": "alt+w+2",
+            "ruler": "alt+w+r",
+            "gridlines": "alt+w+g",
+            "navigation_pane": "ctrl+f"
+        }
+    },
+    "references_shortcuts": {
+        "table_of_contents": {
+            "insert_toc": "alt+s+t",
+            "update_toc": "f9 (no TOC)",
+            "update_table": "alt+s+u+u",
+            "custom_toc": "alt+s+t+c"
+        },
+        "citations": {
+            "insert_citation": "alt+s+c",
+            "manage_sources": "alt+s+m",
+            "insert_bibliography": "alt+s+b",
+            "style_dropdown": "alt+s+s"
+        },
+        "footnotes_endnotes": {
+            "insert_footnote": "alt+ctrl+f",
+            "insert_endnote": "alt+ctrl+d",
+            "next_footnote": "alt+shift+>",
+            "previous_footnote": "alt+shift+<",
+            "goto_footnote": "alt+s+h"
+        },
+        "captions": {
+            "insert_caption": "alt+s+c",
+            "insert_table_figures": "alt+s+g",
+            "update_table": "f9",
+            "cross_reference": "alt+s+r+f"
+        }
+    },
+    "mail_merge_shortcuts": {
+        "start_merge": "alt+m+m",
+        "select_recipients": "alt+m+e",
+        "insert_field": "alt+m+f",
+        "preview_results": "alt+m+p",
+        "finish_merge": "alt+m+f",
+        "edit_recipient_list": "alt+m+d"
+    },
+    "document_structure": {
+        "sections": {
+            "insert_section_break": {
+                "next_page": "alt+p+b+n",
+                "continuous": "alt+p+b+c",
+                "even_page": "alt+p+b+e",
+                "odd_page": "alt+p+b+o"
+            },
+            "columns": {
+                "one_column": "alt+p+j+1",
+                "two_columns": "alt+p+j+2",
+                "three_columns": "alt+p+j+3",
+                "more_columns": "alt+p+j+m"
+            }
+        },
+        "headers_footers": {
+            "insert_header": "alt+n+h",
+            "insert_footer": "alt+n+o",
+            "page_number": "alt+n+nu",
+            "different_first_page": "alt+j+h+a",
+            "different_odd_even": "alt+j+h+e",
+            "link_to_previous": "alt+j+h+k"
+        }
+    },
+    "pre_writing_checklist": [
+        {
+            "check": "page_setup",
+            "prompt": "Verificar configurações de página",
+            "expected": "Tamanho, orientação e margens corretas",
+            "fix_if_wrong": "Layout > Size/Margins",
+            "importance": "critical",
+            "verification": "Layout tab mostra configurações"
+        },
+        {
+            "check": "language",
+            "prompt": "Verificar idioma do documento",
+            "expected": "Português (Brasil) ou conforme necessário",
+            "fix_if_wrong": "Review > Language > Set Proofing Language",
+            "importance": "critical",
+            "verification": "Barra de status mostra idioma"
+        },
+        {
+            "check": "styles",
+            "prompt": "Configurar estilos antes de começar",
+            "expected": "Normal, Heading 1-3 configurados",
+            "fix_if_wrong": "Home > Styles > Modify",
+            "importance": "high",
+            "verification": "Styles pane mostra estilos disponíveis"
+        },
+        {
+            "check": "autocorrect",
+            "prompt": "Verificar configurações de autocorreção",
+            "expected": "AutoCorrect ativo, configurações apropriadas",
+            "fix_if_wrong": "File > Options > Proofing > AutoCorrect Options",
+            "importance": "medium",
+            "verification": "Teste digitando"
+        },
+        {
+            "check": "track_changes",
+            "prompt": "Verificar se Track Changes está apropriado",
+            "expected": "Ativo para revisão, inativo para escrita",
+            "fix_if_wrong": "Ctrl+Shift+E",
+            "importance": "high",
+            "verification": "Review tab mostra status"
+        },
+        {
+            "check": "autosave",
+            "prompt": "Verificar AutoSave/AutoRecover",
+            "expected": "AutoSave ativo, intervalo de 10 minutos",
+            "fix_if_wrong": "File > Options > Save",
+            "importance": "critical",
+            "verification": "Barra de título mostra AutoSave status"
+        },
+        {
+            "check": "zoom",
+            "prompt": "Ajustar zoom para conforto visual",
+            "expected": "100-125% dependendo do monitor",
+            "fix_if_wrong": "View > Zoom ou slider inferior",
+            "importance": "medium",
+            "verification": "Canto inferior direito mostra zoom"
+        },
+        {
+            "check": "show_formatting",
+            "prompt": "Decidir se mostra marcas de formatação",
+            "expected": "Ativo para edição precisa",
+            "fix_if_wrong": "Ctrl+Shift+8 ou Home > Show/Hide",
+            "importance": "medium",
+            "verification": "Marcas de parágrafo visíveis"
+        },
+        {
+            "check": "rulers_gridlines",
+            "prompt": "Ativar réguas se necessário",
+            "expected": "Réguas visíveis para alinhamento preciso",
+            "fix_if_wrong": "View > Ruler",
+            "importance": "low",
+            "verification": "Réguas nas bordas do documento"
+        },
+        {
+            "check": "default_font",
+            "prompt": "Verificar fonte padrão",
+            "expected": "Fonte apropriada para o documento",
+            "fix_if_wrong": "Home > Font dialog > Set as Default",
+            "importance": "medium",
+            "verification": "Fonte mostrada na barra de ferramentas"
+        }
+    ],
+    "quality_criteria": {
+        "formatting": {
+            "consistency": "Estilos aplicados consistentemente",
+            "hierarchy": "Clara hierarquia de títulos",
+            "spacing": "Espaçamento uniforme entre elementos",
+            "alignment": "Alinhamento apropriado",
+            "fonts": "Máximo 2-3 fontes diferentes",
+            "sizes": "Tamanhos de fonte apropriados"
+        },
+        "content": {
+            "spelling": "Sem erros ortográficos",
+            "grammar": "Gramática correta",
+            "punctuation": "Pontuação adequada",
+            "tone": "Tom consistente",
+            "clarity": "Texto claro e objetivo",
+            "organization": "Estrutura lógica"
+        },
+        "layout": {
+            "margins": "Margens apropriadas",
+            "white_space": "Uso adequado de espaço em branco",
+            "page_breaks": "Quebras de página apropriadas",
+            "headers_footers": "Cabeçalhos/rodapés consistentes",
+            "page_numbers": "Numeração correta",
+            "sections": "Seções bem organizadas"
+        },
+        "professional": {
+            "no_widows_orphans": "Sem linhas órfãs/viúvas",
+            "consistent_indentation": "Indentação uniforme",
+            "proper_pagination": "Paginação lógica",
+            "table_of_contents": "TOC atualizado",
+            "cross_references": "Referências corretas",
+            "final_review": "Revisão completa realizada"
+        }
+    },
+    "document_types": {
+        "academic_paper": {
+            "page_setup": {
+                "size": "A4 (210x297mm)",
+                "margins": "2.5cm all sides",
+                "orientation": "Portrait",
+                "spacing": "Double (2.0)"
+            },
+            "formatting": {
+                "font": "Times New Roman 12pt",
+                "alignment": "Justified",
+                "indent": "1.25cm first line",
+                "page_numbers": "Bottom center or top right"
+            },
+            "structure": [
+                "Capa/Title page",
+                "Resumo/Abstract",
+                "Sumário/Table of Contents",
+                "Introdução",
+                "Desenvolvimento",
+                "Conclusão",
+                "Referências"
+            ],
+            "styles_needed": [
+                "Normal",
+                "Heading 1",
+                "Heading 2",
+                "Heading 3",
+                "Quote",
+                "Bibliography"
+            ]
+        },
+        "business_report": {
+            "page_setup": {
+                "size": "A4",
+                "margins": "2.5cm top/bottom, 3cm left/right",
+                "orientation": "Portrait"
+            },
+            "formatting": {
+                "font": "Arial or Calibri 11-12pt",
+                "alignment": "Left or Justified",
+                "spacing": "1.15 or 1.5",
+                "headers": "Company info/document title"
+            },
+            "structure": [
+                "Cover page",
+                "Executive summary",
+                "Table of contents",
+                "Introduction",
+                "Body sections",
+                "Conclusions/Recommendations",
+                "Appendices"
+            ]
+        },
+        "resume_cv": {
+            "page_setup": {
+                "size": "A4",
+                "margins": "1.5-2cm all sides",
+                "pages": "1-2 maximum"
+            },
+            "formatting": {
+                "font": "Arial, Calibri, or professional sans-serif",
+                "size": "10-12pt body, 14-16pt name",
+                "spacing": "Single with space between sections",
+                "alignment": "Left or mixed"
+            },
+            "sections": [
+                "Contact information",
+                "Professional summary",
+                "Experience",
+                "Education",
+                "Skills",
+                "Certifications"
+            ]
+        },
+        "letter": {
+            "page_setup": {
+                "size": "A4",
+                "margins": "2.5cm all sides",
+                "orientation": "Portrait"
+            },
+            "formatting": {
+                "font": "Times New Roman or Arial 12pt",
+                "alignment": "Left",
+                "spacing": "Single",
+                "indent": "None or first line"
+            },
+            "structure": [
+                "Sender address",
+                "Date",
+                "Recipient address",
+                "Salutation",
+                "Body paragraphs",
+                "Closing",
+                "Signature"
+            ]
+        },
+        "newsletter": {
+            "page_setup": {
+                "size": "A4 or Letter",
+                "margins": "1.5cm",
+                "columns": "2-3 columns",
+                "orientation": "Portrait"
+            },
+            "formatting": {
+                "font": "Sans-serif for headers, serif for body",
+                "sizes": "Varied for visual interest",
+                "images": "Wrapped text, captioned",
+                "colors": "Brand colors"
+            }
+        },
+        "ebook": {
+            "page_setup": {
+                "size": "6x9 inches or custom",
+                "margins": "Mirror margins with gutter",
+                "orientation": "Portrait"
+            },
+            "formatting": {
+                "font": "Serif for body (Georgia, Garamond)",
+                "size": "11-12pt",
+                "spacing": "1.15-1.5",
+                "chapters": "Start on odd pages"
+            },
+            "elements": [
+                "Title page",
+                "Copyright page",
+                "Table of contents",
+                "Chapters with consistent formatting",
+                "Page numbers (different for front matter)"
+            ]
+        }
+    },
+    "workflow_best_practices": {
+        "document_setup": [
+            "Definir tipo de documento",
+            "Configurar página e margens",
+            "Criar/modificar estilos necessários",
+            "Configurar headers/footers se necessário",
+            "Salvar como template se for reutilizar"
+        ],
+        "writing_process": [
+            "Começar com outline/estrutura",
+            "Escrever conteúdo em rascunho",
+            "Aplicar estilos durante escrita",
+            "Adicionar elementos visuais",
+            "Revisar e editar conteúdo",
+            "Formatar detalhes finais",
+            "Revisão final e spell check"
+        ],
+        "style_management": [
+            "Usar estilos em vez de formatação manual",
+            "Modificar estilos, não texto individual",
+            "Criar estilos personalizados conforme necessário",
+            "Manter hierarquia consistente",
+            "Salvar estilos em template"
+        ],
+        "version_control": [
+            "Nomear arquivos com versões (v1, v2, etc)",
+            "Salvar marcos importantes",
+            "Usar Track Changes para revisões",
+            "Manter backup regular",
+            "Comentar mudanças significativas"
+        ],
+        "collaboration": [
+            "Usar Track Changes ao editar trabalho de outros",
+            "Adicionar comentários em vez de mudar diretamente",
+            "Aceitar/rejeitar mudanças sistematicamente",
+            "Comunicar mudanças importantes",
+            "Usar OneDrive/SharePoint para colaboração simultânea"
+        ]
+    },
+    "common_mistakes": {
+        "manual_formatting": {
+            "problem": "Formatar texto manualmente em vez de usar estilos",
+            "solution": "Criar e aplicar estilos apropriados",
+            "prevention": "Usar Styles pane desde o início",
+            "impact": "Inconsistências e difícil manutenção"
+        },
+        "multiple_spaces": {
+            "problem": "Usar múltiplos espaços para alinhamento",
+            "solution": "Usar tabs, indentação ou tabelas",
+            "prevention": "Mostrar marcas de formatação (Ctrl+Shift+8)",
+            "find": "Find > Special > Multiple spaces"
+        },
+        "enter_for_spacing": {
+            "problem": "Pressionar Enter múltiplas vezes para espaçamento",
+            "solution": "Usar espaçamento de parágrafo (Before/After)",
+            "prevention": "Configurar espaçamento em estilos",
+            "proper_way": "Paragraph dialog > Spacing"
+        },
+        "manual_page_breaks": {
+            "problem": "Usar Enter repetidamente para começar nova página",
+            "solution": "Usar Ctrl+Enter para page break",
+            "prevention": "Usar estilos com 'Page break before'",
+            "cleanup": "Find > Special > Page break"
+        },
+        "inconsistent_styles": {
+            "problem": "Títulos com formatações diferentes",
+            "solution": "Usar Heading 1, 2, 3 consistentemente",
+            "prevention": "Criar e seguir style guide",
+            "benefit": "TOC automático funciona corretamente"
+        },
+        "not_updating_fields": {
+            "problem": "TOC e referências desatualizadas",
+            "solution": "Ctrl+A depois F9 antes de finalizar",
+            "prevention": "Atualizar campos regularmente",
+            "check": "Print preview mostra versão atualizada"
+        },
+        "wrong_quotes": {
+            "problem": "Aspas retas em vez de curvas",
+            "solution": "File > Options > Proofing > AutoCorrect > Smart quotes",
+            "find_replace": "Find straight quotes, replace with curved",
+            "professional": "Aspas curvas são padrão editorial"
+        },
+        "orphans_widows": {
+            "problem": "Linhas soltas no topo/final de páginas",
+            "solution": "Paragraph > Line and Page Breaks > Widow/Orphan control",
+            "prevention": "Ativar por padrão em estilos",
+            "manual": "Ajustar spacing ou rewrite"
+        }
+    },
+    "advanced_techniques": {
+        "master_documents": {
+            "description": "Gerenciar documentos grandes divididos",
+            "use": "Livros, teses, relatórios extensos",
+            "access": "View > Outline > Show Document",
+            "benefits": [
+                "Edição modular",
+                "Colaboração facilitada",
+                "Performance melhor"
+            ],
+            "cautions": [
+                "Backup frequente",
+                "Testar merge regularmente"
+            ]
+        },
+        "mail_merge": {
+            "uses": [
+                "Cartas personalizadas",
+                "Etiquetas",
+                "Envelopes",
+                "Emails"
+            ],
+            "data_sources": [
+                "Excel",
+                "Access",
+                "CSV",
+                "Outlook contacts"
+            ],
+            "process": [
+                "Mailings > Start Mail Merge",
+                "Select Recipients",
+                "Insert Merge Fields",
+                "Preview Results",
+                "Finish & Merge"
+            ],
+            "tips": [
+                "Testar com subset primeiro",
+                "Validar dados antes",
+                "Salvar documento merge separadamente"
+            ]
+        },
+        "macros": {
+            "description": "Automatizar tarefas repetitivas",
+            "access": "View > Macros",
+            "record": "View > Macros > Record Macro",
+            "edit": "Visual Basic Editor (Alt+F11)",
+            "uses": [
+                "Formatação complexa repetida",
+                "Inserções padrão",
+                "Limpeza de documentos"
+            ],
+            "security": "Enable only from trusted sources"
+        },
+        "content_controls": {
+            "description": "Criar formulários e templates interativos",
+            "types": [
+                "Text",
+                "Date",
+                "Dropdown",
+                "Checkbox",
+                "Picture"
+            ],
+            "access": "Developer tab > Controls",
+            "uses": [
+                "Forms",
+                "Templates",
+                "Protected documents"
+            ],
+            "protection": "Restrict editing para manter estrutura"
+        },
+        "building_blocks": {
+            "description": "Reutilizar conteúdo frequente",
+            "types": [
+                "AutoText",
+                "Quick Parts",
+                "Headers/Footers",
+                "Cover Pages"
+            ],
+            "create": "Insert > Quick Parts > Save Selection",
+            "access": "Insert > Quick Parts > Building Blocks Organizer",
+            "uses": [
+                "Assinaturas",
+                "Disclaimers",
+                "Formatted sections",
+                "Company info"
+            ]
+        },
+        "cross_references": {
+            "description": "Referências automáticas a outros elementos",
+            "access": "Insert > Cross-reference",
+            "targets": [
+                "Headings",
+                "Bookmarks",
+                "Figures",
+                "Tables",
+                "Equations"
+            ],
+            "benefit": "Atualizam automaticamente",
+            "update": "F9 em referências ou Ctrl+A > F9"
+        }
+    },
+    "templates": {
+        "using_templates": {
+            "access": "File > New",
+            "online": "Office templates online",
+            "custom": "File > Save As > Word Template (.dotx)",
+            "location": "User templates folder",
+            "modify": "Abrir template diretamente, modificar, salvar"
+        },
+        "creating_templates": {
+            "setup": [
+                "Configurar todos os estilos",
+                "Criar headers/footers padrão",
+                "Adicionar building blocks",
+                "Configurar page setup",
+                "Adicionar content controls se necessário"
+            ],
+            "save": "File > Save As > Word Template",
+            "distribute": "Compartilhar arquivo .dotx",
+            "update": "Modificar template afeta novos documentos"
+        },
+        "template_types": {
+            "normal_dotm": "Template padrão do Word",
+            "custom": "Templates específicos de projeto",
+            "theme": "Cores e fontes consistentes",
+            "building_block": "Conteúdo reutilizável"
+        }
+    },
+    "accessibility": {
+        "checker": "Review > Check Accessibility",
+        "best_practices": [
+            "Usar estilos de título corretamente",
+            "Adicionar texto alternativo em imagens",
+            "Usar tabelas simples com headers",
+            "Bom contraste de cores",
+            "Evitar texto em imagens",
+            "Usar hyperlinks descritivos",
+            "Verificar ordem de leitura"
+        ],
+        "alt_text": {
+            "add": "Right-click image > Edit Alt Text",
+            "guidelines": "Descrever conteúdo e função",
+            "decorative": "Marcar como decorativa se não informativa"
+        },
+        "reading_order": {
+            "check": "View > Navigation Pane",
+            "fix": "Rearranjar elementos conforme necessário",
+            "headings": "Usar hierarquia lógica"
+        }
+    },
+    "troubleshooting": {
+        "document_corrupted": {
+            "symptoms": [
+                "Não abre",
+                "Erros ao abrir",
+                "Formatação perdida"
+            ],
+            "solutions": [
+                "Open and Repair (Open dialog > dropdown)",
+                "Recuperar texto de qualquer arquivo",
+                "Abrir em modo seguro",
+                "Copiar para novo documento",
+                "Usar versão anterior (File > Info > Version History)"
+            ],
+            "prevention": [
+                "AutoSave ativo",
+                "Backups regulares",
+                "OneDrive sync"
+            ]
+        },
+        "slow_performance": {
+            "causes": [
+                "Arquivo muito grande",
+                "Muitas imagens",
+                "Track changes extensivo",
+                "Formatação complexa"
+            ],
+            "solutions": [
+                "Comprimir imagens (Picture Tools > Compress)",
+                "Aceitar todas as mudanças tracked",
+                "Dividir documento grande",
+                "Remover formatação desnecessária",
+                "Salvar como novo arquivo"
+            ],
+            "prevention": [
+                "Otimizar imagens antes",
+                "Limpar regularmente",
+                "Usar estilos"
+            ]
+        },
+        "formatting_lost": {
+            "causes": [
+                "Conversão de formato",
+                "Fontes faltando",
+                "Compatibilidade"
+            ],
+            "solutions": [
+                "Incorporar fontes (File > Options > Save)",
+                "Salvar como PDF para preservar",
+                "Verificar modo de compatibilidade",
+                "Converter para formato atual"
+            ]
+        },
+        "table_of_contents_issues": {
+            "problems": [
+                "Não atualiza",
+                "Estilos errados",
+                "Números de página incorretos"
+            ],
+            "solutions": [
+                "Verificar estilos de título aplicados",
+                "Atualizar TOC (F9)",
+                "Recriar TOC se necessário",
+                "Verificar section breaks"
+            ]
+        },
+        "print_different_from_screen": {
+            "causes": [
+                "Fontes não disponíveis",
+                "Drivers de impressora",
+                "Margens incorretas"
+            ],
+            "solutions": [
+                "Usar Print Preview (Ctrl+F2)",
+                "Atualizar drivers de impressora",
+                "Verificar configurações de impressora",
+                "Salvar como PDF para testar"
+            ]
+        }
+    },
+    "professional_tips": {
+        "productivity": [
+            "Memorizar atalhos essenciais (Ctrl+B, I, U, etc)",
+            "Usar Quick Access Toolbar customizada",
+            "Ativar AutoSave para segurança",
+            "Usar estilos para formatação rápida",
+            "Criar templates para documentos recorrentes",
+            "Usar Find & Replace (Ctrl+H) para mudanças em massa",
+            "Navigation Pane (Ctrl+F) para navegação rápida",
+            "F4 para repetir última ação"
+        ],
+        "quality": [
+            "Sempre usar estilos, nunca formatar manualmente",
+            "Revisar com spell checker (F7)",
+            "Usar Read Aloud para pegar erros",
+            "Verificar accessibility antes de compartilhar",
+            "Atualizar todos os campos antes de finalizar",
+            "Pedir revisão de terceiros",
+            "Imprimir ou visualizar em PDF para check final",
+            "Verificar metadados antes de distribuir"
+        ],
+        "organization": [
+            "Nomear arquivos descritivamente",
+            "Usar estrutura de pastas lógica",
+            "Versionar documentos importantes",
+            "Adicionar propriedades do documento",
+            "Usar OneDrive para backup automático",
+            "Documentar decisões em comentários",
+            "Manter log de versões principais"
+        ],
+        "collaboration": [
+            "Usar Track Changes para transparência",
+            "Adicionar comentários construtivos",
+            "Comunicar mudanças significativas",
+            "Resolver conflitos rapidamente",
+            "Usar co-authoring quando possível",
+            "Compartilhar via OneDrive/SharePoint",
+            "Definir convenções de nomenclatura"
+        ],
+        "advanced": [
+            "Criar macros para tarefas repetitivas",
+            "Usar building blocks para conteúdo padrão",
+            "Master documents para projetos grandes",
+            "Content controls para templates",
+            "Cross-references para manutenção fácil",
+            "Aprender VBA para automação avançada"
+        ]
+    },
+    "keyboard_shortcuts_by_task": {
+        "quick_formatting": {
+            "make_bold": "ctrl+b",
+            "make_italic": "ctrl+i",
+            "underline": "ctrl+u",
+            "clear_all": "ctrl+space",
+            "copy_format": "ctrl+shift+c",
+            "paste_format": "ctrl+shift+v"
+        },
+        "document_navigation": {
+            "top_of_document": "ctrl+home",
+            "bottom_of_document": "ctrl+end",
+            "previous_page": "ctrl+page_up",
+            "next_page": "ctrl+page_down",
+            "last_edit": "shift+f5",
+            "go_to": "ctrl+g"
+        },
+        "editing_speed": {
+            "delete_word_left": "ctrl+backspace",
+            "delete_word_right": "ctrl+delete",
+            "cut_to_spike": "ctrl+f3",
+            "paste_spike": "ctrl+shift+f3",
+            "repeat_action": "f4",
+            "undo": "ctrl+z",
+            "redo": "ctrl+y"
+        }
+    },
+    "style_guide_essentials": {
+        "creating_style_guide": {
+            "elements": [
+                "Fonte padrão e tamanhos",
+                "Cores da marca",
+                "Espaçamento de parágrafos",
+                "Hierarquia de títulos",
+                "Formatação de listas",
+                "Uso de negrito/itálico",
+                "Citações e referências",
+                "Headers e footers"
+            ],
+            "document": "Criar documento de referência",
+            "template": "Implementar em template",
+            "distribution": "Compartilhar com equipe"
+        },
+        "applying_consistently": {
+            "method": "Usar Style Set completo",
+            "checking": "Verificar em Styles pane",
+            "updating": "Modificar estilos, não texto",
+            "documenting": "Manter registro de decisões"
+        }
+    },
+    "export_and_sharing": {
+        "pdf_export": {
+            "access": "File > Export > Create PDF/XPS",
+            "options": [
+                "Standard (alta qualidade)",
+                "Minimum size (web)",
+                "Optimize for (personalizado)"
+            ],
+            "settings": [
+                "Include bookmarks",
+                "Document properties",
+                "PDF/A compliant",
+                "Embed fonts"
+            ],
+            "use_cases": [
+                "Distribuição final",
+                "Impressão",
+                "Arquivo"
+            ]
+        },
+        "online_sharing": {
+            "onedrive": "File > Share > OneDrive",
+            "sharepoint": "Save to SharePoint library",
+            "email": "File > Share > Email",
+            "link": "File > Share > Copy Link",
+            "permissions": "Configurar read/edit rights"
+        },
+        "format_conversion": {
+            "save_as_formats": [
+                ".docx",
+                ".doc",
+                ".pdf",
+                ".rtf",
+                ".txt",
+                ".html",
+                ".odt"
+            ],
+            "compatibility": "File > Info > Check for Issues > Check Compatibility",
+            "considerations": "Alguns elementos podem não converter perfeitamente"
+        }
+    },
+    "document_protection": {
+        "protect_options": {
+            "password": "File > Info > Protect Document > Encrypt with Password",
+            "restrict_editing": "Review > Restrict Editing",
+            "mark_final": "File > Info > Protect Document > Mark as Final",
+            "permissions": "File > Info > Protect Document > Restrict Access"
+        },
+        "editing_restrictions": {
+            "tracked_changes": "Somente com track changes",
+            "comments": "Somente comentários",
+            "filling_forms": "Somente preencher formulários",
+            "no_changes": "Somente leitura"
+        },
+        "digital_signature": {
+            "add": "File > Info > Protect Document > Add Digital Signature",
+            "purpose": "Validar autenticidade",
+            "requirement": "Certificado digital"
+        }
+    },
+    "integration_with_other_apps": {
+        "excel": {
+            "embed_worksheet": "Insert > Table > Excel Spreadsheet",
+            "link_data": "Paste Special > Link",
+            "chart": "Copy from Excel, paste",
+            "update": "Automatic ou manual"
+        },
+        "powerpoint": {
+            "send_to": "File > Export > Create Handouts",
+            "copy_slides": "Copy/paste mantém formatação",
+            "link": "Paste Special > Link"
+        },
+        "outlook": {
+            "send_as_email": "File > Share > Email",
+            "attach": "Outlook > Attach File",
+            "mail_merge": "Mailings > Start Mail Merge > E-mail"
+        },
+        "onenote": {
+            "send_to": "File > Export > Send to OneNote",
+            "insert_from": "Insert > File > OneNote",
+            "sync": "Automático se em OneDrive"
+        }
+    },
+    "mobile_and_web": {
+        "word_online": {
+            "access": "office.com ou OneDrive",
+            "features": "Edição básica a intermediária",
+            "limitations": "Alguns recursos avançados indisponíveis",
+            "collaboration": "Co-authoring em tempo real"
+        },
+        "mobile_app": {
+            "platforms": [
+                "iOS",
+                "Android"
+            ],
+            "features": "Criar, editar, revisar documentos",
+            "camera": "Inserir imagens direto da câmera",
+            "voice": "Ditado em dispositivos suportados",
+            "offline": "Editar offline, sync quando conectar"
+        },
+        "sync": {
+            "onedrive": "Sincronização automática",
+            "recent": "Acesso aos documentos recentes",
+            "shared": "Documentos compartilhados acessíveis"
+        }
+    },
+    "learning_resources": {
+        "microsoft_official": [
+            "Microsoft Support site",
+            "Office Training Center",
+            "Word for Microsoft 365 help",
+            "YouTube Microsoft 365 channel"
+        ],
+        "practice_exercises": [
+            "Criar diferentes tipos de documentos",
+            "Praticar com estilos e templates",
+            "Experimentar mail merge",
+            "Criar documentos com TOC e índice",
+            "Trabalhar com tabelas complexas"
+        ],
+        "communities": [
+            "Microsoft Community forums",
+            "Reddit r/MicrosoftWord",
+            "Tech Community",
+            "LinkedIn Learning"
+        ]
+    },
+    "certification": {
+        "mos": {
+            "name": "Microsoft Office Specialist",
+            "levels": [
+                "Associate",
+                "Expert",
+                "Master"
+            ],
+            "topics": [
+                "Gerenciamento de documentos",
+                "Design de layout",
+                "Referências",
+                "Mail merge",
+                "Macros e forms"
+            ],
+            "preparation": "Cursos oficiais e prática",
+            "benefit": "Validação profissional de habilidades"
+        }
+    },
+    "version_differences": {
+        "microsoft_365": {
+            "features": "Sempre atualizado com novos recursos",
+            "collaboration": "Co-authoring avançado",
+            "ai_features": "Editor, Designer, etc",
+            "cloud": "OneDrive integrado"
+        },
+        "word_2021": {
+            "features": "Conjunto fixo de recursos",
+            "updates": "Apenas segurança",
+            "licensing": "Compra única",
+            "offline": "Totalmente funcional offline"
+        },
+        "compatibility": {
+            "check": "File > Info > Check Compatibility",
+            "save_as": "Salvar em formato compatível (.doc)",
+            "considerations": "Novos recursos podem não aparecer em versões antigas"
+        }
+    },
+    "hidden_features": {
+        "dictation": "Home > Dictate (Microsoft 365)",
+        "editor": "Home > Editor (análise avançada)",
+        "researcher": "References > Researcher",
+        "translator": "Review > Translate",
+        "read_aloud": "Review > Read Aloud",
+        "focus_mode": "View > Focus",
+        "dark_mode": "File > Options > General > Office Theme",
+        "dictate_commands": "Ditar comandos de formatação"
+    },
+    "power_user_secrets": {
+        "spike": {
+            "description": "Clipboard especial para múltiplos itens",
+            "cut_to_spike": "ctrl+f3",
+            "paste_spike": "ctrl+shift+f3",
+            "use": "Reorganizar múltiplos blocos de texto"
+        },
+        "autonumber": {
+            "bullet_list": "* espaço no início da linha",
+            "numbered_list": "1. espaço no início da linha",
+            "turn_off": "Backspace imediatamente"
+        },
+        "quick_parts": {
+            "create": "Select text > Insert > Quick Parts > Save Selection",
+            "use": "Insert > Quick Parts > select item",
+            "shortcut": "Type name e F3"
+        },
+        "calculate": {
+            "description": "Word pode fazer cálculos simples",
+            "method": "Selecione expressão (ex: 5+5), F9",
+            "limitation": "Operações básicas apenas"
+        }
+    }
+}

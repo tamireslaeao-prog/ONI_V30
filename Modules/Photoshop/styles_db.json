@@ -1,0 +1,1904 @@
+{
+  "version": "2.5",
+  "last_updated": "2026-01-04",
+  "schema_version": "advanced",
+  "meta": {
+    "total_styles": 10,
+    "active_experiments": 3,
+    "community_submissions": 0,
+    "breeding_enabled": true,
+    "evolution_tracking": true
+  },
+  "styles": [
+    {
+      "style_id": "cyberpunk_v1",
+      "name": "Cyberpunk Neon Noir",
+      "description": "High-tech dystopian aesthetic with bleeding neon and aggressive geometry. Born from rain-soaked streets and corporate megastructures.",
+      "version": "1.2",
+      "stability": "stable",
+      "popularity_score": 0.92,
+      "metadata": {
+        "era": "2077",
+        "mood_vector": [
+          0.9,
+          0.1,
+          0.8
+        ],
+        "mood_labels": [
+          "aggressive",
+          "chaotic",
+          "energetic",
+          "dystopian",
+          "electric"
+        ],
+        "cultural_refs": [
+          "Blade Runner",
+          "Akira",
+          "Cyberpunk 2077",
+          "Ghost in the Shell",
+          "Altered Carbon"
+        ],
+        "tags": [
+          "futuristic",
+          "dystopian",
+          "neon",
+          "tech",
+          "urban",
+          "rain",
+          "noir"
+        ],
+        "time_of_day": "night",
+        "weather": "rainy",
+        "recommended_use": [
+          "badges",
+          "id_cards",
+          "tech_interfaces",
+          "game_ui",
+          "posters"
+        ]
+      },
+      "visual_dna": {
+        "palette": {
+          "primary": [
+            "#00F0FF",
+            "#FF0055",
+            "#B026FF",
+            "#39FF14"
+          ],
+          "secondary": [
+            "#00D9FF",
+            "#FF1744",
+            "#D500F9",
+            "#76FF03"
+          ],
+          "accent": [
+            "#FFFF00",
+            "#00FF88",
+            "#FF6B00",
+            "#FF00FF"
+          ],
+          "background": [
+            "#0A0A0F",
+            "#1A1A20",
+            "#101015",
+            "#050508"
+          ],
+          "emission": [
+            "#FF00FF",
+            "#00FFFF",
+            "#39FF14",
+            "#FF0080"
+          ],
+          "warning": [
+            "#FF0000",
+            "#FFFF00",
+            "#FF6600"
+          ],
+          "shadow": [
+            "#000000",
+            "#0D0D12",
+            "#1A001A"
+          ],
+          "reflection": [
+            "#004D55",
+            "#550044",
+            "#004422"
+          ],
+          "palette_temperature": "cool",
+          "saturation_level": 0.95,
+          "brightness_contrast": 0.85
+        },
+        "typography": {
+          "headers": {
+            "fonts": [
+              "Orbitron",
+              "Audiowide",
+              "Black Ops One",
+              "Saira Condensed"
+            ],
+            "weights": [
+              700,
+              800,
+              900
+            ],
+            "sizes": [
+              32,
+              48,
+              64,
+              96
+            ],
+            "transforms": [
+              "uppercase",
+              "tracking-wide"
+            ]
+          },
+          "body": {
+            "fonts": [
+              "Roboto Mono",
+              "Share Tech Mono",
+              "IBM Plex Mono",
+              "Space Mono"
+            ],
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "sizes": [
+              12,
+              14,
+              16,
+              18
+            ]
+          },
+          "display": {
+            "fonts": [
+              "Turret Road",
+              "Gruppo",
+              "Russo One",
+              "Electrolize"
+            ],
+            "weights": [
+              400,
+              700
+            ],
+            "sizes": [
+              72,
+              96,
+              128
+            ]
+          },
+          "accent": {
+            "fonts": [
+              "Electrolize",
+              "Michroma",
+              "Rajdhani"
+            ],
+            "weights": [
+              300,
+              400
+            ]
+          },
+          "weight_bias": "heavy",
+          "letter_spacing": "wide",
+          "case_preference": "uppercase",
+          "line_height": 1.2,
+          "character_limit_per_line": 40,
+          "text_effects": [
+            "neon_glow",
+            "chromatic_aberration",
+            "scanline_overlay"
+          ]
+        },
+        "geometry": {
+          "primary_shapes": [
+            "hexagon",
+            "chamfered_box",
+            "angular_wedge",
+            "diagonal_stripe",
+            "tech_panel"
+          ],
+          "secondary_shapes": [
+            "octagon",
+            "parallelogram",
+            "chevron",
+            "circuit_trace",
+            "vent_grid"
+          ],
+          "tertiary_shapes": [
+            "warning_stripe",
+            "corner_cut",
+            "hologram_plane"
+          ],
+          "complexity_level": 0.75,
+          "symmetry_bias": 0.3,
+          "edge_treatment": "hard",
+          "corner_style": "chamfered",
+          "line_style": "angular",
+          "line_weights": [
+            1,
+            2,
+            3,
+            5,
+            8
+          ],
+          "pattern_density": 0.6,
+          "fractal_depth": 2,
+          "golden_ratio_usage": 0.4
+        },
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Dirty Chrome",
+              "roughness": 0.3,
+              "metallic": 0.9,
+              "wear": 0.6,
+              "reflectivity": 0.7,
+              "fingerprints": true,
+              "scratches": 0.5
+            },
+            {
+              "name": "Black Glass",
+              "roughness": 0.05,
+              "metallic": 0.0,
+              "transparency": 0.2,
+              "refraction": 1.5,
+              "tint": "#0A0A0F"
+            },
+            {
+              "name": "Neon Tube",
+              "emission": 2.5,
+              "glow_radius": 8,
+              "flicker": true,
+              "flicker_frequency": 0.3,
+              "color_shift": 0.1
+            },
+            {
+              "name": "Carbon Fiber",
+              "roughness": 0.4,
+              "metallic": 0.2,
+              "pattern": "weave",
+              "pattern_scale": 0.5
+            },
+            {
+              "name": "Holographic Surface",
+              "iridescence": 0.9,
+              "color_shift_angle": 45,
+              "transparency": 0.4
+            },
+            {
+              "name": "Rain-Wet Asphalt",
+              "roughness": 0.15,
+              "metallic": 0.0,
+              "wetness": 0.9,
+              "puddles": true
+            }
+          ],
+          "wear_level": 0.7,
+          "dirt_accumulation": 0.5,
+          "environmental_damage": [
+            "rust_spots",
+            "acid_burns",
+            "bullet_holes"
+          ],
+          "age_simulation": "heavy_use"
+        },
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.8,
+            "blur_radius": 12,
+            "color_bleed": 0.3,
+            "pulsate": true,
+            "pulsate_speed": 0.5
+          },
+          "scanlines": {
+            "enabled": true,
+            "opacity": 0.15,
+            "spacing": 4,
+            "angle": 0,
+            "flicker": true
+          },
+          "chromatic_aberration": {
+            "enabled": true,
+            "offset": 2,
+            "channels": [
+              "red",
+              "cyan"
+            ],
+            "intensity_variation": 0.3
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.05,
+            "type": "digital",
+            "animated": true
+          },
+          "rain": {
+            "enabled": true,
+            "density": 0.6,
+            "streak_length": 20,
+            "opacity": 0.3
+          },
+          "lens_flare": {
+            "enabled": true,
+            "intensity": 0.4,
+            "color": "#00FFFF"
+          },
+          "depth_of_field": {
+            "enabled": true,
+            "focus_distance": 0.7,
+            "blur_amount": 0.2
+          }
+        },
+        "lighting": {
+          "primary_light": {
+            "type": "neon_tube",
+            "color": "#00FFFF",
+            "intensity": 1.5,
+            "position": "top_left"
+          },
+          "accent_lights": [
+            {
+              "color": "#FF0055",
+              "intensity": 0.8,
+              "position": "right"
+            },
+            {
+              "color": "#39FF14",
+              "intensity": 0.6,
+              "position": "bottom"
+            }
+          ],
+          "ambient": {
+            "color": "#1A1A20",
+            "intensity": 0.2
+          },
+          "shadows": {
+            "enabled": true,
+            "hardness": 0.7,
+            "color": "#000000",
+            "opacity": 0.8
+          }
+        }
+      },
+      "behavioral_traits": {
+        "randomness": 0.6,
+        "greeble_density": 0.8,
+        "glitch_frequency": 0.4,
+        "animation_speed": 1.2,
+        "asymmetry_preference": 0.7,
+        "detail_obsession": 0.85,
+        "chaos_tolerance": 0.6,
+        "perfectionism": 0.3,
+        "experimentation": 0.8,
+        "variation_per_iteration": 0.5
+      },
+      "composition_rules": {
+        "preferred_layouts": [
+          "diagonal",
+          "split_screen",
+          "layered",
+          "off_center_focal"
+        ],
+        "avoid_layouts": [
+          "centered_symmetrical",
+          "minimal_negative_space"
+        ],
+        "focal_point_bias": "off_center",
+        "focal_point_positions": [
+          "upper_third",
+          "lower_left",
+          "golden_ratio"
+        ],
+        "breathing_room": 0.2,
+        "border_treatment": "technical_frame",
+        "grid_system": "irregular",
+        "z_depth_layers": 5,
+        "overlap_tolerance": 0.7
+      },
+      "animation_traits": {
+        "default_duration": 1.2,
+        "easing": "ease-in-out",
+        "loop": true,
+        "preferred_animations": [
+          "neon_flicker",
+          "scan_sweep",
+          "data_stream",
+          "glitch_pulse"
+        ],
+        "transition_style": "cut"
+      },
+      "context_triggers": {
+        "themes": [
+          "technology",
+          "dystopia",
+          "cybernetics",
+          "hacking",
+          "corporate"
+        ],
+        "moods": [
+          "aggressive",
+          "tense",
+          "energetic",
+          "rebellious"
+        ],
+        "industries": [
+          "tech",
+          "gaming",
+          "security",
+          "entertainment"
+        ],
+        "audience": [
+          "young_adult",
+          "tech_savvy",
+          "gamers",
+          "designers"
+        ]
+      },
+      "intensity_levels": {
+        "light": {
+          "glow_intensity": 0.4,
+          "glitch_frequency": 0.1,
+          "color_saturation": 0.7,
+          "detail_level": 0.5
+        },
+        "medium": {
+          "glow_intensity": 0.8,
+          "glitch_frequency": 0.4,
+          "color_saturation": 0.95,
+          "detail_level": 0.75
+        },
+        "heavy": {
+          "glow_intensity": 1.2,
+          "glitch_frequency": 0.7,
+          "color_saturation": 1.0,
+          "detail_level": 0.95
+        }
+      },
+      "seasonal_variations": {
+        "winter": {
+          "palette_shift": "cooler",
+          "brightness": 0.8
+        },
+        "spring": {
+          "saturation": 1.1,
+          "green_boost": 0.2
+        },
+        "summer": {
+          "brightness": 1.2,
+          "warm_accent": 0.1
+        },
+        "fall": {
+          "orange_accent": 0.3,
+          "wear_level": 0.8
+        }
+      },
+      "forbidden_elements": [
+        "rounded_corners",
+        "pastels",
+        "serif_fonts",
+        "organic_curves",
+        "warm_earth_tones",
+        "soft_shadows",
+        "naturalistic_textures",
+        "centered_symmetry"
+      ],
+      "genetic_markers": {
+        "dominant_genes": [
+          "neon_colors",
+          "angular_geometry",
+          "high_contrast"
+        ],
+        "recessive_genes": [
+          "soft_glow",
+          "subtle_wear"
+        ],
+        "mutation_rate": 0.15,
+        "crossover_compatibility": 0.8
+      }
+    },
+    {
+      "style_id": "brutalism_v1",
+      "name": "Digital Brutalism",
+      "description": "Raw, uncompromising design language stripped to pure function. Truth through materials and honest construction.",
+      "version": "1.1",
+      "stability": "stable",
+      "popularity_score": 0.78,
+      "metadata": {
+        "era": "Post-Internet",
+        "mood_vector": [
+          0.7,
+          0.3,
+          0.4
+        ],
+        "mood_labels": [
+          "powerful",
+          "raw",
+          "honest",
+          "utilitarian",
+          "bold"
+        ],
+        "cultural_refs": [
+          "Soviet Architecture",
+          "Swiss Design",
+          "Anti-Design Movement",
+          "Bauhaus"
+        ],
+        "tags": [
+          "minimal",
+          "industrial",
+          "concrete",
+          "functional",
+          "bold",
+          "geometric"
+        ],
+        "time_of_day": "day",
+        "weather": "overcast",
+        "recommended_use": [
+          "certificates",
+          "documents",
+          "manifestos",
+          "brutalist_sites"
+        ]
+      },
+      "visual_dna": {
+        "palette": {
+          "primary": [
+            "#1A1A1A",
+            "#FFFFFF",
+            "#FF3333",
+            "#000000"
+          ],
+          "secondary": [
+            "#2D2D2D",
+            "#F0F0F0",
+            "#E63946"
+          ],
+          "accent": [
+            "#FFFF00",
+            "#00FF00",
+            "#0000FF"
+          ],
+          "background": [
+            "#E8E8E8",
+            "#D0D0D0",
+            "#BEBEBE",
+            "#C0C0C0"
+          ],
+          "emission": [],
+          "warning": [
+            "#FF0000",
+            "#000000"
+          ],
+          "shadow": [
+            "#000000",
+            "#1A1A1A"
+          ],
+          "palette_temperature": "neutral",
+          "saturation_level": 0.3,
+          "brightness_contrast": 0.95
+        },
+        "typography": {
+          "headers": {
+            "fonts": [
+              "Arial Black",
+              "Impact",
+              "Helvetica Bold",
+              "Neue Haas Grotesk"
+            ],
+            "weights": [
+              700,
+              900
+            ],
+            "sizes": [
+              48,
+              64,
+              96,
+              128
+            ],
+            "transforms": [
+              "uppercase"
+            ]
+          },
+          "body": {
+            "fonts": [
+              "Arial",
+              "Helvetica",
+              "Courier New",
+              "Grotesque"
+            ],
+            "weights": [
+              400,
+              700
+            ],
+            "sizes": [
+              14,
+              16,
+              18,
+              24
+            ]
+          },
+          "display": {
+            "fonts": [
+              "Impact",
+              "Arial Black",
+              "Franklin Gothic"
+            ],
+            "weights": [
+              900
+            ],
+            "sizes": [
+              96,
+              128,
+              192
+            ]
+          },
+          "weight_bias": "heavy",
+          "letter_spacing": "tight",
+          "case_preference": "uppercase",
+          "line_height": 1.0,
+          "text_effects": [
+            "none"
+          ]
+        },
+        "geometry": {
+          "primary_shapes": [
+            "rectangle",
+            "square",
+            "grid",
+            "thick_line"
+          ],
+          "secondary_shapes": [
+            "solid_block",
+            "orthogonal_corner"
+          ],
+          "complexity_level": 0.3,
+          "symmetry_bias": 0.8,
+          "edge_treatment": "sharp",
+          "corner_style": "square",
+          "line_style": "thick_orthogonal",
+          "line_weights": [
+            3,
+            5,
+            8,
+            12,
+            20
+          ],
+          "pattern_density": 0.2,
+          "golden_ratio_usage": 0.8
+        },
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Raw Concrete",
+              "roughness": 0.9,
+              "metallic": 0.0,
+              "texture": "rough",
+              "pores": true,
+              "aggregate_visible": true
+            },
+            {
+              "name": "Matte Black",
+              "roughness": 1.0,
+              "metallic": 0.0,
+              "uniform": true
+            },
+            {
+              "name": "Industrial Steel",
+              "roughness": 0.6,
+              "metallic": 0.5,
+              "oxidation": 0.3,
+              "weld_marks": true
+            },
+            {
+              "name": "Bare Wood",
+              "roughness": 0.8,
+              "grain_visible": true,
+              "knots": 0.2
+            }
+          ],
+          "wear_level": 0.5,
+          "dirt_accumulation": 0.4,
+          "age_simulation": "weathered"
+        },
+        "effects": {
+          "glow": {
+            "enabled": false
+          },
+          "scanlines": {
+            "enabled": false
+          },
+          "chromatic_aberration": {
+            "enabled": false
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.15,
+            "type": "analog",
+            "grain_size": 2
+          },
+          "paper_texture": {
+            "enabled": true,
+            "intensity": 0.3
+          }
+        },
+        "lighting": {
+          "primary_light": {
+            "type": "harsh_overhead",
+            "color": "#FFFFFF",
+            "intensity": 1.0
+          },
+          "ambient": {
+            "color": "#808080",
+            "intensity": 0.5
+          },
+          "shadows": {
+            "enabled": true,
+            "hardness": 0.9,
+            "color": "#000000",
+            "opacity": 0.9
+          }
+        }
+      },
+      "behavioral_traits": {
+        "randomness": 0.2,
+        "greeble_density": 0.1,
+        "glitch_frequency": 0.1,
+        "animation_speed": 0.5,
+        "asymmetry_preference": 0.2,
+        "detail_obsession": 0.15,
+        "chaos_tolerance": 0.1,
+        "perfectionism": 0.4,
+        "experimentation": 0.2
+      },
+      "composition_rules": {
+        "preferred_layouts": [
+          "grid",
+          "centered",
+          "stacked",
+          "modular"
+        ],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.4,
+        "border_treatment": "thick_border",
+        "grid_system": "strict_modular",
+        "z_depth_layers": 2
+      },
+      "context_triggers": {
+        "themes": [
+          "architecture",
+          "function",
+          "truth",
+          "labor",
+          "structure"
+        ],
+        "moods": [
+          "serious",
+          "powerful",
+          "direct",
+          "uncompromising"
+        ],
+        "industries": [
+          "architecture",
+          "construction",
+          "publishing",
+          "institutions"
+        ],
+        "audience": [
+          "architects",
+          "designers",
+          "academics",
+          "activists"
+        ]
+      },
+      "forbidden_elements": [
+        "gradients",
+        "shadows_soft",
+        "ornaments",
+        "curves",
+        "transparency",
+        "multiple_fonts",
+        "decorative_elements",
+        "rounded_corners"
+      ],
+      "genetic_markers": {
+        "dominant_genes": [
+          "orthogonal_geometry",
+          "high_contrast",
+          "heavy_weights"
+        ],
+        "recessive_genes": [
+          "texture",
+          "asymmetry"
+        ],
+        "mutation_rate": 0.05
+      }
+    },
+    {
+      "style_id": "organic_synthwave_v1",
+      "name": "Organic Synthwave",
+      "description": "Retrowave aesthetics merged with flowing organic forms. The fusion of 80s neon and natural curves.",
+      "version": "1.0",
+      "stability": "experimental",
+      "popularity_score": 0.68,
+      "metadata": {
+        "era": "1984-2084 Fusion",
+        "mood_vector": [
+          0.5,
+          0.6,
+          0.7
+        ],
+        "mood_labels": [
+          "nostalgic",
+          "energetic",
+          "fluid",
+          "warm",
+          "retro-futuristic"
+        ],
+        "cultural_refs": [
+          "Synthwave",
+          "Art Nouveau",
+          "80s Miami",
+          "Tron",
+          "Outrun"
+        ],
+        "tags": [
+          "retro",
+          "neon",
+          "curves",
+          "sunset",
+          "gradients",
+          "80s"
+        ],
+        "time_of_day": "sunset",
+        "weather": "clear",
+        "recommended_use": [
+          "album_covers",
+          "posters",
+          "branding",
+          "retro_tech"
+        ]
+      },
+      "visual_dna": {
+        "palette": {
+          "primary": [
+            "#FF006E",
+            "#FB5607",
+            "#FFBE0B"
+          ],
+          "secondary": [
+            "#8338EC",
+            "#3A86FF"
+          ],
+          "accent": [
+            "#06FFA5",
+            "#FF1B8D",
+            "#FFC300"
+          ],
+          "background": [
+            "#1A1A2E",
+            "#16213E",
+            "#0F0F23"
+          ],
+          "emission": [
+            "#FF006E",
+            "#06FFA5",
+            "#FFBE0B"
+          ],
+          "gradient_pairs": [
+            [
+              "#FF006E",
+              "#8338EC"
+            ],
+            [
+              "#FB5607",
+              "#FFBE0B"
+            ],
+            [
+              "#3A86FF",
+              "#06FFA5"
+            ]
+          ],
+          "palette_temperature": "warm",
+          "saturation_level": 0.9,
+          "brightness_contrast": 0.7
+        },
+        "typography": {
+          "headers": {
+            "fonts": [
+              "Audiowide",
+              "Monoton",
+              "Orbitron",
+              "Faster One"
+            ],
+            "weights": [
+              400,
+              700
+            ],
+            "sizes": [
+              36,
+              48,
+              72
+            ],
+            "transforms": [
+              "uppercase"
+            ],
+            "effects": [
+              "chrome",
+              "gradient_fill"
+            ]
+          },
+          "body": {
+            "fonts": [
+              "Rajdhani",
+              "Exo 2",
+              "Michroma"
+            ],
+            "weights": [
+              300,
+              400,
+              600
+            ],
+            "sizes": [
+              14,
+              16,
+              18
+            ]
+          },
+          "script": {
+            "fonts": [
+              "Pacifico",
+              "Lobster",
+              "Satisfy"
+            ],
+            "weights": [
+              400
+            ],
+            "usage": "accents_only"
+          },
+          "weight_bias": "medium",
+          "letter_spacing": "wide"
+        },
+        "geometry": {
+          "primary_shapes": [
+            "flowing_curve",
+            "gradient_wave",
+            "rounded_rectangle",
+            "circle"
+          ],
+          "secondary_shapes": [
+            "spiral",
+            "arc",
+            "organic_blob",
+            "speed_lines"
+          ],
+          "tertiary_shapes": [
+            "star_burst",
+            "palm_tree_silhouette",
+            "sun_rays"
+          ],
+          "complexity_level": 0.65,
+          "symmetry_bias": 0.5,
+          "edge_treatment": "smooth",
+          "corner_style": "rounded",
+          "line_style": "flowing",
+          "curve_tension": 0.7,
+          "pattern_density": 0.5
+        },
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Chrome Gradient",
+              "metallic": 1.0,
+              "roughness": 0.1,
+              "reflectivity": 0.9,
+              "gradient": true
+            },
+            {
+              "name": "Neon Glass",
+              "transparency": 0.3,
+              "emission": 1.5,
+              "roughness": 0.0
+            },
+            {
+              "name": "Sunset Gradient",
+              "gradient": true,
+              "colors": [
+                "#FF006E",
+                "#FFBE0B"
+              ],
+              "angle": 135
+            },
+            {
+              "name": "Grid Floor",
+              "emission": 0.5,
+              "pattern": "perspective_grid",
+              "color": "#06FFA5"
+            }
+          ],
+          "wear_level": 0.1,
+          "age_simulation": "pristine"
+        },
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 1.0,
+            "blur_radius": 20,
+            "color_bleed": 0.5,
+            "pulsate": true,
+            "pulsate_speed": 0.8
+          },
+          "gradient_mesh": {
+            "enabled": true,
+            "complexity": 0.7,
+            "smoothness": 0.9
+          },
+          "chromatic_aberration": {
+            "enabled": true,
+            "offset": 1,
+            "style": "vintage_lens"
+          },
+          "sun_rays": {
+            "enabled": true,
+            "count": 20,
+            "opacity": 0.3,
+            "rotation_speed": 0.1
+          },
+          "scanlines": {
+            "enabled": true,
+            "opacity": 0.05,
+            "spacing": 2,
+            "style": "crt"
+          }
+        },
+        "lighting": {
+          "primary_light": {
+            "type": "sunset",
+            "color": "#FF006E",
+            "intensity": 1.2,
+            "position": "horizon"
+          },
+          "accent_lights": [
+            {
+              "color": "#06FFA5",
+              "intensity": 0.6,
+              "position": "bottom"
+            },
+            {
+              "color": "#8338EC",
+              "intensity": 0.4,
+              "position": "top"
+            }
+          ],
+          "ambient": {
+            "color": "#1A1A2E",
+            "intensity": 0.3
+          },
+          "rim_light": {
+            "enabled": true,
+            "color": "#FFBE0B",
+            "intensity": 0.8
+          }
+        }
+      },
+      "behavioral_traits": {
+        "randomness": 0.5,
+        "greeble_density": 0.3,
+        "glitch_frequency": 0.15,
+        "animation_speed": 0.9,
+        "asymmetry_preference": 0.4,
+        "detail_obsession": 0.6,
+        "flow_preference": 0.9,
+        "gradient_usage": 0.95
+      },
+      "composition_rules": {
+        "preferred_layouts": [
+          "horizon_line",
+          "radiating",
+          "flowing_s_curve",
+          "centered_burst"
+        ],
+        "focal_point_bias": "center_or_horizon",
+        "breathing_room": 0.3,
+        "border_treatment": "glow_fade",
+        "z_depth_layers": 4,
+        "perspective": "one_point_low_horizon"
+      },
+      "animation_traits": {
+        "default_duration": 2.0,
+        "easing": "ease-in-out",
+        "loop": true,
+        "preferred_animations": [
+          "wave_motion",
+          "glow_pulse",
+          "sun_rotation",
+          "parallax_scroll"
+        ],
+        "transition_style": "dissolve"
+      },
+      "context_triggers": {
+        "themes": [
+          "nostalgia",
+          "retrofuturism",
+          "sunset",
+          "speed",
+          "dreams"
+        ],
+        "moods": [
+          "energetic",
+          "nostalgic",
+          "optimistic",
+          "dreamy"
+        ],
+        "industries": [
+          "music",
+          "entertainment",
+          "fashion",
+          "automotive"
+        ],
+        "audience": [
+          "millennials",
+          "retro_enthusiasts",
+          "gamers",
+          "music_lovers"
+        ]
+      },
+      "forbidden_elements": [
+        "sharp_angles_only",
+        "monochrome",
+        "realistic_textures",
+        "flat_no_gradients"
+      ],
+      "genetic_markers": {
+        "dominant_genes": [
+          "gradient_usage",
+          "glow_effects",
+          "curved_geometry"
+        ],
+        "recessive_genes": [
+          "geometric_precision"
+        ],
+        "mutation_rate": 0.2
+      }
+    },
+    {
+      "style_id": "biohazard_medical_v1",
+      "name": "Clinical Biohazard",
+      "description": "Sterile medical aesthetics with biohazard warnings. Clean, precise, and deeply unsettling.",
+      "version": "1.0",
+      "stability": "experimental",
+      "popularity_score": 0.54,
+      "metadata": {
+        "era": "Near-Future Medical",
+        "mood_vector": [
+          0.6,
+          0.4,
+          0.5
+        ],
+        "mood_labels": [
+          "clinical",
+          "precise",
+          "sterile",
+          "warning",
+          "controlled"
+        ],
+        "cultural_refs": [
+          "CDC",
+          "Resident Evil",
+          "Containment Protocols",
+          "Lab Safety"
+        ],
+        "tags": [
+          "medical",
+          "biohazard",
+          "warning",
+          "clinical",
+          "scientific",
+          "sterile"
+        ],
+        "recommended_use": [
+          "medical_badges",
+          "lab_credentials",
+          "safety_posters",
+          "game_ui"
+        ]
+      },
+      "visual_dna": {
+        "palette": {
+          "primary": [
+            "#FFFFFF",
+            "#E8E8E8",
+            "#1A1A1A"
+          ],
+          "secondary": [
+            "#00A8E8",
+            "#00F5FF"
+          ],
+          "accent": [
+            "#FF0000",
+            "#FFFF00",
+            "#FF6600"
+          ],
+          "background": [
+            "#F8F8F8",
+            "#FFFFFF",
+            "#E0E0E0"
+          ],
+          "warning": [
+            "#FF0000",
+            "#FFFF00",
+            "#FF6600",
+            "#000000"
+          ],
+          "biohazard": [
+            "#FFFF00",
+            "#FF6600"
+          ],
+          "blood": [
+            "#8B0000",
+            "#B22222"
+          ],
+          "palette_temperature": "cool_clinical",
+          "saturation_level": 0.85,
+          "brightness_contrast": 0.95
+        },
+        "typography": {
+          "headers": {
+            "fonts": [
+              "Arial",
+              "Helvetica",
+              "Din",
+              "Roboto"
+            ],
+            "weights": [
+              700,
+              900
+            ],
+            "sizes": [
+              24,
+              32,
+              48
+            ],
+            "transforms": [
+              "uppercase"
+            ]
+          },
+          "body": {
+            "fonts": [
+              "Arial",
+              "Helvetica",
+              "Roboto"
+            ],
+            "weights": [
+              400,
+              700
+            ],
+            "sizes": [
+              10,
+              12,
+              14,
+              16
+            ],
+            "line_height": 1.4
+          },
+          "warning": {
+            "fonts": [
+              "Impact",
+              "Arial Black"
+            ],
+            "weights": [
+              900
+            ],
+            "sizes": [
+              48,
+              64,
+              96
+            ],
+            "effects": [
+              "border",
+              "shadow"
+            ]
+          },
+          "serial_number": {
+            "fonts": [
+              "Courier New",
+              "Consolas"
+            ],
+            "weights": [
+              400
+            ],
+            "tracking": "wide"
+          },
+          "weight_bias": "varied",
+          "letter_spacing": "normal",
+          "case_preference": "uppercase"
+        },
+        "geometry": {
+          "primary_shapes": [
+            "circle",
+            "triangle",
+            "biohazard_symbol",
+            "cross",
+            "rectangle"
+          ],
+          "secondary_shapes": [
+            "warning_stripe",
+            "barcode",
+            "qr_code",
+            "grid"
+          ],
+          "complexity_level": 0.6,
+          "symmetry_bias": 0.9,
+          "edge_treatment": "precise",
+          "corner_style": "sharp_or_rounded",
+          "line_style": "technical",
+          "line_weights": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "pattern_density": 0.4
+        },
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Glossy White Plastic",
+              "roughness": 0.1,
+              "metallic": 0.0,
+              "reflectivity": 0.3
+            },
+            {
+              "name": "Matte Rubber",
+              "roughness": 0.9,
+              "grip_texture": true
+            },
+            {
+              "name": "Clear Plastic Shield",
+              "transparency": 0.8,
+              "roughness": 0.05,
+              "tint": "#00A8E820"
+            },
+            {
+              "name": "Stainless Steel",
+              "metallic": 0.9,
+              "roughness": 0.2,
+              "reflectivity": 0.8
+            }
+          ],
+          "wear_level": 0.1,
+          "sterility_indicators": true,
+          "seals": [
+            "tamper_evident",
+            "biohazard_seal"
+          ]
+        },
+        "effects": {
+          "glow": {
+            "enabled": false
+          },
+          "warning_flash": {
+            "enabled": true,
+            "colors": [
+              "#FF0000",
+              "#FFFF00"
+            ],
+            "frequency": 1.0
+          },
+          "barcode_scan": {
+            "enabled": true,
+            "style": "red_laser"
+          },
+          "droplet": {
+            "enabled": true,
+            "fluid": "blood",
+            "splatter_pattern": 0.2
+          }
+        },
+        "lighting": {
+          "primary_light": {
+            "type": "fluorescent_overhead",
+            "color": "#F0F8FF",
+            "intensity": 1.0,
+            "flicker": 0.05
+          },
+          "warning_light": {
+            "color": "#FF0000",
+            "intensity": 0.6,
+            "blink": true
+          },
+          "ambient": {
+            "color": "#FFFFFF",
+            "intensity": 0.8
+          }
+        }
+      },
+      "behavioral_traits": {
+        "randomness": 0.15,
+        "greeble_density": 0.5,
+        "glitch_frequency": 0.05,
+        "precision": 0.95,
+        "sterility": 0.9,
+        "warning_urgency": 0.8
+      },
+      "composition_rules": {
+        "preferred_layouts": [
+          "centered_warning",
+          "bordered_certificate",
+          "grid_technical"
+        ],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.3,
+        "border_treatment": "warning_stripe_border",
+        "mandatory_elements": [
+          "biohazard_symbol",
+          "serial_number",
+          "date_stamp"
+        ]
+      },
+      "context_triggers": {
+        "themes": [
+          "medical",
+          "laboratory",
+          "containment",
+          "safety",
+          "warning"
+        ],
+        "moods": [
+          "serious",
+          "clinical",
+          "urgent",
+          "controlled"
+        ],
+        "industries": [
+          "healthcare",
+          "research",
+          "pharmaceuticals",
+          "gaming"
+        ],
+        "audience": [
+          "medical_professionals",
+          "researchers",
+          "horror_fans"
+        ]
+      },
+      "forbidden_elements": [
+        "casual_fonts",
+        "decorative_elements",
+        "warm_colors",
+        "organic_patterns"
+      ]
+    },
+    {
+      "style_id": "japanese_tech_v1",
+      "name": "Neo-Tokyo Interface",
+      "description": "Japanese typography meets high-tech interfaces. Kanji, katakana, and digital precision.",
+      "version": "1.0",
+      "stability": "stable",
+      "popularity_score": 0.85,
+      "metadata": {
+        "era": "2040 Tokyo",
+        "mood_vector": [
+          0.7,
+          0.5,
+          0.7
+        ],
+        "mood_labels": [
+          "precise",
+          "futuristic",
+          "cultural",
+          "technical",
+          "balanced"
+        ],
+        "cultural_refs": [
+          "Ghost in the Shell",
+          "Akira",
+          "Shibuya Crossing",
+          "Mecha Design"
+        ],
+        "tags": [
+          "japanese",
+          "tech",
+          "kanji",
+          "precise",
+          "layered",
+          "holographic"
+        ],
+        "recommended_use": [
+          "tech_products",
+          "anime_projects",
+          "game_ui",
+          "cultural_tech"
+        ]
+      },
+      "visual_dna": {
+        "palette": {
+          "primary": [
+            "#E60012",
+            "#FFFFFF",
+            "#000000"
+          ],
+          "secondary": [
+            "#00A8E8",
+            "#FF6600"
+          ],
+          "accent": [
+            "#00FF00",
+            "#FF00FF",
+            "#FFFF00"
+          ],
+          "background": [
+            "#1A1A1A",
+            "#0A0A0A",
+            "#2D2D2D"
+          ],
+          "emission": [
+            "#00FF00",
+            "#00A8E8"
+          ],
+          "traditional": [
+            "#E60012",
+            "#FFFFFF",
+            "#000000"
+          ],
+          "palette_temperature": "balanced",
+          "saturation_level": 0.8
+        },
+        "typography": {
+          "headers": {
+            "fonts": [
+              "Noto Sans JP",
+              "M PLUS 1p",
+              "Kosugi Maru"
+            ],
+            "weights": [
+              700,
+              900
+            ],
+            "sizes": [
+              32,
+              48,
+              64
+            ],
+            "scripts": [
+              "kanji",
+              "katakana"
+            ]
+          },
+          "body": {
+            "fonts": [
+              "Noto Sans JP",
+              "M PLUS 1p"
+            ],
+            "weights": [
+              400,
+              500
+            ],
+            "sizes": [
+              12,
+              14,
+              16
+            ]
+          },
+          "technical": {
+            "fonts": [
+              "Roboto Mono",
+              "Source Code Pro"
+            ],
+            "weights": [
+              400
+            ],
+            "sizes": [
+              10,
+              12,
+              14
+            ],
+            "usage": "serial_codes"
+          },
+          "decorative_kanji": {
+            "fonts": [
+              "Sawarabi Mincho",
+              "Kosugi Maru"
+            ],
+            "weights": [
+              400
+            ],
+            "usage": "background_texture"
+          },
+          "writing_direction": [
+            "horizontal",
+            "vertical"
+          ],
+          "ruby_text": true,
+          "furigana": true
+        },
+        "geometry": {
+          "primary_shapes": [
+            "rectangle",
+            "square",
+            "hexagon",
+            "kanji_stroke"
+          ],
+          "secondary_shapes": [
+            "circular_seal",
+            "tech_panel",
+            "vertical_bar"
+          ],
+          "complexity_level": 0.75,
+          "symmetry_bias": 0.6,
+          "edge_treatment": "precise",
+          "corner_style": "sharp_or_chamfered",
+          "layering": 0.8,
+          "vertical_emphasis": true
+        },
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Anodized Aluminum",
+              "metallic": 0.8,
+              "roughness": 0.3,
+              "color": "#E0E0E0"
+            },
+            {
+              "name": "Holographic Display",
+              "transparency": 0.5,
+              "emission": 1.0,
+              "flicker": 0.1
+            },
+            {
+              "name": "Matte Black Polymer",
+              "roughness": 0.7,
+              "metallic": 0.0
+            },
+            {
+              "name": "Red Enamel",
+              "roughness": 0.1,
+              "color": "#E60012",
+              "glossy": true
+            }
+          ],
+          "wear_level": 0.2
+        },
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.6,
+            "blur_radius": 10,
+            "color": "#00FF00"
+          },
+          "hologram": {
+            "enabled": true,
+            "scanlines": true,
+            "transparency_flicker": 0.3
+          },
+          "kanji_rain": {
+            "enabled": true,
+            "speed": 0.5,
+            "density": 0.3,
+            "style": "matrix_code"
+          },
+          "tech_grid": {
+            "enabled": true,
+            "style": "perspective",
+            "color": "#00FF0030"
+          }
+        },
+        "lighting": {
+          "primary_light": {
+            "type": "neon_strip",
+            "color": "#00FF00",
+            "intensity": 1.0
+          },
+          "accent_lights": [
+            {
+              "color": "#E60012",
+              "intensity": 0.5
+            },
+            {
+              "color": "#00A8E8",
+              "intensity": 0.4
+            }
+          ],
+          "ambient": {
+            "color": "#1A1A1A",
+            "intensity": 0.3
+          }
+        }
+      },
+      "behavioral_traits": {
+        "randomness": 0.4,
+        "greeble_density": 0.7,
+        "precision": 0.9,
+        "layering_preference": 0.85,
+        "cultural_authenticity": 0.9,
+        "tech_integration": 0.8
+      },
+      "composition_rules": {
+        "preferred_layouts": [
+          "layered_panels",
+          "vertical_text",
+          "grid_modular",
+          "centered_seal"
+        ],
+        "focal_point_bias": "centered_or_upper_right",
+        "breathing_room": 0.25,
+        "border_treatment": "tech_frame_with_kanji",
+        "text_direction_mix": true
+      },
+      "context_triggers": {
+        "themes": [
+          "japanese_culture",
+          "high_tech",
+          "anime",
+          "gaming",
+          "cyberpunk"
+        ],
+        "moods": [
+          "precise",
+          "cultural",
+          "futuristic",
+          "respectful"
+        ],
+        "industries": [
+          "tech",
+          "gaming",
+          "anime",
+          "fashion"
+        ],
+        "audience": [
+          "japan_enthusiasts",
+          "gamers",
+          "tech_users",
+          "designers"
+        ]
+      },
+      "forbidden_elements": [
+        "inappropriate_kanji_usage",
+        "cultural_insensitivity",
+        "overly_aggressive_colors"
+      ]
+    }
+  ],
+  "breeding_rules": {
+    "crossover_methods": [
+      "blend",
+      "dominant_recessive",
+      "random_gene_swap",
+      "mutation"
+    ],
+    "gene_inheritance": {
+      "palette": "blend_with_variance",
+      "typography": "dominant_parent",
+      "geometry": "50_50_mix",
+      "effects": "additive",
+      "behavioral_traits": "average_with_mutation"
+    },
+    "mutation_types": [
+      "color_shift",
+      "geometry_distortion",
+      "effect_amplification",
+      "new_element_injection"
+    ],
+    "minimum_compatibility": 0.3,
+    "offspring_stability_threshold": 0.6
+  },
+  "evolution_paths": {
+    "cyberpunk_v1": {
+      "next_gen_concepts": [
+        "post_cyberpunk",
+        "solar_punk_fusion",
+        "bio_cyber_hybrid"
+      ],
+      "regression_paths": [
+        "proto_cyberpunk",
+        "tech_noir_minimal"
+      ],
+      "lateral_mutations": [
+        "cyber_brutalism",
+        "glitch_punk"
+      ]
+    },
+    "brutalism_v1": {
+      "next_gen_concepts": [
+        "brutalism_2.0",
+        "digital_materialism"
+      ],
+      "regression_paths": [
+        "pure_function"
+      ],
+      "lateral_mutations": [
+        "brutalism_glitch",
+        "soft_brutalism"
+      ]
+    }
+  },
+  "style_families": {
+    "tech": [
+      "cyberpunk_v1",
+      "japanese_tech_v1",
+      "glitch_art_v1"
+    ],
+    "clean": [
+      "minimalism_v1",
+      "brutalism_v1"
+    ],
+    "retro": [
+      "vaporwave_v1",
+      "organic_synthwave_v1"
+    ],
+    "chaotic": [
+      "glitch_art_v1",
+      "cyberpunk_v1"
+    ],
+    "calm": [
+      "minimalism_v1"
+    ],
+    "medical": [
+      "biohazard_medical_v1"
+    ],
+    "cultural": [
+      "japanese_tech_v1"
+    ]
+  },
+  "compatibility_matrix": {
+    "cyberpunk_v1": {
+      "japanese_tech_v1": 0.85,
+      "glitch_art_v1": 0.8,
+      "organic_synthwave_v1": 0.6,
+      "brutalism_v1": 0.4,
+      "minimalism_v1": 0.2,
+      "biohazard_medical_v1": 0.5
+    },
+    "japanese_tech_v1": {
+      "cyberpunk_v1": 0.85,
+      "minimalism_v1": 0.6,
+      "brutalism_v1": 0.5,
+      "organic_synthwave_v1": 0.4
+    },
+    "organic_synthwave_v1": {
+      "cyberpunk_v1": 0.6,
+      "japanese_tech_v1": 0.4,
+      "minimalism_v1": 0.3
+    },
+    "biohazard_medical_v1": {
+      "cyberpunk_v1": 0.5,
+      "brutalism_v1": 0.6,
+      "japanese_tech_v1": 0.4
+    }
+  },
+  "global_parameters": {
+    "quality_presets": {
+      "draft": {
+        "resolution": 512,
+        "detail_level": 0.3,
+        "render_time": "fast"
+      },
+      "standard": {
+        "resolution": 1024,
+        "detail_level": 0.7,
+        "render_time": "medium"
+      },
+      "high": {
+        "resolution": 2048,
+        "detail_level": 0.9,
+        "render_time": "slow"
+      },
+      "print": {
+        "resolution": 4096,
+        "detail_level": 1.0,
+        "render_time": "very_slow"
+      }
+    },
+    "export_formats": [
+      "svg",
+      "png",
+      "jpg",
+      "pdf",
+      "psd"
+    ],
+    "animation_capable": true,
+    "3d_projection": true,
+    "ai_enhancement": true
+  }
+}

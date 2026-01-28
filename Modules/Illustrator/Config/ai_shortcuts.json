@@ -1,0 +1,26 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Real Illustrator command shortcuts - using actual menu command strings",
+    "shortcuts": [
+        {
+            "key": "Ctrl+N",
+            "modifier": "Ctrl",
+            "command": "new",
+            "description": "File: New"
+        },
+        {
+            "key": "Ctrl+Shift+O",
+            "modifier": "CtrlShift",
+            "command": "open",
+            "description": "File: Open"
+        },
+        {
+            "key": "Ctrl+S",
+            "modifier": "Ctrl",
+            "command": "save",
+            "description": "File: Save"
+        }
+    ],
+    "notes": "Command strings from AI SDK. Find command IDs via Edit > Keyboard Shortcuts > save .kys file and inspect XML"
+}

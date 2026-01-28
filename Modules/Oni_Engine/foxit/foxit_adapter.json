@@ -1,0 +1,43 @@
+{
+    "app_name": "Foxit PDF Editor",
+    "process_name": "FoxitPDFEditor",
+    "window_title_regex": ".*Foxit PDF Editor.*",
+    "actions": {
+        "new": "ctrl,n",
+        "open": "ctrl,o",
+        "save": "ctrl,s",
+        "save_as": "ctrl,shift,s",
+        "print": "ctrl,p",
+        "close": "ctrl,w",
+        "quit": "ctrl,q",
+        "undo": "ctrl,z",
+        "redo": "ctrl,y",
+        "select_all": "ctrl,a",
+        "copy": "ctrl,c",
+        "paste": "ctrl,v",
+        "cut": "ctrl,x",
+        "delete": "delete",
+        "find": "ctrl,f",
+        "replace": "ctrl,h",
+        "goto_page": "ctrl,g",
+        "first_page": "ctrl,home",
+        "last_page": "ctrl,end",
+        "zoom_in": "ctrl,+",
+        "zoom_out": "ctrl,-",
+        "zoom_fit": "ctrl,0",
+        "fullscreen": "f",
+        "ocr_quick": "alt,h,q",
+        "comment_note": "ctrl,7",
+        "comment_shape": "ctrl,8",
+        "comment_stamp": "ctrl,9",
+        "pages_insert": "ctrl,shift,i",
+        "pages_extract": "ctrl,shift,e",
+        "pages_delete": "ctrl,shift,d",
+        "pages_rotate": "ctrl,shift,r"
+    },
+    "delays": {
+        "launch": 5000,
+        "dialog_open": 1000,
+        "save_operation": 2000
+    }
+}

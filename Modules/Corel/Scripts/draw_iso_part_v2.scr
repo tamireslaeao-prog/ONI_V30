@@ -1,0 +1,34 @@
+; AutoCAD Script - Peca 3D ISO Corrigido
+; ONI V24 - 2026-01-09
+; Dimensoes: 50x15x30mm, Recorte L 15x10, Furo O10
+_OSMODE
+0
+_-VIEW
+_SWISO
+_ZOOM
+_E
+_BOX
+0,0,0
+50,15,30
+_BOX
+0,0,0
+15,15,10
+_SUBTRACT
+_P
+
+_L
+
+_CYLINDER
+30,0,15
+5
+15
+_SUBTRACT
+_ALL
+
+_R
+_L
+
+_ZOOM
+_E
+_VSCURRENT
+_C

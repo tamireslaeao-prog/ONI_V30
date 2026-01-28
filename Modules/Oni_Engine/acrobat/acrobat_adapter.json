@@ -1,0 +1,31 @@
+{
+    "app_name": "Adobe Acrobat DC",
+    "process_name": "Acrobat",
+    "window_title_regex": ".*Adobe Acrobat.*",
+    "com_interfaces": {
+        "app": "AcroExch.App",
+        "pd_doc": "AcroExch.PDDoc",
+        "av_doc": "AcroExch.AVDoc",
+        "bookmark": "AcroExch.PDBookmark",
+        "hilite": "AcroExch.HiliteList",
+        "forms": "AFormAut.App"
+    },
+    "actions": {
+        "new": "ctrl,n",
+        "open": "ctrl,o",
+        "save": "ctrl,s",
+        "save_as": "ctrl,shift,s",
+        "print": "ctrl,p",
+        "close": "ctrl,w",
+        "quit": "ctrl,q",
+        "undo": "ctrl,z",
+        "redo": "ctrl,shift,z",
+        "find": "ctrl,f",
+        "goto_page": "ctrl,shift,n",
+        "zoom_in": "ctrl,plus",
+        "zoom_out": "ctrl,minus",
+        "fullscreen": "ctrl,l",
+        "rotate_cw": "ctrl,shift,plus",
+        "rotate_ccw": "ctrl,shift,minus"
+    }
+}

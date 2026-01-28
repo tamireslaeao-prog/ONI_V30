@@ -1,0 +1,15 @@
+{
+  "persona": "ONI",
+  "created_at": "2026-01-23T23:48:06.341073",
+  "last_active": "2026-01-23T23:57:46.237719",
+  "context_summary": "System initialized.",
+  "active_rules": [
+    "MASTER.md"
+  ],
+  "memory_kv": {
+    "corel_path": "c:\\Program Files\\Corel\\CorelDRAW Graphics Suite\\26\\Programs64\\CorelDRW.exe",
+    "corel_requires_admin": true,
+    "corel_version": "26 (2024)"
+  },
+  "system_status": "shutdown_clean"
+}

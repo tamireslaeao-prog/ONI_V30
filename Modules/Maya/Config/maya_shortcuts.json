@@ -1,0 +1,38 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Real Maya MEL commands - using actual documented MEL commands",
+    "shortcuts": [
+        {
+            "key": "Ctrl+N",
+            "command": "NewScene",
+            "name": "File New Scene",
+            "description": "Create new Maya scene"
+        },
+        {
+            "key": "Ctrl+S",
+            "command": "SaveScene",
+            "name": "File Save Scene",
+            "description": "Save current Maya scene"
+        },
+        {
+            "key": "g",
+            "command": "RepeatLast",
+            "name": "Repeat Last",
+            "description": "Repeat the last command"
+        },
+        {
+            "key": "z",
+            "command": "Undo",
+            "name": "Undo",
+            "description": "Undo last action"
+        },
+        {
+            "key": "Shift+Z",
+            "command": "Redo",
+            "name": "Redo",
+            "description": "Redo last undone action"
+        }
+    ],
+    "notes": "MEL commands from Autodesk official docs. Full list: help.autodesk.com/view/MAYAUL/ENU/?guid=CommandsPython"
+}

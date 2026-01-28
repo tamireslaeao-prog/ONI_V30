@@ -1,0 +1,717 @@
+{
+    "software": "Adobe Photoshop",
+    "version": "2024+",
+    "category": "drawing",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para Adobe Photoshop",
+    "tool_shortcuts": {
+        "brush": "b",
+        "pencil": "shift+b",
+        "eraser": "e",
+        "eyedropper": "i",
+        "paint_bucket": "g",
+        "gradient": "shift+g",
+        "pen": "p",
+        "text": "t",
+        "rectangle": "u",
+        "ellipse": "shift+u",
+        "move": "v",
+        "zoom": "z",
+        "hand": "h",
+        "crop": "c",
+        "marquee": "m",
+        "lasso": "l",
+        "magic_wand": "w",
+        "quick_selection": "shift+w",
+        "spot_healing": "j",
+        "clone_stamp": "s",
+        "history_brush": "y",
+        "blur": "r",
+        "dodge": "o",
+        "path_selection": "a",
+        "3d_rotate": "k"
+    },
+    "brush_size_controls": {
+        "decrease": "[",
+        "increase": "]",
+        "decrease_large": "shift+[",
+        "increase_large": "shift+]",
+        "hardness_decrease": "{",
+        "hardness_increase": "}",
+        "precise_cursor": "caps_lock",
+        "brush_panel": "f5"
+    },
+    "color_controls": {
+        "default_colors": "d",
+        "swap_colors": "x",
+        "fill_foreground": "alt+backspace",
+        "fill_background": "ctrl+backspace",
+        "color_picker": "click_foreground",
+        "eyedropper_temp": "alt_while_painting",
+        "hud_color_picker": "shift+alt+right_click"
+    },
+    "common_shortcuts": {
+        "new_document": "ctrl+n",
+        "open": "ctrl+o",
+        "save": "ctrl+s",
+        "save_as": "ctrl+shift+s",
+        "save_for_web": "ctrl+shift+alt+s",
+        "close": "ctrl+w",
+        "close_all": "ctrl+alt+w",
+        "undo": "ctrl+z",
+        "redo": "ctrl+shift+z",
+        "step_backward": "ctrl+alt+z",
+        "step_forward": "ctrl+shift+alt+z",
+        "fade": "ctrl+shift+f",
+        "cut": "ctrl+x",
+        "copy": "ctrl+c",
+        "copy_merged": "ctrl+shift+c",
+        "paste": "ctrl+v",
+        "paste_in_place": "ctrl+shift+v",
+        "paste_into": "ctrl+shift+alt+v",
+        "deselect": "ctrl+d",
+        "reselect": "ctrl+shift+d",
+        "select_all": "ctrl+a",
+        "invert_selection": "ctrl+shift+i",
+        "feather_selection": "ctrl+alt+d",
+        "new_layer": "ctrl+shift+n",
+        "new_layer_below": "ctrl+alt+shift+n",
+        "group_layers": "ctrl+g",
+        "ungroup": "ctrl+shift+g",
+        "merge_down": "ctrl+e",
+        "merge_visible": "ctrl+shift+e",
+        "flatten": "ctrl+shift+e",
+        "duplicate_layer": "ctrl+j",
+        "free_transform": "ctrl+t",
+        "repeat_transform": "ctrl+shift+t"
+    },
+    "layer_shortcuts": {
+        "select_top_layer": "alt+.",
+        "select_bottom_layer": "alt+,",
+        "select_next_layer": "alt+]",
+        "select_previous_layer": "alt+[",
+        "move_layer_up": "ctrl+]",
+        "move_layer_down": "ctrl+[",
+        "move_to_top": "ctrl+shift+]",
+        "move_to_bottom": "ctrl+shift+[",
+        "lock_transparent_pixels": "/",
+        "layer_via_copy": "ctrl+j",
+        "layer_via_cut": "ctrl+shift+j",
+        "create_clipping_mask": "ctrl+alt+g",
+        "new_adjustment_layer": "ctrl+shift+n_then_choose"
+    },
+    "view_shortcuts": {
+        "fit_on_screen": "ctrl+0",
+        "actual_pixels": "ctrl+alt+0",
+        "zoom_in": "ctrl++",
+        "zoom_out": "ctrl+-",
+        "show_hide_extras": "ctrl+h",
+        "show_hide_rulers": "ctrl+r",
+        "show_hide_grid": "ctrl+'",
+        "show_hide_guides": "ctrl+;",
+        "lock_guides": "ctrl+alt+;",
+        "snap": "ctrl+shift+;",
+        "proof_colors": "ctrl+y",
+        "gamut_warning": "ctrl+shift+y",
+        "full_screen_menu": "f",
+        "full_screen_no_menu": "f_twice",
+        "cycle_screen_modes": "f"
+    },
+    "adjustment_shortcuts": {
+        "levels": "ctrl+l",
+        "auto_levels": "ctrl+shift+l",
+        "auto_contrast": "ctrl+shift+alt+l",
+        "auto_color": "ctrl+shift+b",
+        "curves": "ctrl+m",
+        "color_balance": "ctrl+b",
+        "hue_saturation": "ctrl+u",
+        "desaturate": "ctrl+shift+u",
+        "invert": "ctrl+i",
+        "black_and_white": "ctrl+shift+alt+b"
+    },
+    "selection_shortcuts": {
+        "select_inverse": "ctrl+shift+i",
+        "select_all_layers": "ctrl+alt+a",
+        "find_layers": "ctrl+alt+shift+f",
+        "load_selection": "ctrl+click_layer_thumbnail",
+        "add_to_selection": "shift+drag",
+        "subtract_from_selection": "alt+drag",
+        "intersect_selection": "shift+alt+drag",
+        "grow_selection": "shift+ctrl+alt+d",
+        "similar": "shift+ctrl+alt+i",
+        "transform_selection": "ctrl+alt+t"
+    },
+    "mask_shortcuts": {
+        "add_layer_mask": "click_mask_icon",
+        "add_vector_mask": "ctrl+click_mask_icon",
+        "toggle_mask_view": "shift+click_mask",
+        "disable_mask": "shift+click_mask",
+        "mask_from_selection": "layer_mask_button",
+        "delete_mask": "drag_to_trash",
+        "apply_mask": "right_click_apply",
+        "refine_mask": "select_mask+properties_panel"
+    },
+    "filter_shortcuts": {
+        "last_filter": "ctrl+f",
+        "last_filter_dialog": "ctrl+alt+f",
+        "liquify": "ctrl+shift+x",
+        "camera_raw": "ctrl+shift+a",
+        "adaptive_wide_angle": "ctrl+shift+alt+a"
+    },
+    "recommended_brush_sizes": {
+        "face_outline": {
+            "min": 2,
+            "max": 5,
+            "recommended": 3,
+            "description": "Para contornos faciais precisos",
+            "hardness": "80-100%",
+            "opacity": "100%",
+            "flow": "100%"
+        },
+        "face_features": {
+            "min": 1,
+            "max": 3,
+            "recommended": 2,
+            "description": "Olhos, nariz, boca e detalhes faciais",
+            "hardness": "90-100%",
+            "opacity": "100%",
+            "flow": "100%"
+        },
+        "sketch": {
+            "min": 5,
+            "max": 15,
+            "recommended": 8,
+            "description": "Esboços e rascunhos iniciais",
+            "hardness": "0-30%",
+            "opacity": "50-70%",
+            "flow": "80%"
+        },
+        "fill_shape": {
+            "min": 30,
+            "max": 100,
+            "recommended": 50,
+            "description": "Preenchimento de áreas grandes",
+            "hardness": "0%",
+            "opacity": "100%",
+            "flow": "100%"
+        },
+        "detail_work": {
+            "min": 1,
+            "max": 2,
+            "recommended": 1,
+            "description": "Trabalhos minuciosos e texturas",
+            "hardness": "100%",
+            "opacity": "100%",
+            "flow": "80%"
+        },
+        "general_drawing": {
+            "min": 3,
+            "max": 10,
+            "recommended": 5,
+            "description": "Desenho geral e lineart",
+            "hardness": "70-90%",
+            "opacity": "100%",
+            "flow": "100%"
+        },
+        "hair_strands": {
+            "min": 1,
+            "max": 3,
+            "recommended": 2,
+            "description": "Fios de cabelo individuais",
+            "hardness": "80%",
+            "opacity": "80-90%",
+            "flow": "90%"
+        },
+        "shading": {
+            "min": 10,
+            "max": 50,
+            "recommended": 25,
+            "description": "Sombreamento e gradientes",
+            "hardness": "0-10%",
+            "opacity": "20-40%",
+            "flow": "50%"
+        },
+        "highlights": {
+            "min": 5,
+            "max": 20,
+            "recommended": 10,
+            "description": "Destaques e brilhos",
+            "hardness": "0%",
+            "opacity": "30-60%",
+            "flow": "60%"
+        },
+        "texture": {
+            "min": 20,
+            "max": 80,
+            "recommended": 40,
+            "description": "Texturas e efeitos especiais",
+            "hardness": "varies",
+            "opacity": "40-70%",
+            "flow": "50-80%"
+        }
+    },
+    "pre_drawing_checklist": [
+        {
+            "check": "brush_size",
+            "prompt": "Verifique o tamanho do pincel no topo da tela",
+            "expected": "Tamanho entre 2-10px para desenho de linhas",
+            "fix_if_wrong": "Pressione [ várias vezes para diminuir",
+            "importance": "critical",
+            "verification": "Olhe na barra de opções superior"
+        },
+        {
+            "check": "foreground_color",
+            "prompt": "Verifique a cor de foreground no painel de ferramentas",
+            "expected": "Cor escura para linhas (preto ideal)",
+            "fix_if_wrong": "Pressione D para cores default, ou clique na cor",
+            "importance": "critical",
+            "verification": "Quadrado frontal no seletor de cores"
+        },
+        {
+            "check": "active_tool",
+            "prompt": "Verifique qual ferramenta está ativa",
+            "expected": "Brush Tool selecionado",
+            "fix_if_wrong": "Pressione B para selecionar pincel",
+            "importance": "critical",
+            "verification": "Ícone destacado na barra de ferramentas"
+        },
+        {
+            "check": "layer",
+            "prompt": "Verifique se há camada ativa no painel Layers",
+            "expected": "Uma camada selecionada (não Background bloqueado)",
+            "fix_if_wrong": "Clique na camada ou crie nova com Ctrl+Shift+N",
+            "importance": "critical",
+            "verification": "Camada destacada no painel Layers"
+        },
+        {
+            "check": "brush_hardness",
+            "prompt": "Verifique a dureza do pincel",
+            "expected": "80-100% para linhas nítidas",
+            "fix_if_wrong": "Ajuste na barra de opções ou pressione { ou }",
+            "importance": "high",
+            "verification": "Valor de Hardness na barra superior"
+        },
+        {
+            "check": "opacity",
+            "prompt": "Verifique a opacidade do pincel",
+            "expected": "100% para linhas sólidas",
+            "fix_if_wrong": "Digite '0' (zero) ou ajuste no slider",
+            "importance": "high",
+            "verification": "Valor de Opacity na barra superior"
+        },
+        {
+            "check": "flow",
+            "prompt": "Verifique o flow do pincel",
+            "expected": "100% para aplicação consistente",
+            "fix_if_wrong": "Ajuste no slider de Flow",
+            "importance": "medium",
+            "verification": "Valor de Flow na barra superior"
+        },
+        {
+            "check": "canvas_resolution",
+            "prompt": "Verifique a resolução do canvas",
+            "expected": "Mínimo 300 DPI para trabalho profissional",
+            "fix_if_wrong": "Image > Image Size para ajustar",
+            "importance": "high",
+            "verification": "Visível no canto inferior esquerdo"
+        },
+        {
+            "check": "color_mode",
+            "prompt": "Verifique o modo de cor do documento",
+            "expected": "RGB para tela, CMYK para impressão",
+            "fix_if_wrong": "Image > Mode > escolha o modo correto",
+            "importance": "medium",
+            "verification": "Título da janela mostra o modo"
+        },
+        {
+            "check": "rulers_guides",
+            "prompt": "Verifique se réguas estão visíveis se necessário",
+            "expected": "Réguas ativas para trabalho com precisão",
+            "fix_if_wrong": "Pressione Ctrl+R para mostrar/ocultar",
+            "importance": "low",
+            "verification": "Réguas nas bordas do canvas"
+        }
+    ],
+    "quality_criteria": {
+        "line_drawing": {
+            "line_thickness": "Consistente e fina (2-5px)",
+            "smoothness": "Linhas suaves sem tremores",
+            "closed_shapes": "Formas fechadas quando necessário",
+            "no_artifacts": "Sem borrões ou manchas",
+            "consistency": "Espessura uniforme em todo o desenho",
+            "connection_points": "Linhas conectam-se perfeitamente",
+            "clean_edges": "Bordas nítidas e definidas"
+        },
+        "fill": {
+            "coverage": "Área completamente preenchida",
+            "no_bleeding": "Cor não vazando para áreas adjacentes",
+            "uniform_color": "Cor uniforme sem variações",
+            "clean_edges": "Bordas limpas sem pixels soltos",
+            "proper_tolerance": "Tolerance adequada no paint bucket"
+        },
+        "shading": {
+            "smooth_transitions": "Gradientes suaves entre tons",
+            "consistent_light_source": "Iluminação consistente",
+            "proper_values": "Range adequado de valores claros/escuros",
+            "blending": "Cores bem misturadas"
+        },
+        "overall": {
+            "composition": "Elementos bem posicionados",
+            "proportion": "Proporções corretas",
+            "contrast": "Contraste adequado para legibilidade",
+            "cleanliness": "Trabalho limpo sem erros visíveis"
+        }
+    },
+    "brush_settings_presets": {
+        "clean_lineart": {
+            "size": 3,
+            "hardness": 100,
+            "opacity": 100,
+            "flow": 100,
+            "spacing": 1,
+            "smoothing": 10,
+            "transfer": "pen_pressure",
+            "description": "Ideal para lineart limpo e preciso"
+        },
+        "soft_sketch": {
+            "size": 8,
+            "hardness": 0,
+            "opacity": 60,
+            "flow": 80,
+            "spacing": 10,
+            "smoothing": 35,
+            "transfer": "pen_pressure",
+            "description": "Perfeito para esboços e rascunhos"
+        },
+        "inking": {
+            "size": 4,
+            "hardness": 90,
+            "opacity": 100,
+            "flow": 100,
+            "spacing": 1,
+            "smoothing": 15,
+            "transfer": "pen_pressure_size",
+            "description": "Para finalização de desenhos"
+        },
+        "painting_soft": {
+            "size": 30,
+            "hardness": 0,
+            "opacity": 40,
+            "flow": 50,
+            "spacing": 15,
+            "smoothing": 20,
+            "transfer": "pen_pressure_opacity",
+            "description": "Pintura digital suave"
+        },
+        "detail_fine": {
+            "size": 1,
+            "hardness": 100,
+            "opacity": 100,
+            "flow": 80,
+            "spacing": 1,
+            "smoothing": 5,
+            "transfer": "none",
+            "description": "Detalhes minuciosos"
+        }
+    },
+    "workflow_best_practices": {
+        "project_setup": [
+            "Criar documento com resolução adequada (300 DPI mínimo)",
+            "Escolher modo de cor correto (RGB/CMYK)",
+            "Configurar dimensões apropriadas",
+            "Salvar imediatamente com nome descritivo",
+            "Criar grupo de camadas para organização"
+        ],
+        "layer_organization": [
+            "Nomear todas as camadas descritivamente",
+            "Usar grupos para elementos relacionados",
+            "Manter camadas de sketch separadas",
+            "Criar camada específica para lineart",
+            "Usar camadas de ajuste não-destrutivo",
+            "Bloquear camadas finalizadas"
+        ],
+        "drawing_process": [
+            "Começar com sketch leve e solto",
+            "Refinar gradualmente o esboço",
+            "Criar nova camada para lineart final",
+            "Limpar sketch após lineart",
+            "Adicionar preenchimentos em camadas separadas",
+            "Salvar versões incrementais"
+        ],
+        "performance": [
+            "Mesclar camadas desnecessárias",
+            "Rasterizar efeitos quando finalizado",
+            "Limpar histórico periodicamente",
+            "Reduzir tamanho de documento se possível",
+            "Usar Smart Objects com moderação"
+        ]
+    },
+    "common_mistakes": {
+        "brush_too_large": {
+            "problem": "Pincel muito grande para detalhes",
+            "solution": "Use [ para diminuir rapidamente",
+            "prevention": "Configure presets para diferentes tarefas"
+        },
+        "wrong_layer": {
+            "problem": "Desenhando na camada errada",
+            "solution": "Ctrl+Z e selecione a camada correta",
+            "prevention": "Sempre verifique camada ativa antes de desenhar"
+        },
+        "low_opacity": {
+            "problem": "Linhas muito fracas",
+            "solution": "Digite 0 para 100% opacity",
+            "prevention": "Verifique opacity antes de iniciar"
+        },
+        "soft_edges": {
+            "problem": "Linhas desfocadas",
+            "solution": "Aumente hardness para 80-100%",
+            "prevention": "Configure brush preset adequado"
+        },
+        "gaps_in_shapes": {
+            "problem": "Formas não fecham corretamente",
+            "solution": "Zoom in e conecte as linhas",
+            "prevention": "Use maior zoom ao desenhar formas"
+        }
+    },
+    "troubleshooting": {
+        "brush_not_working": {
+            "causes": [
+                "Opacity em 0%",
+                "Camada bloqueada",
+                "Ferramenta errada selecionada",
+                "Modo de mesclagem incorreto",
+                "Mask ativa"
+            ],
+            "solutions": [
+                "Verifique opacity (digite 0)",
+                "Desbloqueie a camada",
+                "Pressione B para brush",
+                "Altere para Normal blend mode",
+                "Desative ou ajuste mask"
+            ]
+        },
+        "colors_not_showing": {
+            "causes": [
+                "Documento em Grayscale",
+                "Camada em modo incorreto",
+                "Opacity muito baixa"
+            ],
+            "solutions": [
+                "Image > Mode > RGB Color",
+                "Mude blend mode para Normal",
+                "Aumente opacity para 100%"
+            ]
+        },
+        "lag_or_slowness": {
+            "causes": [
+                "Documento muito grande",
+                "Muitas camadas",
+                "Histórico muito longo",
+                "Memória insuficiente"
+            ],
+            "solutions": [
+                "Reduza resolução do documento",
+                "Mescle camadas desnecessárias",
+                "Edit > Purge > All",
+                "Feche outros aplicativos"
+            ]
+        }
+    },
+    "drawing_techniques": {
+        "portrait_drawing": {
+            "steps": [
+                "Criar sketch básico das proporções",
+                "Definir linha dos olhos, nariz e boca",
+                "Adicionar formato da cabeça",
+                "Desenhar olhos com detalhes",
+                "Adicionar nariz e boca",
+                "Desenhar orelhas e cabelo",
+                "Refinar detalhes",
+                "Limpar e finalizar lineart"
+            ],
+            "brush_sizes": [
+                3,
+                2,
+                2,
+                1,
+                2,
+                3,
+                1,
+                2
+            ],
+            "tips": [
+                "Use guias para simetria",
+                "Trabalhe do geral para o específico",
+                "Mantenha proporções faciais padrão"
+            ]
+        },
+        "character_design": {
+            "steps": [
+                "Sketch básico de pose e anatomia",
+                "Definir silhueta clara",
+                "Adicionar roupas e acessórios",
+                "Detalhar expressão facial",
+                "Refinar anatomia",
+                "Criar lineart limpo",
+                "Adicionar variações de linha"
+            ],
+            "considerations": [
+                "Silhueta reconhecível",
+                "Proporções consistentes",
+                "Personalidade na pose"
+            ]
+        },
+        "environment_art": {
+            "steps": [
+                "Estabelecer perspectiva",
+                "Definir formas grandes primeiro",
+                "Adicionar elementos médios",
+                "Detalhar primeiro plano",
+                "Adicionar textura e atmosfera"
+            ],
+            "tips": [
+                "Use perspective guides",
+                "Trabalhe em layers de profundidade",
+                "Simplifique elementos distantes"
+            ]
+        }
+    },
+    "color_theory_quick_ref": {
+        "complementary_pairs": {
+            "red": "green",
+            "blue": "orange",
+            "yellow": "purple"
+        },
+        "analogous": "Cores adjacentes no círculo cromático",
+        "triadic": "Três cores equidistantes no círculo",
+        "monochromatic": "Variações de uma única cor",
+        "warm_colors": [
+            "red",
+            "orange",
+            "yellow"
+        ],
+        "cool_colors": [
+            "blue",
+            "green",
+            "purple"
+        ]
+    },
+    "file_management": {
+        "saving_formats": {
+            "psd": {
+                "use": "Arquivo de trabalho com camadas",
+                "pros": "Preserva tudo, editável",
+                "cons": "Arquivo grande"
+            },
+            "png": {
+                "use": "Exportação com transparência",
+                "pros": "Sem perda, suporta alpha",
+                "cons": "Arquivo pode ser grande"
+            },
+            "jpg": {
+                "use": "Exportação para web/impressão",
+                "pros": "Arquivo pequeno",
+                "cons": "Com perda, sem transparência"
+            },
+            "tiff": {
+                "use": "Impressão profissional",
+                "pros": "Alta qualidade, camadas opcionais",
+                "cons": "Arquivo muito grande"
+            }
+        },
+        "naming_convention": "projeto_versao_data_status.psd",
+        "backup_strategy": [
+            "Salvar incrementalmente (v1, v2, v3)",
+            "Backup em nuvem diário",
+            "Manter versões principais",
+            "Exportar finalizações"
+        ]
+    },
+    "tablet_settings": {
+        "pen_pressure": {
+            "size": "Varia tamanho do brush com pressão",
+            "opacity": "Varia opacidade com pressão",
+            "both": "Varia ambos simultaneamente"
+        },
+        "smoothing": {
+            "level": "0-100, recomendado 10-35",
+            "description": "Suaviza traços tremidos"
+        },
+        "tilt": {
+            "enabled": "Usa inclinação da caneta",
+            "effects": "Pode afetar forma e opacidade"
+        }
+    },
+    "performance_optimization": {
+        "document_settings": {
+            "max_resolution": "4000x4000 para trabalho normal",
+            "bit_depth": "8-bit para maioria dos casos",
+            "color_profile": "sRGB para web, Adobe RGB para impressão"
+        },
+        "preferences": {
+            "history_states": "Reduzir para 20-30 se lento",
+            "cache_levels": "4-6 para melhor performance",
+            "scratch_disks": "Usar SSD como primário"
+        }
+    },
+    "keyboard_shortcuts_combinations": {
+        "quick_mask": {
+            "enter": "q",
+            "paint_to_add": "white_foreground",
+            "paint_to_subtract": "black_foreground",
+            "exit": "q_again"
+        },
+        "layer_management": {
+            "select_multiple": "shift+click",
+            "select_range": "shift+click_first_last",
+            "link_layers": "ctrl+click_multiple_then_ctrl+g"
+        }
+    },
+    "advanced_techniques": {
+        "non_destructive_workflow": [
+            "Usar Smart Objects para escalabilidade",
+            "Adjustment Layers ao invés de ajustes diretos",
+            "Layer Masks ao invés de eraser",
+            "Smart Filters para efeitos editáveis"
+        ],
+        "efficient_selection": [
+            "Quick Selection para áreas similares",
+            "Pen Tool para precisão máxima",
+            "Select and Mask para refinamento",
+            "Color Range para seleção por cor"
+        ]
+    },
+    "resources": {
+        "learning": [
+            "Ctrl+Paint (básico gratuito)",
+            "YouTube tutorials",
+            "Adobe tutorials oficiais",
+            "Practice daily"
+        ],
+        "inspiration": [
+            "ArtStation",
+            "DeviantArt",
+            "Pinterest",
+            "Instagram art accounts"
+        ]
+    },
+    "professional_tips": {
+        "speed": [
+            "Memorize atalhos principais",
+            "Configure workspace personalizado",
+            "Use Actions para tarefas repetitivas",
+            "Mantenha Brushes organizados"
+        ],
+        "quality": [
+            "Sempre trabalhe em alta resolução",
+            "Use referências",
+            "Faça breaks regulares",
+            "Revise trabalho com olhos frescos"
+        ],
+        "creativity": [
+            "Experimente novos brushes",
+            "Estude outros artistas",
+            "Pratique fundamentos regularmente",
+            "Aceite e aprenda com erros"
+        ]
+    }
+}

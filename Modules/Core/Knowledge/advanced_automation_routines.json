@@ -1,0 +1,1351 @@
+{
+  "rotinas_avancadas_windows_corel_photoshop": [
+    {
+      "objetivo": "[Photoshop] Exportar rápido como PNG",
+      "acao_visual": "Documento pronto para exportar",
+      "passos": [
+        "Pressionar 'ctrl + alt + shift + w'"
+      ],
+      "atalhos_alternativos": [
+        "File → Export → Quick Export as PNG"
+      ],
+      "validacao": "Arquivo PNG é salvo rapidamente com configurações padrão"
+    },
+    {
+      "objetivo": "[Photoshop] Modo de mesclagem da camada (Blend Mode)",
+      "acao_visual": "Camada selecionada no painel Layers",
+      "passos": [
+        "Pressionar 'shift + mais (+)' para próximo modo",
+        "Pressionar 'shift + menos (-)' para modo anterior"
+      ],
+      "atalhos_alternativos": [
+        "Usar dropdown no painel Layers"
+      ],
+      "validacao": "Modo de mesclagem muda ciclicamente (Normal, Multiply, Screen, etc.)"
+    },
+    {
+      "objetivo": "[Photoshop] Ajustar opacidade da camada rapidamente",
+      "acao_visual": "Camada selecionada, ferramenta de seleção ativa",
+      "passos": [
+        "Pressionar números de 0-9 (1=10%, 5=50%, 0=100%)",
+        "Ou digitar dois números rapidamente (ex: 4,5 = 45%)"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Opacidade da camada muda para porcentagem correspondente"
+    },
+    {
+      "objetivo": "[Photoshop] Ajustar fluxo do pincel (Flow)",
+      "acao_visual": "Ferramenta de pintura ativa",
+      "passos": [
+        "Pressionar 'shift + número (0-9)'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Fluxo do pincel muda (visível na barra superior)"
+    },
+    {
+      "objetivo": "[Photoshop] Refinar borda de seleção (Select and Mask)",
+      "acao_visual": "Seleção ativa",
+      "passos": [
+        "Pressionar 'ctrl + alt + r'"
+      ],
+      "atalhos_alternativos": [
+        "Select → Select and Mask"
+      ],
+      "validacao": "Workspace Select and Mask abre com ferramentas de refinamento"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Quick Selection",
+      "acao_visual": "Imagem com objeto a selecionar",
+      "passos": [
+        "Pressionar 'w'",
+        "Pintar sobre área desejada"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Seleção expande automaticamente para bordas detectadas"
+    },
+    {
+      "objetivo": "[Photoshop] Adicionar à seleção existente",
+      "acao_visual": "Seleção ativa, ferramenta de seleção ativa",
+      "passos": [
+        "Segurar 'shift' enquanto faz nova seleção"
+      ],
+      "atalhos_alternativos": [
+        "Clicar no ícone 'Add to selection' na barra superior"
+      ],
+      "validacao": "Nova área é adicionada à seleção existente"
+    },
+    {
+      "objetivo": "[Photoshop] Subtrair da seleção existente",
+      "acao_visual": "Seleção ativa, ferramenta de seleção ativa",
+      "passos": [
+        "Segurar 'alt' enquanto faz nova seleção"
+      ],
+      "atalhos_alternativos": [
+        "Clicar no ícone 'Subtract from selection'"
+      ],
+      "validacao": "Área selecionada é removida da seleção existente"
+    },
+    {
+      "objetivo": "[Photoshop] Interseção de seleções",
+      "acao_visual": "Seleção ativa",
+      "passos": [
+        "Segurar 'shift + alt' enquanto faz nova seleção"
+      ],
+      "atalhos_alternativos": [
+        "Clicar no ícone 'Intersect with selection'"
+      ],
+      "validacao": "Apenas área sobreposta permanece selecionada"
+    },
+    {
+      "objetivo": "[Photoshop] Suavizar borda de seleção (Feather)",
+      "acao_visual": "Seleção ativa",
+      "passos": [
+        "Pressionar 'shift + F6'",
+        "Digitar valor de suavização em pixels",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [
+        "Select → Modify → Feather"
+      ],
+      "validacao": "Bordas da seleção ficam suavizadas"
+    },
+    {
+      "objetivo": "[Photoshop] Expandir seleção",
+      "acao_visual": "Seleção ativa",
+      "passos": [
+        "Ir em Select → Modify → Expand",
+        "Digitar número de pixels",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Seleção expande uniformemente pelo valor especificado"
+    },
+    {
+      "objetivo": "[Photoshop] Contrair seleção",
+      "acao_visual": "Seleção ativa",
+      "passos": [
+        "Ir em Select → Modify → Contract",
+        "Digitar número de pixels",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Seleção contrai uniformemente"
+    },
+    {
+      "objetivo": "[Photoshop] Suavizar borda irregular de seleção",
+      "acao_visual": "Seleção com bordas irregulares",
+      "passos": [
+        "Ir em Select → Modify → Smooth",
+        "Digitar raio de suavização"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Cantos e irregularidades da seleção são suavizados"
+    },
+    {
+      "objetivo": "[Photoshop] Selecionar por faixa de cores",
+      "acao_visual": "Imagem colorida aberta",
+      "passos": [
+        "Ir em Select → Color Range",
+        "Usar conta-gotas para selecionar cor",
+        "Ajustar tolerância (Fuzziness)",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Áreas com cores similares são selecionadas"
+    },
+    {
+      "objetivo": "[Photoshop] Criar borda ao redor da imagem",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Ir em Image → Canvas Size",
+        "Aumentar dimensões igualmente",
+        "Escolher cor de fundo",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Borda colorida aparece ao redor da imagem"
+    },
+    {
+      "objetivo": "[Photoshop] Aplicar Liquify (distorcer)",
+      "acao_visual": "Camada de imagem selecionada",
+      "passos": [
+        "Pressionar 'ctrl + shift + x'"
+      ],
+      "atalhos_alternativos": [
+        "Filter → Liquify"
+      ],
+      "validacao": "Interface Liquify abre com ferramentas de distorção"
+    },
+    {
+      "objetivo": "[Photoshop] Aplicar Unsharp Mask (nitidez)",
+      "acao_visual": "Imagem que precisa de nitidez",
+      "passos": [
+        "Ir em Filter → Sharpen → Unsharp Mask",
+        "Ajustar Amount, Radius e Threshold",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Imagem ganha nitidez controlada"
+    },
+    {
+      "objetivo": "[Photoshop] Reduzir ruído da imagem",
+      "acao_visual": "Imagem com ruído/granulação",
+      "passos": [
+        "Ir em Filter → Noise → Reduce Noise",
+        "Ajustar configurações",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Ruído da imagem é reduzido mantendo detalhes"
+    },
+    {
+      "objetivo": "[Photoshop] Adicionar ruído/textura",
+      "acao_visual": "Camada ou seleção ativa",
+      "passos": [
+        "Ir em Filter → Noise → Add Noise",
+        "Ajustar quantidade e tipo",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Textura granulada é adicionada"
+    },
+    {
+      "objetivo": "[Photoshop] Criar padrão (Pattern) customizado",
+      "acao_visual": "Área selecionada ou camada",
+      "passos": [
+        "Selecionar área retangular",
+        "Ir em Edit → Define Pattern",
+        "Nomear padrão",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Padrão fica disponível no seletor de padrões"
+    },
+    {
+      "objetivo": "[Photoshop] Preencher com padrão",
+      "acao_visual": "Camada ou seleção ativa",
+      "passos": [
+        "Ir em Edit → Fill",
+        "Escolher 'Pattern' no dropdown",
+        "Selecionar padrão desejado",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [
+        "shift + F5"
+      ],
+      "validacao": "Área é preenchida com padrão selecionado"
+    },
+    {
+      "objetivo": "[Photoshop] Content-Aware Fill (preenchimento inteligente)",
+      "acao_visual": "Área selecionada que precisa ser removida/preenchida",
+      "passos": [
+        "Fazer seleção",
+        "Ir em Edit → Content-Aware Fill",
+        "Ajustar área de amostragem",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [
+        "Edit → Fill → Content-Aware"
+      ],
+      "validacao": "Área selecionada é preenchida inteligentemente com conteúdo similar"
+    },
+    {
+      "objetivo": "[Photoshop] Puppet Warp (distorcer com pinos)",
+      "acao_visual": "Camada de objeto isolado",
+      "passos": [
+        "Ir em Edit → Puppet Warp",
+        "Clicar para adicionar pinos de controle",
+        "Arrastar pinos para distorcer",
+        "Pressionar 'enter' para confirmar"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Malha aparece sobre objeto com pinos controláveis"
+    },
+    {
+      "objetivo": "[Photoshop] Criar mockup com objeto inteligente",
+      "acao_visual": "Template de mockup aberto",
+      "passos": [
+        "Duplo-clicar no Smart Object no painel Layers",
+        "Substituir conteúdo com seu design",
+        "Pressionar 'ctrl + s' para salvar",
+        "Fechar janela do Smart Object"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Design aparece aplicado no mockup com perspectiva/efeitos"
+    },
+    {
+      "objetivo": "[Photoshop] Visualizar apenas uma camada",
+      "acao_visual": "Múltiplas camadas visíveis",
+      "passos": [
+        "alt + clicar no ícone de olho da camada desejada"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Todas as outras camadas ficam ocultas, apenas a selecionada visível"
+    },
+    {
+      "objetivo": "[Photoshop] Copiar camada para outro documento",
+      "acao_visual": "Dois documentos abertos",
+      "passos": [
+        "Selecionar camada",
+        "Arrastar camada para aba do outro documento",
+        "Aguardar documento aparecer",
+        "Soltar camada"
+      ],
+      "atalhos_alternativos": [
+        "ctrl + j para duplicar, ctrl + a, ctrl + c, mudar documento, ctrl + v"
+      ],
+      "validacao": "Camada aparece no documento destino"
+    },
+    {
+      "objetivo": "[Photoshop] Alinhar conteúdo da camada ao centro",
+      "acao_visual": "Camada com conteúdo selecionada",
+      "passos": [
+        "Pressionar 'ctrl + a' (selecionar tudo)",
+        "Com Move Tool ativo (v), clicar em ícones de alinhamento na barra superior",
+        "Ou ir em Layer → Align → escolher opção"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Conteúdo da camada centraliza no canvas"
+    },
+    {
+      "objetivo": "[Photoshop] Criar camada via copiar (da seleção)",
+      "acao_visual": "Seleção ativa no documento",
+      "passos": [
+        "Pressionar 'ctrl + j'"
+      ],
+      "atalhos_alternativos": [
+        "Layer → New → Layer via Copy"
+      ],
+      "validacao": "Nova camada é criada com apenas o conteúdo selecionado"
+    },
+    {
+      "objetivo": "[Photoshop] Criar camada via recortar",
+      "acao_visual": "Seleção ativa no documento",
+      "passos": [
+        "Pressionar 'ctrl + shift + j'"
+      ],
+      "atalhos_alternativos": [
+        "Layer → New → Layer via Cut"
+      ],
+      "validacao": "Nova camada é criada e conteúdo removido da camada original"
+    },
+    {
+      "objetivo": "[Photoshop] Mesclar camada com a de baixo",
+      "acao_visual": "Camada selecionada com outra abaixo",
+      "passos": [
+        "Pressionar 'ctrl + e'"
+      ],
+      "atalhos_alternativos": [
+        "Layer → Merge Down"
+      ],
+      "validacao": "Camadas se fundem em uma única camada"
+    },
+    {
+      "objetivo": "[Photoshop] Stamp/mesclar visível em nova camada",
+      "acao_visual": "Múltiplas camadas visíveis",
+      "passos": [
+        "Pressionar 'ctrl + alt + shift + e'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Nova camada é criada no topo com mesclagem de tudo que está visível"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar ordem de objetos - para primeiro plano",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'shift + Page Up'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Ordem → Para frente de tudo"
+      ],
+      "validacao": "Objeto move para topo da pilha de objetos"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar ordem - para último plano",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'shift + Page Down'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Ordem → Para trás de tudo"
+      ],
+      "validacao": "Objeto move para base da pilha de objetos"
+    },
+    {
+      "objetivo": "[CorelDRAW] Aparar objetos sobrepostos (Trim)",
+      "acao_visual": "Dois objetos sobrepostos selecionados",
+      "passos": [
+        "Selecionar ambos objetos",
+        "Ir em Organizar → Formatação → Aparar",
+        "Clicar no objeto que será aparado"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Área sobreposta do objeto clicado é removida"
+    },
+    {
+      "objetivo": "[CorelDRAW] Intersectar objetos",
+      "acao_visual": "Múltiplos objetos sobrepostos selecionados",
+      "passos": [
+        "Selecionar objetos",
+        "Ir em Organizar → Formatação → Interseção"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Apenas área de sobreposição é mantida como novo objeto"
+    },
+    {
+      "objetivo": "[CorelDRAW] Simplificar objeto (reduzir nós)",
+      "acao_visual": "Objeto com muitos nós selecionado",
+      "passos": [
+        "Selecionar objeto",
+        "Ir em Organizar → Formatação → Simplificar",
+        "Ajustar tolerância"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Número de nós é reduzido mantendo forma similar"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar sombra interativa",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Selecionar ferramenta Sombra (ícone ou menu Efeitos)",
+        "Clicar no objeto e arrastar para criar sombra",
+        "Ajustar opacidade, desfoque e cor"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Sombra dinâmica aparece sob o objeto com alças ajustáveis"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar contorno interativo",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Selecionar ferramenta Contorno Interativo",
+        "Clicar no objeto e arrastar para fora/dentro",
+        "Ajustar número de passos e cor"
+      ],
+      "atalhos_alternativos": [
+        "Efeitos → Contorno"
+      ],
+      "validacao": "Múltiplos contornos concêntricos são criados"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar transparência interativa",
+      "acao_visual": "Objeto com preenchimento selecionado",
+      "passos": [
+        "Selecionar ferramenta Transparência Interativa",
+        "Clicar e arrastar sobre objeto",
+        "Ajustar tipo de transparência na barra de propriedades"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Gradiente de transparência é aplicado ao objeto"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar preenchimento em gradiente",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'F11'",
+        "Selecionar tipo de gradiente (Linear, Radial, Cônico, Quadrado)",
+        "Ajustar cores e ângulo"
+      ],
+      "atalhos_alternativos": [
+        "Ferramenta Preenchimento Interativo (g)"
+      ],
+      "validacao": "Gradiente é aplicado ao objeto com alças de controle"
+    },
+    {
+      "objetivo": "[CorelDRAW] Preenchimento de padrão",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'shift + F11'",
+        "Escolher aba 'Padrão'",
+        "Selecionar tipo de padrão (2 cores, Full Color, Bitmap)",
+        "Escolher padrão e ajustar escala"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Padrão preenche o objeto"
+    },
+    {
+      "objetivo": "[CorelDRAW] Preenchimento de textura",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'shift + F11'",
+        "Escolher aba 'Textura'",
+        "Selecionar biblioteca de textura",
+        "Ajustar parâmetros"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Textura procedural preenche objeto"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar nó para curvo",
+      "acao_visual": "Ferramenta Forma ativa com nó selecionado",
+      "passos": [
+        "Selecionar nó com ferramenta Forma (F10)",
+        "Pressionar 's' ou clicar em 'Curvo' na barra de propriedades"
+      ],
+      "atalhos_alternativos": [
+        "Clicar duas vezes no nó"
+      ],
+      "validacao": "Nó passa a ter alças de controle de curvatura"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar nó para cúspide",
+      "acao_visual": "Nó curvo selecionado",
+      "passos": [
+        "Com nó selecionado, pressionar 'c' ou selecionar 'Cúspide' na barra"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Alças do nó se movem independentemente"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar nó para simétrico",
+      "acao_visual": "Nó curvo selecionado",
+      "passos": [
+        "Pressionar 'y' ou selecionar 'Simétrico'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Alças ficam simétricas em comprimento e ângulo"
+    },
+    {
+      "objetivo": "[CorelDRAW] Adicionar nó à curva",
+      "acao_visual": "Objeto de curva com ferramenta Forma ativa",
+      "passos": [
+        "Duplo-clicar na linha onde deseja adicionar nó"
+      ],
+      "atalhos_alternativos": [
+        "Selecionar linha e clicar no botão '+' na barra de propriedades"
+      ],
+      "validacao": "Novo nó aparece na posição clicada"
+    },
+    {
+      "objetivo": "[CorelDRAW] Excluir nó",
+      "acao_visual": "Nó selecionado em objeto",
+      "passos": [
+        "Selecionar nó",
+        "Pressionar 'delete'"
+      ],
+      "atalhos_alternativos": [
+        "Duplo-clicar no nó",
+        "Clicar no botão '-' na barra"
+      ],
+      "validacao": "Nó é removido e curva ajusta-se automaticamente"
+    },
+    {
+      "objetivo": "[CorelDRAW] Unir nós abertos (fechar curva)",
+      "acao_visual": "Curva aberta com nós de extremidade visíveis",
+      "passos": [
+        "Selecionar ambos nós de extremidade (shift + clicar)",
+        "Pressionar 'j' ou clicar em 'Unir' na barra"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Nós se unem, fechando a curva"
+    },
+    {
+      "objetivo": "[CorelDRAW] Quebrar curva em nó",
+      "acao_visual": "Nó selecionado em curva fechada",
+      "passos": [
+        "Selecionar nó",
+        "Pressionar 'b' ou clicar em 'Quebrar' na barra"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Curva é aberta no ponto do nó"
+    },
+    {
+      "objetivo": "[CorelDRAW] Alinhar objetos pela borda esquerda",
+      "acao_visual": "Múltiplos objetos selecionados",
+      "passos": [
+        "Pressionar 'l' (letra L)"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Alinhar e Distribuir → Esquerda"
+      ],
+      "validacao": "Bordas esquerdas de todos objetos ficam alinhadas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Alinhar objetos pela borda direita",
+      "acao_visual": "Múltiplos objetos selecionados",
+      "passos": [
+        "Pressionar 'r'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Alinhar e Distribuir → Direita"
+      ],
+      "validacao": "Bordas direitas ficam alinhadas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Alinhar objetos pelo topo",
+      "acao_visual": "Múltiplos objetos selecionados",
+      "passos": [
+        "Pressionar 't'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Alinhar e Distribuir → Topo"
+      ],
+      "validacao": "Bordas superiores ficam alinhadas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Alinhar objetos pela base",
+      "acao_visual": "Múltiplos objetos selecionados",
+      "passos": [
+        "Pressionar 'b'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Alinhar e Distribuir → Base"
+      ],
+      "validacao": "Bordas inferiores ficam alinhadas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Distribuir objetos horizontalmente",
+      "acao_visual": "Três ou mais objetos selecionados",
+      "passos": [
+        "Pressionar 'shift + p'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Alinhar e Distribuir → Distribuir → Centro horizontal"
+      ],
+      "validacao": "Espaçamento horizontal entre objetos fica uniforme"
+    },
+    {
+      "objetivo": "[CorelDRAW] Distribuir objetos verticalmente",
+      "acao_visual": "Três ou mais objetos selecionados",
+      "passos": [
+        "Organizar → Alinhar e Distribuir → Distribuir → Centro vertical"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Espaçamento vertical entre objetos fica uniforme"
+    },
+    {
+      "objetivo": "[CorelDRAW] Copiar formatação de um objeto para outro",
+      "acao_visual": "Objeto com formatação desejada visível",
+      "passos": [
+        "Clicar direito sobre objeto fonte e arrastar até objeto destino",
+        "Soltar botão e escolher 'Copiar preenchimento aqui' ou 'Copiar contorno aqui'"
+      ],
+      "atalhos_alternativos": [
+        "ctrl + shift + a (Copiar propriedades)"
+      ],
+      "validacao": "Formatação é copiada para objeto destino"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar polígono estrela",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Selecionar ferramenta Polígono (y)",
+        "Na barra de propriedades, escolher 'Estrela'",
+        "Ajustar número de pontas",
+        "Arrastar para criar"
+      ],
+      "atalhos_alternativos": [
+        "Pressionar 'a' para ferramenta Estrela diretamente"
+      ],
+      "validacao": "Estrela é criada com número especificado de pontas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar espiral",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Selecionar ferramenta Espiral",
+        "Na barra, definir número de voltas",
+        "Arrastar para criar espiral"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Espiral é criada com número definido de voltas"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar grade de retângulos",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Selecionar ferramenta Papel Gráfico",
+        "Na barra, definir número de linhas e colunas",
+        "Arrastar para criar grade"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Grade com células especificadas é criada"
+    },
+    {
+      "objetivo": "[CorelDRAW] Texto em caminho/curva",
+      "acao_visual": "Texto e curva existentes",
+      "passos": [
+        "Selecionar ferramenta Texto",
+        "Aproximar cursor de uma curva até aparecer ícone de texto em caminho",
+        "Clicar na curva",
+        "Digitar texto"
+      ],
+      "atalhos_alternativos": [
+        "Texto → Ajustar texto ao caminho"
+      ],
+      "validacao": "Texto segue o contorno da curva"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar texto em caminho - posição",
+      "acao_visual": "Texto em caminho selecionado",
+      "passos": [
+        "Arrastar marcador triangular vermelho ao longo da curva"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Texto segue o contorno da curva com posição ajustável"
+    },
+    {
+      "objetivo": "Capturar screenshot de janela ativa específica",
+      "acao_visual": "Janela alvo ativa e visível",
+      "passos": [
+        "Pressionar 'alt + print screen'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Apenas a janela ativa é copiada para área de transferência (não a tela inteira)"
+    },
+    {
+      "objetivo": "Renomear arquivo em lote (batch rename)",
+      "acao_visual": "Múltiplos arquivos selecionados no Explorador",
+      "passos": [
+        "Selecionar todos os arquivos desejados",
+        "Pressionar 'F2'",
+        "Digitar novo nome base",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Arquivos são renomeados sequencialmente (nome(1), nome(2), etc.)"
+    },
+    {
+      "objetivo": "Abrir PowerShell na pasta atual",
+      "acao_visual": "Explorador de Arquivos aberto em qualquer pasta",
+      "passos": [
+        "Pressionar 'shift' e clicar direito em espaço vazio",
+        "Selecionar 'Abrir janela do PowerShell aqui'"
+      ],
+      "atalhos_alternativos": [
+        "Digitar 'powershell' na barra de endereços e pressionar enter"
+      ],
+      "validacao": "PowerShell abre com diretório atual definido para a pasta"
+    },
+    {
+      "objetivo": "Copiar caminho completo do arquivo",
+      "acao_visual": "Arquivo selecionado no Explorador",
+      "passos": [
+        "Segurar 'shift' e clicar direito no arquivo",
+        "Selecionar 'Copiar como caminho'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Caminho completo com aspas é copiado para área de transferência"
+    },
+    {
+      "objetivo": "Visualização prévia no Explorador (Preview Pane)",
+      "acao_visual": "Explorador de Arquivos aberto",
+      "passos": [
+        "Pressionar 'alt + p'"
+      ],
+      "atalhos_alternativos": [
+        "Ver → Painel de visualização"
+      ],
+      "validacao": "Painel lateral direito aparece mostrando prévia do arquivo selecionado"
+    },
+    {
+      "objetivo": "Painel de detalhes no Explorador",
+      "acao_visual": "Explorador de Arquivos aberto",
+      "passos": [
+        "Pressionar 'alt + shift + p'"
+      ],
+      "atalhos_alternativos": [
+        "Ver → Painel de detalhes"
+      ],
+      "validacao": "Painel inferior aparece mostrando propriedades do arquivo"
+    },
+    {
+      "objetivo": "Selecionar todos os arquivos de um tipo específico",
+      "acao_visual": "Explorador com múltiplos arquivos de diferentes tipos",
+      "passos": [
+        "Clicar em um arquivo do tipo desejado",
+        "Clicar na caixa de pesquisa",
+        "Pressionar 'ctrl + e' ou clicar em 'tipo:' nas sugestões"
+      ],
+      "atalhos_alternativos": [
+        "Na busca digitar 'tipo:.jpg' (ou outra extensão)"
+      ],
+      "validacao": "Apenas arquivos do tipo selecionado são mostrados"
+    },
+    {
+      "objetivo": "Modo Deus (God Mode) do Windows",
+      "acao_visual": "Área de trabalho ou Explorador",
+      "passos": [
+        "Criar nova pasta",
+        "Renomear para: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Pasta vira ícone de painel de controle com acesso a todas configurações"
+    },
+    {
+      "objetivo": "Limpar formatação de texto copiado",
+      "acao_visual": "Texto copiado com formatação na área de transferência",
+      "passos": [
+        "Colar texto em Bloco de Notas (win, 'notepad', enter, ctrl+v)",
+        "Selecionar tudo (ctrl+a)",
+        "Copiar novamente (ctrl+c)"
+      ],
+      "atalhos_alternativos": [
+        "Usar 'ctrl + shift + v' em aplicativos que suportam (colar sem formatação)"
+      ],
+      "validacao": "Texto colado sem formatação original"
+    },
+    {
+      "objetivo": "Forçar fechamento de programa travado",
+      "acao_visual": "Programa não responsivo visível",
+      "passos": [
+        "Pressionar 'ctrl + shift + esc'",
+        "Localizar processo travado",
+        "Clicar direito → 'Finalizar tarefa'"
+      ],
+      "atalhos_alternativos": [
+        "alt + F4 (se janela estiver selecionada)",
+        "Selecionar processo e pressionar 'delete'"
+      ],
+      "validacao": "Programa fecha imediatamente sem diálogo de salvamento"
+    },
+    {
+      "objetivo": "Criar ponto de restauração do sistema",
+      "acao_visual": "Windows operacional",
+      "passos": [
+        "Pressionar 'win'",
+        "Digitar 'criar ponto de restauração'",
+        "Pressionar 'enter'",
+        "Clicar em 'Criar'",
+        "Nomear ponto de restauração"
+      ],
+      "atalhos_alternativos": [
+        "win + r, 'SystemPropertiesProtection', enter"
+      ],
+      "validacao": "Janela de Propriedades do Sistema abre na aba Proteção do Sistema"
+    },
+    {
+      "objetivo": "Limpar arquivos temporários rapidamente",
+      "acao_visual": "Área de trabalho ou qualquer janela",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'temp'",
+        "Pressionar 'enter'",
+        "Pressionar 'ctrl + a'",
+        "Pressionar 'shift + delete'",
+        "Confirmar exclusão"
+      ],
+      "atalhos_alternativos": [
+        "Repetir com '%temp%' e 'prefetch'"
+      ],
+      "validacao": "Pasta de temporários abre e arquivos são selecionados"
+    },
+    {
+      "objetivo": "Verificar informações do sistema rapidamente",
+      "acao_visual": "Qualquer estado do Windows",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'msinfo32'",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [
+        "win + pause (abre Configurações do Sistema - Windows 11)"
+      ],
+      "validacao": "Janela de Informações do Sistema abre com detalhes de hardware/software"
+    },
+    {
+      "objetivo": "Acessar Prompt de Comando como Administrador",
+      "acao_visual": "Menu Iniciar ou barra de tarefas",
+      "passos": [
+        "Pressionar 'win'",
+        "Digitar 'cmd'",
+        "Pressionar 'ctrl + shift + enter'"
+      ],
+      "atalhos_alternativos": [
+        "Clicar direito no resultado → 'Executar como administrador'"
+      ],
+      "validacao": "Prompt abre com título contendo 'Administrador' e UAC pode solicitar permissão"
+    },
+    {
+      "objetivo": "Gravar passos para reproduzir problema (Steps Recorder)",
+      "acao_visual": "Windows operacional",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'psr'",
+        "Pressionar 'enter'",
+        "Clicar 'Iniciar gravação'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Ferramenta de Gravação de Passos abre e começa a capturar ações"
+    },
+    {
+      "objetivo": "Acessar Editor de Registro (Registry Editor)",
+      "acao_visual": "Qualquer estado do Windows",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'regedit'",
+        "Pressionar 'enter'",
+        "Confirmar UAC se necessário"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Editor de Registro abre com árvore HKEY visível"
+    },
+    {
+      "objetivo": "Verificar versão exata do Windows",
+      "acao_visual": "Área de trabalho",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'winver'",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Janela 'Sobre o Windows' aparece com número de versão e build"
+    },
+    {
+      "objetivo": "Acessar serviços do Windows",
+      "acao_visual": "Qualquer estado",
+      "passos": [
+        "Pressionar 'win + r'",
+        "Digitar 'services.msc'",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Console de Serviços abre listando todos os serviços do sistema"
+    },
+    {
+      "objetivo": "Verificar e reparar arquivos do sistema (SFC)",
+      "acao_visual": "Prompt de Comando como Administrador aberto",
+      "passos": [
+        "Digitar 'sfc /scannow'",
+        "Pressionar 'enter'",
+        "Aguardar conclusão da verificação"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Mensagem de progresso aparece, verificação pode levar 15-30 minutos"
+    },
+    {
+      "objetivo": "Desabilitar temporariamente barra de tarefas",
+      "acao_visual": "Barra de tarefas visível",
+      "passos": [
+        "Clicar direito na barra de tarefas",
+        "Desmarcar 'Bloquear a barra de tarefas' (se aplicável)",
+        "Arrastar barra para fora da tela ou para lateral"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Barra de tarefas move ou fica oculta"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar cópia de objeto com distância específica",
+      "acao_visual": "Objeto selecionado no CorelDRAW",
+      "passos": [
+        "Com objeto selecionado, pressionar 'ctrl + shift + d'",
+        "Especificar distância horizontal e vertical",
+        "Pressionar 'enter'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Cópia aparece na posição especificada"
+    },
+    {
+      "objetivo": "[CorelDRAW] Bloquear/Desbloquear objeto",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'ctrl + l' (bloquear) ou 'ctrl + u' (desbloquear)"
+      ],
+      "atalhos_alternativos": [
+        "Objeto → Bloquear objeto / Desbloquear objeto"
+      ],
+      "validacao": "Objeto bloqueado não pode ser movido ou editado até ser desbloqueado"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar contorno (outline) a partir de objeto",
+      "acao_visual": "Objeto com contorno selecionado",
+      "passos": [
+        "Pressionar 'ctrl + shift + q'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Converter contorno em objeto"
+      ],
+      "validacao": "Contorno se torna objeto vetorial independente editável"
+    },
+    {
+      "objetivo": "[CorelDRAW] PowerClip - colocar objeto dentro de outro",
+      "acao_visual": "Objeto a ser inserido selecionado",
+      "passos": [
+        "Selecionar objeto que será o conteúdo",
+        "Ir em Efeitos → PowerClip → Colocar dentro de contêiner",
+        "Clicar no objeto contêiner"
+      ],
+      "atalhos_alternativos": [
+        "Clicar direito → PowerClip → Colocar dentro de contêiner"
+      ],
+      "validacao": "Objeto fica contido dentro do formato do contêiner (como máscara)"
+    },
+    {
+      "objetivo": "[CorelDRAW] Editar PowerClip",
+      "acao_visual": "Objeto com PowerClip selecionado",
+      "passos": [
+        "Pressionar 'ctrl' e clicar no objeto com PowerClip"
+      ],
+      "atalhos_alternativos": [
+        "Clicar direito → Editar PowerClip"
+      ],
+      "validacao": "Entra em modo de edição, conteúdo fica acessível"
+    },
+    {
+      "objetivo": "[CorelDRAW] Aplicar perspectiva",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Ir em Efeitos → Adicionar perspectiva",
+        "Arrastar cantos para criar efeito de perspectiva"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Grid de perspectiva aparece com alças ajustáveis"
+    },
+    {
+      "objetivo": "[CorelDRAW] Quebrar objeto em partes",
+      "acao_visual": "Objeto vetorial selecionado",
+      "passos": [
+        "Pressionar 'ctrl + k'"
+      ],
+      "atalhos_alternativos": [
+        "Organizar → Quebrar curva"
+      ],
+      "validacao": "Objeto é separado em suas partes componentes individuais"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar envelope (distorcer objeto)",
+      "acao_visual": "Objeto selecionado",
+      "passos": [
+        "Pressionar 'ctrl + F7'",
+        "Ajustar nós do envelope para distorcer forma"
+      ],
+      "atalhos_alternativos": [
+        "Efeitos → Envelope"
+      ],
+      "validacao": "Grade de envelope aparece ao redor do objeto com nós ajustáveis"
+    },
+    {
+      "objetivo": "[CorelDRAW] Copiar propriedades de objeto",
+      "acao_visual": "Objeto com propriedades desejadas selecionado",
+      "passos": [
+        "Selecionar objeto fonte",
+        "Pressionar 'ctrl + shift + a'",
+        "Clicar no objeto destino"
+      ],
+      "atalhos_alternativos": [
+        "Editar → Copiar propriedades de"
+      ],
+      "validacao": "Propriedades (cor, contorno, etc.) são copiadas para objeto destino"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar mistura (blend) entre objetos",
+      "acao_visual": "Dois objetos selecionados",
+      "passos": [
+        "Selecionar ferramenta Mistura (B)",
+        "Clicar no primeiro objeto e arrastar até o segundo"
+      ],
+      "atalhos_alternativos": [
+        "Efeitos → Mistura"
+      ],
+      "validacao": "Transição gradual é criada entre os dois objetos"
+    },
+    {
+      "objetivo": "[CorelDRAW] Criar extrusão 3D",
+      "acao_visual": "Objeto vetorial selecionado",
+      "passos": [
+        "Ir em Efeitos → Extrusão",
+        "Ajustar profundidade e direção da extrusão"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Objeto ganha aparência tridimensional com profundidade"
+    },
+    {
+      "objetivo": "[CorelDRAW] Ajustar espaçamento entre caracteres (kerning)",
+      "acao_visual": "Texto selecionado com ferramenta Texto",
+      "passos": [
+        "Posicionar cursor entre caracteres",
+        "Pressionar 'alt + seta esquerda' (diminuir) ou 'alt + seta direita' (aumentar)"
+      ],
+      "atalhos_alternativos": [
+        "Texto → Espaçamento de caracteres"
+      ],
+      "validacao": "Espaço entre caracteres específicos aumenta ou diminui"
+    },
+    {
+      "objetivo": "[CorelDRAW] Traçar bitmap (converter para vetor)",
+      "acao_visual": "Imagem bitmap selecionada",
+      "passos": [
+        "Selecionar bitmap",
+        "Ir em Bitmaps → Traçar bitmap → Logo de alta qualidade",
+        "Ajustar configurações e clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Versão vetorial da imagem é criada"
+    },
+    {
+      "objetivo": "[CorelDRAW] Organizar objetos em círculo",
+      "acao_visual": "Múltiplos objetos selecionados",
+      "passos": [
+        "Selecionar objetos",
+        "Ir em Organizar → Transformações → Posição",
+        "Escolher 'Circular' e configurar"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Objetos são distribuídos uniformemente em formato circular"
+    },
+    {
+      "objetivo": "[Photoshop] Criar action (ação) para automatizar tarefas",
+      "acao_visual": "Photoshop aberto",
+      "passos": [
+        "Abrir painel Actions (alt + F9)",
+        "Clicar em 'Create new action'",
+        "Nomear ação e clicar 'Record'",
+        "Executar passos desejados",
+        "Clicar 'Stop' quando terminar"
+      ],
+      "atalhos_alternativos": [
+        "Window → Actions"
+      ],
+      "validacao": "Nova ação aparece no painel Actions e pode ser reproduzida"
+    },
+    {
+      "objetivo": "[Photoshop] Executar action rapidamente",
+      "acao_visual": "Documento aberto com action criada",
+      "passos": [
+        "Selecionar action no painel",
+        "Pressionar 'F2' a 'F12' se tecla foi atribuída",
+        "Ou clicar em 'Play'"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Todos os passos da action são executados automaticamente"
+    },
+    {
+      "objetivo": "[Photoshop] Criar guia em posição exata",
+      "acao_visual": "Documento com réguas visíveis",
+      "passos": [
+        "Ir em View → New Guide",
+        "Escolher orientação (horizontal/vertical)",
+        "Digitar posição exata em pixels ou porcentagem"
+      ],
+      "atalhos_alternativos": [
+        "Arrastar da régua e soltar na posição"
+      ],
+      "validacao": "Guia aparece exatamente na posição especificada"
+    },
+    {
+      "objetivo": "[Photoshop] Alinhar camadas automaticamente",
+      "acao_visual": "Múltiplas camadas selecionadas",
+      "passos": [
+        "Selecionar camadas no painel",
+        "Ir em Edit → Auto-Align Layers",
+        "Escolher método de alinhamento",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Camadas são alinhadas automaticamente baseado no conteúdo"
+    },
+    {
+      "objetivo": "[Photoshop] Mesclar camadas automaticamente (HDR, panorama)",
+      "acao_visual": "Múltiplas camadas de imagens similares",
+      "passos": [
+        "Selecionar camadas",
+        "Ir em Edit → Auto-Blend Layers",
+        "Escolher 'Panorama' ou 'Stack Images'",
+        "Clicar OK"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Photoshop mescla camadas criando transições suaves"
+    },
+    {
+      "objetivo": "[Photoshop] Criar objeto inteligente (Smart Object)",
+      "acao_visual": "Camada selecionada",
+      "passos": [
+        "Clicar direito na camada",
+        "Selecionar 'Convert to Smart Object'"
+      ],
+      "atalhos_alternativos": [
+        "Filter → Convert for Smart Filters"
+      ],
+      "validacao": "Ícone da camada muda, mostrando que é objeto inteligente"
+    },
+    {
+      "objetivo": "[Photoshop] Rasterizar objeto inteligente",
+      "acao_visual": "Objeto inteligente selecionado",
+      "passos": [
+        "Clicar direito na camada",
+        "Selecionar 'Rasterize Layer'"
+      ],
+      "atalhos_alternativos": [
+        "Layer → Rasterize → Smart Object"
+      ],
+      "validacao": "Camada volta a ser editável como camada normal"
+    },
+    {
+      "objetivo": "[Photoshop] Criar máscara vetorial",
+      "acao_visual": "Camada com caminho vetorial criado",
+      "passos": [
+        "Criar caminho com Pen Tool",
+        "Ir em Layer → Vector Mask → Current Path"
+      ],
+      "atalhos_alternativos": [
+        "Clicar com ctrl no ícone de máscara"
+      ],
+      "validacao": "Máscara vetorial é aplicada baseada no caminho"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Caneta (Pen Tool)",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Pressionar 'p'"
+      ],
+      "atalhos_alternativos": [
+        "Selecionar Pen Tool na barra de ferramentas"
+      ],
+      "validacao": "Cursor muda para caneta, pronto para criar caminhos vetoriais"
+    },
+    {
+      "objetivo": "[Photoshop] Converter seleção em caminho",
+      "acao_visual": "Seleção ativa no documento",
+      "passos": [
+        "Fazer seleção",
+        "Clicar direito → 'Make Work Path'",
+        "Ajustar tolerância e clicar OK"
+      ],
+      "atalhos_alternativos": [
+        "No painel Paths, clicar em 'Make work path from selection'"
+      ],
+      "validacao": "Caminho vetorial é criado seguindo a seleção"
+    },
+    {
+      "objetivo": "[Photoshop] Converter caminho em seleção",
+      "acao_visual": "Caminho criado visível no painel Paths",
+      "passos": [
+        "No painel Paths, ctrl + clicar no caminho desejado"
+      ],
+      "atalhos_alternativos": [
+        "Clicar direito no caminho → 'Make Selection'"
+      ],
+      "validacao": "Seleção é criada baseada no caminho vetorial"
+    },
+    {
+      "objetivo": "[Photoshop] Aplicar filtro Camera Raw",
+      "acao_visual": "Camada ou objeto inteligente selecionado",
+      "passos": [
+        "Pressionar 'ctrl + shift + a'"
+      ],
+      "atalhos_alternativos": [
+        "Filter → Camera Raw Filter"
+      ],
+      "validacao": "Interface Camera Raw abre com ajustes avançados de imagem"
+    },
+    {
+      "objetivo": "[Photoshop] Amostra de cor expandida (Color Sampler)",
+      "acao_visual": "Imagem colorida aberta",
+      "passos": [
+        "Pressionar 'shift + i' (ciclar entre ferramentas de amostragem)",
+        "Clicar para criar pontos de amostragem (até 4)"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Pontos numerados aparecem e Info panel mostra valores RGB/CMYK"
+    },
+    {
+      "objetivo": "[Photoshop] Bloquear camada transparente (Lock Transparency)",
+      "acao_visual": "Camada com áreas transparentes selecionada",
+      "passos": [
+        "Pressionar '/' (barra)"
+      ],
+      "atalhos_alternativos": [
+        "Clicar no ícone de cadeado transparente no painel Layers"
+      ],
+      "validacao": "Ícone de cadeado aparece, pintar só afeta áreas não-transparentes"
+    },
+    {
+      "objetivo": "[Photoshop] Criar camada de ajuste",
+      "acao_visual": "Documento aberto",
+      "passos": [
+        "Clicar no ícone de círculo metade preto/branco no painel Layers",
+        "Escolher tipo de ajuste (Curves, Levels, Hue/Saturation, etc.)"
+      ],
+      "atalhos_alternativos": [
+        "Layer → New Adjustment Layer"
+      ],
+      "validacao": "Nova camada de ajuste aparece com painel de propriedades"
+    },
+    {
+      "objetivo": "[Photoshop] Aplicar camada de ajuste apenas à camada abaixo",
+      "acao_visual": "Camada de ajuste criada",
+      "passos": [
+        "alt + clicar na linha entre camada de ajuste e camada abaixo"
+      ],
+      "atalhos_alternativos": [
+        "Clicar direito → 'Create Clipping Mask'"
+      ],
+      "validacao": "Seta aparece indicando que ajuste afeta só camada abaixo"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Clone Stamp",
+      "acao_visual": "Imagem aberta para retocar",
+      "passos": [
+        "Pressionar 's'",
+        "alt + clicar para definir ponto de origem",
+        "Clicar e pintar para clonar"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Área clicada com alt é copiada para onde pintar"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Healing Brush",
+      "acao_visual": "Imagem com imperfeições",
+      "passos": [
+        "Pressionar 'j'",
+        "alt + clicar para definir origem",
+        "Pintar sobre imperfeições"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Ferramenta mescla textura mantendo iluminação e cor da área destino"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Spot Healing",
+      "acao_visual": "Imagem com pequenas imperfeições",
+      "passos": [
+        "Pressionar 'j' (ciclar se necessário)",
+        "Clicar ou pintar sobre imperfeição"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Imperfeições são removidas automaticamente sem definir origem"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Dodge (clarear)",
+      "acao_visual": "Imagem aberta",
+      "passos": [
+        "Pressionar 'o'",
+        "Pintar sobre áreas que deseja clarear"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Áreas pintadas ficam mais claras gradualmente"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Burn (escurecer)",
+      "acao_visual": "Imagem aberta",
+      "passos": [
+        "Pressionar 'o' (ciclar se necessário)",
+        "Pintar sobre áreas que deseja escurecer"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Áreas pintadas ficam mais escuras gradualmente"
+    },
+    {
+      "objetivo": "[Photoshop] Ferramenta Sponge (saturação)",
+      "acao_visual": "Imagem colorida aberta",
+      "passos": [
+        "Pressionar 'o' (ciclar até Sponge)",
+        "Configurar modo (Saturate/Desaturate) na barra superior",
+        "Pintar sobre áreas"
+      ],
+      "atalhos_alternativos": [],
+      "validacao": "Saturação aumenta ou diminui nas áreas pintadas"
+    },
+    {
+      "objetivo": "[Photoshop] Salvar para web (otimizado)",
+      "acao_visual": "Documento pronto para exportar",
+      "passos": [
+        "Pressionar 'ctrl + alt + shift + s'"
+      ],
+      "atalhos_alternativos": [
+        "File → Export → Save for Web (Legacy)"
+      ],
+      "validacao": "Interface de exportação com prévia e opções de otimização abre"
+    }
+  ]
+}

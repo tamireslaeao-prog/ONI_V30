@@ -1,0 +1,144 @@
+// ONI V5 - After Effects Automation Library
+// Based on AFTV2 Logic, Refactored for Static Injection
+// Save this as: ONI_AE_Library.jsx
+
+var AE = {
+    // --- Project ---
+    createProject: function () {
+        app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);
+        app.newProject();
+        return "New Project Created";
+    },
+
+    // --- Compositions ---
+    createComp: function (name, width, height, duration, frameRate) {
+        var compName = name || "ONI_Comp";
+        var w = width || 1920;
+        var h = height || 1080;
+        var d = duration || 10;
+        var fps = frameRate || 30;
+
+        var comp = app.project.items.addComp(compName, w, h, 1, d, fps);
+        comp.openInViewer();
+        return comp; // Returns CompItem object
+    },
+
+    getComp: function (nameOrIndex) {
+        if (typeof nameOrIndex === "number") {
+            // 1-based index usually, but let's be safe
+            if (nameOrIndex <= app.project.numItems) return app.project.item(nameOrIndex);
+        } else if (typeof nameOrIndex === "string") {
+            for (var i = 1; i <= app.project.numItems; i++) {
+                if (app.project.item(i).name === nameOrIndex && app.project.item(i) instanceof CompItem) {
+                    return app.project.item(i);
+                }
+            }
+        }
+        return app.project.activeItem; // Fallback to active
+    },
+
+    // --- Layers ---
+    addSolid: function (comp, color, name, width, height) {
+        var c = color || [0, 0, 0];
+        var n = name || "Solid";
+        var w = width || comp.width;
+        var h = height || comp.height;
+        return comp.layers.addSolid(c, n, w, h, 1);
+    },
+
+    addText: function (comp, textContent, fontSize, color) {
+        var layer = comp.layers.addText(textContent);
+        var textProp = layer.property("Source Text");
+        var textDocument = textProp.value;
+
+        if (fontSize) textDocument.fontSize = fontSize;
+        if (color) textDocument.fillColor = color;
+
+        textProp.setValue(textDocument);
+        return layer;
+    },
+
+    // --- Shapes & Expressions ---
+    addShape: function (comp, name) {
+        var shape = comp.layers.addShape();
+        if (name) shape.name = name;
+        return shape;
+    },
+
+    setExpression: function (layer, propPath, exprCode) {
+        var prop = layer;
+        var parts = propPath.split(".");
+        for (var i = 0; i < parts.length; i++) {
+            prop = prop.property(parts[i]);
+        }
+        if (prop) prop.expression = exprCode;
+        return prop;
+    },
+
+    // --- Effects & Properties ---
+    addEffect: function (layer, effectMatchName) {
+        // Try match name first (ADBE Glow), then display name
+        if (EffectMatchNames[effectMatchName]) {
+            return layer.property("Effects").addProperty(EffectMatchNames[effectMatchName]);
+        }
+        // Fallback to direct name
+        return layer.property("Effects").addProperty(effectMatchName);
+    },
+
+    setProperty: function (layer, propPath, value) {
+        // propPath can be "Transform.Position" or just "Position" or "Opacity"
+        // Simply walking down the hierarchy ...
+        var prop = layer;
+        var parts = propPath.split(".");
+        for (var i = 0; i < parts.length; i++) {
+            // Heuristic: try to find property by name
+            prop = prop.property(parts[i]);
+            if (!prop) return null; // Failed
+        }
+        prop.setValue(value);
+        return prop;
+    },
+
+    animate: function (layer, propPath, keys) {
+        // keys is array of [time, value]
+        var prop = layer;
+        var parts = propPath.split(".");
+        for (var i = 0; i < parts.length; i++) {
+            prop = prop.property(parts[i]);
+        }
+        if (!prop) return;
+
+        for (var k = 0; k < keys.length; k++) {
+            prop.setValueAtTime(keys[k][0], keys[k][1]);
+        }
+    },
+
+    // --- Render ---
+    render: function (comp, outputPath) {
+        var item = app.project.renderQueue.items.add(comp);
+        var output = item.outputModule(1);
+        output.file = new File(outputPath);
+        return item;
+    },
+
+    startRender: function () {
+        app.project.renderQueue.render();
+    }
+};
+
+// Common Effect Match Names Mapping
+var EffectMatchNames = {
+    "Glow": "ADBE Glow",
+    "Blur": "ADBE Gaussian Blur 2",
+    "Shadow": "ADBE Drop Shadow",
+    "Fill": "ADBE Fill",
+    "Tint": "ADBE Tint",
+    "Curves": "ADBE CurvesCustom"
+};
+
+// Helper: Clear Project
+function cleanProject() {
+    app.beginUndoGroup("Clear Project");
+    while (app.project.numItems > 0) app.project.item(1).remove();
+    app.endUndoGroup();
+}

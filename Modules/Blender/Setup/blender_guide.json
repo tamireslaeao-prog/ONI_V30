@@ -1,0 +1,1277 @@
+{
+    "software": "Blender",
+    "version": "4.0+",
+    "category": "3d_modeling_animation_rendering",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para Blender",
+    "navigation_shortcuts": {
+        "rotate_view": "middle_mouse_drag",
+        "pan_view": "shift+middle_mouse_drag",
+        "zoom_view": "scroll_wheel",
+        "zoom_region": "shift+b",
+        "view_selected": "numpad_period",
+        "view_all": "home",
+        "camera_view": "numpad_0",
+        "front_view": "numpad_1",
+        "right_view": "numpad_3",
+        "top_view": "numpad_7",
+        "opposite_view": "ctrl+numpad_1_3_7",
+        "perspective_ortho_toggle": "numpad_5",
+        "walk_navigation": "shift+`",
+        "fly_navigation": "shift+f"
+    },
+    "selection_shortcuts": {
+        "select_all": "a",
+        "deselect_all": "alt+a",
+        "invert_selection": "ctrl+i",
+        "select_linked": "l",
+        "select_more": "ctrl+numpad_plus",
+        "select_less": "ctrl+numpad_minus",
+        "box_select": "b",
+        "circle_select": "c",
+        "lasso_select": "ctrl+left_click_drag",
+        "select_loop": "alt+left_click",
+        "select_ring": "ctrl+alt+left_click",
+        "shortest_path": "ctrl+left_click",
+        "pick_shortest_path": "shift+ctrl+left_click"
+    },
+    "object_mode_shortcuts": {
+        "object_mode": "tab",
+        "edit_mode": "tab",
+        "sculpt_mode": "ctrl+tab",
+        "vertex_paint": "ctrl+tab",
+        "weight_paint": "ctrl+tab",
+        "texture_paint": "ctrl+tab",
+        "add_object": "shift+a",
+        "delete": "x_or_delete",
+        "duplicate": "shift+d",
+        "duplicate_linked": "alt+d",
+        "join_objects": "ctrl+j",
+        "separate": "p",
+        "parent": "ctrl+p",
+        "clear_parent": "alt+p",
+        "make_links": "ctrl+l",
+        "move": "g",
+        "rotate": "r",
+        "scale": "s",
+        "move_x_axis": "g_then_x",
+        "move_y_axis": "g_then_y",
+        "move_z_axis": "g_then_z",
+        "precise_move": "shift_while_moving",
+        "confirm_transform": "left_click_or_enter",
+        "cancel_transform": "right_click_or_esc"
+    },
+    "edit_mode_shortcuts": {
+        "vertex_select": "1",
+        "edge_select": "2",
+        "face_select": "3",
+        "extrude": "e",
+        "extrude_region": "e",
+        "extrude_along_normals": "alt+e",
+        "inset_faces": "i",
+        "bevel": "ctrl+b",
+        "bevel_vertices": "ctrl+shift+b",
+        "loop_cut": "ctrl+r",
+        "knife_tool": "k",
+        "bisect": "mesh_menu",
+        "merge": "m",
+        "merge_at_center": "alt+m",
+        "subdivide": "right_click_subdivide",
+        "fill": "f",
+        "grid_fill": "ctrl+f",
+        "poke_faces": "alt+p",
+        "triangulate": "ctrl+t",
+        "rip": "v",
+        "rip_fill": "alt+v",
+        "split": "y",
+        "separate": "p",
+        "proportional_editing": "o",
+        "proportional_connected": "alt+o",
+        "snap": "shift+s",
+        "snap_toggle": "shift+tab"
+    },
+    "modeling_shortcuts": {
+        "add_modifier": "ctrl+a_in_properties",
+        "apply_modifier": "ctrl+a",
+        "mirror_modifier": "quick_add",
+        "subdivision_surface": "ctrl+1_to_5",
+        "shade_smooth": "right_click_shade_smooth",
+        "shade_flat": "right_click_shade_flat",
+        "auto_smooth": "properties_panel",
+        "recalculate_normals": "shift+n",
+        "flip_normals": "alt+n",
+        "edge_crease": "shift+e",
+        "mark_seam": "ctrl+e_mark_seam",
+        "clear_seam": "ctrl+e_clear_seam",
+        "mark_sharp": "ctrl+e_mark_sharp",
+        "unwrap": "u"
+    },
+    "sculpting_shortcuts": {
+        "draw_brush": "x",
+        "grab_brush": "g",
+        "smooth_brush": "s",
+        "pinch_brush": "p",
+        "inflate_brush": "i",
+        "crease_brush": "shift+c",
+        "flatten_brush": "t",
+        "clay_strips": "c",
+        "brush_size": "f",
+        "brush_strength": "shift+f",
+        "invert_brush": "ctrl_while_sculpting",
+        "smooth_modifier": "shift_while_sculpting",
+        "dynamic_topology": "ctrl+d",
+        "remesh": "ctrl+r_in_sculpt",
+        "mask": "m",
+        "clear_mask": "alt+m",
+        "invert_mask": "ctrl+i",
+        "hide_masked": "h",
+        "show_all": "alt+h"
+    },
+    "shading_shortcuts": {
+        "shader_editor": "workspace_switch",
+        "add_node": "shift+a",
+        "duplicate_node": "shift+d",
+        "delete_node": "x_or_delete",
+        "cut_links": "ctrl+right_click_drag",
+        "mute_node": "m",
+        "frame_selected": "ctrl+j",
+        "group_nodes": "ctrl+g",
+        "ungroup": "alt+g",
+        "preview_node": "shift+ctrl+left_click",
+        "material_preview": "z_then_2",
+        "rendered_preview": "z_then_3",
+        "add_material": "properties_panel",
+        "assign_material": "properties_panel"
+    },
+    "animation_shortcuts": {
+        "insert_keyframe": "i",
+        "delete_keyframe": "alt+i",
+        "clear_keyframes": "alt+i",
+        "play_animation": "spacebar",
+        "reverse_play": "shift+ctrl+spacebar",
+        "jump_to_start": "shift+left_arrow",
+        "jump_to_end": "shift+right_arrow",
+        "next_frame": "right_arrow",
+        "previous_frame": "left_arrow",
+        "set_start_frame": "ctrl+home",
+        "set_end_frame": "ctrl+end",
+        "toggle_graph_editor": "workspace",
+        "toggle_dope_sheet": "workspace",
+        "auto_keyframe": "record_button",
+        "clear_animation": "alt+i"
+    },
+    "rendering_shortcuts": {
+        "render_image": "f12",
+        "render_animation": "ctrl+f12",
+        "view_render": "f11",
+        "cancel_render": "esc",
+        "render_region": "ctrl+b_in_camera",
+        "clear_render_region": "ctrl+alt+b",
+        "render_settings": "properties_panel",
+        "cycles_render": "properties_render",
+        "eevee_render": "properties_render",
+        "viewport_render": "z_then_8"
+    },
+    "uv_editing_shortcuts": {
+        "unwrap": "u",
+        "smart_uv_project": "u_menu",
+        "project_from_view": "u_menu",
+        "mark_seam": "ctrl+e",
+        "clear_seam": "ctrl+e_menu",
+        "select_island": "l",
+        "pin_uv": "p",
+        "unpin_uv": "alt+p",
+        "stitch": "v",
+        "pack_islands": "ctrl+p",
+        "average_islands_scale": "ctrl+a"
+    },
+    "common_shortcuts": {
+        "search": "f3",
+        "quick_favorites": "q",
+        "save": "ctrl+s",
+        "save_as": "shift+ctrl+s",
+        "open": "ctrl+o",
+        "new_file": "ctrl+n",
+        "undo": "ctrl+z",
+        "redo": "ctrl+shift+z",
+        "quit": "ctrl+q",
+        "properties_panel": "n",
+        "tool_settings": "t",
+        "outliner_toggle": "depends_on_workspace",
+        "preferences": "edit_preferences"
+    },
+    "viewport_shading": {
+        "wireframe": "z_then_1",
+        "solid": "z_then_2",
+        "material_preview": "z_then_3",
+        "rendered": "z_then_4",
+        "toggle_xray": "alt+z",
+        "toggle_overlays": "shift+alt+z",
+        "isolate_selected": "numpad_slash",
+        "frame_all": "home"
+    },
+    "modifiers": {
+        "essential_modifiers": {
+            "array": {
+                "description": "Duplica objeto em padrão",
+                "shortcut": "add_modifier",
+                "use_case": "Cercas, escadas, padrões repetitivos",
+                "tips": "Combine com Empty para controlar posição"
+            },
+            "bevel": {
+                "description": "Arredonda bordas",
+                "shortcut": "ctrl+b_manual",
+                "use_case": "Realismo em hard surface",
+                "tips": "Use limit method para controlar"
+            },
+            "boolean": {
+                "description": "Operações de união, diferença, intersecção",
+                "types": ["Union", "Difference", "Intersect"],
+                "use_case": "Modelagem destrutiva",
+                "tips": "Use em objetos com boa topologia"
+            },
+            "mirror": {
+                "description": "Espelha objeto em eixo",
+                "shortcut": "quick_setup",
+                "use_case": "Modelagem simétrica",
+                "tips": "Clipping para manter conectado"
+            },
+            "subdivision_surface": {
+                "description": "Suaviza mesh adicionando geometria",
+                "shortcut": "ctrl+1_to_5",
+                "use_case": "Organic modeling, suavização",
+                "tips": "Use edge loops para controlar forma",
+                "levels": "Viewport vs Render"
+            },
+            "solidify": {
+                "description": "Adiciona espessura a faces",
+                "use_case": "Criar paredes, roupas",
+                "tips": "Even Thickness para resultados uniformes"
+            },
+            "shrinkwrap": {
+                "description": "Projeta mesh sobre outra",
+                "use_case": "Roupas, decals",
+                "modes": ["Nearest Surface", "Project", "Target Project"]
+            },
+            "displace": {
+                "description": "Desloca geometria com textura",
+                "use_case": "Terrenos, detalhes de superfície",
+                "requirements": "Geometria suficiente"
+            }
+        },
+        "modifier_order": {
+            "importance": "Ordem afeta resultado final",
+            "best_practices": [
+                "Mirror antes de Subdivision",
+                "Array antes de modificadores deformadores",
+                "Subdivision por último geralmente",
+                "Boolean antes de suavização"
+            ]
+        }
+    },
+    "pre_modeling_checklist": [
+        {
+            "check": "units_scale",
+            "prompt": "Verificar escala e unidades da cena",
+            "expected": "Unidades corretas (metros, cm, etc)",
+            "fix_if_wrong": "Scene Properties > Units",
+            "importance": "critical",
+            "verification": "Scene Properties panel"
+        },
+        {
+            "check": "reference_images",
+            "prompt": "Importar imagens de referência se necessário",
+            "expected": "Referências visíveis e alinhadas",
+            "fix_if_wrong": "Add > Image > Reference",
+            "importance": "high",
+            "verification": "Viewport"
+        },
+        {
+            "check": "origin_point",
+            "prompt": "Verificar ponto de origem do objeto",
+            "expected": "Origem em local lógico",
+            "fix_if_wrong": "Right-click > Set Origin",
+            "importance": "high",
+            "verification": "Object mode viewport"
+        },
+        {
+            "check": "transform_applied",
+            "prompt": "Aplicar transformações se necessário",
+            "expected": "Scale 1,1,1 | Rotation 0,0,0",
+            "fix_if_wrong": "Ctrl+A > All Transforms",
+            "importance": "high",
+            "verification": "Properties panel (N)"
+        },
+        {
+            "check": "viewport_shading",
+            "prompt": "Configurar shading apropriado",
+            "expected": "Solid ou Material Preview",
+            "fix_if_wrong": "Z menu para escolher",
+            "importance": "medium",
+            "verification": "Viewport visual"
+        },
+        {
+            "check": "snap_settings",
+            "prompt": "Configurar snap se necessário",
+            "expected": "Snap configurado para precisão",
+            "fix_if_wrong": "Top bar snap options",
+            "importance": "medium",
+            "verification": "Top toolbar"
+        },
+        {
+            "check": "normals_direction",
+            "prompt": "Verificar direção das normais",
+            "expected": "Todas normais apontando para fora",
+            "fix_if_wrong": "Shift+N para recalcular",
+            "importance": "high",
+            "verification": "Face Orientation overlay"
+        },
+        {
+            "check": "modifiers_order",
+            "prompt": "Planejar ordem de modifiers",
+            "expected": "Ordem lógica definida",
+            "fix_if_wrong": "Reorganizar na stack",
+            "importance": "medium",
+            "verification": "Modifier Properties"
+        },
+        {
+            "check": "collection_organization",
+            "prompt": "Organizar objetos em collections",
+            "expected": "Collections nomeadas logicamente",
+            "fix_if_wrong": "M para mover para collection",
+            "importance": "medium",
+            "verification": "Outliner"
+        },
+        {
+            "check": "auto_save",
+            "prompt": "Verificar auto-save ativo",
+            "expected": "Auto-save configurado",
+            "fix_if_wrong": "Edit > Preferences > Save & Load",
+            "importance": "critical",
+            "verification": "Preferences"
+        }
+    ],
+    "quality_criteria": {
+        "topology": {
+            "clean_mesh": "Sem faces sobrepostas ou duplicadas",
+            "good_edge_flow": "Edge loops seguem forma natural",
+            "no_ngons": "Evitar faces com mais de 4 lados",
+            "all_quads": "Preferencialmente quads para animação",
+            "manifold_geometry": "Mesh fechada sem buracos",
+            "proper_normals": "Todas normais consistentes",
+            "no_loose_geometry": "Sem vértices ou edges soltos"
+        },
+        "modeling": {
+            "proper_scale": "Escala realista e aplicada",
+            "clean_origin": "Origem em local apropriado",
+            "named_objects": "Objetos nomeados descritivamente",
+            "optimized": "Geometria apenas onde necessário",
+            "non_destructive": "Uso de modifiers quando possível"
+        },
+        "uv_mapping": {
+            "no_overlapping": "Sem UVs sobrepostos (quando importante)",
+            "good_distribution": "Espaço UV usado eficientemente",
+            "proper_seams": "Seams em locais estratégicos",
+            "straight_edges": "UVs retos onde apropriado",
+            "consistent_texel_density": "Textura uniforme em todo modelo"
+        },
+        "materials": {
+            "realistic_values": "PBR values realistas",
+            "proper_connections": "Nodes conectados corretamente",
+            "optimized_textures": "Texturas em resolução apropriada",
+            "named_materials": "Materiais nomeados descritivamente"
+        }
+    },
+    "modeling_techniques": {
+        "box_modeling": {
+            "description": "Começar com primitivo e subdividir",
+            "workflow": [
+                "Adicionar cubo ou primitivo básico",
+                "Subdividir e extrudar faces",
+                "Refinar com loop cuts",
+                "Adicionar subdivision surface",
+                "Ajustar edge flow",
+                "Detalhar progressivamente"
+            ],
+            "best_for": "Hard surface, personagens simples",
+            "tips": "Manter geometria limpa desde início"
+        },
+        "edge_modeling": {
+            "description": "Construir a partir de edges e vértices",
+            "workflow": [
+                "Começar com poucos vértices",
+                "Extrudar edges para criar forma",
+                "Preencher faces",
+                "Refinar topologia",
+                "Adicionar detalhes"
+            ],
+            "best_for": "Topologia complexa, retopology",
+            "tools": ["Extrude", "Fill", "Bridge Edge Loops"]
+        },
+        "sculpting": {
+            "description": "Modelagem orgânica como argila digital",
+            "workflow": [
+                "Começar com forma base",
+                "Ativar Dynamic Topology ou Multiresolution",
+                "Esculpir formas principais",
+                "Refinar detalhes progressivamente",
+                "Usar brushes variados",
+                "Retopology para mesh final"
+            ],
+            "best_for": "Criaturas, personagens, orgânico",
+            "key_brushes": ["Draw", "Grab", "Smooth", "Clay Strips", "Crease"]
+        },
+        "modifiers_workflow": {
+            "description": "Modelagem não-destrutiva com modifiers",
+            "advantages": [
+                "Editável a qualquer momento",
+                "Experimentação fácil",
+                "Controle fino de parâmetros"
+            ],
+            "common_stacks": {
+                "hard_surface": ["Mirror", "Bevel", "Subdivision"],
+                "organic": ["Mirror", "Multiresolution", "Subdivision"],
+                "architectural": ["Array", "Mirror", "Solidify"]
+            }
+        }
+    },
+    "lighting_techniques": {
+        "three_point_lighting": {
+            "description": "Setup clássico de iluminação",
+            "lights": {
+                "key_light": "Luz principal, mais intensa, 45° do objeto",
+                "fill_light": "Suaviza sombras, oposto à key, menos intensa",
+                "rim_light": "Contorno, atrás do objeto, separa do fundo"
+            },
+            "ratios": "Key 1.0 : Fill 0.5 : Rim 0.75"
+        },
+        "light_types": {
+            "point": {
+                "description": "Emite luz em todas direções",
+                "use": "Lâmpadas, velas, esferas luminosas",
+                "falloff": "Inverso ao quadrado da distância"
+            },
+            "sun": {
+                "description": "Luz direcional paralela",
+                "use": "Luz do sol, iluminação exterior",
+                "no_falloff": "Intensidade constante"
+            },
+            "spot": {
+                "description": "Cone de luz direcional",
+                "use": "Holofotes, lanternas",
+                "controls": "Size e Blend para controlar cone"
+            },
+            "area": {
+                "description": "Superfície emissora de luz",
+                "use": "Softboxes, janelas, iluminação suave",
+                "realistic": "Sombras mais realistas"
+            }
+        },
+        "hdri_lighting": {
+            "description": "Image Based Lighting com HDRIs",
+            "setup": "World Properties > Environment Texture",
+            "benefits": [
+                "Iluminação realista instantânea",
+                "Reflexões ambientais",
+                "Controle de rotação e intensidade"
+            ],
+            "sources": ["Poly Haven", "HDRI Haven"]
+        }
+    },
+    "material_creation": {
+        "pbr_workflow": {
+            "description": "Physically Based Rendering",
+            "key_maps": {
+                "base_color": "Cor difusa do material",
+                "metallic": "0 = Dielétrico, 1 = Metal",
+                "roughness": "0 = Espelho, 1 = Fosco",
+                "normal": "Detalhes de superfície",
+                "height": "Displacement para geometria real"
+            },
+            "real_world_values": {
+                "metal_metallic": "0.95-1.0",
+                "plastic_metallic": "0.0",
+                "metal_roughness": "0.1-0.5",
+                "skin_subsurface": "0.1-0.3"
+            }
+        },
+        "node_groups": {
+            "description": "Reutilizar setups de nodes",
+            "creation": "Ctrl+G para agrupar",
+            "benefits": "Organização e reutilização",
+            "examples": ["Procedural wear", "Custom color ramps"]
+        },
+        "procedural_textures": {
+            "advantages": [
+                "Sem necessidade de UVs perfeitos",
+                "Infinitamente escalável",
+                "Fácil de ajustar",
+                "Sem arquivos externos"
+            ],
+            "common_nodes": [
+                "Noise Texture - Detalhes aleatórios",
+                "Wave Texture - Padrões ondulados",
+                "Voronoi - Células e cracks",
+                "Musgrave - Terrenos e roughness",
+                "Color Ramp - Controle de valores"
+            ]
+        }
+    },
+    "animation_workflow": {
+        "keyframe_animation": {
+            "principles": [
+                "Squash and Stretch - Deformação para impacto",
+                "Anticipation - Preparação antes da ação",
+                "Staging - Apresentação clara",
+                "Follow Through - Continuação do movimento",
+                "Ease In/Out - Aceleração e desaceleração",
+                "Arcs - Movimento em arcos naturais",
+                "Secondary Action - Ações complementares",
+                "Timing - Velocidade e peso"
+            ],
+            "workflow": [
+                "Definir poses principais (extremes)",
+                "Adicionar breakdowns",
+                "Refinar timing no Graph Editor",
+                "Adicionar secondary motion",
+                "Polish e detalhes finais"
+            ]
+        },
+        "graph_editor": {
+            "description": "Editor de curvas de animação",
+            "handle_types": {
+                "auto": "Suave automaticamente",
+                "vector": "Linear entre keyframes",
+                "aligned": "Handles opostos alinhados",
+                "free": "Controle total independente"
+            },
+            "shortcuts": {
+                "handle_type": "v",
+                "smooth": "alt+o",
+                "clean_keyframes": "x_menu"
+            }
+        },
+        "constraints": {
+            "common_constraints": {
+                "copy_location": "Seguir posição de objeto",
+                "copy_rotation": "Seguir rotação",
+                "track_to": "Sempre apontar para alvo",
+                "ik_solver": "Inverse Kinematics para membros",
+                "child_of": "Parentesco temporário animável"
+            }
+        }
+    },
+    "rigging_basics": {
+        "armature_creation": {
+            "workflow": [
+                "Add > Armature",
+                "Edit Mode para posicionar bones",
+                "Extrude para criar hierarquia",
+                "Nomear bones (.L / .R para simetria)",
+                "Parent bones em hierarquia",
+                "Add constraints conforme necessário"
+            ]
+        },
+        "weight_painting": {
+            "description": "Definir influência de bones",
+            "workflow": [
+                "Selecionar mesh e armature",
+                "Ctrl+P > With Automatic Weights",
+                "Weight Paint Mode para refinamento",
+                "Usar brushes para ajustar pesos",
+                "Testar em Pose Mode"
+            ],
+            "tips": [
+                "Use X-Mirror para simetria",
+                "Normalize pesos",
+                "Smooth transitions entre bones"
+            ]
+        },
+        "inverse_kinematics": {
+            "description": "IK para controle de membros",
+            "setup": [
+                "Criar target bone",
+                "Adicionar IK constraint ao bone final",
+                "Definir chain length",
+                "Ajustar pole target se necessário"
+            ],
+            "use_cases": "Pernas, braços, tentáculos"
+        }
+    },
+    "rendering_optimization": {
+        "cycles_settings": {
+            "samples": {
+                "preview": "32-128 samples",
+                "final": "256-2048 samples",
+                "denoising": "Usar OptiX ou OpenImageDenoise"
+            },
+            "light_paths": {
+                "max_bounces": "12 para exterior, 4-8 interior",
+                "caustics": "Desabilitar se não necessário",
+                "clamping": "Indirect light clamping para fireflies"
+            },
+            "performance": [
+                "Use GPU se disponível",
+                "Tile size otimizado",
+                "Persistent data quando possível",
+                "Simplify para objetos distantes"
+            ]
+        },
+        "eevee_settings": {
+            "description": "Real-time render engine",
+            "optimization": [
+                "Ambient Occlusion para profundidade",
+                "Bloom para glows",
+                "Screen Space Reflections",
+                "Shadows de alta qualidade",
+                "Irradiance Volume para GI"
+            ],
+            "limitations": [
+                "Sem ray-tracing verdadeiro",
+                "Reflexões limitadas",
+                "Transparência trucada"
+            ]
+        },
+        "render_layers": {
+            "description": "Separar elementos do render",
+            "common_passes": [
+                "Combined - Resultado final",
+                "Diffuse - Apenas difuse",
+                "Glossy - Apenas reflexões",
+                "Emission - Apenas emissão",
+                "AO - Ambient Occlusion",
+                "Shadow - Apenas sombras",
+                "Z - Depth pass"
+            ],
+            "compositing": "Combinar passes no Compositor"
+        }
+    },
+    "compositing_basics": {
+        "description": "Pós-processamento de renders",
+        "common_nodes": {
+            "color_correction": "Ajustar cores do render",
+            "glare": "Adicionar bloom e glows",
+            "lens_distortion": "Distorção de lente realista",
+            "vignette": "Escurecer bordas",
+            "chromatic_aberration": "Aberração cromática",
+            "depth_of_field": "Desfoque de profundidade",
+            "denoise": "Remover ruído do render"
+        },
+        "workflow": [
+            "Ativar Use Nodes no Compositor",
+            "Adicionar Render Layers",
+            "Conectar nodes de ajuste",
+            "Composite final",
+            "Visualizar resultado (Shift+Ctrl+LMB no node)"
+        ]
+    },
+    "common_mistakes": {
+        "scale_not_applied": {
+            "problem": "Modifiers se comportam estranhamente",
+            "solution": "Ctrl+A > Scale",
+            "prevention": "Sempre aplicar scale após modeling"
+        },
+        "duplicated_vertices": {
+            "problem": "Shading estranho, faces fantasmas",
+            "solution": "M > By Distance para merge",
+            "prevention": "Verificar em edit mode regularmente"
+        },
+        "flipped_normals": {
+            "problem": "Faces renderizam pretas ou invisíveis",
+            "solution": "Alt+N > Flip ou Shift+N recalculate",
+            "prevention": "Ativar Face Orientation overlay"
+        },
+        "ngons_in_animation": {
+            "problem": "Deformação ruim em animação",
+            "solution": "Triangular ou retriangular faces",
+            "prevention": "Manter quads para superfícies deformáveis"
+        },
+        "too_high_poly": {
+            "problem": "Viewport lento, render demorado",
+            "solution": "Decimate modifier ou retopology",
+            "prevention": "Modelar com geometria mínima necessária"
+        },
+        "lighting_too_bright": {
+            "problem": "Render lavado ou sem contraste",
+            "solution": "Reduzir intensidade das luzes",
+            "prevention": "Usar valores realistas de luz"
+        }
+    },
+    "troubleshooting": {
+        "viewport_lag": {
+            "causes": [
+                "Subdivisão muito alta",
+                "Muitos modificadores ativos",
+                "Texturas de alta resolução",
+                "Overlays pesados"
+            ],
+            "solutions": [
+                "Reduzir viewport subdivision",
+                "Desabilitar modifiers temporariamente",
+                "Usar proxies de textura",
+                "Desabilitar overlays (Alt+Shift+Z)"
+            ]
+        },
+        "render_too_noisy": {
+            "causes": [
+                "Samples insuficientes",
+                "Iluminação inadequada",
+                "Materiais muito glossy"
+            ],
+            "solutions": [
+                "Aumentar samples",
+                "Adicionar mais luzes",
+                "Aumentar roughness",
+                "Usar denoising"
+            ]
+        },
+        "crash_on_render": {
+            "causes": [
+                "Memória insuficiente",
+                "Drivers GPU desatualizados",
+                "Tile size incorreto",
+                "Geometria corrompida"
+            ],
+            "solutions": [
+                "Reduzir tile size",
+                "Atualizar drivers",
+                "Renderizar em CPU",
+                "Verificar mesh com Select > Select All by Trait > Non-Manifold"
+            ]
+        }
+    },
+    "addons_recommendations": {
+        "essential_free": {
+            "node_wrangler": {
+                "description": "Facilita trabalho com nodes",
+                "included": "Vem com Blender, só ativar",
+                "key_features": [
+                    "Ctrl+Shift+Click para preview",
+                    "Ctrl+T para adicionar textures",
+                    "Lazy Connect nodes"
+                ]
+            },
+            "looptools": {
+                "description": "Ferramentas para edição de loops",
+                "included": "Vem com Blender",
+                "features": ["Circle", "Relax", "Flatten", "Space"]
+            },
+            "bool_tool": {
+                "description": "Boolean operations rápidas",
+                "included": "Vem com Blender",
+                "shortcuts": "Ctrl+Shift+B para menu"
+            },
+            "extra_meshes": {
+                "description": "Primitivos e formas extras",
+                "included": "Vem com Blender",
+                "adds": "Gears, pipes, diamonds, etc"
+            }
+        },
+        "popular_paid": {
+            "hard_ops": {
+                "description": "Hard surface modeling toolkit",
+                "type": "Paid",
+                "use": "Boolean workflow avançado"
+            },
+            "box_cutter": {
+                "description": "Boolean cutting interativo",
+                "type": "Paid",
+                "use": "Cutting shapes rapidamente"
+            },
+            "decal_machine": {
+                "description": "Sistema de decals avançado",
+                "type": "Paid",
+                "use": "Adicionar detalhes de superfície"
+            },
+            "animation_nodes": {
+                "description": "Animação procedural com nodes",
+                "type": "Free",
+                "use": "Motion graphics complexo"
+            }
+        }
+    },
+    "keyboard_combinations": {
+        "transform_constraints": {
+            "axis_lock": "X, Y, ou Z durante transform",
+            "plane_lock": "Shift+X/Y/Z para bloquear plano",
+            "numeric_input": "Digite número durante transform",
+            "increment": "Ctrl durante transform",
+            "proportional_editing": "O para ativar, Scroll para tamanho"
+        },
+        "selection_modes": {
+            "vertex_mode": "1",
+            "edge_mode": "2",
+            "face_mode": "3",
+            "toggle_modes": "1+2, 2+3, etc para múltiplos"
+        },
+        "viewport_tricks": {
+            "local_view": "Numpad / (isolar selecionado)",
+            "quad_view": "Ctrl+Alt+Q",
+            "camera_to_view": "Ctrl+Alt+Numpad 0",
+            "align_view_to_selected": "Shift+Numpad 7/1/3"
+        }
+    },
+    "workflow_best_practices": {
+        "project_organization": [
+            "Usar Collections para organizar objetos",
+            "Nomear tudo descritivamente",
+            "Prefixos para categorias (GEO_, LIGHT_, CAM_)",
+            "Manter hierarquia clara no Outliner",
+            "Separar assets por tipo",
+            "Usar linking para reutilizar assets"
+        ],
+        "modeling_workflow": [
+            "Começar com baixa resolução",
+            "Aplicar scale e rotation cedo",
+            "Manter geometria limpa",
+            "Usar modifiers não-destrutivos",
+            "Testar subdivisão frequentemente",
+            "Salvar versões incrementais"
+        ],
+        "texturing_workflow": [
+            "Unwrap cuidadosamente",
+            "Organizar UVs em UV Editor",
+            "Nomear materiais descritivamente",
+            "Usar resolução apropriada",
+            "Considerar tile/trim sheets",
+            "Testar em diferentes iluminações"
+        ],
+        "animation_workflow": [
+            "Planejar com thumbnails/storyboard",
+            "Começar com poses principais",
+            "Refinar timing antes de detalhes",
+            "Usar Graph Editor para polimento",
+            "Testar frequentemente",
+            "Salvar backup antes de grandes mudanças"
+        ],
+        "rendering_workflow": [
+            "Test renders em baixa resolução",
+            "Configurar lighting primeiro",
+            "Ajustar materiais depois",
+            "Usar denoising",
+            "Render layers para flexibilidade",
+            "Compositing para polish final"
+        ]
+    },
+    "performance_optimization": {
+        "viewport": [
+            "Reduzir Subdivision levels no viewport",
+            "Usar Display > Bounds para objetos complexos",
+            "Desabilitar overlays desnecessários",
+            "Usar Simplify em Scene Properties",
+            "Ocultar objetos não necessários",
+            "Limit Selection to Visible"
+        ],
+        "rendering": [
+            "Usar Adaptive Sampling (Cycles)",
+            "Light Path settings otimizados",
+            "Denoising ao invés de samples excessivos",
+            "Renderizar em tiles apropriados",
+            "Usar Render Region para testes",
+            "Persistent Data quando possível"
+        ],
+        "memory": [
+            "Purge unused data (Outliner > Purge)",
+            "Pack external data quando necessário",
+            "Usar instancing ao invés de duplicados reais",
+            "Limpar histórico de undo periodicamente",
+            "Fechar outras aplicações pesadas"
+        ]
+    },
+    "shortcuts_by_workflow": {
+        "hard_surface_modeling": {
+            "essential": [
+                "Ctrl+B - Bevel",
+                "Ctrl+R - Loop Cut",
+                "I - Inset",
+                "Alt+M - Merge",
+                "K - Knife",
+                "Ctrl+Shift+B - Bevel Vertices",
+                "G+G - Edge Slide"
+            ]
+        },
+        "organic_sculpting": {
+            "essential": [
+                "F - Brush Size",
+                "Shift+F - Brush Strength",
+                "Ctrl - Invert brush",
+                "Shift - Smooth",
+                "Ctrl+D - Dynamic Topology",
+                "Alt+M - Clear Mask",
+                "H - Hide"
+            ]
+        },
+        "animation": {
+            "essential": [
+                "I - Insert Keyframe",
+                "Alt+I - Delete Keyframe",
+                "Spacebar - Play",
+                "Shift+Alt+A - Stop",
+                "Right/Left Arrow - Next/Previous Frame",
+                "Ctrl+Tab - Pose Mode"
+            ]
+        },
+        "uv_editing": {
+            "essential": [
+                "U - Unwrap Menu",
+                "Ctrl+E - Mark Seam",
+                "L - Select Island",
+                "P - Pin",
+                "Ctrl+P - Pack Islands",
+                "S - Scale UVs"
+            ]
+        }
+    },
+    "camera_setup": {
+        "composition_rules": {
+            "rule_of_thirds": "Elementos principais em intersecções de terços",
+            "leading_lines": "Usar linhas para guiar olhar",
+            "depth": "Foreground, midground, background",
+            "framing": "Usar elementos para enquadrar assunto",
+            "balance": "Distribuir peso visual"
+        },
+        "camera_settings": {
+            "focal_length": {
+                "wide": "18-35mm - Landscapes, interiors",
+                "normal": "50mm - Natural, portraits",
+                "telephoto": "85-200mm - Close-ups, compression"
+            },
+            "depth_of_field": {
+                "f_stop": "Menor = mais blur, Maior = mais foco",
+                "focus_distance": "Distância do ponto focal",
+                "enable": "Camera Properties > Depth of Field"
+            },
+            "sensor_size": {
+                "full_frame": "36x24mm padrão",
+                "crop_sensor": "Menor = mais zoom aparente"
+            }
+        },
+        "camera_animation": {
+            "techniques": [
+                "Dolly - Movimento para frente/trás",
+                "Truck - Movimento lateral",
+                "Pan - Rotação horizontal",
+                "Tilt - Rotação vertical",
+                "Zoom - Mudança de focal length",
+                "Crane - Movimento vertical"
+            ],
+            "tips": [
+                "Movimento suave e intencional",
+                "Usar Bezier curves para ease",
+                "Follow Through em paradas",
+                "Camera shake sutil para realismo"
+            ]
+        }
+    },
+    "texture_painting": {
+        "setup": [
+            "UV unwrap o modelo",
+            "Criar nova imagem (Image Editor > New)",
+            "Atribuir ao material",
+            "Texture Paint Mode"
+        ],
+        "brush_settings": {
+            "radius": "F para ajustar",
+            "strength": "Shift+F para ajustar",
+            "blend_modes": "Mix, Multiply, Add, etc",
+            "falloff": "Controla suavidade das bordas"
+        },
+        "techniques": [
+            "Base color painting",
+            "Weathering e dirt",
+            "Edge wear",
+            "AO baking para detalhe",
+            "Clone stamp para patterns"
+        ]
+    },
+    "physics_simulations": {
+        "rigid_body": {
+            "description": "Simular objetos sólidos com física",
+            "types": {
+                "active": "Afetado por física",
+                "passive": "Colisão mas não move"
+            },
+            "settings": [
+                "Mass - Peso do objeto",
+                "Friction - Atrito",
+                "Bounciness - Elasticidade",
+                "Collision Shape - Forma de colisão"
+            ]
+        },
+        "cloth": {
+            "description": "Simular tecidos e roupas",
+            "workflow": [
+                "Aplicar Cloth modifier",
+                "Pin vértices que não devem mover",
+                "Adicionar Collision a objetos de colisão",
+                "Ajustar Quality Steps",
+                "Bake simulation"
+            ],
+            "settings": [
+                "Weight - Peso do tecido",
+                "Stiffness - Rigidez",
+                "Damping - Amortecimento",
+                "Air Viscosity - Resistência do ar"
+            ]
+        },
+        "fluid": {
+            "description": "Simular líquidos e gases",
+            "types": ["Liquid", "Gas", "Fire", "Smoke"],
+            "workflow": [
+                "Definir Domain",
+                "Adicionar Flow objects",
+                "Configurar resolution",
+                "Bake simulation",
+                "Shader em domain para visualizar"
+            ]
+        },
+        "particles": {
+            "description": "Sistema de partículas",
+            "types": ["Emitter", "Hair"],
+            "uses": [
+                "Cabelo e pelo",
+                "Grama e vegetação",
+                "Chuva e neve",
+                "Explosões",
+                "Crowds"
+            ]
+        }
+    },
+    "grease_pencil": {
+        "description": "Desenho 2D em espaço 3D",
+        "modes": [
+            "Draw - Desenhar",
+            "Edit - Editar pontos",
+            "Sculpt - Esculpir strokes",
+            "Weight Paint - Peso para modificadores"
+        ],
+        "use_cases": [
+            "Animação 2D tradicional",
+            "Storyboarding",
+            "Concept art",
+            "Motion graphics",
+            "Anotações em 3D"
+        ],
+        "workflow": [
+            "Criar Grease Pencil object",
+            "Draw Mode para desenhar",
+            "Layers para organização",
+            "Materials para cores",
+            "Modifiers para efeitos",
+            "Animate frames"
+        ]
+    },
+    "geometry_nodes": {
+        "description": "Modelagem e animação procedural com nodes",
+        "capabilities": [
+            "Gerar geometria proceduralmente",
+            "Distribuir instâncias",
+            "Modificar meshes não-destrutivamente",
+            "Criar animações complexas",
+            "Procedural modeling systems"
+        ],
+        "common_nodes": {
+            "distribute_points": "Distribuir pontos em superfície",
+            "instance_on_points": "Instanciar objetos em pontos",
+            "curve_to_mesh": "Converter curvas em mesh",
+            "subdivision_surface": "Subdividir geometria",
+            "set_position": "Mover geometria"
+        },
+        "use_cases": [
+            "Vegetação procedural",
+            "Arquitetura paramétrica",
+            "Patterns e arrays complexos",
+            "Scatter systems",
+            "Animação de crowds"
+        ]
+    },
+    "export_import": {
+        "formats": {
+            "fbx": {
+                "use": "Game engines, outros 3D software",
+                "supports": "Mesh, armatures, animations",
+                "settings": "Apply Transforms, Include Animations"
+            },
+            "obj": {
+                "use": "Universal 3D format",
+                "supports": "Mesh, UVs, materials básicos",
+                "limitation": "Sem animations ou armatures"
+            },
+            "gltf": {
+                "use": "Web, AR/VR, game engines modernos",
+                "supports": "PBR materials, animations",
+                "modern": "Formato do futuro"
+            },
+            "usd": {
+                "use": "Pipeline profissional, Pixar",
+                "supports": "Tudo, scenes complexas",
+                "emerging": "Cada vez mais adotado"
+            },
+            "alembic": {
+                "use": "VFX, cache de animações",
+                "supports": "Geometria animada, high poly",
+                "baking": "Bake animations para outros softwares"
+            }
+        },
+        "best_practices": [
+            "Aplicar todas transformações antes de exportar",
+            "Verificar escala (use Apply Scale)",
+            "Checar normais",
+            "Testar import no software alvo",
+            "Documentar settings de export"
+        ]
+    },
+    "professional_tips": {
+        "speed": [
+            "Memorizar atalhos principais",
+            "Customizar Quick Favorites (Q)",
+            "Usar Pie Menus quando útil",
+            "Scripts para tarefas repetitivas",
+            "Templates para projetos comuns"
+        ],
+        "quality": [
+            "Sempre trabalhar em escala real",
+            "Manter topologia limpa",
+            "Usar nomenclatura consistente",
+            "Versionar arquivos (.blend1, .blend2)",
+            "Test renders frequentes",
+            "Peer review quando possível"
+        ],
+        "creativity": [
+            "Estudar referências reais",
+            "Experimentar técnicas novas",
+            "Participar da comunidade Blender",
+            "Daily challenges para prática",
+            "Analisar trabalhos de outros artistas",
+            "Não ter medo de errar"
+        ],
+        "industry": [
+            "Aprender pipeline comum",
+            "Dominar export/import",
+            "Entender PBR workflow",
+            "Otimização para target (game, film, etc)",
+            "Documentar processos",
+            "Colaboração e versionamento"
+        ]
+    },
+    "learning_resources": {
+        "official": [
+            "Blender Manual (docs.blender.org)",
+            "Blender Cloud (cloud.blender.org)",
+            "Blender Studio (studio.blender.org)"
+        ],
+        "youtube_channels": [
+            "Blender Guru - Tutoriais completos",
+            "CG Geek - Efeitos e tutoriais",
+            "Grant Abbitt - Modeling e sculpting",
+            "Josh Gambrell - Hard surface",
+            "CG Cookie - Todos os níveis",
+            "Ducky 3D - Motion graphics"
+        ],
+        "paid_platforms": [
+            "CG Cookie",
+            "Udemy (cursos específicos)",
+            "Skillshare",
+            "Pluralsight"
+        ],
+        "communities": [
+            "Blender Artists (forum)",
+            "r/blender (Reddit)",
+            "Blender Discord",
+            "BlenderNation (notícias)",
+            "ArtStation (inspiração)"
+        ]
+    },
+    "project_types": {
+        "product_visualization": {
+            "workflow": ["Modeling", "Texturing", "Lighting", "Rendering"],
+            "focus": "Realismo fotográfico",
+            "key_skills": ["Hard surface", "PBR materials", "Studio lighting"]
+        },
+        "character_creation": {
+            "workflow": ["Sculpting", "Retopology", "UV unwrap", "Texturing", "Rigging"],
+            "focus": "Anatomia e deformação",
+            "key_skills": ["Sculpting", "Retopology", "Weight painting"]
+        },
+        "architectural_viz": {
+            "workflow": ["Modeling", "Lighting", "Materials", "Camera", "Rendering"],
+            "focus": "Escala e realismo",
+            "key_skills": ["Precision modeling", "Realistic lighting", "Composition"]
+        },
+        "motion_graphics": {
+            "workflow": ["Modeling", "Animation", "Materials", "Rendering"],
+            "focus": "Movimento e timing",
+            "key_skills": ["Animation", "Geometry Nodes", "Timing"]
+        },
+        "game_assets": {
+            "workflow": ["Low poly model", "High poly sculpt", "Baking", "Texturing", "Export"],
+            "focus": "Otimização",
+            "key_skills": ["Efficient topology", "Baking", "LODs"]
+        }
+    },
+    "hotkeys_cheatsheet": {
+        "must_know": {
+            "tab": "Object/Edit mode",
+            "g": "Move",
+            "r": "Rotate",
+            "s": "Scale",
+            "e": "Extrude",
+            "i": "Insert keyframe / Inset faces",
+            "ctrl+r": "Loop cut",
+            "ctrl+b": "Bevel",
+            "shift+a": "Add menu",
+            "x": "Delete menu",
+            "ctrl+z": "Undo",
+            "shift+d": "Duplicate",
+            "a": "Select all",
+            "alt+a": "Deselect all",
+            "z": "Viewport shading pie menu",
+            "f3": "Search",
+            "n": "Properties sidebar",
+            "t": "Tools sidebar"
+        },
+        "intermediate": {
+            "ctrl+j": "Join objects",
+            "p": "Separate",
+            "ctrl+p": "Parent",
+            "alt+p": "Clear parent",
+            "h": "Hide selected",
+            "alt+h": "Unhide all",
+            "m": "Merge menu / Move to collection",
+            "ctrl+l": "Select linked",
+            "l": "Select linked (mouse over)",
+            "shift+r": "Repeat last",
+            "ctrl+i": "Invert selection",
+            "alt+z": "X-ray toggle",
+            "shift+h": "Hide unselected",
+            "numpad_.": "View selected"
+        }
+    },
+    "render_passes": {
+        "beauty_passes": {
+            "combined": "Render final completo",
+            "diffuse": "Apenas cor difusa",
+            "glossy": "Apenas reflexões",
+            "transmission": "Transparências",
+            "emission": "Luz emitida"
+        },
+        "data_passes": {
+            "z": "Profundidade",
+            "normal": "Direção das normais",
+            "uv": "Coordenadas UV",
+            "object_index": "ID por objeto",
+            "material_index": "ID por material"
+        },
+        "light_passes": {
+            "diffuse_direct": "Luz difusa direta",
+            "diffuse_indirect": "Luz difusa indireta (GI)",
+            "glossy_direct": "Reflexões diretas",
+            "glossy_indirect": "Reflexões indiretas"
+        },
+        "utility": [
+            "Separar elementos para controle fino",
+            "Relight em compositing",
+            "Máscaras para ajustes",
+            "Correção de cores seletiva"
+        ]
+    }
+}

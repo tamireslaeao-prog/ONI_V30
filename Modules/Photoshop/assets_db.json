@@ -1,0 +1,628 @@
+[
+    {
+        "width":  null,
+        "height":  null,
+        "path":  "C:\\Users\\user\\Desktop\\ONI V21\\Modules\\Photoshop\\Assets\\35928742_business_happy_new_year_social_media_instagram_feed.psd",
+        "filename":  "35928742_business_happy_new_year_social_media_instagram_feed.psd",
+        "text_layers":  [
+                            {
+                                "content":  "FELIZ",
+                                "name":  "TITLE",
+                                "depth":  1
+                            },
+                            {
+                                "content":  "Ano\r        Novo",
+                                "name":  "NEW YEAR",
+                                "depth":  1
+                            },
+                            {
+                                "content":  "Desejamos a todos os nossos clientes e amigos um a...",
+                                "name":  "YOUR MESSAGE",
+                                "depth":  1
+                            }
+                        ],
+        "total_layers":  20,
+        "harvested_at":  "2026-01-05 00:20:42",
+        "all_layers":  [
+                           {
+                               "name":  "GLITTER",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "GLITTER",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "GLITTER",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "name":  "TEXTS",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "TITLE",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "TEXTURE",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "NEW YEAR",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "YOUR MESSAGE",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "name":  "YOUR LOGO",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "YOUR LOGO",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "name":  "DESIGN",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "3D BALL",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "3D BALL",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "3D BALL",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "name":  "BACKGROUND",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "SHADOW",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "BG",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           }
+                       ],
+        "smart_objects":  [
+                              {
+                                  "depth":  1,
+                                  "name":  "GLITTER"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "GLITTER"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "3D BALL"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "3D BALL"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "3D BALL"
+                              }
+                          ],
+        "layer_groups":  [
+                             {
+                                 "depth":  0,
+                                 "name":  "GLITTER"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "TEXTS"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "YOUR LOGO"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "DESIGN"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "BACKGROUND"
+                             }
+                         ]
+    },
+    {
+        "width":  null,
+        "height":  null,
+        "path":  "C:\\Users\\user\\Desktop\\ONI V21\\Modules\\Photoshop\\Assets\\37749682_ramadan_text_effect.psd",
+        "filename":  "37749682_ramadan_text_effect.psd",
+        "text_layers":  [
+                            {
+                                "content":  "PSD",
+                                "name":  "PSD",
+                                "depth":  3
+                            },
+                            {
+                                "content":  "TEXT EFFECT",
+                                "name":  "TEXT EFFECT",
+                                "depth":  3
+                            }
+                        ],
+        "total_layers":  29,
+        "harvested_at":  "2026-01-05 00:20:45",
+        "all_layers":  [
+                           {
+                               "name":  "Edition",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "name":  "Text",
+                               "depth":  1,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "name":  "PSD Text Effect",
+                               "depth":  2,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "PSD",
+                               "depth":  3,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "TEXT EFFECT",
+                               "depth":  3,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "Rectangle 2",
+                               "depth":  3,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "Rectangle 1",
+                               "depth":  3,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "Text",
+                               "depth":  2,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "name":  "FX",
+                               "depth":  1,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "name":  "Surface",
+                               "depth":  2,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Surface",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Surface",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "name":  "Border",
+                               "depth":  2,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Border",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "name":  "Shadow",
+                               "depth":  2,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Shadow",
+                               "depth":  3,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Kareem",
+                               "depth":  2,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "name":  "Background",
+                               "depth":  1,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "Texture",
+                               "depth":  2,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  4,
+                               "name":  "Fx Light",
+                               "depth":  2,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "Color Fill 1",
+                               "depth":  2,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Place your design here (Double click to edit)",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "Place your design here (Double click to edit)",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           }
+                       ],
+        "smart_objects":  [
+                              {
+                                  "depth":  3,
+                                  "name":  "Surface"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Surface"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Border"
+                              },
+                              {
+                                  "depth":  3,
+                                  "name":  "Shadow"
+                              },
+                              {
+                                  "depth":  2,
+                                  "name":  "Kareem"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "Place your design here (Double click to edit)"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "Place your design here (Double click to edit)"
+                              }
+                          ],
+        "layer_groups":  [
+                             {
+                                 "depth":  0,
+                                 "name":  "Edition"
+                             },
+                             {
+                                 "depth":  1,
+                                 "name":  "Text"
+                             },
+                             {
+                                 "depth":  2,
+                                 "name":  "PSD Text Effect"
+                             },
+                             {
+                                 "depth":  1,
+                                 "name":  "FX"
+                             },
+                             {
+                                 "depth":  2,
+                                 "name":  "Surface"
+                             },
+                             {
+                                 "depth":  2,
+                                 "name":  "Border"
+                             },
+                             {
+                                 "depth":  2,
+                                 "name":  "Shadow"
+                             },
+                             {
+                                 "depth":  1,
+                                 "name":  "Background"
+                             }
+                         ]
+    },
+    {
+        "width":  null,
+        "height":  null,
+        "path":  "C:\\Users\\user\\Desktop\\ONI V21\\Modules\\Photoshop\\Assets\\408645118_d500b2c5-b1bd-4daf-9944-3295e4e7db3f.psd",
+        "filename":  "408645118_d500b2c5-b1bd-4daf-9944-3295e4e7db3f.psd",
+        "text_layers":  [
+                            {
+                                "content":  "Wishing you a year filled with\rnew hopes, new drea...",
+                                "name":  "BODY TEXT",
+                                "depth":  1
+                            },
+                            {
+                                "content":  "new year",
+                                "name":  "BODY TEXT",
+                                "depth":  1
+                            },
+                            {
+                                "content":  "happy",
+                                "name":  "BODY TEXT",
+                                "depth":  1
+                            },
+                            {
+                                "content":  "2025",
+                                "name":  "BODY TEXT",
+                                "depth":  1
+                            }
+                        ],
+        "total_layers":  18,
+        "harvested_at":  "2026-01-05 00:20:46",
+        "all_layers":  [
+                           {
+                               "name":  "LIGHTS",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "name":  "TEXTS",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "BODY TEXT",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "BODY TEXT",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "BODY TEXT",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "TEXTURE",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           },
+                           {
+                               "kindValue":  2,
+                               "name":  "BODY TEXT",
+                               "depth":  1,
+                               "type":  "TEXT"
+                           },
+                           {
+                               "name":  "ELEMENTS",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "GLITTER",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "GLITTER",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "name":  "BG",
+                               "depth":  0,
+                               "type":  "GROUP"
+                           },
+                           {
+                               "kindValue":  9,
+                               "name":  "LIGHT",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  1,
+                               "name":  "Layer 1",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  3,
+                               "name":  "BG",
+                               "depth":  1,
+                               "type":  "LAYER"
+                           },
+                           {
+                               "kindValue":  17,
+                               "name":  "BG",
+                               "depth":  1,
+                               "type":  "SMART_OBJECT"
+                           }
+                       ],
+        "smart_objects":  [
+                              {
+                                  "depth":  1,
+                                  "name":  "TEXTURE"
+                              },
+                              {
+                                  "depth":  1,
+                                  "name":  "BG"
+                              }
+                          ],
+        "layer_groups":  [
+                             {
+                                 "depth":  0,
+                                 "name":  "LIGHTS"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "TEXTS"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "ELEMENTS"
+                             },
+                             {
+                                 "depth":  0,
+                                 "name":  "BG"
+                             }
+                         ]
+    }
+]

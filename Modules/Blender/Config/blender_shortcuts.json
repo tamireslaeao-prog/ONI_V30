@@ -1,0 +1,48 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Real Blender operator shortcuts - using actual bpy operator idnames",
+    "shortcuts": [
+        {
+            "key": "G",
+            "command": "transform.translate",
+            "ctrl": false,
+            "shift": false,
+            "alt": false,
+            "description": "Grab/Move (Transform Translate)"
+        },
+        {
+            "key": "R",
+            "command": "transform.rotate",
+            "ctrl": false,
+            "shift": false,
+            "alt": false,
+            "description": "Rotate (Transform Rotate)"
+        },
+        {
+            "key": "S",
+            "command": "transform.resize",
+            "ctrl": false,
+            "shift": false,
+            "alt": false,
+            "description": "Scale (Transform Resize)"
+        },
+        {
+            "key": "A",
+            "command": "mesh.select_all",
+            "ctrl": false,
+            "shift": true,
+            "alt": false,
+            "description": "Add Object Menu"
+        },
+        {
+            "key": "TAB",
+            "command": "object.mode_set",
+            "ctrl": false,
+            "shift": false,
+            "alt": false,
+            "description": "Toggle Object/Edit Mode"
+        }
+    ],
+    "notes": "Operator idnames from Blender Python API. Full list: docs.blender.org/api/current/bpy.ops.html"
+}

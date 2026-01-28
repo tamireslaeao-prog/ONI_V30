@@ -1,0 +1,34 @@
+﻿{
+    "profile_name": "ONI_Neural",
+    "description": "Microsoft Word Essential Shortcuts",
+    "shortcuts": [
+        {
+            "name": "Save",
+            "keys": "Ctrl+S"
+        },
+        {
+            "name": "Print",
+            "keys": "Ctrl+P"
+        },
+        {
+            "name": "Find",
+            "keys": "Ctrl+L"
+        },
+        {
+            "name": "Replace",
+            "keys": "Ctrl+U"
+        },
+        {
+            "name": "Bold",
+            "keys": "Ctrl+B"
+        },
+        {
+            "name": "Italic",
+            "keys": "Ctrl+I"
+        },
+        {
+            "name": "Underline",
+            "keys": "Ctrl+S"
+        }
+    ]
+}

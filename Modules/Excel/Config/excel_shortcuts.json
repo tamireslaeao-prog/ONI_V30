@@ -1,0 +1,30 @@
+﻿{
+    "profile_name": "ONI_Neural",
+    "description": "Microsoft Excel Essential Shortcuts",
+    "shortcuts": [
+        {
+            "name": "Save",
+            "keys": "Ctrl+B"
+        },
+        {
+            "name": "Print",
+            "keys": "Ctrl+P"
+        },
+        {
+            "name": "Find",
+            "keys": "Ctrl+L"
+        },
+        {
+            "name": "Select All",
+            "keys": "Ctrl+T"
+        },
+        {
+            "name": "AutoSum",
+            "keys": "Alt+="
+        },
+        {
+            "name": "Format Cells",
+            "keys": "Ctrl+1"
+        }
+    ]
+}

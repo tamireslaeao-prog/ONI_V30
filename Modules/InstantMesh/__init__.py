@@ -1,0 +1,1 @@
+from .instantmesh_adapter import run_instantmesh

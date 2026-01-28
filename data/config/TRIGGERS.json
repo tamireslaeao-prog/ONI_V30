@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Sistema de Triggers para roteamento automático de conhecimento ONI V24",
+    "updated": "2026-01-17"
+  },
+  "modules": {
+    "photoshop": {
+      "keywords": [
+        "ps",
+        "photoshop",
+        "psd",
+        "camada",
+        "layer",
+        "filtro",
+        "filter",
+        "brush",
+        "pincéis",
+        "retoque",
+        "composição",
+        "smart object"
+      ],
+      "knowledge": "Modules/Photoshop/KNOWLEDGE.md",
+      "bridge": "Modules/Photoshop/oni_lib_photoshop.jsx",
+      "skills": "Modules/Photoshop/Skills/photoshop.json",
+      "assets": "Modules/Photoshop/assets_db.json"
+    },
+    "corel": {
+      "keywords": [
+        "corel",
+        "coreldraw",
+        "cdr",
+        "vetor",
+        "vector",
+        "curva",
+        "bezier",
+        "logo",
+        "vetor",
+        "powerclip",
+        "weld",
+        "trim"
+      ],
+      "knowledge": "Modules/Corel/KNOWLEDGE.md",
+      "bridge": "Modules/Corel/ONI_Corel_Bridge.py",
+      "skills": "Modules/Corel/Skills/coreldraw_complete_guide.json",
+      "assets": "Modules/Corel/styles_db.json"
+    },
+    "after_effects": {
+      "keywords": [
+        "ae",
+        "after effects",
+        "aftereffects",
+        "motion",
+        "composição",
+        "render",
+        "animação",
+        "keyframe",
+        "expressão",
+        "motion graphics"
+      ],
+      "knowledge": "Modules/AfterEffects/KNOWLEDGE.md",
+      "bridge": "Modules/AfterEffects/oni_lib_aftereffects.jsx",
+      "skills": "Modules/AfterEffects/Skills/after_effects_guide.json",
+      "assets": "Modules/AfterEffects/ae_styles_db.json"
+    },
+    "blender": {
+      "keywords": [
+        "blender",
+        "blend",
+        "3d",
+        "mesh",
+        "cycles",
+        "render 3d",
+        "modelagem",
+        "sculpt",
+        "uv",
+        "textura 3d",
+        "rigging",
+        "mixamo"
+      ],
+      "knowledge": "Modules/Blender/KNOWLEDGE.md",
+      "bridge": "Modules/Blender/ONI_Blender_Bridge.py",
+      "skills": "Modules/Blender/Skills/blender_guide.json",
+      "assets": "Modules/Blender/blender_styles_db.json"
+    },
+    "autocad": {
+      "keywords": [
+        "autocad",
+        "cad",
+        "dwg",
+        "dxf",
+        "desenho técnico",
+        "cota",
+        "dimension",
+        "layer cad",
+        "plot",
+        "peça mecânica"
+      ],
+      "knowledge": "Modules/AutoCAD/KNOWLEDGE.md",
+      "bridge": "Modules/AutoCAD/ONI_AutoCAD_Bridge.py",
+      "skills": null,
+      "assets": null
+    },
+    "excel": {
+      "keywords": [
+        "excel",
+        "xlsx",
+        "xls",
+        "planilha",
+        "célula",
+        "formula",
+        "pivot",
+        "gráfico",
+        "chart",
+        "dados",
+        "spreadsheet"
+      ],
+      "knowledge": "Modules/Excel/KNOWLEDGE.md",
+      "bridge": "Modules/Excel/ONI_Excel.py",
+      "skills": "Modules/Excel/Skills/excel_guide.json",
+      "assets": null
+    },
+    "word": {
+      "keywords": [
+        "word",
+        "docx",
+        "doc",
+        "documento",
+        "parágrafo",
+        "relatório",
+        "report",
+        "texto",
+        "formatação"
+      ],
+      "knowledge": "Modules/Word/KNOWLEDGE.md",
+      "bridge": "Modules/Word/ONI.Word.Automation.ps1",
+      "skills": "Modules/Word/Skills/word_complete_guide.json",
+      "assets": "Modules/Word/word_styles_db.json"
+    },
+    "chrome": {
+      "keywords": [
+        "chrome",
+        "navegador",
+        "browser",
+        "web",
+        "scraping",
+        "cdp",
+        "devtools",
+        "extensão"
+      ],
+      "knowledge": "Modules/Chrome/QuickStart.md",
+      "bridge": "Modules/Chrome/ONI.Chrome.js",
+      "skills": null,
+      "assets": "Modules/Chrome/assets_db.json"
+    },
+    "edge": {
+      "keywords": [
+        "edge",
+        "microsoft edge",
+        "browser edge"
+      ],
+      "knowledge": "Modules/Edge/QuickStart.md",
+      "bridge": "Modules/Edge/ONI.Edge.js",
+      "skills": null,
+      "assets": null
+    },
+    "maya": {
+      "keywords": [
+        "maya",
+        "autodesk maya",
+        "mel",
+        "3d maya",
+        "animation maya"
+      ],
+      "knowledge": null,
+      "bridge": "Modules/Maya/ONI_Maya_Bridge.py",
+      "skills": null,
+      "assets": null
+    },
+    "illustrator": {
+      "keywords": [
+        "illustrator",
+        "ai",
+        "adobe illustrator",
+        "vetor ai",
+        "eps",
+        "svg"
+      ],
+      "knowledge": "Modules/Illustrator/QuickStart.md",
+      "bridge": "Modules/Illustrator/ONI_Illustrator_Bridge.py",
+      "skills": null,
+      "assets": "Modules/Illustrator/styles_db.json"
+    },
+    "foxit": {
+      "keywords": [
+        "foxit",
+        "pdf",
+        "foxit reader",
+        "pdf edit"
+      ],
+      "knowledge": null,
+      "bridge": "Modules/Foxit/ONI_Foxit_Bridge.py",
+      "skills": null,
+      "assets": null
+    },
+    "windows": {
+      "keywords": [
+        "windows",
+        "sistema",
+        "registry",
+        "serviço",
+        "processo",
+        "explorer",
+        "powershell"
+      ],
+      "knowledge": "Modules/Windows/QuickStart.md",
+      "bridge": "Modules/Windows/ONI.Windows.psm1",
+      "skills": "Modules/Windows/Skills/windows_complete_guide.json",
+      "assets": null
+    }
+  },
+  "global_knowledge": {
+    "description": "Conhecimento que se aplica a QUALQUER tarefa",
+    "files": [
+      "memo/MISE_EN_PLACE.md",
+      "memo/MEUS_ERROS.md",
+      "memo/_CORE_SAFETY.md",
+      "memo/_CORE_COGNITION.md",
+      "memo/_CORE_VISION_PROTOCOL.md"
+    ]
+  }
+}

@@ -1,0 +1,1148 @@
+{
+    "software": "Microsoft Excel",
+    "version": "2025+",
+    "category": "spreadsheet_data_analysis",
+    "description": "Guia completo de atalhos, fórmulas e melhores práticas para Microsoft Excel",
+    "navigation_shortcuts": {
+        "move_right": "tab",
+        "move_left": "shift+tab",
+        "move_down": "enter",
+        "move_up": "shift+enter",
+        "move_to_edge_right": "ctrl+right",
+        "move_to_edge_left": "ctrl+left",
+        "move_to_edge_down": "ctrl+down",
+        "move_to_edge_up": "ctrl+up",
+        "move_one_screen_down": "page_down",
+        "move_one_screen_up": "page_up",
+        "move_to_beginning_of_row": "home",
+        "move_to_cell_a1": "ctrl+home",
+        "move_to_last_cell": "ctrl+end",
+        "go_to_dialog": "ctrl+g",
+        "find": "ctrl+f",
+        "find_next": "shift+f4",
+        "replace": "ctrl+h"
+    },
+    "selection_shortcuts": {
+        "select_all": "ctrl+a",
+        "select_column": "ctrl+space",
+        "select_row": "shift+space",
+        "extend_selection_one_cell": "shift+arrows",
+        "extend_to_last_cell": "ctrl+shift+end",
+        "extend_to_cell_a1": "ctrl+shift+home",
+        "select_to_edge": "ctrl+shift+arrow",
+        "select_current_region": "ctrl+shift+*",
+        "select_visible_cells": "alt+;",
+        "add_to_selection": "shift+click",
+        "toggle_add_mode": "shift+f8"
+    },
+    "editing_shortcuts": {
+        "edit_active_cell": "f2",
+        "cancel_entry": "esc",
+        "delete_content": "delete",
+        "delete_and_edit": "backspace",
+        "cut": "ctrl+x",
+        "copy": "ctrl+c",
+        "paste": "ctrl+v",
+        "paste_special": "ctrl+alt+v",
+        "paste_values": "ctrl+alt+v_then_v",
+        "paste_formulas": "ctrl+alt+v_then_f",
+        "paste_formats": "ctrl+alt+v_then_t",
+        "undo": "ctrl+z",
+        "redo": "ctrl+y",
+        "fill_down": "ctrl+d",
+        "fill_right": "ctrl+r",
+        "insert_current_date": "ctrl+;",
+        "insert_current_time": "ctrl+shift+;",
+        "insert_hyperlink": "ctrl+k",
+        "edit_comment": "shift+f2"
+    },
+    "formatting_shortcuts": {
+        "bold": "ctrl+b",
+        "italic": "ctrl+i",
+        "underline": "ctrl+u",
+        "strikethrough": "ctrl+5",
+        "format_cells_dialog": "ctrl+1",
+        "apply_currency": "ctrl+shift+$",
+        "apply_percentage": "ctrl+shift+%",
+        "apply_scientific": "ctrl+shift+^",
+        "apply_date": "ctrl+shift+#",
+        "apply_time": "ctrl+shift+@",
+        "apply_number": "ctrl+shift+!",
+        "apply_general": "ctrl+shift+~",
+        "increase_decimal": "alt+h_0",
+        "decrease_decimal": "alt+h_9",
+        "add_border": "ctrl+shift+&",
+        "remove_border": "ctrl+shift+_",
+        "format_painter": "ctrl+shift+c_then_ctrl+shift+v"
+    },
+    "formula_shortcuts": {
+        "start_formula": "=",
+        "autosum": "alt+=",
+        "insert_function": "shift+f3",
+        "copy_formula_above": "ctrl+shift+'",
+        "copy_value_above": "ctrl+shift+\"",
+        "toggle_formula_view": "ctrl+`",
+        "calculate_all": "f9",
+        "calculate_sheet": "shift+f9",
+        "array_formula": "ctrl+shift+enter",
+        "absolute_reference": "f4",
+        "expand_formula_bar": "ctrl+shift+u",
+        "define_name": "ctrl+f3",
+        "paste_name": "f3",
+        "trace_precedents": "ctrl+[",
+        "trace_dependents": "ctrl+]"
+    },
+    "workbook_shortcuts": {
+        "new_workbook": "ctrl+n",
+        "open_workbook": "ctrl+o",
+        "save": "ctrl+s",
+        "save_as": "f12",
+        "close": "ctrl+w",
+        "print": "ctrl+p",
+        "print_preview": "ctrl+f2",
+        "next_worksheet": "ctrl+page_down",
+        "previous_worksheet": "ctrl+page_up",
+        "insert_worksheet": "shift+f11",
+        "delete_worksheet": "alt+h_d_s",
+        "rename_worksheet": "alt+h_o_r",
+        "move_copy_worksheet": "alt+h_o_m"
+    },
+    "data_shortcuts": {
+        "filter_toggle": "ctrl+shift+l",
+        "reapply_filter": "ctrl+alt+l",
+        "sort_ascending": "alt+a_s_a",
+        "sort_descending": "alt+a_s_d",
+        "sort_dialog": "alt+d_s",
+        "data_validation": "alt+a_v_v",
+        "group_rows_columns": "alt+shift+right",
+        "ungroup": "alt+shift+left",
+        "subtotal": "alt+a_t",
+        "remove_duplicates": "alt+a_m",
+        "text_to_columns": "alt+a_e",
+        "flash_fill": "ctrl+e",
+        "refresh_all": "ctrl+alt+f5"
+    },
+    "pivot_table_shortcuts": {
+        "create_pivot": "alt+n_v",
+        "select_pivot": "ctrl+shift+*",
+        "group_selection": "alt+shift+right",
+        "ungroup_selection": "alt+shift+left",
+        "hide_item": "ctrl+-",
+        "create_chart": "alt+f1",
+        "refresh_pivot": "alt+f5",
+        "pivot_table_wizard": "alt+d_p"
+    },
+    "view_shortcuts": {
+        "zoom_in": "ctrl+alt++",
+        "zoom_out": "ctrl+alt+-",
+        "zoom_100": "ctrl+alt+0",
+        "full_screen": "ctrl+shift+f1",
+        "hide_ribbon": "ctrl+f1",
+        "freeze_panes": "alt+w_f_f",
+        "split_window": "alt+w_s",
+        "new_window": "alt+w_n",
+        "page_break_preview": "alt+w_i",
+        "normal_view": "alt+w_l",
+        "page_layout_view": "alt+w_p",
+        "gridlines_toggle": "alt+w_v_g",
+        "headings_toggle": "alt+w_v_h"
+    },
+    "essential_formulas": {
+        "mathematical": {
+            "SUM": {
+                "syntax": "=SUM(number1, [number2], ...)",
+                "example": "=SUM(A1:A10)",
+                "description": "Soma valores em um intervalo",
+                "category": "math"
+            },
+            "AVERAGE": {
+                "syntax": "=AVERAGE(number1, [number2], ...)",
+                "example": "=AVERAGE(A1:A10)",
+                "description": "Calcula a média aritmética",
+                "category": "math"
+            },
+            "COUNT": {
+                "syntax": "=COUNT(value1, [value2], ...)",
+                "example": "=COUNT(A1:A10)",
+                "description": "Conta células com números",
+                "category": "math"
+            },
+            "COUNTA": {
+                "syntax": "=COUNTA(value1, [value2], ...)",
+                "example": "=COUNTA(A1:A10)",
+                "description": "Conta células não vazias",
+                "category": "math"
+            },
+            "MAX": {
+                "syntax": "=MAX(number1, [number2], ...)",
+                "example": "=MAX(A1:A10)",
+                "description": "Retorna o maior valor",
+                "category": "math"
+            },
+            "MIN": {
+                "syntax": "=MIN(number1, [number2], ...)",
+                "example": "=MIN(A1:A10)",
+                "description": "Retorna o menor valor",
+                "category": "math"
+            },
+            "ROUND": {
+                "syntax": "=ROUND(number, num_digits)",
+                "example": "=ROUND(A1, 2)",
+                "description": "Arredonda número para dígitos especificados",
+                "category": "math"
+            },
+            "SUMIF": {
+                "syntax": "=SUMIF(range, criteria, [sum_range])",
+                "example": "=SUMIF(A1:A10, \">100\", B1:B10)",
+                "description": "Soma células que atendem critério",
+                "category": "math"
+            },
+            "SUMIFS": {
+                "syntax": "=SUMIFS(sum_range, criteria_range1, criteria1, ...)",
+                "example": "=SUMIFS(C1:C10, A1:A10, \"Sul\", B1:B10, \">100\")",
+                "description": "Soma com múltiplos critérios",
+                "category": "math"
+            },
+            "COUNTIF": {
+                "syntax": "=COUNTIF(range, criteria)",
+                "example": "=COUNTIF(A1:A10, \">50\")",
+                "description": "Conta células que atendem critério",
+                "category": "math"
+            }
+        },
+        "logical": {
+            "IF": {
+                "syntax": "=IF(logical_test, value_if_true, value_if_false)",
+                "example": "=IF(A1>100, \"Alto\", \"Baixo\")",
+                "description": "Teste lógico condicional",
+                "category": "logical"
+            },
+            "AND": {
+                "syntax": "=AND(logical1, [logical2], ...)",
+                "example": "=AND(A1>50, B1<100)",
+                "description": "Retorna TRUE se todos forem verdadeiros",
+                "category": "logical"
+            },
+            "OR": {
+                "syntax": "=OR(logical1, [logical2], ...)",
+                "example": "=OR(A1>100, B1>100)",
+                "description": "Retorna TRUE se algum for verdadeiro",
+                "category": "logical"
+            },
+            "NOT": {
+                "syntax": "=NOT(logical)",
+                "example": "=NOT(A1>100)",
+                "description": "Inverte o valor lógico",
+                "category": "logical"
+            },
+            "IFS": {
+                "syntax": "=IFS(logical_test1, value1, [logical_test2, value2], ...)",
+                "example": "=IFS(A1>100, \"Alto\", A1>50, \"Médio\", TRUE, \"Baixo\")",
+                "description": "Múltiplas condições IF",
+                "category": "logical"
+            },
+            "IFERROR": {
+                "syntax": "=IFERROR(value, value_if_error)",
+                "example": "=IFERROR(A1/B1, 0)",
+                "description": "Retorna valor alternativo se erro",
+                "category": "logical"
+            }
+        },
+        "lookup_reference": {
+            "VLOOKUP": {
+                "syntax": "=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])",
+                "example": "=VLOOKUP(A1, D1:F10, 3, FALSE)",
+                "description": "Procura valor verticalmente em tabela",
+                "category": "lookup",
+                "tips": "Use FALSE para correspondência exata"
+            },
+            "HLOOKUP": {
+                "syntax": "=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])",
+                "example": "=HLOOKUP(A1, A1:Z5, 3, FALSE)",
+                "description": "Procura valor horizontalmente",
+                "category": "lookup"
+            },
+            "XLOOKUP": {
+                "syntax": "=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])",
+                "example": "=XLOOKUP(A1, B1:B10, C1:C10)",
+                "description": "Procura moderna e flexível (Excel 365)",
+                "category": "lookup",
+                "advantages": "Mais poderoso que VLOOKUP"
+            },
+            "INDEX": {
+                "syntax": "=INDEX(array, row_num, [column_num])",
+                "example": "=INDEX(A1:C10, 5, 2)",
+                "description": "Retorna valor em posição específica",
+                "category": "lookup"
+            },
+            "MATCH": {
+                "syntax": "=MATCH(lookup_value, lookup_array, [match_type])",
+                "example": "=MATCH(\"João\", A1:A10, 0)",
+                "description": "Retorna posição de valor em intervalo",
+                "category": "lookup"
+            },
+            "INDEX_MATCH": {
+                "syntax": "=INDEX(return_range, MATCH(lookup_value, lookup_range, 0))",
+                "example": "=INDEX(C1:C10, MATCH(A1, B1:B10, 0))",
+                "description": "Combinação poderosa INDEX + MATCH",
+                "category": "lookup",
+                "advantages": "Mais flexível que VLOOKUP"
+            },
+            "OFFSET": {
+                "syntax": "=OFFSET(reference, rows, cols, [height], [width])",
+                "example": "=OFFSET(A1, 2, 3, 1, 1)",
+                "description": "Retorna referência deslocada",
+                "category": "lookup"
+            }
+        },
+        "text": {
+            "CONCATENATE": {
+                "syntax": "=CONCATENATE(text1, [text2], ...)",
+                "example": "=CONCATENATE(A1, \" \", B1)",
+                "description": "Junta textos",
+                "category": "text",
+                "alternative": "Use & ou CONCAT"
+            },
+            "CONCAT": {
+                "syntax": "=CONCAT(text1, [text2], ...)",
+                "example": "=CONCAT(A1:A10)",
+                "description": "Concatena intervalo (Excel 2019+)",
+                "category": "text"
+            },
+            "TEXTJOIN": {
+                "syntax": "=TEXTJOIN(delimiter, ignore_empty, text1, [text2], ...)",
+                "example": "=TEXTJOIN(\", \", TRUE, A1:A10)",
+                "description": "Junta com delimitador",
+                "category": "text"
+            },
+            "LEFT": {
+                "syntax": "=LEFT(text, [num_chars])",
+                "example": "=LEFT(A1, 5)",
+                "description": "Retorna caracteres à esquerda",
+                "category": "text"
+            },
+            "RIGHT": {
+                "syntax": "=RIGHT(text, [num_chars])",
+                "example": "=RIGHT(A1, 5)",
+                "description": "Retorna caracteres à direita",
+                "category": "text"
+            },
+            "MID": {
+                "syntax": "=MID(text, start_num, num_chars)",
+                "example": "=MID(A1, 3, 5)",
+                "description": "Extrai texto do meio",
+                "category": "text"
+            },
+            "LEN": {
+                "syntax": "=LEN(text)",
+                "example": "=LEN(A1)",
+                "description": "Retorna comprimento do texto",
+                "category": "text"
+            },
+            "TRIM": {
+                "syntax": "=TRIM(text)",
+                "example": "=TRIM(A1)",
+                "description": "Remove espaços extras",
+                "category": "text"
+            },
+            "UPPER": {
+                "syntax": "=UPPER(text)",
+                "example": "=UPPER(A1)",
+                "description": "Converte para maiúsculas",
+                "category": "text"
+            },
+            "LOWER": {
+                "syntax": "=LOWER(text)",
+                "example": "=LOWER(A1)",
+                "description": "Converte para minúsculas",
+                "category": "text"
+            },
+            "PROPER": {
+                "syntax": "=PROPER(text)",
+                "example": "=PROPER(A1)",
+                "description": "Capitaliza cada palavra",
+                "category": "text"
+            }
+        },
+        "date_time": {
+            "TODAY": {
+                "syntax": "=TODAY()",
+                "example": "=TODAY()",
+                "description": "Retorna data atual",
+                "category": "date"
+            },
+            "NOW": {
+                "syntax": "=NOW()",
+                "example": "=NOW()",
+                "description": "Retorna data e hora atuais",
+                "category": "date"
+            },
+            "DATE": {
+                "syntax": "=DATE(year, month, day)",
+                "example": "=DATE(2025, 12, 31)",
+                "description": "Cria data a partir de componentes",
+                "category": "date"
+            },
+            "YEAR": {
+                "syntax": "=YEAR(serial_number)",
+                "example": "=YEAR(A1)",
+                "description": "Extrai ano de data",
+                "category": "date"
+            },
+            "MONTH": {
+                "syntax": "=MONTH(serial_number)",
+                "example": "=MONTH(A1)",
+                "description": "Extrai mês de data",
+                "category": "date"
+            },
+            "DAY": {
+                "syntax": "=DAY(serial_number)",
+                "example": "=DAY(A1)",
+                "description": "Extrai dia de data",
+                "category": "date"
+            },
+            "WEEKDAY": {
+                "syntax": "=WEEKDAY(serial_number, [return_type])",
+                "example": "=WEEKDAY(A1, 2)",
+                "description": "Retorna dia da semana (1-7)",
+                "category": "date"
+            },
+            "EOMONTH": {
+                "syntax": "=EOMONTH(start_date, months)",
+                "example": "=EOMONTH(A1, 0)",
+                "description": "Retorna último dia do mês",
+                "category": "date"
+            },
+            "DATEDIF": {
+                "syntax": "=DATEDIF(start_date, end_date, unit)",
+                "example": "=DATEDIF(A1, B1, \"Y\")",
+                "description": "Calcula diferença entre datas",
+                "category": "date",
+                "units": "Y=anos, M=meses, D=dias"
+            },
+            "NETWORKDAYS": {
+                "syntax": "=NETWORKDAYS(start_date, end_date, [holidays])",
+                "example": "=NETWORKDAYS(A1, B1)",
+                "description": "Dias úteis entre datas",
+                "category": "date"
+            }
+        },
+        "statistical": {
+            "MEDIAN": {
+                "syntax": "=MEDIAN(number1, [number2], ...)",
+                "example": "=MEDIAN(A1:A10)",
+                "description": "Retorna mediana",
+                "category": "stats"
+            },
+            "MODE": {
+                "syntax": "=MODE.SNGL(number1, [number2], ...)",
+                "example": "=MODE.SNGL(A1:A10)",
+                "description": "Valor mais frequente",
+                "category": "stats"
+            },
+            "STDEV": {
+                "syntax": "=STDEV.S(number1, [number2], ...)",
+                "example": "=STDEV.S(A1:A10)",
+                "description": "Desvio padrão (amostra)",
+                "category": "stats"
+            },
+            "VAR": {
+                "syntax": "=VAR.S(number1, [number2], ...)",
+                "example": "=VAR.S(A1:A10)",
+                "description": "Variância (amostra)",
+                "category": "stats"
+            },
+            "RANK": {
+                "syntax": "=RANK.EQ(number, ref, [order])",
+                "example": "=RANK.EQ(A1, A$1:A$10, 0)",
+                "description": "Classificação de valor",
+                "category": "stats"
+            },
+            "PERCENTILE": {
+                "syntax": "=PERCENTILE.INC(array, k)",
+                "example": "=PERCENTILE.INC(A1:A10, 0.9)",
+                "description": "Percentil de conjunto",
+                "category": "stats"
+            }
+        },
+        "financial": {
+            "PMT": {
+                "syntax": "=PMT(rate, nper, pv, [fv], [type])",
+                "example": "=PMT(5%/12, 60, -10000)",
+                "description": "Calcula pagamento de empréstimo",
+                "category": "financial"
+            },
+            "FV": {
+                "syntax": "=FV(rate, nper, pmt, [pv], [type])",
+                "example": "=FV(6%/12, 120, -100, 0, 0)",
+                "description": "Valor futuro de investimento",
+                "category": "financial"
+            },
+            "PV": {
+                "syntax": "=PV(rate, nper, pmt, [fv], [type])",
+                "example": "=PV(8%/12, 120, -100)",
+                "description": "Valor presente",
+                "category": "financial"
+            },
+            "NPV": {
+                "syntax": "=NPV(rate, value1, [value2], ...)",
+                "example": "=NPV(10%, A1:A10)",
+                "description": "Valor presente líquido",
+                "category": "financial"
+            },
+            "IRR": {
+                "syntax": "=IRR(values, [guess])",
+                "example": "=IRR(A1:A10)",
+                "description": "Taxa interna de retorno",
+                "category": "financial"
+            }
+        }
+    },
+    "pre_work_checklist": [
+        {
+            "check": "file_backup",
+            "prompt": "Criar backup antes de editar",
+            "expected": "Cópia salva em local seguro",
+            "fix_if_wrong": "Salvar Como com data no nome",
+            "importance": "critical",
+            "verification": "Verificar pasta de backup"
+        },
+        {
+            "check": "data_validation",
+            "prompt": "Verificar dados importados",
+            "expected": "Dados corretos e completos",
+            "fix_if_wrong": "Revisar importação ou entrada manual",
+            "importance": "critical",
+            "verification": "Conferir primeiras e últimas linhas"
+        },
+        {
+            "check": "column_headers",
+            "prompt": "Cabeçalhos claros e descritivos",
+            "expected": "Cada coluna nomeada apropriadamente",
+            "fix_if_wrong": "Renomear cabeçalhos",
+            "importance": "high",
+            "verification": "Linha 1 da planilha"
+        },
+        {
+            "check": "number_format",
+            "prompt": "Formatação numérica correta",
+            "expected": "Números como número, não texto",
+            "fix_if_wrong": "Text to Columns ou converter",
+            "importance": "high",
+            "verification": "Verificar alinhamento das células"
+        },
+        {
+            "check": "freeze_panes",
+            "prompt": "Congelar painéis se necessário",
+            "expected": "Cabeçalhos visíveis ao rolar",
+            "fix_if_wrong": "Alt+W+F+F na linha/coluna",
+            "importance": "medium",
+            "verification": "Rolar planilha"
+        },
+        {
+            "check": "cell_formatting",
+            "prompt": "Formatação de células apropriada",
+            "expected": "Datas, moedas e % formatados",
+            "fix_if_wrong": "Ctrl+1 para formatar",
+            "importance": "high",
+            "verification": "Visual das células"
+        },
+        {
+            "check": "formula_errors",
+            "prompt": "Verificar erros em fórmulas",
+            "expected": "Sem #DIV/0!, #REF!, #VALUE!",
+            "fix_if_wrong": "Corrigir fórmulas problemáticas",
+            "importance": "critical",
+            "verification": "Buscar por # na planilha"
+        },
+        {
+            "check": "named_ranges",
+            "prompt": "Criar intervalos nomeados importantes",
+            "expected": "Ranges usados têm nomes descritivos",
+            "fix_if_wrong": "Ctrl+F3 para definir nomes",
+            "importance": "medium",
+            "verification": "Name Manager"
+        },
+        {
+            "check": "data_types",
+            "prompt": "Tipos de dados consistentes por coluna",
+            "expected": "Cada coluna um tipo único",
+            "fix_if_wrong": "Limpar dados inconsistentes",
+            "importance": "high",
+            "verification": "Verificar cada coluna"
+        },
+        {
+            "check": "autosave",
+            "prompt": "AutoSave ativado",
+            "expected": "Arquivo salva automaticamente",
+            "fix_if_wrong": "Ativar AutoSave no topo",
+            "importance": "high",
+            "verification": "Botão no canto superior esquerdo"
+        }
+    ],
+    "quality_criteria": {
+        "data_integrity": {
+            "no_duplicates": "Sem duplicatas não intencionais",
+            "consistent_formatting": "Formatação consistente por coluna",
+            "valid_ranges": "Valores dentro de ranges esperados",
+            "no_blanks": "Células vazias tratadas apropriadamente",
+            "proper_types": "Tipos de dados corretos"
+        },
+        "formula_quality": {
+            "no_errors": "Sem erros de fórmula",
+            "readable": "Fórmulas compreensíveis",
+            "efficient": "Fórmulas otimizadas",
+            "documented": "Fórmulas complexas comentadas",
+            "consistent_style": "Estilo consistente de referências"
+        },
+        "visual_presentation": {
+            "clear_headers": "Cabeçalhos destacados",
+            "appropriate_colors": "Cores usadas com propósito",
+            "aligned_data": "Dados alinhados apropriadamente",
+            "readable_fonts": "Fontes legíveis",
+            "proper_spacing": "Espaçamento adequado"
+        },
+        "usability": {
+            "easy_navigation": "Fácil de navegar",
+            "logical_structure": "Estrutura lógica",
+            "documented": "Instruções quando necessário",
+            "protected": "Células críticas protegidas",
+            "accessible": "Acessível para outros usuários"
+        }
+    },
+    "data_analysis_techniques": {
+        "pivot_tables": {
+            "steps": [
+                "Selecionar dados (Ctrl+A)",
+                "Inserir Pivot Table (Alt+N+V)",
+                "Arrastar campos para áreas apropriadas",
+                "Configurar cálculos e formatos",
+                "Aplicar filtros e slicers",
+                "Atualizar dados (Alt+F5)"
+            ],
+            "best_practices": [
+                "Dados fonte como tabela (Ctrl+T)",
+                "Cabeçalhos únicos e descritivos",
+                "Sem linhas ou colunas vazias",
+                "Atualizar ao modificar dados fonte",
+                "Usar slicers para filtros visuais"
+            ],
+            "common_calculations": {
+                "sum": "Soma de valores",
+                "average": "Média",
+                "count": "Contagem",
+                "percent_of_total": "Percentual do total",
+                "running_total": "Total acumulado",
+                "difference_from": "Diferença de valor"
+            }
+        },
+        "conditional_formatting": {
+            "types": [
+                "Highlight Cells Rules (valores específicos)",
+                "Top/Bottom Rules (extremos)",
+                "Data Bars (barras visuais)",
+                "Color Scales (escalas de cor)",
+                "Icon Sets (ícones de status)"
+            ],
+            "shortcuts": "Alt+H+L",
+            "best_practices": [
+                "Usar com moderação",
+                "Cores com propósito claro",
+                "Considerar daltonismo",
+                "Testar com diferentes dados"
+            ]
+        },
+        "data_validation": {
+            "types": [
+                "List (dropdown)",
+                "Whole Number (número inteiro)",
+                "Decimal (decimal)",
+                "Date (data)",
+                "Time (hora)",
+                "Text Length (comprimento)",
+                "Custom (fórmula personalizada)"
+            ],
+            "shortcut": "Alt+A+V+V",
+            "input_message": "Mensagem ao selecionar célula",
+            "error_alert": "Mensagem ao inserir valor inválido"
+        },
+        "what_if_analysis": {
+            "goal_seek": {
+                "description": "Encontrar valor de entrada para resultado desejado",
+                "location": "Data > What-If Analysis > Goal Seek",
+                "example": "Encontrar taxa para pagamento específico"
+            },
+            "data_table": {
+                "description": "Ver resultados de múltiplos valores",
+                "types": ["One-variable", "Two-variable"],
+                "location": "Data > What-If Analysis > Data Table"
+            },
+            "scenario_manager": {
+                "description": "Comparar diferentes conjuntos de valores",
+                "location": "Data > What-If Analysis > Scenario Manager",
+                "use_case": "Planejar orçamentos com variáveis"
+            }
+        }
+    },
+    "workflow_best_practices": {
+        "data_entry": [
+            "Usar validação de dados para prevenir erros",
+            "Criar templates para entrada consistente",
+            "Usar formulários para entrada estruturada",
+            "Implementar verificações de integridade",
+            "Documentar regras de entrada",
+            "Backup antes de grandes alterações"
+        ],
+        "formula_management": [
+            "Usar referências nomeadas para clareza",
+            "Evitar fórmulas muito complexas",
+            "Dividir cálculos em etapas",
+            "Documentar lógica complexa",
+            "Testar com casos extremos",
+            "Usar IFERROR para tratar erros"
+        ],
+        "data_organization": [
+            "Uma tabela por planilha quando possível",
+            "Usar abas para categorias lógicas",
+            "Nomear abas descritivamente",
+            "Código de cores para tipos de planilha",
+            "Índice na primeira aba se necessário",
+            "Ocultar colunas auxiliares"
+        ],
+        "performance": [
+            "Evitar volatile functions em excesso (NOW, TODAY, RAND)",
+            "Usar fórmulas de array com moderação",
+            "Limitar formatação condicional",
+            "Calcular manualmente se necessário (F9)",
+            "Remover formatação desnecessária",
+            "Dividir workbooks muito grandes"
+        ],
+        "collaboration": [
+            "Proteger células com fórmulas",
+            "Usar comentários para explicações",
+            "Versionamento de arquivos",
+            "Documentar alterações importantes",
+            "Padronizar formatação",
+            "Considerar uso de Excel Online para simultâneo"
+        ]
+    },
+    "common_mistakes": {
+        "circular_references": {
+            "problem": "Fórmula referencia a si mesma",
+            "solution": "Verificar em Formulas > Error Checking",
+            "prevention": "Planejar fluxo de cálculos"
+        },
+        "hardcoded_values": {
+            "problem": "Valores fixos em fórmulas",
+            "solution": "Mover valores para células e referenciar",
+            "prevention": "Sempre usar referências de célula"
+        },
+        "volatile_functions": {
+            "problem": "Planilha recalcula constantemente",
+            "solution": "Substituir por alternativas estáveis",
+            "prevention": "Limitar uso de NOW, TODAY, RAND, OFFSET"
+        },
+        "incorrect_references": {
+            "problem": "Referências relativas quando precisa absolutas",
+            "solution": "Adicionar $ onde necessário (F4)",
+            "prevention": "Entender diferença entre relativo e absoluto"
+        },
+        "text_as_numbers": {
+            "problem": "Números armazenados como texto",
+            "solution": "Multiplicar por 1 ou usar VALUE()",
+            "prevention": "Validar formato ao importar"
+        },
+        "merged_cells": {
+            "problem": "Células mescladas causam problemas",
+            "solution": "Desfazer merge e usar Center Across Selection",
+            "prevention": "Evitar merge, especialmente em dados"
+        },
+        "broken_links": {
+            "problem": "Links para arquivos externos quebrados",
+            "solution": "Edit Links para atualizar ou quebrar",
+            "prevention": "Usar caminhos relativos quando possível"
+        }
+    },
+    "troubleshooting": {
+        "formula_not_calculating": {
+            "causes": [
+                "Cálculo manual ativado",
+                "Célula formatada como texto",
+                "Espaço antes do =",
+                "Fórmula como texto (apóstrofo)"
+            ],
+            "solutions": [
+                "Formulas > Calculation Options > Automatic",
+                "Reformatar como Number",
+                "Remover espaço",
+                "Remover ' e pressionar Enter"
+            ]
+        },
+        "vlookup_not_working": {
+            "causes": [
+                "Valor de busca não existe",
+                "Tipos de dados diferentes",
+                "Espaços extras",
+                "Range_lookup incorreto"
+            ],
+            "solutions": [
+                "Verificar ortografia",
+                "Converter tipos (TEXT ou VALUE)",
+                "Usar TRIM",
+                "Usar FALSE para exata"
+            ]
+        },
+        "slow_performance": {
+            "causes": [
+                "Muitas fórmulas voláteis",
+                "Formatação condicional excessiva",
+                "Arquivo muito grande",
+                "Muitos links externos"
+            ],
+            "solutions": [
+                "Substituir por fórmulas estáveis",
+                "Simplificar formatação",
+                "Dividir em múltiplos arquivos",
+                "Quebrar links desnecessários"
+            ]
+        },
+        "error_messages": {
+            "#DIV/0!": {
+                "meaning": "Divisão por zero",
+                "fix": "Usar IFERROR ou verificar denominador"
+            },
+            "#N/A": {
+                "meaning": "Valor não disponível",
+                "fix": "Verificar lookup ou usar IFNA"
+            },
+            "#NAME?": {
+                "meaning": "Nome não reconhecido",
+                "fix": "Verificar ortografia da função"
+            },
+            "#NULL!": {
+                "meaning": "Referência incorreta",
+                "fix": "Verificar operador de range (:)"
+            },
+            "#NUM!": {
+                "meaning": "Número inválido",
+                "fix": "Verificar argumentos numéricos"
+            },
+            "#REF!": {
+                "meaning": "Referência inválida",
+                "fix": "Restaurar célula deletada ou corrigir ref"
+            },
+            "#VALUE!": {
+                "meaning": "Tipo de valor errado",
+                "fix": "Verificar tipos de dados nos argumentos"
+            },
+            "####": {
+                "meaning": "Coluna muito estreita",
+                "fix": "Aumentar largura da coluna"
+            }
+        }
+    },
+    "advanced_techniques": {
+        "array_formulas": {
+            "description": "Fórmulas que operam em múltiplas células",
+            "entry": "Ctrl+Shift+Enter (versões antigas)",
+            "dynamic_arrays": "Excel 365 não precisa Ctrl+Shift+Enter",
+            "functions": [
+                "FILTER - Filtrar dados dinamicamente",
+                "SORT - Ordenar dados",
+                "UNIQUE - Valores únicos",
+                "SEQUENCE - Gerar sequências",
+                "RANDARRAY - Array de números aleatórios"
+            ],
+            "examples": {
+                "sum_product": "=SUMPRODUCT((A1:A10>100)*(B1:B10))",
+                "filter_data": "=FILTER(A1:C100, B1:B100>1000)",
+                "unique_list": "=UNIQUE(A1:A100)"
+            }
+        },
+        "power_query": {
+            "description": "Ferramenta avançada de transformação de dados",
+            "access": "Data > Get Data",
+            "capabilities": [
+                "Importar de múltiplas fontes",
+                "Transformar e limpar dados",
+                "Combinar múltiplas tabelas",
+                "Automatizar processos repetitivos",
+                "Criar consultas reutilizáveis"
+            ],
+            "common_operations": [
+                "Remove Duplicates",
+                "Fill Down",
+                "Unpivot Columns",
+                "Merge Queries",
+                "Group By"
+            ]
+        },
+        "macros_vba": {
+            "description": "Automatizar tarefas com código",
+            "access": "Alt+F11 para VBA Editor",
+            "record_macro": "View > Macros > Record Macro",
+            "common_uses": [
+                "Automatizar formatação",
+                "Processar dados em lote",
+                "Criar funções customizadas",
+                "Interagir com outros aplicativos",
+                "Criar interfaces de usuário"
+            ],
+            "basic_structure": "Sub Nome()\n    'Código aqui\nEnd Sub"
+        },
+        "dynamic_named_ranges": {
+            "description": "Ranges que se ajustam automaticamente",
+            "formula": "=OFFSET($A$1,0,0,COUNTA($A:$A),1)",
+            "use_case": "Listas que crescem automaticamente",
+            "benefits": "Fórmulas sempre atualizadas"
+        },
+        "custom_functions": {
+            "description": "Criar suas próprias fórmulas com VBA",
+            "example": "Function Dobro(numero)\n    Dobro = numero * 2\nEnd Function",
+            "use": "=Dobro(A1)",
+            "benefits": "Reutilizar lógica complexa"
+        }
+    },
+    "chart_creation": {
+        "chart_types": {
+            "column": "Comparar valores entre categorias",
+            "bar": "Comparar valores, categorias longas",
+            "line": "Mostrar tendências ao longo do tempo",
+            "pie": "Mostrar proporções de um todo",
+            "scatter": "Mostrar relação entre variáveis",
+            "area": "Mostrar magnitude ao longo do tempo",
+            "combo": "Combinar tipos diferentes"
+        },
+        "shortcuts": {
+            "create_chart": "alt+f1",
+            "create_chart_new_sheet": "f11",
+            "select_data": "ctrl+click_elements"
+        },
+        "best_practices": [
+            "Escolher tipo apropriado para dados",
+            "Título descritivo e claro",
+            "Eixos rotulados",
+            "Legenda quando necessário",
+            "Cores acessíveis e contrastantes",
+            "Remover elementos desnecessários",
+            "Considerar público-alvo"
+        ],
+        "formatting": {
+            "chart_elements": "Click no gráfico > + (Chart Elements)",
+            "chart_styles": "Click no gráfico > brush icon",
+            "chart_filters": "Click no gráfico > funnel icon",
+            "axis_formatting": "Right-click axis > Format Axis"
+        }
+    },
+    "keyboard_combinations": {
+        "cell_formatting": {
+            "format_number": "ctrl+shift+1",
+            "format_time": "ctrl+shift+2",
+            "format_date": "ctrl+shift+3",
+            "format_currency": "ctrl+shift+4",
+            "format_percentage": "ctrl+shift+5",
+            "format_scientific": "ctrl+shift+6"
+        },
+        "selection_tricks": {
+            "select_to_last_cell": "ctrl+shift+end",
+            "select_current_array": "ctrl+/",
+            "select_differences_row": "ctrl+\\",
+            "select_differences_column": "ctrl+shift+|"
+        },
+        "quick_actions": {
+            "insert_date": "ctrl+;",
+            "insert_time": "ctrl+shift+;",
+            "copy_above": "ctrl+d",
+            "copy_left": "ctrl+r",
+            "flash_fill": "ctrl+e",
+            "create_table": "ctrl+t"
+        }
+    },
+    "data_cleaning": {
+        "common_tasks": {
+            "remove_duplicates": {
+                "location": "Data > Remove Duplicates",
+                "shortcut": "alt+a+m",
+                "tip": "Selecionar colunas para critério"
+            },
+            "text_to_columns": {
+                "location": "Data > Text to Columns",
+                "shortcut": "alt+a+e",
+                "use": "Separar dados delimitados ou largura fixa"
+            },
+            "find_replace": {
+                "shortcut": "ctrl+h",
+                "advanced": "Usar wildcards (* e ?)",
+                "tip": "Replace All com cuidado"
+            },
+            "trim_spaces": {
+                "formula": "=TRIM(A1)",
+                "purpose": "Remover espaços extras"
+            }
+        },
+        "data_types": {
+            "convert_text_to_number": [
+                "Multiplicar por 1: =A1*1",
+                "Usar VALUE: =VALUE(A1)",
+                "Text to Columns",
+                "Error checking menu"
+            ],
+            "convert_date_format": [
+                "Text to Columns com date format",
+                "DATEVALUE para texto como data",
+                "TEXT para formatar datas"
+            ]
+        }
+    },
+    "protection_security": {
+        "protect_sheet": {
+            "shortcut": "alt+r+p+s",
+            "options": [
+                "Select locked cells",
+                "Select unlocked cells",
+                "Format cells",
+                "Insert rows/columns",
+                "Delete rows/columns"
+            ],
+            "password": "Opcional mas recomendado"
+        },
+        "protect_workbook": {
+            "shortcut": "alt+r+p+w",
+            "protects": "Estrutura e janelas",
+            "prevents": "Inserir, deletar, mover planilhas"
+        },
+        "lock_cells": {
+            "default": "Todas células bloqueadas por padrão",
+            "unlock": "Ctrl+1 > Protection > desmarcar Locked",
+            "workflow": "Desbloquear inputs, bloquear fórmulas"
+        }
+    },
+    "templates_examples": {
+        "budget_template": {
+            "sheets": ["Dashboard", "Income", "Expenses", "Savings"],
+            "key_formulas": ["SUM", "SUMIF", "Budget vs Actual"],
+            "features": ["Categories", "Monthly tracking", "Charts"]
+        },
+        "invoice_template": {
+            "elements": ["Company info", "Client details", "Line items", "Totals"],
+            "formulas": ["Subtotal", "Tax", "Total", "VLOOKUP for products"],
+            "automation": "Invoice numbering automático"
+        },
+        "project_tracker": {
+            "columns": ["Task", "Owner", "Start", "End", "Status", "Progress"],
+            "features": ["Gantt chart", "Status dashboard", "Conditional formatting"],
+            "formulas": ["TODAY()", "DATEDIF", "COUNTIF"]
+        },
+        "sales_dashboard": {
+            "data_sources": ["Sales data", "Targets", "Historical"],
+            "visualizations": ["Charts", "KPIs", "Sparklines"],
+            "interactivity": ["Slicers", "Timelines", "Filters"]
+        }
+    },
+    "excel_365_features": {
+        "dynamic_arrays": {
+            "description": "Fórmulas que retornam múltiplos valores automaticamente",
+            "spill_behavior": "Resultados 'derramam' para células adjacentes",
+            "functions": ["FILTER", "SORT", "UNIQUE", "SEQUENCE", "SORTBY", "XLOOKUP"]
+        },
+        "xlookup": {
+            "advantages": [
+                "Procura em qualquer direção",
+                "Valor padrão se não encontrar",
+                "Mais simples que INDEX/MATCH",
+                "Busca de último para primeiro"
+            ],
+            "syntax": "=XLOOKUP(lookup, array, return, [if_not], [match], [search])"
+        },
+        "lambda": {
+            "description": "Criar funções customizadas sem VBA",
+            "syntax": "=LAMBDA(param1, param2, calculation)",
+            "use": "Definir funções reutilizáveis"
+        },
+        "let": {
+            "description": "Definir variáveis em fórmulas",
+            "syntax": "=LET(name1, value1, name2, value2, calculation)",
+            "benefit": "Fórmulas mais legíveis e eficientes"
+        }
+    },
+    "printing_tips": {
+        "page_setup": {
+            "shortcut": "ctrl+p",
+            "orientation": "Portrait ou Landscape",
+            "scaling": "Fit to 1 page wide",
+            "margins": "Normal, Wide, ou Narrow"
+        },
+        "print_area": {
+            "set": "Page Layout > Print Area > Set",
+            "clear": "Page Layout > Print Area > Clear",
+            "shortcut": "alt+p+r+s"
+        },
+        "print_titles": {
+            "location": "Page Layout > Print Titles",
+            "use": "Repetir linhas/colunas em cada página",
+            "example": "Cabeçalhos em todas páginas"
+        },
+        "page_breaks": {
+            "insert": "Page Layout > Breaks > Insert",
+            "preview": "View > Page Break Preview",
+            "remove": "Page Layout > Breaks > Remove"
+        }
+    },
+    "professional_tips": {
+        "speed": [
+            "Memorizar atalhos principais",
+            "Usar Quick Access Toolbar",
+            "Criar templates para tarefas comuns",
+            "Aprender fórmulas essenciais",
+            "Praticar navegação por teclado"
+        ],
+        "accuracy": [
+            "Sempre validar dados de entrada",
+            "Usar verificação de erros",
+            "Testar fórmulas com casos extremos",
+            "Documentar suposições",
+            "Revisão por pares em trabalhos críticos"
+        ],
+        "presentation": [
+            "Formatação consistente e profissional",
+            "Usar cores com propósito",
+            "Gráficos claros e objetivos",
+            "Remover elementos desnecessários",
+            "Considerar impressão em P&B"
+        ],
+        "maintenance": [
+            "Versionamento adequado",
+            "Documentar fórmulas complexas",
+            "Backup regular",
+            "Limpar dados e formatos antigos",
+            "Revisar e atualizar periodicamente"
+        ]
+    },
+    "resources": {
+        "learning": [
+            "Microsoft Excel Help (F1)",
+            "Excel Easy (tutoriais gratuitos)",
+            "Exceljet (dicas e atalhos)",
+            "Chandoo.org (análise de dados)",
+            "YouTube (tutoriais variados)"
+        ],
+        "communities": [
+            "r/excel (Reddit)",
+            "MrExcel Forum",
+            "Excel Forum",
+            "Stack Overflow"
+        ],
+        "certifications": [
+            "Microsoft Office Specialist (MOS)",
+            "Microsoft Certified: Excel Expert",
+            "Cursos online (Udemy, Coursera, LinkedIn Learning)"
+        ]
+    },
+    "accessibility_features": {
+        "screen_reader": "Compatível com JAWS e NVDA",
+        "alt_text": "Adicionar descrições em imagens e gráficos",
+        "high_contrast": "Usar cores com contraste adequado",
+        "keyboard_navigation": "Todas funções acessíveis por teclado",
+        "check_accessibility": "File > Info > Check for Issues > Check Accessibility"
+    }
+}

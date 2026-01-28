@@ -1,0 +1,1017 @@
+{
+    "software": "CorelDRAW",
+    "version": "2024",
+    "language": "pt-BR",
+    "menus": {
+        "Arquivo": {
+            "hotkey": "Alt+A",
+            "items": [
+                {
+                    "label": "Novo...",
+                    "shortcut": "Ctrl+N",
+                    "action": "new_document"
+                },
+                {
+                    "label": "Novo baseado em modelo...",
+                    "shortcut": null,
+                    "action": "new_from_template"
+                },
+                {
+                    "label": "Abrir...",
+                    "shortcut": "Ctrl+O",
+                    "action": "open"
+                },
+                {
+                    "label": "Abrir da nuvem...",
+                    "shortcut": null,
+                    "action": "open_cloud"
+                },
+                {
+                    "label": "Abrir recentes",
+                    "shortcut": null,
+                    "action": "open_recent",
+                    "submenu": true
+                },
+                {
+                    "label": "Fechar",
+                    "shortcut": null,
+                    "action": "close"
+                },
+                {
+                    "label": "Fechar todas",
+                    "shortcut": null,
+                    "action": "close_all"
+                },
+                {
+                    "label": "Salvar",
+                    "shortcut": "Ctrl+S",
+                    "action": "save"
+                },
+                {
+                    "label": "Salvar como...",
+                    "shortcut": "Ctrl+Shift+S",
+                    "action": "save_as"
+                },
+                {
+                    "label": "Salvar na nuvem...",
+                    "shortcut": null,
+                    "action": "save_cloud"
+                },
+                {
+                    "label": "Salvar como modelo...",
+                    "shortcut": null,
+                    "action": "save_template"
+                },
+                {
+                    "label": "Reverter",
+                    "shortcut": null,
+                    "action": "revert"
+                },
+                {
+                    "label": "Adquirir imagem",
+                    "shortcut": null,
+                    "action": "acquire_image",
+                    "submenu": true
+                },
+                {
+                    "label": "Importar...",
+                    "shortcut": "Ctrl+I",
+                    "action": "import",
+                    "critical": true
+                },
+                {
+                    "label": "Exportar...",
+                    "shortcut": "Ctrl+E",
+                    "action": "export"
+                },
+                {
+                    "label": "Exportar Para",
+                    "shortcut": null,
+                    "action": "export_to",
+                    "submenu": true
+                },
+                {
+                    "label": "Exportar janela de encaixe",
+                    "shortcut": null,
+                    "action": "export_docker",
+                    "submenu": true
+                },
+                {
+                    "label": "Enviar para",
+                    "shortcut": null,
+                    "action": "send_to",
+                    "submenu": true
+                },
+                {
+                    "label": "Imprimir...",
+                    "shortcut": "Ctrl+P",
+                    "action": "print"
+                },
+                {
+                    "label": "Impressão mesclada",
+                    "shortcut": null,
+                    "action": "merge_print",
+                    "submenu": true
+                },
+                {
+                    "label": "Visualizar impressão",
+                    "shortcut": null,
+                    "action": "print_preview"
+                },
+                {
+                    "label": "Propriedades do documento...",
+                    "shortcut": null,
+                    "action": "document_properties"
+                },
+                {
+                    "label": "Sair",
+                    "shortcut": "Alt+F4",
+                    "action": "exit"
+                }
+            ]
+        },
+        "Editar": {
+            "hotkey": "Alt+E",
+            "items": [
+                {
+                    "label": "Desfazer",
+                    "shortcut": "Ctrl+Z",
+                    "action": "undo"
+                },
+                {
+                    "label": "Refazer",
+                    "shortcut": "Ctrl+Shift+Z",
+                    "action": "redo"
+                },
+                {
+                    "label": "Repetir",
+                    "shortcut": "Ctrl+R",
+                    "action": "repeat"
+                },
+                {
+                    "label": "Recortar",
+                    "shortcut": "Ctrl+X",
+                    "action": "cut"
+                },
+                {
+                    "label": "Copiar",
+                    "shortcut": "Ctrl+C",
+                    "action": "copy"
+                },
+                {
+                    "label": "Colar",
+                    "shortcut": "Ctrl+V",
+                    "action": "paste"
+                },
+                {
+                    "label": "Colar especial",
+                    "shortcut": null,
+                    "action": "paste_special",
+                    "submenu": true
+                },
+                {
+                    "label": "Excluir",
+                    "shortcut": "Delete",
+                    "action": "delete"
+                },
+                {
+                    "label": "Símbolo",
+                    "shortcut": null,
+                    "action": "symbol",
+                    "submenu": true
+                },
+                {
+                    "label": "Duplicar",
+                    "shortcut": "Ctrl+D",
+                    "action": "duplicate"
+                },
+                {
+                    "label": "Clonar",
+                    "shortcut": null,
+                    "action": "clone",
+                    "submenu": true
+                },
+                {
+                    "label": "Copiar propriedades de...",
+                    "shortcut": "Ctrl+Shift+A",
+                    "action": "copy_properties"
+                },
+                {
+                    "label": "Etapa e Repetir",
+                    "shortcut": "Ctrl+Shift+D",
+                    "action": "step_repeat"
+                },
+                {
+                    "label": "Estilos de objeto",
+                    "shortcut": null,
+                    "action": "object_styles",
+                    "submenu": true
+                },
+                {
+                    "label": "Substituição overprint",
+                    "shortcut": null,
+                    "action": "overprint_override",
+                    "submenu": true
+                },
+                {
+                    "label": "Selecionar tudo",
+                    "shortcut": "Ctrl+A",
+                    "action": "select_all"
+                },
+                {
+                    "label": "Localizar e substituir",
+                    "shortcut": "Ctrl+F",
+                    "action": "find_replace"
+                },
+                {
+                    "label": "Inserir código de barras...",
+                    "shortcut": null,
+                    "action": "insert_barcode"
+                },
+                {
+                    "label": "Inserir novo objeto",
+                    "shortcut": null,
+                    "action": "insert_object",
+                    "submenu": true
+                },
+                {
+                    "label": "Objeto",
+                    "shortcut": null,
+                    "action": "edit_object",
+                    "submenu": true
+                },
+                {
+                    "label": "Inserir caractere especial",
+                    "shortcut": "Ctrl+F11",
+                    "action": "insert_special_char"
+                },
+                {
+                    "label": "Propriedades...",
+                    "shortcut": "Alt+Enter",
+                    "action": "properties"
+                }
+            ]
+        },
+        "Exibir": {
+            "hotkey": "Alt+X",
+            "items": [
+                {
+                    "label": "Simples wireframe",
+                    "shortcut": "Shift+F9",
+                    "action": "simple_wireframe"
+                },
+                {
+                    "label": "Wireframe",
+                    "shortcut": null,
+                    "action": "wireframe"
+                },
+                {
+                    "label": "Rascunho",
+                    "shortcut": null,
+                    "action": "draft"
+                },
+                {
+                    "label": "Normal",
+                    "shortcut": null,
+                    "action": "normal"
+                },
+                {
+                    "label": "Aprimorado",
+                    "shortcut": "Ctrl+F9",
+                    "action": "enhanced"
+                },
+                {
+                    "label": "Pixels",
+                    "shortcut": null,
+                    "action": "pixels"
+                },
+                {
+                    "label": "Rasterizar complexo",
+                    "shortcut": null,
+                    "action": "rasterize_complex"
+                },
+                {
+                    "label": "Exibição de classificação de página",
+                    "shortcut": null,
+                    "action": "page_sort"
+                },
+                {
+                    "label": "Classificador de páginas",
+                    "shortcut": null,
+                    "action": "page_sorter"
+                },
+                {
+                    "label": "Réguas",
+                    "shortcut": "Ctrl+Shift+R",
+                    "action": "rulers"
+                },
+                {
+                    "label": "Grade",
+                    "shortcut": null,
+                    "action": "grid"
+                },
+                {
+                    "label": "Linhas-guia",
+                    "shortcut": null,
+                    "action": "guidelines"
+                },
+                {
+                    "label": "Mostrar",
+                    "shortcut": null,
+                    "action": "show",
+                    "submenu": true
+                },
+                {
+                    "label": "Alinhar a",
+                    "shortcut": null,
+                    "action": "snap_to",
+                    "submenu": true
+                },
+                {
+                    "label": "Configuração de grade e linha de base",
+                    "shortcut": null,
+                    "action": "grid_settings"
+                },
+                {
+                    "label": "Configuração de linhas-guia",
+                    "shortcut": null,
+                    "action": "guidelines_settings"
+                },
+                {
+                    "label": "Configurar",
+                    "shortcut": null,
+                    "action": "setup",
+                    "submenu": true
+                },
+                {
+                    "label": "Zoom",
+                    "shortcut": null,
+                    "action": "zoom",
+                    "submenu": true
+                }
+            ]
+        },
+        "Layout": {
+            "hotkey": "Alt+L",
+            "items": [
+                {
+                    "label": "Inserir página",
+                    "shortcut": null,
+                    "action": "insert_page"
+                },
+                {
+                    "label": "Inserir números de página...",
+                    "shortcut": null,
+                    "action": "insert_page_numbers"
+                },
+                {
+                    "label": "Duplicar página...",
+                    "shortcut": null,
+                    "action": "duplicate_page"
+                },
+                {
+                    "label": "Renomear página...",
+                    "shortcut": null,
+                    "action": "rename_page"
+                },
+                {
+                    "label": "Excluir página...",
+                    "shortcut": null,
+                    "action": "delete_page"
+                },
+                {
+                    "label": "Ir para página...",
+                    "shortcut": null,
+                    "action": "goto_page"
+                },
+                {
+                    "label": "Trocar páginas...",
+                    "shortcut": null,
+                    "action": "swap_pages"
+                },
+                {
+                    "label": "Alternar orientação de página",
+                    "shortcut": null,
+                    "action": "toggle_orientation"
+                },
+                {
+                    "label": "Tamanho da página...",
+                    "shortcut": null,
+                    "action": "page_size"
+                },
+                {
+                    "label": "Fundo de página...",
+                    "shortcut": null,
+                    "action": "page_background"
+                },
+                {
+                    "label": "Configuração de página",
+                    "shortcut": null,
+                    "action": "page_setup",
+                    "submenu": true
+                },
+                {
+                    "label": "Exibição de página",
+                    "shortcut": null,
+                    "action": "page_view",
+                    "submenu": true
+                },
+                {
+                    "label": "Páginas espelhadas",
+                    "shortcut": null,
+                    "action": "facing_pages"
+                },
+                {
+                    "label": "Camadas",
+                    "shortcut": null,
+                    "action": "layers",
+                    "submenu": true
+                }
+            ]
+        },
+        "Objeto": {
+            "hotkey": "Alt+O",
+            "items": [
+                {
+                    "label": "Inserir página",
+                    "shortcut": null,
+                    "action": "insert_page_obj"
+                },
+                {
+                    "label": "Inserir números de página...",
+                    "shortcut": null,
+                    "action": "insert_page_numbers_obj"
+                },
+                {
+                    "label": "Duplicar página...",
+                    "shortcut": null,
+                    "action": "duplicate_page_obj"
+                },
+                {
+                    "label": "Renomear página...",
+                    "shortcut": null,
+                    "action": "rename_page_obj"
+                },
+                {
+                    "label": "Excluir página...",
+                    "shortcut": null,
+                    "action": "delete_page_obj"
+                },
+                {
+                    "label": "Ir para página...",
+                    "shortcut": null,
+                    "action": "goto_page_obj"
+                },
+                {
+                    "label": "Trocar páginas...",
+                    "shortcut": null,
+                    "action": "swap_pages_obj"
+                },
+                {
+                    "label": "Alternar orientação de página",
+                    "shortcut": null,
+                    "action": "toggle_orientation_obj"
+                },
+                {
+                    "label": "Tamanho da página...",
+                    "shortcut": null,
+                    "action": "page_size_obj"
+                },
+                {
+                    "label": "Fundo de página...",
+                    "shortcut": null,
+                    "action": "page_background_obj"
+                },
+                {
+                    "label": "Configuração de página",
+                    "shortcut": null,
+                    "action": "page_setup_obj",
+                    "submenu": true
+                }
+            ]
+        }
+    },
+    "toolbar": {
+        "description": "Barra de ferramentas lateral esquerda do CorelDRAW",
+        "source_image": "app/skills/core_ferramentas.png",
+        "groups": {
+            "01_selecao": {
+                "label": "Ferramentas de Seleção",
+                "position": 1,
+                "tools": [
+                    {
+                        "name": "Ferramenta Seleção",
+                        "shortcut": "Space",
+                        "description": "Selecionar e mover objetos"
+                    },
+                    {
+                        "name": "Ferramenta Seleção à mão livre",
+                        "shortcut": null,
+                        "description": "Seleção com laço"
+                    },
+                    {
+                        "name": "Transformação livre",
+                        "shortcut": null,
+                        "description": "Girar, inclinar, escalar"
+                    }
+                ]
+            },
+            "02_forma": {
+                "label": "Ferramentas de Edição de Nós",
+                "position": 2,
+                "tools": [
+                    {
+                        "name": "Ferramenta Forma",
+                        "shortcut": "F10",
+                        "description": "Editar nós e formas"
+                    },
+                    {
+                        "name": "Suave",
+                        "shortcut": null,
+                        "description": "Suavizar curvas"
+                    },
+                    {
+                        "name": "Borrar",
+                        "shortcut": null,
+                        "description": "Borrar contornos"
+                    },
+                    {
+                        "name": "Atrair/Repelir",
+                        "shortcut": null,
+                        "description": "Distorcer formas"
+                    },
+                    {
+                        "name": "Pincel manchado",
+                        "shortcut": null,
+                        "description": "Manchar contornos"
+                    }
+                ]
+            },
+            "03_recorte": {
+                "label": "Ferramentas de Recorte",
+                "position": 3,
+                "tools": [
+                    {
+                        "name": "Recortar",
+                        "shortcut": null,
+                        "description": "Recortar área"
+                    },
+                    {
+                        "name": "Faca",
+                        "shortcut": null,
+                        "description": "Cortar objetos"
+                    },
+                    {
+                        "name": "Borracha virtual",
+                        "shortcut": null,
+                        "description": "Apagar partes"
+                    },
+                    {
+                        "name": "Borracha",
+                        "shortcut": "X",
+                        "description": "Apagar áreas"
+                    }
+                ]
+            },
+            "04_zoom": {
+                "label": "Ferramentas de Visualização",
+                "position": 4,
+                "tools": [
+                    {
+                        "name": "Zoom",
+                        "shortcut": "Z",
+                        "description": "Ampliar/reduzir visualização"
+                    },
+                    {
+                        "name": "Enquadrar",
+                        "shortcut": "H",
+                        "description": "Mover área de visualização"
+                    }
+                ]
+            },
+            "05_curvas": {
+                "label": "Ferramentas de Curva",
+                "position": 5,
+                "critical_for_vectorization": true,
+                "tools": [
+                    {
+                        "name": "Mão livre",
+                        "shortcut": "F5",
+                        "description": "Desenhar curvas à mão livre"
+                    },
+                    {
+                        "name": "Linha de 2 pontos",
+                        "shortcut": null,
+                        "description": "Linha reta entre 2 pontos"
+                    },
+                    {
+                        "name": "Bézier",
+                        "shortcut": null,
+                        "description": "Curvas de Bézier precisas",
+                        "critical": true
+                    },
+                    {
+                        "name": "B-Spline",
+                        "shortcut": null,
+                        "description": "Curvas B-Spline"
+                    },
+                    {
+                        "name": "Polilinha",
+                        "shortcut": null,
+                        "description": "Linhas conectadas"
+                    },
+                    {
+                        "name": "Curva de 3 pontos",
+                        "shortcut": null,
+                        "description": "Curva definida por 3 pontos"
+                    },
+                    {
+                        "name": "LiveSketch",
+                        "shortcut": null,
+                        "description": "Desenho à mão livre inteligente"
+                    },
+                    {
+                        "name": "Caneta",
+                        "shortcut": null,
+                        "description": "Caneta vetorial"
+                    }
+                ]
+            },
+            "06_artisticas": {
+                "label": "Ferramentas Artísticas",
+                "position": 6,
+                "tools": [
+                    {
+                        "name": "Mídia artística",
+                        "shortcut": "I",
+                        "description": "Pincéis artísticos"
+                    },
+                    {
+                        "name": "Retangular",
+                        "shortcut": null,
+                        "description": "Padrões retangulares"
+                    },
+                    {
+                        "name": "Disseminador",
+                        "shortcut": null,
+                        "description": "Espalhar objetos"
+                    }
+                ]
+            },
+            "07_retangulo": {
+                "label": "Ferramentas de Retângulo",
+                "position": 7,
+                "tools": [
+                    {
+                        "name": "Retângulo",
+                        "shortcut": "F6",
+                        "description": "Desenhar retângulos"
+                    },
+                    {
+                        "name": "Retângulo de 3 pontos",
+                        "shortcut": null,
+                        "description": "Retângulo por 3 pontos"
+                    }
+                ]
+            },
+            "08_elipse": {
+                "label": "Ferramentas de Elipse",
+                "position": 8,
+                "tools": [
+                    {
+                        "name": "Elipse",
+                        "shortcut": "F7",
+                        "description": "Desenhar elipses/círculos"
+                    },
+                    {
+                        "name": "Elipse de 3 pontos",
+                        "shortcut": null,
+                        "description": "Elipse por 3 pontos"
+                    }
+                ]
+            },
+            "09_poligono": {
+                "label": "Ferramentas de Polígono",
+                "position": 9,
+                "tools": [
+                    {
+                        "name": "Polígono",
+                        "shortcut": "Y",
+                        "description": "Desenhar polígonos"
+                    },
+                    {
+                        "name": "Estrela",
+                        "shortcut": null,
+                        "description": "Desenhar estrelas"
+                    },
+                    {
+                        "name": "Estrela complexa",
+                        "shortcut": null,
+                        "description": "Estrelas com pontas complexas"
+                    },
+                    {
+                        "name": "Papel gráfico",
+                        "shortcut": "D",
+                        "description": "Grade de linhas"
+                    },
+                    {
+                        "name": "Espiral",
+                        "shortcut": "A",
+                        "description": "Desenhar espirais"
+                    },
+                    {
+                        "name": "Formas básicas",
+                        "shortcut": null,
+                        "description": "Formas predefinidas"
+                    },
+                    {
+                        "name": "Formas de seta",
+                        "shortcut": null,
+                        "description": "Setas predefinidas"
+                    },
+                    {
+                        "name": "Formas de fluxograma",
+                        "shortcut": null,
+                        "description": "Símbolos de fluxograma"
+                    },
+                    {
+                        "name": "Formas de banner",
+                        "shortcut": null,
+                        "description": "Banners e faixas"
+                    },
+                    {
+                        "name": "Formas de legenda",
+                        "shortcut": null,
+                        "description": "Balões de diálogo"
+                    }
+                ]
+            },
+            "10_texto": {
+                "label": "Ferramentas de Texto",
+                "position": 10,
+                "tools": [
+                    {
+                        "name": "Texto",
+                        "shortcut": "F8",
+                        "description": "Inserir texto"
+                    },
+                    {
+                        "name": "Tabela",
+                        "shortcut": null,
+                        "description": "Criar tabelas"
+                    }
+                ]
+            },
+            "11_dimensao": {
+                "label": "Ferramentas de Dimensão",
+                "position": 11,
+                "tools": [
+                    {
+                        "name": "Dimensão paralela",
+                        "shortcut": null,
+                        "description": "Cotas paralelas"
+                    },
+                    {
+                        "name": "Dimensão horizontal/vertical",
+                        "shortcut": null,
+                        "description": "Cotas H/V"
+                    },
+                    {
+                        "name": "Dimensão angular",
+                        "shortcut": null,
+                        "description": "Cotar ângulos"
+                    },
+                    {
+                        "name": "Dimensão de segmento",
+                        "shortcut": null,
+                        "description": "Cotar segmentos"
+                    },
+                    {
+                        "name": "Anotação de chamada de 3 pontos",
+                        "shortcut": null,
+                        "description": "Legenda com seta"
+                    }
+                ]
+            },
+            "12_conectores": {
+                "label": "Ferramentas de Conexão",
+                "position": 12,
+                "tools": [
+                    {
+                        "name": "Conector de linha reta",
+                        "shortcut": null,
+                        "description": "Linha conectora reta"
+                    },
+                    {
+                        "name": "Conector de ângulo reto",
+                        "shortcut": null,
+                        "description": "Conector com ângulos"
+                    },
+                    {
+                        "name": "Conector de ângulo reto arredondado",
+                        "shortcut": null,
+                        "description": "Conector arredondado"
+                    },
+                    {
+                        "name": "Âncora para edição",
+                        "shortcut": null,
+                        "description": "Ponto de ancoragem"
+                    }
+                ]
+            },
+            "13_efeitos": {
+                "label": "Ferramentas de Efeitos",
+                "position": 13,
+                "tools": [
+                    {
+                        "name": "Sombra projetada",
+                        "shortcut": null,
+                        "description": "Adicionar sombras"
+                    },
+                    {
+                        "name": "Contorno",
+                        "shortcut": null,
+                        "description": "Contornos concêntricos"
+                    },
+                    {
+                        "name": "Mistura",
+                        "shortcut": null,
+                        "description": "Misturar formas"
+                    },
+                    {
+                        "name": "Distorção",
+                        "shortcut": null,
+                        "description": "Distorcer objetos"
+                    },
+                    {
+                        "name": "Envelope",
+                        "shortcut": null,
+                        "description": "Envelope de forma"
+                    },
+                    {
+                        "name": "Extrusão",
+                        "shortcut": null,
+                        "description": "Efeito 3D"
+                    },
+                    {
+                        "name": "Sombra de bloco",
+                        "shortcut": null,
+                        "description": "Sombra sólida"
+                    },
+                    {
+                        "name": "Perspectiva",
+                        "shortcut": null,
+                        "description": "Ponto de fuga"
+                    }
+                ]
+            },
+            "14_transparencia": {
+                "label": "Ferramentas de Transparência",
+                "position": 14,
+                "tools": [
+                    {
+                        "name": "Transparência",
+                        "shortcut": null,
+                        "description": "Ajustar transparência"
+                    }
+                ]
+            },
+            "15_conta_gotas": {
+                "label": "Ferramentas de Amostragem",
+                "position": 15,
+                "tools": [
+                    {
+                        "name": "Conta-gotas de cor",
+                        "shortcut": null,
+                        "description": "Amostrar cores"
+                    },
+                    {
+                        "name": "Conta-gotas de atributos",
+                        "shortcut": null,
+                        "description": "Copiar atributos"
+                    }
+                ]
+            },
+            "16_contorno": {
+                "label": "Ferramentas de Contorno",
+                "position": 16,
+                "tools": [
+                    {
+                        "name": "Caneta de contorno",
+                        "shortcut": "F12",
+                        "description": "Definir contorno"
+                    }
+                ]
+            },
+            "17_preenchimento": {
+                "label": "Ferramentas de Preenchimento",
+                "position": 17,
+                "tools": [
+                    {
+                        "name": "Preenchimento interativo",
+                        "shortcut": "G",
+                        "description": "Preencher com gradiente"
+                    },
+                    {
+                        "name": "Preenchimento inteligente",
+                        "shortcut": null,
+                        "description": "Preencher áreas fechadas"
+                    },
+                    {
+                        "name": "Preenchimento de malha",
+                        "shortcut": "M",
+                        "description": "Malha de gradiente"
+                    }
+                ]
+            }
+        }
+    },
+    "tools_shortcuts_quick_reference": {
+        "selecao": "Space",
+        "forma": "F10",
+        "zoom": "Z",
+        "enquadrar": "H",
+        "mao_livre": "F5",
+        "retangulo": "F6",
+        "elipse": "F7",
+        "poligono": "Y",
+        "texto": "F8",
+        "borracha": "X",
+        "midia_artistica": "I",
+        "papel_grafico": "D",
+        "espiral": "A",
+        "contorno": "F12",
+        "preenchimento_interativo": "G",
+        "preenchimento_malha": "M"
+    },
+    "common_operations": {
+        "import_image": {
+            "description": "Importar imagem para o documento",
+            "methods": [
+                {
+                    "type": "shortcut",
+                    "keys": "Ctrl+I"
+                },
+                {
+                    "type": "menu",
+                    "path": "Arquivo > Importar..."
+                },
+                {
+                    "type": "menu_navigation",
+                    "keys": [
+                        "Alt+A",
+                        "i",
+                        "Enter"
+                    ]
+                }
+            ],
+            "after_import": {
+                "cursor_mode_instructions": [
+                    "Clique e arraste para redimensionar",
+                    "Pressione Enter para centralizar na página",
+                    "Pressione barra de espaços para usar a posição original"
+                ],
+                "place_image": {
+                    "key": "Enter",
+                    "action": "centers_on_page"
+                }
+            }
+        },
+        "vectorization": {
+            "description": "Vetorizar imagem usando Bézier",
+            "steps": [
+                {
+                    "step": 1,
+                    "action": "Import image"
+                },
+                {
+                    "step": 2,
+                    "action": "Place image on canvas (Enter)"
+                },
+                {
+                    "step": 3,
+                    "action": "Select Bézier tool (F6)"
+                },
+                {
+                    "step": 4,
+                    "action": "Click contour points to trace"
+                },
+                {
+                    "step": 5,
+                    "action": "Close path by clicking first point"
+                },
+                {
+                    "step": 6,
+                    "action": "Apply fill color"
+                }
+            ]
+        }
+    },
+    "ocr_issues": {
+        "highlighted_items_invisible": {
+            "description": "OCR fails to detect menu items with highlight/selection background",
+            "workaround": "Use position calculation between visible items or keyboard navigation",
+            "documented_in": "memo/BUG_OCR_ITENS_DESTACADOS.md"
+        }
+    }
+}

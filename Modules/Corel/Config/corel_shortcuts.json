@@ -1,0 +1,17 @@
+{
+    "description": "Critical ONI Shortcuts for CorelDRAW Automation",
+    "shortcuts": [
+        {
+            "name": "Quick Trace - Detailed Logo",
+            "guid": "21129FEE-F5C2-41bc-9B04-CB5D39CB3974",
+            "keys": "Ctrl+Shift+D",
+            "description": "Triggers the detailed logo trace on selected bitmap"
+        },
+        {
+            "name": "Convert to Bitmap",
+            "guid": "2962cd49-74fd-4848-8590-fcc6807f0396",
+            "keys": "Ctrl+Shift+B",
+            "description": "Converts selection to bitmap (Standardizing behavior)"
+        }
+    ]
+}

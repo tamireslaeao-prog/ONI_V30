@@ -1,0 +1,695 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-01-04",
+  "styles": [
+    {
+      "style_id": "cyberpunk_v1",
+      "name": "Cyberpunk Neon",
+      "description": "High-tech dystopian aesthetic with neon colors and aggressive geometry",
+      
+      "metadata": {
+        "era": "2077",
+        "mood_vector": [0.9, 0.1, 0.8],
+        "mood_labels": ["aggressive", "chaotic", "energetic"],
+        "cultural_refs": ["Blade Runner", "Akira", "Cyberpunk 2077", "Ghost in the Shell"],
+        "tags": ["futuristic", "dystopian", "neon", "tech", "urban"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#00F0FF", "#FF0055", "#B026FF"],
+          "accent": ["#FFFF00", "#00FF88", "#FF6B00"],
+          "background": ["#0A0A0F", "#1A1A20", "#101015"],
+          "emission": ["#FF00FF", "#00FFFF", "#39FF14"],
+          "warning": ["#FF0000", "#FFFF00", "#FF6600"]
+        },
+        
+        "typography": {
+          "headers": ["Orbitron", "Audiowide", "Black Ops One"],
+          "body": ["Roboto Mono", "Share Tech Mono", "IBM Plex Mono"],
+          "display": ["Turret Road", "Gruppo", "Russo One"],
+          "accent": ["Electrolize", "Michroma"],
+          "weight_bias": "heavy",
+          "letter_spacing": "wide",
+          "case_preference": "uppercase"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["hexagon", "chamfered_box", "angular_wedge", "diagonal_stripe"],
+          "secondary_shapes": ["octagon", "parallelogram", "chevron"],
+          "complexity_level": 0.75,
+          "symmetry_bias": 0.3,
+          "edge_treatment": "hard",
+          "corner_style": "chamfered",
+          "line_style": "angular"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Dirty Chrome",
+              "roughness": 0.3,
+              "metallic": 0.9,
+              "wear": 0.6
+            },
+            {
+              "name": "Black Glass",
+              "roughness": 0.05,
+              "metallic": 0.0,
+              "transparency": 0.2
+            },
+            {
+              "name": "Neon Tube",
+              "emission": 2.5,
+              "glow_radius": 8,
+              "flicker": true
+            },
+            {
+              "name": "Carbon Fiber",
+              "roughness": 0.4,
+              "metallic": 0.2,
+              "pattern": "weave"
+            }
+          ],
+          "wear_level": 0.7,
+          "dirt_accumulation": 0.5
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.8,
+            "blur_radius": 12
+          },
+          "scanlines": {
+            "enabled": true,
+            "opacity": 0.15,
+            "spacing": 4
+          },
+          "chromatic_aberration": {
+            "enabled": true,
+            "offset": 2
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.05
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.6,
+        "greeble_density": 0.8,
+        "glitch_frequency": 0.4,
+        "animation_speed": 1.2,
+        "asymmetry_preference": 0.7,
+        "detail_obsession": 0.85
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["diagonal", "split_screen", "layered"],
+        "focal_point_bias": "off_center",
+        "breathing_room": 0.2,
+        "border_treatment": "technical_frame"
+      },
+      
+      "forbidden_elements": [
+        "rounded_corners",
+        "pastels",
+        "serif_fonts",
+        "organic_curves",
+        "warm_earth_tones"
+      ]
+    },
+    
+    {
+      "style_id": "brutalism_v1",
+      "name": "Digital Brutalism",
+      "description": "Raw, functional, uncompromising design with industrial aesthetics",
+      
+      "metadata": {
+        "era": "Post-Internet",
+        "mood_vector": [0.7, 0.3, 0.4],
+        "mood_labels": ["powerful", "raw", "honest"],
+        "cultural_refs": ["Soviet Architecture", "Swiss Design", "Anti-Design Movement"],
+        "tags": ["minimal", "industrial", "concrete", "functional", "bold"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#1A1A1A", "#FFFFFF", "#FF3333"],
+          "accent": ["#FFFF00", "#00FF00", "#0000FF"],
+          "background": ["#E8E8E8", "#D0D0D0", "#BEBEBE"],
+          "emission": [],
+          "warning": ["#FF0000", "#000000"]
+        },
+        
+        "typography": {
+          "headers": ["Arial Black", "Impact", "Helvetica"],
+          "body": ["Arial", "Helvetica", "Courier New"],
+          "display": ["Impact", "Arial Black"],
+          "accent": ["Courier New"],
+          "weight_bias": "heavy",
+          "letter_spacing": "tight",
+          "case_preference": "uppercase"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["rectangle", "square", "grid"],
+          "secondary_shapes": ["thick_line", "solid_block"],
+          "complexity_level": 0.3,
+          "symmetry_bias": 0.8,
+          "edge_treatment": "sharp",
+          "corner_style": "square",
+          "line_style": "thick_orthogonal"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Raw Concrete",
+              "roughness": 0.9,
+              "metallic": 0.0,
+              "texture": "rough"
+            },
+            {
+              "name": "Matte Black",
+              "roughness": 1.0,
+              "metallic": 0.0
+            },
+            {
+              "name": "Industrial Steel",
+              "roughness": 0.6,
+              "metallic": 0.5,
+              "oxidation": 0.3
+            }
+          ],
+          "wear_level": 0.5,
+          "dirt_accumulation": 0.4
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": false
+          },
+          "scanlines": {
+            "enabled": false
+          },
+          "chromatic_aberration": {
+            "enabled": false
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.15,
+            "type": "analog"
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.2,
+        "greeble_density": 0.1,
+        "glitch_frequency": 0.1,
+        "animation_speed": 0.5,
+        "asymmetry_preference": 0.2,
+        "detail_obsession": 0.15
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["grid", "centered", "stacked"],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.4,
+        "border_treatment": "thick_border"
+      },
+      
+      "forbidden_elements": [
+        "gradients",
+        "shadows",
+        "ornaments",
+        "curves",
+        "transparency",
+        "multiple_fonts"
+      ]
+    },
+    
+    {
+      "style_id": "minimalism_v1",
+      "name": "Pure Minimalism",
+      "description": "Extreme simplicity and negative space as design elements",
+      
+      "metadata": {
+        "era": "Contemporary",
+        "mood_vector": [0.1, 0.9, 0.2],
+        "mood_labels": ["calm", "refined", "elegant"],
+        "cultural_refs": ["Dieter Rams", "Apple Design", "Muji", "Bauhaus"],
+        "tags": ["clean", "simple", "elegant", "spacious", "refined"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#000000", "#FFFFFF"],
+          "accent": ["#4A4A4A", "#E0E0E0"],
+          "background": ["#FAFAFA", "#F5F5F5", "#FFFFFF"],
+          "emission": [],
+          "warning": ["#FF0000"]
+        },
+        
+        "typography": {
+          "headers": ["Helvetica Neue", "San Francisco", "Inter"],
+          "body": ["Helvetica", "Arial", "Inter"],
+          "display": ["Helvetica Neue Light"],
+          "accent": ["SF Mono", "Courier"],
+          "weight_bias": "light",
+          "letter_spacing": "normal",
+          "case_preference": "lowercase"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["circle", "rectangle", "line"],
+          "secondary_shapes": ["rounded_rectangle"],
+          "complexity_level": 0.1,
+          "symmetry_bias": 0.95,
+          "edge_treatment": "soft",
+          "corner_style": "subtle_radius",
+          "line_style": "thin"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Matte White",
+              "roughness": 0.8,
+              "metallic": 0.0
+            },
+            {
+              "name": "Soft Gray",
+              "roughness": 0.9,
+              "metallic": 0.0
+            }
+          ],
+          "wear_level": 0.0,
+          "dirt_accumulation": 0.0
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": false
+          },
+          "scanlines": {
+            "enabled": false
+          },
+          "chromatic_aberration": {
+            "enabled": false
+          },
+          "noise": {
+            "enabled": false
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.05,
+        "greeble_density": 0.0,
+        "glitch_frequency": 0.0,
+        "animation_speed": 0.3,
+        "asymmetry_preference": 0.1,
+        "detail_obsession": 0.05
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["centered", "thirds", "golden_ratio"],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.8,
+        "border_treatment": "none"
+      },
+      
+      "forbidden_elements": [
+        "multiple_colors",
+        "decorative_elements",
+        "textures",
+        "patterns",
+        "heavy_weights",
+        "ornaments"
+      ]
+    },
+    
+    {
+      "style_id": "glitch_art_v1",
+      "name": "Corrupted Data",
+      "description": "Intentional digital errors and data corruption as aesthetic",
+      
+      "metadata": {
+        "era": "Digital Error",
+        "mood_vector": [0.8, 0.2, 0.95],
+        "mood_labels": ["chaotic", "unstable", "digital"],
+        "cultural_refs": ["Databending", "Vaporwave", "Y2K Aesthetic"],
+        "tags": ["broken", "digital", "corrupt", "chaotic", "unstable"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#FF00FF", "#00FFFF", "#FFFF00"],
+          "accent": ["#FF0000", "#00FF00", "#0000FF"],
+          "background": ["#000000", "#FFFFFF", "#808080"],
+          "emission": ["#FF00FF", "#00FFFF"],
+          "warning": ["#FF0000", "#FFFF00"]
+        },
+        
+        "typography": {
+          "headers": ["Courier New", "VT323", "Share Tech Mono"],
+          "body": ["Courier", "Consolas", "Monaco"],
+          "display": ["VT323", "Press Start 2P"],
+          "accent": ["Courier New"],
+          "weight_bias": "regular",
+          "letter_spacing": "monospace",
+          "case_preference": "mixed"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["distorted_rectangle", "pixel_block", "line"],
+          "secondary_shapes": ["corrupt_shape", "fragmented_polygon"],
+          "complexity_level": 0.9,
+          "symmetry_bias": 0.1,
+          "edge_treatment": "jagged",
+          "corner_style": "corrupted",
+          "line_style": "broken"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Digital Noise",
+              "roughness": 0.5,
+              "metallic": 0.0,
+              "distortion": 0.9
+            },
+            {
+              "name": "RGB Split",
+              "chromatic_aberration": 15
+            }
+          ],
+          "wear_level": 0.95,
+          "dirt_accumulation": 0.0
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.9,
+            "blur_radius": 20
+          },
+          "scanlines": {
+            "enabled": true,
+            "opacity": 0.5,
+            "spacing": 2,
+            "jitter": true
+          },
+          "chromatic_aberration": {
+            "enabled": true,
+            "offset": 10
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.3,
+            "type": "digital"
+          },
+          "displacement": {
+            "enabled": true,
+            "amount": 15
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.95,
+        "greeble_density": 0.4,
+        "glitch_frequency": 0.9,
+        "animation_speed": 2.5,
+        "asymmetry_preference": 0.95,
+        "detail_obsession": 0.3
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["chaotic", "fragmented", "overlapping"],
+        "focal_point_bias": "random",
+        "breathing_room": 0.1,
+        "border_treatment": "corrupted"
+      },
+      
+      "forbidden_elements": [
+        "clean_lines",
+        "smooth_gradients",
+        "perfect_alignment",
+        "symmetry"
+      ]
+    },
+    
+    {
+      "style_id": "industrial_v1",
+      "name": "Industrial Mechanica",
+      "description": "Heavy machinery aesthetic with rust and bolts",
+      
+      "metadata": {
+        "era": "Steam Era",
+        "mood_vector": [0.6, 0.5, 0.3],
+        "mood_labels": ["rugged", "mechanical", "sturdy"],
+        "cultural_refs": ["Steampunk", "Dieselpunk", "Factory Design"],
+        "tags": ["mechanical", "rust", "metal", "industrial", "heavy"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#3D3D3D", "#8B4513", "#4A4A4A"],
+          "accent": ["#CD7F32", "#B87333", "#996515"],
+          "background": ["#2B2B2B", "#1F1F1F", "#363636"],
+          "emission": ["#FF6600"],
+          "warning": ["#FF6600", "#FFAA00"]
+        },
+        
+        "typography": {
+          "headers": ["Bebas Neue", "Industry", "Roboto Condensed"],
+          "body": ["Roboto", "Arial", "Helvetica"],
+          "display": ["Bebas Neue", "Oswald"],
+          "accent": ["Courier New"],
+          "weight_bias": "heavy",
+          "letter_spacing": "tight",
+          "case_preference": "uppercase"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["rectangle", "bolt_head", "gear", "rivet"],
+          "secondary_shapes": ["pipe", "plate", "bracket"],
+          "complexity_level": 0.65,
+          "symmetry_bias": 0.6,
+          "edge_treatment": "rough",
+          "corner_style": "bolted",
+          "line_style": "thick"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Rusted Steel",
+              "roughness": 0.8,
+              "metallic": 0.6,
+              "rust": 0.7
+            },
+            {
+              "name": "Brushed Iron",
+              "roughness": 0.5,
+              "metallic": 0.8,
+              "scratches": 0.6
+            },
+            {
+              "name": "Cast Iron",
+              "roughness": 0.9,
+              "metallic": 0.4,
+              "pitting": 0.5
+            }
+          ],
+          "wear_level": 0.8,
+          "dirt_accumulation": 0.7
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.3,
+            "blur_radius": 8,
+            "color": "#FF6600"
+          },
+          "scanlines": {
+            "enabled": false
+          },
+          "chromatic_aberration": {
+            "enabled": false
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.2,
+            "type": "grain"
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.4,
+        "greeble_density": 0.9,
+        "glitch_frequency": 0.05,
+        "animation_speed": 0.7,
+        "asymmetry_preference": 0.4,
+        "detail_obsession": 0.9
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["paneled", "riveted_frame", "layered_plates"],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.2,
+        "border_treatment": "mechanical_frame"
+      },
+      
+      "forbidden_elements": [
+        "bright_colors",
+        "clean_surfaces",
+        "digital_effects",
+        "transparency"
+      ]
+    },
+    
+    {
+      "style_id": "vaporwave_v1",
+      "name": "Vaporwave Nostalgia",
+      "description": "90s internet aesthetics with surreal corporate imagery",
+      
+      "metadata": {
+        "era": "1990s Digital",
+        "mood_vector": [0.3, 0.7, 0.6],
+        "mood_labels": ["nostalgic", "dreamy", "surreal"],
+        "cultural_refs": ["Windows 95", "Early Internet", "Mall Culture", "Macintosh Plus"],
+        "tags": ["retro", "90s", "surreal", "digital", "nostalgic"]
+      },
+      
+      "visual_dna": {
+        "palette": {
+          "primary": ["#FF71CE", "#01CDFE", "#05FFA1"],
+          "accent": ["#B967FF", "#FFFB96", "#FD9CF7"],
+          "background": ["#7209B7", "#3A0CA3", "#4CC9F0"],
+          "emission": ["#FF71CE", "#01CDFE"],
+          "warning": ["#F72585"]
+        },
+        
+        "typography": {
+          "headers": ["Arial", "Times New Roman", "Comic Sans MS"],
+          "body": ["Arial", "Verdana", "Tahoma"],
+          "display": ["Impact", "Comic Sans MS"],
+          "accent": ["Courier New", "Terminal"],
+          "weight_bias": "regular",
+          "letter_spacing": "wide",
+          "case_preference": "mixed"
+        },
+        
+        "geometry": {
+          "primary_shapes": ["window_95_button", "checker_pattern", "grid"],
+          "secondary_shapes": ["column", "wireframe_sphere", "palm_tree"],
+          "complexity_level": 0.6,
+          "symmetry_bias": 0.5,
+          "edge_treatment": "beveled",
+          "corner_style": "3d_raised",
+          "line_style": "gradient"
+        },
+        
+        "materials": {
+          "surfaces": [
+            {
+              "name": "Glossy Plastic",
+              "roughness": 0.1,
+              "metallic": 0.3,
+              "reflection": 0.7
+            },
+            {
+              "name": "Gradient Mesh",
+              "gradient": true,
+              "iridescent": 0.5
+            },
+            {
+              "name": "Marble Texture",
+              "roughness": 0.2,
+              "pattern": "marble"
+            }
+          ],
+          "wear_level": 0.0,
+          "dirt_accumulation": 0.0
+        },
+        
+        "effects": {
+          "glow": {
+            "enabled": true,
+            "intensity": 0.6,
+            "blur_radius": 15
+          },
+          "scanlines": {
+            "enabled": true,
+            "opacity": 0.1,
+            "spacing": 3
+          },
+          "chromatic_aberration": {
+            "enabled": true,
+            "offset": 3
+          },
+          "noise": {
+            "enabled": true,
+            "amount": 0.08,
+            "type": "vhs"
+          }
+        }
+      },
+      
+      "behavioral_traits": {
+        "randomness": 0.5,
+        "greeble_density": 0.5,
+        "glitch_frequency": 0.3,
+        "animation_speed": 0.8,
+        "asymmetry_preference": 0.4,
+        "detail_obsession": 0.6
+      },
+      
+      "composition_rules": {
+        "preferred_layouts": ["windows_95", "centered_with_columns", "mirrored"],
+        "focal_point_bias": "centered",
+        "breathing_room": 0.3,
+        "border_treatment": "gradient_border"
+      },
+      
+      "forbidden_elements": [
+        "modern_flat_design",
+        "sans_gradient",
+        "realistic_textures"
+      ]
+    }
+  ],
+  
+  "style_families": {
+    "tech": ["cyberpunk_v1", "glitch_art_v1", "industrial_v1"],
+    "clean": ["minimalism_v1", "brutalism_v1"],
+    "retro": ["vaporwave_v1", "industrial_v1"],
+    "chaotic": ["glitch_art_v1", "cyberpunk_v1"],
+    "calm": ["minimalism_v1"]
+  },
+  
+  "compatibility_matrix": {
+    "cyberpunk_v1": {
+      "glitch_art_v1": 0.8,
+      "industrial_v1": 0.6,
+      "minimalism_v1": 0.2,
+      "brutalism_v1": 0.4,
+      "vaporwave_v1": 0.5
+    },
+    "minimalism_v1": {
+      "brutalism_v1": 0.7,
+      "cyberpunk_v1": 0.2,
+      "glitch_art_v1": 0.1,
+      "industrial_v1": 0.3,
+      "vaporwave_v1": 0.3
+    }
+  }
+}

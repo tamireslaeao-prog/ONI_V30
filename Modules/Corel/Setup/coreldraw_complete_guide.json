@@ -1,0 +1,1118 @@
+{
+    "software": "CorelDRAW",
+    "version": "2024+",
+    "category": "vector_design",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para CorelDRAW",
+    
+    "tool_shortcuts": {
+        "pick": "space",
+        "shape": "f10",
+        "freehand": "f5",
+        "bezier": "f6",
+        "artistic_media": "i",
+        "pen": "b",
+        "polyline": "y",
+        "3point_curve": "shift+f5",
+        "rectangle": "f6",
+        "ellipse": "f7",
+        "polygon": "y",
+        "spiral": "a",
+        "graph_paper": "d",
+        "text": "f8",
+        "table": "ctrl+f12",
+        "eyedropper": "shift+e",
+        "paint_bucket": "shift+f11",
+        "outline_pen": "f12",
+        "fill": "shift+f11",
+        "interactive_fill": "g",
+        "mesh_fill": "m",
+        "smart_fill": "shift+ctrl+f11",
+        "zoom": "z",
+        "hand": "h",
+        "eraser": "x",
+        "knife": "e"
+    },
+    
+    "drawing_shortcuts": {
+        "constrain_angle": "ctrl+drag",
+        "draw_from_center": "shift+drag",
+        "square_circle": "ctrl+drag",
+        "snap_to_objects": "alt+z",
+        "snap_to_grid": "ctrl+y",
+        "dynamic_guides": "alt+shift+d",
+        "guidelines": "alt+shift+l",
+        "duplicate": "ctrl+d",
+        "repeat": "ctrl+r",
+        "clone": "ctrl+shift+d",
+        "power_clip": "alt+ctrl+p",
+        "extract_contents": "alt+shift+p"
+    },
+    
+    "selection_shortcuts": {
+        "select_all": "ctrl+a",
+        "select_all_text": "ctrl+shift+t",
+        "select_all_guidelines": "alt+ctrl+g",
+        "deselect": "esc",
+        "select_next_object": "tab",
+        "select_previous_object": "shift+tab",
+        "select_object_behind": "alt+click",
+        "group": "ctrl+g",
+        "ungroup": "ctrl+u",
+        "ungroup_all": "ctrl+shift+u",
+        "combine": "ctrl+l",
+        "break_apart": "ctrl+k",
+        "weld": "ctrl+shift+w",
+        "trim": "ctrl+shift+t",
+        "intersect": "ctrl+shift+i"
+    },
+    
+    "transformation_shortcuts": {
+        "rotate_mode": "click_again_on_selected",
+        "free_transform": "alt+f9",
+        "position": "alt+f7",
+        "rotate": "alt+f8",
+        "scale_mirror": "alt+f9",
+        "size": "alt+f10",
+        "flip_horizontal": "ctrl+h",
+        "flip_vertical": "ctrl+shift+h",
+        "align_distribute": "ctrl+shift+a",
+        "to_curve": "ctrl+q",
+        "convert_outline_to_object": "ctrl+shift+q"
+    },
+    
+    "common_shortcuts": {
+        "new_document": "ctrl+n",
+        "open": "ctrl+o",
+        "save": "ctrl+s",
+        "save_as": "ctrl+shift+s",
+        "import": "ctrl+i",
+        "export": "ctrl+e",
+        "export_for_web": "ctrl+shift+e",
+        "print": "ctrl+p",
+        "close": "ctrl+f4",
+        "undo": "ctrl+z",
+        "redo": "ctrl+shift+z",
+        "repeat": "ctrl+r",
+        "cut": "ctrl+x",
+        "copy": "ctrl+c",
+        "paste": "ctrl+v",
+        "paste_special": "ctrl+shift+v",
+        "delete": "delete",
+        "duplicate": "ctrl+d",
+        "step_and_repeat": "ctrl+shift+d"
+    },
+    
+    "view_shortcuts": {
+        "zoom_in": "f2",
+        "zoom_out": "f3",
+        "zoom_to_page": "f4",
+        "zoom_to_selection": "shift+f2",
+        "zoom_to_all_objects": "f4",
+        "actual_size": "ctrl+1",
+        "fit_in_window": "ctrl+w",
+        "page_sorter": "ctrl+f3",
+        "full_screen_preview": "f9",
+        "simple_wireframe": "shift+f9",
+        "wireframe": "ctrl+f9",
+        "draft": "alt+f9",
+        "normal": "ctrl+shift+f9",
+        "enhanced": "f9",
+        "rulers": "ctrl+shift+r",
+        "grid": "ctrl+shift+g",
+        "guidelines": "ctrl+shift+l",
+        "enable_snap_to_objects": "alt+z"
+    },
+    
+    "text_shortcuts": {
+        "text_tool": "f8",
+        "edit_text": "ctrl+shift+t",
+        "text_properties": "ctrl+t",
+        "change_case": "shift+f3",
+        "bold": "ctrl+b",
+        "italic": "ctrl+i",
+        "underline": "ctrl+u",
+        "align_left": "ctrl+l",
+        "align_center": "ctrl+e",
+        "align_right": "ctrl+r",
+        "justify": "ctrl+j",
+        "increase_font": "ctrl+numpad_+",
+        "decrease_font": "ctrl+numpad_-",
+        "show_nonprinting": "ctrl+shift+c",
+        "fit_text_to_path": "text_menu",
+        "convert_to_curves": "ctrl+q"
+    },
+    
+    "color_shortcuts": {
+        "fill_dialog": "shift+f11",
+        "outline_pen_dialog": "f12",
+        "outline_color_dialog": "shift+f12",
+        "no_fill": "ctrl+shift+x",
+        "no_outline": "ctrl+x",
+        "color_palette_browser": "ctrl+alt+p",
+        "uniform_fill": "shift+f11",
+        "fountain_fill": "f11",
+        "pattern_fill": "alt+f11",
+        "texture_fill": "ctrl+f11",
+        "postscript_fill": "ctrl+shift+f11",
+        "eyedropper": "shift+e",
+        "paint_bucket": "shift+f11",
+        "color_styles": "ctrl+f6"
+    },
+    
+    "arrange_shortcuts": {
+        "to_front": "shift+page_up",
+        "to_back": "shift+page_down",
+        "forward_one": "ctrl+page_up",
+        "back_one": "ctrl+page_down",
+        "reverse_order": "ctrl+shift+r",
+        "align_and_distribute": "ctrl+shift+a",
+        "align_left": "l",
+        "align_right": "r",
+        "align_top": "t",
+        "align_bottom": "b",
+        "align_center_horizontal": "c",
+        "align_center_vertical": "e",
+        "distribute_horizontal": "shift+c",
+        "distribute_vertical": "shift+e"
+    },
+    
+    "effects_shortcuts": {
+        "powerclip": "alt+ctrl+p",
+        "edit_powerclip": "ctrl+click",
+        "lens": "alt+f3",
+        "perspective": "ctrl+alt+p",
+        "envelope": "ctrl+f7",
+        "blend": "ctrl+b",
+        "contour": "ctrl+f9",
+        "distortion": "ctrl+f11",
+        "drop_shadow": "ctrl+f8",
+        "extrude": "ctrl+e",
+        "bevel": "ctrl+b",
+        "clear_transformations": "alt+ctrl+r"
+    },
+    
+    "object_shortcuts": {
+        "lock_object": "ctrl+l",
+        "unlock_object": "alt+ctrl+l",
+        "unlock_all": "alt+ctrl+u",
+        "shaping": "ctrl+shift+q",
+        "weld": "ctrl+shift+w",
+        "trim": "ctrl+shift+t",
+        "intersect": "ctrl+shift+i",
+        "simplify": "ctrl+shift+s",
+        "front_minus_back": "ctrl+shift+f",
+        "back_minus_front": "ctrl+shift+b",
+        "create_boundary": "ctrl+shift+d"
+    },
+    
+    "recommended_settings": {
+        "logo_design": {
+            "page_size": "A4 or custom",
+            "units": "millimeters",
+            "resolution": "300 dpi export",
+            "color_mode": "RGB or CMYK",
+            "outline_width": "0.5mm - 2mm",
+            "recommended_tools": ["bezier", "ellipse", "rectangle", "text"],
+            "grid_spacing": "5mm",
+            "snap_tolerance": "medium"
+        },
+        "business_card": {
+            "page_size": "85x55mm",
+            "bleed": "3mm all sides",
+            "safe_area": "5mm from edge",
+            "resolution": "300 dpi",
+            "color_mode": "CMYK",
+            "recommended_fonts": "8pt minimum"
+        },
+        "flyer_poster": {
+            "page_size": "A4, A3, or custom",
+            "resolution": "300 dpi",
+            "color_mode": "CMYK for print, RGB for digital",
+            "bleed": "3-5mm",
+            "image_resolution": "minimum 300 dpi",
+            "text_minimum": "8pt for body, 14pt for headers"
+        },
+        "banner_large_format": {
+            "page_size": "custom large",
+            "resolution": "150 dpi (viewing distance dependent)",
+            "color_mode": "CMYK",
+            "bleed": "50mm recommended",
+            "text_minimum": "scaled for viewing distance"
+        },
+        "web_graphics": {
+            "page_size": "pixels (1920x1080, etc)",
+            "units": "pixels",
+            "resolution": "96 dpi",
+            "color_mode": "RGB",
+            "export_format": "PNG, SVG, or JPG"
+        },
+        "technical_drawing": {
+            "page_size": "as required",
+            "units": "millimeters or inches",
+            "precision": "4 decimal places",
+            "snap_to_grid": "enabled",
+            "dimension_lines": "enabled",
+            "scale": "1:1 or specified"
+        }
+    },
+    
+    "pre_design_checklist": [
+        {
+            "check": "page_setup",
+            "prompt": "Verifique o tamanho e orientação da página",
+            "expected": "Tamanho correto para o projeto",
+            "fix_if_wrong": "Layout > Page Setup ou duplo-clique na página",
+            "importance": "critical",
+            "verification": "Canto inferior esquerdo mostra dimensões"
+        },
+        {
+            "check": "color_mode",
+            "prompt": "Verifique o modo de cor do documento",
+            "expected": "RGB para digital, CMYK para impressão",
+            "fix_if_wrong": "Tools > Color Management",
+            "importance": "critical",
+            "verification": "Barra de status mostra modo"
+        },
+        {
+            "check": "units",
+            "prompt": "Verifique as unidades de medida",
+            "expected": "mm para impressão, pixels para web",
+            "fix_if_wrong": "Tools > Options > Workspace > Rulers",
+            "importance": "high",
+            "verification": "Réguas mostram unidades"
+        },
+        {
+            "check": "grid_guides",
+            "prompt": "Configure grid e guias se necessário",
+            "expected": "Grid visível e snap ativo para precisão",
+            "fix_if_wrong": "View > Grid/Guides, Alt+Z para snap",
+            "importance": "medium",
+            "verification": "Grid visível no canvas"
+        },
+        {
+            "check": "snap_settings",
+            "prompt": "Verifique configurações de snap",
+            "expected": "Snap to Objects ativo (Alt+Z)",
+            "fix_if_wrong": "View > Snap To > Objects",
+            "importance": "high",
+            "verification": "Ícone snap na barra de ferramentas"
+        },
+        {
+            "check": "color_palette",
+            "prompt": "Verifique se paleta de cores está visível",
+            "expected": "Paleta CMYK ou RGB visível",
+            "fix_if_wrong": "Window > Color Palettes",
+            "importance": "medium",
+            "verification": "Paleta no lado direito da tela"
+        },
+        {
+            "check": "outline_width",
+            "prompt": "Verifique espessura padrão de contorno",
+            "expected": "Hairline ou 0.5mm para trabalho inicial",
+            "fix_if_wrong": "F12 para ajustar outline pen",
+            "importance": "medium",
+            "verification": "Barra de propriedades mostra espessura"
+        },
+        {
+            "check": "bleed_area",
+            "prompt": "Configure área de sangria se for imprimir",
+            "expected": "3-5mm de bleed configurado",
+            "fix_if_wrong": "Layout > Page Setup > Bleed",
+            "importance": "high",
+            "verification": "Área de bleed visível no canvas"
+        },
+        {
+            "check": "resolution_export",
+            "prompt": "Defina resolução para exportação",
+            "expected": "300 DPI para impressão",
+            "fix_if_wrong": "File > Export > Settings",
+            "importance": "medium",
+            "verification": "Configurar antes de exportar"
+        },
+        {
+            "check": "backup_autosave",
+            "prompt": "Verifique se autosave está ativo",
+            "expected": "Salvar automaticamente a cada 10 minutos",
+            "fix_if_wrong": "Tools > Options > Workspace > Save",
+            "importance": "high",
+            "verification": "Configurações de autosave ativas"
+        }
+    ],
+    
+    "quality_criteria": {
+        "vector_artwork": {
+            "clean_paths": "Nós mínimos necessários, sem sobreposição",
+            "closed_paths": "Formas fechadas para preenchimento correto",
+            "proper_curves": "Curvas suaves sem ângulos desnecessários",
+            "node_alignment": "Nós alinhados em linhas retas",
+            "consistent_outline": "Espessura uniforme quando apropriado",
+            "no_artifacts": "Sem pixels residuais ou falhas",
+            "scalability": "Mantém qualidade em qualquer tamanho"
+        },
+        "typography": {
+            "legibility": "Texto legível no tamanho final",
+            "hierarchy": "Clara distinção entre títulos e corpo",
+            "spacing": "Kerning e tracking apropriados",
+            "alignment": "Alinhamento consistente",
+            "contrast": "Contraste adequado com fundo",
+            "font_embedding": "Fontes incorporadas ou convertidas"
+        },
+        "color_usage": {
+            "consistency": "Paleta de cores consistente",
+            "contrast": "Contraste suficiente para legibilidade",
+            "color_mode": "CMYK para impressão, RGB para digital",
+            "spot_colors": "Uso correto de cores especiais",
+            "overprint": "Configurações de overprint corretas"
+        },
+        "layout": {
+            "composition": "Elementos bem distribuídos",
+            "balance": "Equilíbrio visual",
+            "white_space": "Uso efetivo de espaço negativo",
+            "alignment": "Elementos alinhados corretamente",
+            "hierarchy": "Clara hierarquia visual",
+            "margins": "Margens adequadas"
+        },
+        "technical": {
+            "bleed": "Sangria configurada corretamente",
+            "safe_area": "Elementos importantes dentro da área segura",
+            "resolution": "Imagens em resolução adequada",
+            "color_profiles": "Perfis de cor corretos",
+            "trim_marks": "Marcas de corte se necessário",
+            "file_preparation": "Arquivo preparado para produção"
+        }
+    },
+    
+    "workflow_best_practices": {
+        "project_setup": [
+            "Definir tamanho e orientação da página",
+            "Configurar modo de cor apropriado",
+            "Estabelecer unidades de medida",
+            "Configurar grid e guias",
+            "Ativar snap para precisão",
+            "Salvar arquivo imediatamente",
+            "Criar camadas para organização"
+        ],
+        "design_process": [
+            "Começar com sketch ou wireframe",
+            "Criar formas básicas primeiro",
+            "Refinar formas e detalhes",
+            "Aplicar cores e preenchimentos",
+            "Adicionar texto e tipografia",
+            "Ajustar espaçamento e alinhamento",
+            "Revisar e refinar design",
+            "Preparar para exportação/impressão"
+        ],
+        "layer_organization": [
+            "Nomear todas as camadas descritivamente",
+            "Agrupar elementos relacionados",
+            "Usar master pages para elementos repetidos",
+            "Bloquear camadas finalizadas",
+            "Organizar por hierarquia visual",
+            "Manter camadas de guia separadas"
+        ],
+        "file_management": [
+            "Usar nomes descritivos",
+            "Salvar versões incrementais",
+            "Manter arquivos de trabalho separados de finais",
+            "Organizar em pastas por projeto",
+            "Backup regular de arquivos",
+            "Documentar decisões de design"
+        ],
+        "color_management": [
+            "Definir paleta de cores no início",
+            "Usar Color Styles para consistência",
+            "Verificar cores em modo CMYK antes de imprimir",
+            "Usar amostras de cores para aprovação",
+            "Calibrar monitor regularmente"
+        ],
+        "text_workflow": [
+            "Usar Text Styles para consistência",
+            "Converter texto crítico para curvas",
+            "Verificar ortografia antes de finalizar",
+            "Manter fontes originais em arquivo separado",
+            "Testar legibilidade em tamanho final"
+        ]
+    },
+    
+    "common_mistakes": {
+        "not_converting_to_curves": {
+            "problem": "Texto não convertido causa problemas de fonte",
+            "solution": "Ctrl+Q para converter texto em curvas",
+            "prevention": "Converter antes de enviar para impressão",
+            "when": "Após aprovação final, manter cópia com texto editável"
+        },
+        "rgb_instead_cmyk": {
+            "problem": "Cores RGB não reproduzem bem em impressão",
+            "solution": "Converter para CMYK antes de imprimir",
+            "prevention": "Iniciar projeto em CMYK se for para impressão",
+            "impact": "Cores podem parecer opacas ou diferentes"
+        },
+        "low_resolution_images": {
+            "problem": "Imagens importadas em baixa resolução",
+            "solution": "Reimportar em 300 DPI mínimo",
+            "prevention": "Verificar resolução de imagens antes de importar",
+            "check": "Effects > Adjust > Resample"
+        },
+        "no_bleed": {
+            "problem": "Design sem área de sangria",
+            "solution": "Adicionar 3-5mm de bleed em todos os lados",
+            "prevention": "Configurar bleed no início do projeto",
+            "importance": "Crítico para impressão profissional"
+        },
+        "too_many_nodes": {
+            "problem": "Curvas com nós excessivos",
+            "solution": "Shape Tool > Reduce Nodes",
+            "prevention": "Usar ferramentas Bezier com precisão",
+            "impact": "Arquivo grande e edição lenta"
+        },
+        "ungrouped_elements": {
+            "problem": "Elementos não agrupados se movem separadamente",
+            "solution": "Selecionar tudo e Ctrl+G para agrupar",
+            "prevention": "Agrupar elementos relacionados sempre",
+            "tip": "Use Ctrl+U para desagrupar quando necessário"
+        },
+        "incorrect_outline": {
+            "problem": "Contornos muito grossos ou finos",
+            "solution": "F12 para ajustar espessura apropriada",
+            "prevention": "Definir padrões no início",
+            "recommendation": "0.5-2mm para impressão padrão"
+        },
+        "overlapping_objects": {
+            "problem": "Objetos sobrepostos causam problemas na impressão",
+            "solution": "Usar Weld, Trim ou Intersect",
+            "prevention": "Simplificar formas sempre que possível",
+            "tool": "Shaping docker (Ctrl+Shift+Q)"
+        }
+    },
+    
+    "advanced_techniques": {
+        "powerclip": {
+            "description": "Colocar objetos dentro de outros como máscara",
+            "shortcut": "Alt+Ctrl+P",
+            "steps": [
+                "Criar forma que será o container",
+                "Selecionar objeto a ser inserido",
+                "Effects > PowerClip > Place Inside Frame",
+                "Clicar no container"
+            ],
+            "edit": "Ctrl+Click no PowerClip",
+            "extract": "Alt+Shift+P",
+            "uses": ["Máscaras de imagem", "Designs complexos", "Layouts criativos"]
+        },
+        "blend": {
+            "description": "Criar transição suave entre objetos",
+            "shortcut": "Ctrl+B ou Interactive Blend",
+            "steps": [
+                "Criar dois objetos",
+                "Selecionar Interactive Blend",
+                "Arrastar de um objeto para outro",
+                "Ajustar número de passos"
+            ],
+            "uses": ["Gradientes complexos", "Efeitos de movimento", "Ilustrações"]
+        },
+        "mesh_fill": {
+            "description": "Preenchimento com malha de cores",
+            "shortcut": "M",
+            "steps": [
+                "Selecionar objeto",
+                "Pressionar M",
+                "Definir linhas e colunas",
+                "Ajustar nós e cores"
+            ],
+            "uses": ["Ilustrações realistas", "Degradês complexos", "Sombreamento"]
+        },
+        "envelope": {
+            "description": "Distorcer objetos em formas personalizadas",
+            "shortcut": "Ctrl+F7",
+            "modes": ["Straight Line", "Single Arc", "Double Arc", "Unconstrained"],
+            "uses": ["Texto em curvas", "Perspectiva", "Distorções criativas"]
+        },
+        "perspective": {
+            "description": "Adicionar perspectiva realista",
+            "shortcut": "Effects > Add Perspective",
+            "uses": ["Mockups", "Designs 3D", "Apresentações"]
+        },
+        "contour": {
+            "description": "Criar contornos internos ou externos",
+            "shortcut": "Ctrl+F9",
+            "types": ["To Center", "Inside", "Outside"],
+            "uses": ["Bordas", "Efeitos de profundidade", "Logos"]
+        },
+        "drop_shadow": {
+            "description": "Adicionar sombras realistas",
+            "shortcut": "Ctrl+F8",
+            "parameters": ["Opacity", "Feather", "Angle", "Distance"],
+            "uses": ["Profundidade", "Separação de camadas", "Realismo"]
+        },
+        "transparency": {
+            "description": "Aplicar transparência e modos de mesclagem",
+            "tool": "Interactive Transparency",
+            "types": ["Uniform", "Fountain", "Pattern", "Texture"],
+            "blend_modes": ["Normal", "Multiply", "Screen", "Overlay", "Add"],
+            "uses": ["Sobreposições", "Efeitos especiais", "Composições"]
+        }
+    },
+    
+    "shaping_techniques": {
+        "weld": {
+            "shortcut": "Ctrl+Shift+W",
+            "description": "Unir objetos em forma única",
+            "use_case": "Criar formas complexas de simples"
+        },
+        "trim": {
+            "shortcut": "Ctrl+Shift+T",
+            "description": "Cortar objeto usando outro",
+            "use_case": "Remover partes indesejadas"
+        },
+        "intersect": {
+            "shortcut": "Ctrl+Shift+I",
+            "description": "Manter apenas área de sobreposição",
+            "use_case": "Criar formas de intersecção"
+        },
+        "simplify": {
+            "shortcut": "Ctrl+Shift+S",
+            "description": "Remover sobreposições de objetos",
+            "use_case": "Limpar designs complexos"
+        },
+        "front_minus_back": {
+            "description": "Subtrair objeto de trás do da frente",
+            "use_case": "Criar recortes"
+        },
+        "back_minus_front": {
+            "description": "Subtrair objeto da frente do de trás",
+            "use_case": "Recortes invertidos"
+        }
+    },
+    
+    "logo_design_workflow": {
+        "research": [
+            "Entender o cliente e marca",
+            "Pesquisar competidores",
+            "Definir público-alvo",
+            "Coletar inspiração"
+        ],
+        "sketching": [
+            "Criar thumbnails de conceitos",
+            "Explorar diferentes direções",
+            "Refinar melhores ideias",
+            "Obter feedback inicial"
+        ],
+        "vectorization": [
+            "Começar com formas básicas (F6, F7)",
+            "Usar Bezier para precisão (F5)",
+            "Simplificar formas complexas",
+            "Garantir simetria perfeita",
+            "Alinhar elementos (Ctrl+Shift+A)"
+        ],
+        "refinement": [
+            "Ajustar espaçamento e proporções",
+            "Testar em diferentes tamanhos",
+            "Converter texto em curvas (Ctrl+Q)",
+            "Verificar em preto e branco",
+            "Criar versões alternativas"
+        ],
+        "finalization": [
+            "Preparar arquivos finais",
+            "Exportar em múltiplos formatos",
+            "Criar guia de uso da marca",
+            "Entregar arquivos de trabalho"
+        ],
+        "export_formats": {
+            "primary": "CDR (arquivo de trabalho)",
+            "vector": ["AI", "EPS", "SVG", "PDF"],
+            "raster": ["PNG transparente", "JPG", "TIFF"],
+            "specifications": "300 DPI, CMYK e RGB versions"
+        }
+    },
+    
+    "print_preparation": {
+        "checklist": [
+            "Converter RGB para CMYK",
+            "Adicionar sangria (3-5mm)",
+            "Verificar área segura",
+            "Converter texto para curvas",
+            "Verificar imagens (300 DPI mínimo)",
+            "Adicionar marcas de corte",
+            "Verificar overprint e knockout",
+            "Criar arquivo PDF/X-1a ou PDF/X-4"
+        ],
+        "bleed_settings": {
+            "standard": "3mm all sides",
+            "large_format": "5-50mm depending on size",
+            "business_cards": "3mm minimum"
+        },
+        "color_management": {
+            "profile": "ISO Coated v2 (CMYK) or Fogra39",
+            "black": "C:0 M:0 Y:0 K:100 for text",
+            "rich_black": "C:60 M:40 Y:40 K:100 for backgrounds",
+            "white_text": "Minimum 8pt with outline"
+        },
+        "export_settings": {
+            "format": "PDF/X-1a or PDF/X-4",
+            "compatibility": "Acrobat 5.0 or higher",
+            "embed_fonts": "Yes, all fonts",
+            "compression": "ZIP for images",
+            "color_profile": "Include ICC profile"
+        }
+    },
+    
+    "typography_best_practices": {
+        "font_selection": {
+            "body_text": "Sans-serif para digital, Serif para impressão",
+            "minimum_size": "8pt para texto corrido",
+            "maximum_fonts": "2-3 famílias por projeto",
+            "pairing": "Contrastar serifs com sans-serifs"
+        },
+        "spacing": {
+            "leading": "120-145% do tamanho da fonte",
+            "tracking": "0-5% para headlines, 0% para corpo",
+            "kerning": "Ajustar pares específicos manualmente",
+            "paragraph_spacing": "0.5-1x altura da linha"
+        },
+        "hierarchy": {
+            "h1": "2.5-3x tamanho do corpo",
+            "h2": "2x tamanho do corpo",
+            "h3": "1.5x tamanho do corpo",
+            "body": "10-12pt padrão",
+            "caption": "8-9pt"
+        },
+        "alignment": {
+            "body": "Justificado ou alinhado à esquerda",
+            "headlines": "Alinhamento criativo permitido",
+            "avoid": "Texto centralizado em blocos grandes"
+        },
+        "readability": {
+            "line_length": "50-75 caracteres ideal",
+            "contrast": "Mínimo 4.5:1 para corpo de texto",
+            "white_space": "Usar generosamente",
+            "widow_orphan": "Evitar linhas soltas"
+        }
+    },
+    
+    "color_palette_creation": {
+        "methods": [
+            "Roda de cores (complementares, análogas, triádicas)",
+            "Extração de imagem (Eyedropper)",
+            "Paletas pré-definidas (Window > Color Palettes)",
+            "Geradores online (importar como palette)"
+        ],
+        "color_theory": {
+            "complementary": "Cores opostas na roda",
+            "analogous": "Cores adjacentes",
+            "triadic": "3 cores equidistantes",
+            "monochromatic": "Variações de uma cor",
+            "split_complementary": "Base + duas adjacentes à complementar"
+        },
+        "professional_palettes": {
+            "corporate": "2-3 cores principais, tons neutros",
+            "vibrant": "Cores saturadas com alto contraste",
+            "pastel": "Cores dessaturadas, suaves",
+            "monochrome": "Preto, branco, cinzas",
+            "earth_tones": "Marrons, verdes, terrosos"
+        }
+    },
+    
+    "troubleshooting": {
+        "slow_performance": {
+            "causes": [
+                "Muitos efeitos complexos",
+                "Imagens de alta resolução",
+                "Arquivo muito grande",
+                "Memória insuficiente",
+                "Visualização em Enhanced"
+            ],
+            "solutions": [
+                "Converter efeitos em bitmap",
+                "Reduzir resolução de imagens",
+                "Dividir em múltiplos arquivos",
+                "Fechar outros programas",
+                "Mudar para visualização Draft (Alt+F9)"
+            ]
+        },
+        "fonts_missing": {
+            "causes": [
+                "Fontes não instaladas",
+                "Arquivo de outra máquina",
+                "Fontes corrompidas"
+            ],
+            "solutions": [
+                "Instalar fontes faltantes",
+                "Substituir por similares",
+                "Usar Font Manager",
+                "Converter para curvas se finalizado"
+            ],
+            "prevention": "Incluir fontes ao compartilhar arquivos"
+        },
+        "colors_printing_wrong": {
+            "causes": [
+                "Modo RGB em vez de CMYK",
+                "Perfil de cor incorreto",
+                "Cores spot não configuradas",
+                "Monitor não calibrado"
+            ],
+            "solutions": [
+                "Converter para CMYK",
+                "Configurar perfil correto",
+                "Definir cores spot adequadamente",
+                "Calibrar monitor",
+                "Solicitar prova de impressão"
+            ]
+        },
+        "objects_disappearing": {
+            "causes": [
+                "Objetos em camada oculta",
+                "Fora da área de página",
+                "Cor igual ao fundo",
+                "Muito pequeno para ver"
+            ],
+            "solutions": [
+                "Verificar Object Manager",
+                "Zoom out (F3) para ver tudo",
+                "Mudar cor temporariamente",
+                "Aumentar tamanho"
+            ]
+        },
+        "cant_select_object": {
+            "causes": [
+                "Objeto bloqueado",
+                "Em camada bloqueada",
+                "Dentro de PowerClip",
+                "Atrás de outro objeto"
+            ],
+            "solutions": [
+                "Desbloquear (Alt+Ctrl+L)",
+                "Desbloquear camada",
+                "Edit PowerClip (Ctrl+Click)",
+                "Alt+Click para selecionar atrás"
+            ]
+        },
+        "export_quality_poor": {
+            "causes": [
+                "DPI muito baixo",
+                "Compressão excessiva",
+                "Formato inadequado",
+                "Configurações incorretas"
+            ],
+            "solutions": [
+                "Exportar em 300 DPI mínimo",
+                "Reduzir compressão",
+                "Usar PNG ou TIFF",
+                "Verificar todas as configurações de export"
+            ]
+        }
+    },
+    
+    "keyboard_shortcuts_combinations": {
+        "precision_drawing": {
+            "draw_perfect_circle": "ctrl+drag with ellipse",
+            "draw_perfect_square": "ctrl+drag with rectangle",
+            "draw_from_center": "shift+drag",
+            "constrain_rotation": "ctrl+drag rotate handle",
+            "rotate_15_degrees": "ctrl+rotate",
+            "duplicate_while_moving": "+ on numpad while dragging",
+            "constrain_movement": "ctrl+drag"
+        },
+        "selection_advanced": {
+            "select_under": "alt+click repeatedly",
+            "add_to_selection": "shift+click",
+            "remove_from_selection": "shift+click selected",
+            "select_all_type": "ctrl+shift+t",
+            "cycle_objects": "tab (forward) shift+tab (back)"
+        },
+        "transformation_precise": {
+            "nudge_small": "arrow keys",
+            "nudge_large": "shift+arrow keys",
+            "scale_proportionally": "ctrl+drag corner",
+            "rotate_copy": "duplicate then rotate",
+            "mirror_horizontal": "ctrl+h",
+            "mirror_vertical": "ctrl+shift+h"
+        }
+    },
+    
+    "export_formats_guide": {
+        "cdr": {
+            "use": "Arquivo de trabalho nativo",
+            "pros": "Totalmente editável, preserva tudo",
+            "cons": "Compatibilidade limitada",
+            "when": "Arquivo master e backups"
+        },
+        "pdf": {
+            "use": "Compartilhamento e impressão",
+            "pros": "Universal, preserva vetores",
+            "cons": "Menos editável",
+            "settings": "PDF/X-1a para impressão",
+            "when": "Envio para gráficas"
+        },
+        "ai": {
+            "use": "Compartilhar com usuários Illustrator",
+            "pros": "Editável em Illustrator",
+            "cons": "Pode perder alguns efeitos",
+            "when": "Colaboração com usuários Adobe"
+        },
+        "eps": {
+            "use": "Compatibilidade universal",
+            "pros": "Aceito pela maioria dos programas",
+            "cons": "Formato antigo",
+            "when": "Requisito específico do cliente"
+        },
+        "svg": {
+            "use": "Web e aplicações digitais",
+            "pros": "Escalável, código aberto, animável",
+            "cons": "Efeitos complexos podem não funcionar",
+            "when": "Web design, aplicações online"
+        },
+        "png": {
+            "use": "Web e apresentações",
+            "pros": "Suporta transparência, boa qualidade",
+            "cons": "Raster, não escalável",
+            "settings": "300 DPI para impressão, 72-96 para web",
+            "when": "Uso digital com transparência"
+        },
+        "jpg": {
+            "use": "Fotos e web",
+            "pros": "Arquivo pequeno, universal",
+            "cons": "Sem transparência, com perda",
+            "settings": "Qualidade 90-100% para impressão",
+            "when": "Fotografias, uso geral digital"
+        },
+        "tiff": {
+            "use": "Impressão profissional",
+            "pros": "Sem perda, CMYK, alta qualidade",
+            "cons": "Arquivo grande",
+            "when": "Impressão de alta qualidade"
+        }
+    },
+    
+    "dimension_and_measurement": {
+        "dimension_tools": {
+            "auto_dimension": "Tools > Dimension",
+            "types": ["Vertical", "Horizontal", "Slanted", "Angular"],
+            "precision": "Configurável até 6 casas decimais",
+            "units": "Automático baseado em configuração de documento"
+        },
+        "measurement": {
+            "measure_tool": "Tools > Object Properties",
+            "display": "Barra de status mostra dimensões",
+            "convert_units": "Clique direito nas réguas",
+            "precision_mode": "Alt+Z para snap preciso"
+        },
+        "guidelines": {
+            "add_horizontal": "Arrastar de régua superior",
+            "add_vertical": "Arrastar de régua lateral",
+            "guideline_setup": "Alt+Shift+L",
+            "lock_guidelines": "Tools > Options > Guidelines",
+            "snap_to_guidelines": "Configurável em View > Snap To"
+        }
+    },
+    
+    "object_manager": {
+        "access": "Tools > Object Manager ou Alt+F7",
+        "features": [
+            "Visualizar hierarquia de objetos",
+            "Renomear objetos e camadas",
+            "Bloquear/Desbloquear",
+            "Mostrar/Ocultar",
+            "Organizar em camadas",
+            "Arrastar para reordenar"
+        ],
+        "best_practices": [
+            "Nomear objetos importantes",
+            "Criar camadas lógicas",
+            "Bloquear elementos finalizados",
+            "Ocultar elementos de referência"
+        ]
+    },
+    
+    "styles_and_templates": {
+        "color_styles": {
+            "create": "Window > Dockers > Color Styles",
+            "apply": "Arrastar cor do docker para objeto",
+            "benefits": "Mudanças globais instantâneas",
+            "use_case": "Branding e consistência"
+        },
+        "object_styles": {
+            "create": "Object > Object Styles",
+            "types": ["Fill", "Outline", "Text"],
+            "benefits": "Formatação consistente",
+            "update": "Mudanças aplicam a todos os objetos"
+        },
+        "templates": {
+            "use": "File > New from Template",
+            "create": "File > Save as Template",
+            "location": "User/Documents/Corel/Templates",
+            "includes": ["Page setup", "Color palettes", "Layers", "Guides"]
+        }
+    },
+    
+    "bitmap_effects": {
+        "convert_to_bitmap": "Bitmaps > Convert to Bitmap",
+        "settings": {
+            "resolution": "300 DPI para impressão",
+            "color_mode": "CMYK ou RGB conforme necessário",
+            "anti_aliasing": "Ativar para suavização",
+            "transparent_background": "Opcional"
+        },
+        "effects_menu": [
+            "Blur (Gaussian, Motion, Radial)",
+            "Sharpen (Unsharp Mask)",
+            "Noise (Add, Remove)",
+            "Color Transform",
+            "Creative filters",
+            "Distort effects"
+        ],
+        "tip": "Manter versão vetorial original"
+    },
+    
+    "macro_and_automation": {
+        "macros": {
+            "record": "Tools > Macros > Record",
+            "play": "Tools > Macros > Play",
+            "edit": "Tools > Macros > Macro Manager",
+            "save": "Salvar como .GMS file",
+            "uses": ["Tarefas repetitivas", "Batch processing", "Workflows complexos"]
+        },
+        "vba": {
+            "access": "Tools > Macros > Visual Basic Editor",
+            "language": "VBA (Visual Basic for Applications)",
+            "capabilities": "Automação avançada",
+            "resources": "CorelDRAW VBA documentation"
+        }
+    },
+    
+    "shortcuts_customization": {
+        "access": "Tools > Customization > Commands",
+        "customize": {
+            "shortcuts": "Atribuir novos atalhos",
+            "toolbars": "Criar toolbars personalizadas",
+            "menus": "Modificar menus",
+            "workspace": "Salvar workspace personalizada"
+        },
+        "export_import": "Exportar/Importar configurações",
+        "reset": "Restaurar padrões se necessário"
+    },
+    
+    "professional_tips": {
+        "speed": [
+            "Memorizar atalhos essenciais",
+            "Usar dockers para acesso rápido",
+            "Configurar workspace personalizada",
+            "Usar macros para tarefas repetitivas",
+            "Atalhos de teclado para ferramentas",
+            "Duplicate (Ctrl+D) vs Clone (Ctrl+Shift+D)",
+            "Master pages para elementos recorrentes"
+        ],
+        "quality": [
+            "Trabalhar sempre em alta resolução",
+            "Converter para CMYK cedo se for imprimir",
+            "Usar menos nós possível em curvas",
+            "Verificar design em preto e branco",
+            "Testar em diferentes tamanhos",
+            "Solicitar prova de impressão",
+            "Manter arquivos organizados"
+        ],
+        "efficiency": [
+            "Usar símbolos para elementos repetidos",
+            "PowerClip para máscaras complexas",
+            "Layers para organização",
+            "Styles para consistência",
+            "Templates para projetos similares",
+            "Guidelines e grid para alinhamento",
+            "Snap para precisão"
+        ],
+        "creativity": [
+            "Experimentar blends e contours",
+            "Usar transparências criativamente",
+            "Combinar efeitos diferentes",
+            "Estudar trabalhos de outros designers",
+            "Praticar técnicas novas regularmente",
+            "Não ter medo de experimentar"
+        ]
+    },
+    
+    "resources_and_learning": {
+        "official": [
+            "CorelDRAW.com tutorials",
+            "Corel Discovery Center",
+            "CorelDRAW YouTube channel",
+            "Official documentation"
+        ],
+        "community": [
+            "CorelDRAW Community forums",
+            "Facebook groups",
+            "Reddit r/CorelDraw",
+            "Designer communities"
+        ],
+        "assets": [
+            "Corel Content Exchange",
+            "Free clipart libraries",
+            "Font resources",
+            "Stock photo sites",
+            "Texture libraries"
+        ],
+        "practice_projects": [
+            "Logo redesigns",
+            "Business card designs",
+            "Flyer creation",
+            "Vector illustrations",
+            "Typography posters",
+            "Technical drawings"
+        ]
+    },
+    
+    "version_control": {
+        "save_versions": "File > Save As with version numbers",
+        "naming": "project_v01, project_v02, etc",
+        "major_milestones": "Salvar versões de aprovação",
+        "final_files": "Separar finais de trabalho",
+        "backup": "Backup regular em múltiplas localizações"
+    },
+    
+    "collaboration": {
+        "sharing_files": {
+            "include": ["CDR file", "Exported PDF", "Font list", "Image links"],
+            "package": "File > Collect for Output",
+            "compress": "ZIP files para envio",
+            "cloud": "Usar serviços de nuvem para grandes arquivos"
+        },
+        "feedback": {
+            "pdf_comments": "Exportar PDF para revisão",
+            "layer_organization": "Facilita localização de elementos",
+            "naming": "Nomes claros para camadas e objetos",
+            "documentation": "Incluir notas e instruções"
+        }
+    },
+    
+    "industry_standards": {
+        "business_cards": {
+            "size": "85x55mm (padrão brasileiro)",
+            "bleed": "3mm",
+            "safe_area": "5mm from edge",
+            "resolution": "300 DPI"
+        },
+        "flyers": {
+            "sizes": ["A4", "A5", "A6"],
+            "orientation": "Portrait ou landscape",
+            "bleed": "3-5mm",
+            "resolution": "300 DPI"
+        },
+        "posters": {
+            "sizes": ["A3", "A2", "A1", "A0"],
+            "resolution": "300 DPI (menor para grandes formatos)",
+            "bleed": "5-10mm",
+            "viewing_distance": "Considerar na resolução"
+        },
+        "banners": {
+            "resolution": "150 DPI (depende do tamanho)",
+            "large_format": "Consultar fornecedor",
+            "bleed": "50mm recomendado",
+            "wind_slits": "Considerar se for externo"
+        }
+    },
+    
+    "accessibility": {
+        "color_contrast": "Mínimo 4.5:1 para texto",
+        "font_size": "Mínimo 16pt para legibilidade",
+        "alt_text": "Fornecer para imagens",
+        "pdf_accessibility": "Tags e estrutura adequadas"
+    }
+}

@@ -1,0 +1,42 @@
+﻿{
+    "profile_name": "ONI_Neural",
+    "description": "AutoCAD PGP Aliases & Command Macros",
+    "shortcuts": [
+        {
+            "name": "Line",
+            "command": "LINE",
+            "keys": "L",
+            "type": "alias"
+        },
+        {
+            "name": "Polyline",
+            "command": "PLINE",
+            "keys": "PL",
+            "type": "alias"
+        },
+        {
+            "name": "Circle",
+            "command": "CIRCLE",
+            "keys": "C",
+            "type": "alias"
+        },
+        {
+            "name": "Trim",
+            "command": "TRIM",
+            "keys": "TR",
+            "type": "alias"
+        },
+        {
+            "name": "Quick Save",
+            "command": "QSAVE",
+            "keys": "Ctrl+S",
+            "type": "hotkey"
+        },
+        {
+            "name": "Plot",
+            "command": "PLOT",
+            "keys": "Ctrl+P",
+            "type": "hotkey"
+        }
+    ]
+}

@@ -1,0 +1,823 @@
+{
+  "version": "3.0-ILLUSTRATOR",
+  "last_updated": "2026-01-04",
+  "target_software": "Adobe Illustrator CC 2024/2025",
+  "schema_version": "vector_advanced",
+  
+  "meta": {
+    "total_styles": 8,
+    "vector_optimized": true,
+    "print_ready": true,
+    "export_formats": ["AI", "EPS", "PDF", "SVG", "PNG"],
+    "dpi_presets": [72, 150, 300, 600]
+  },
+  
+  "styles": [
+    {
+      "style_id": "cyberpunk_vector_ai_v1",
+      "name": "Cyberpunk Vector Neon (Illustrator)",
+      "description": "High-tech dystopian vector aesthetic with neon effects optimized for Adobe Illustrator",
+      "version": "1.0",
+      "complexity": "high",
+      "print_safe": false,
+      "rgb_optimized": true,
+      
+      "metadata": {
+        "era": "2077",
+        "best_for": ["digital_displays", "screen_graphics", "game_assets", "social_media"],
+        "avoid_for": ["print_cmyk", "business_cards_standard"],
+        "target_size": ["A4", "screen_1920x1080", "instagram_post"],
+        "recommended_dpi": 150
+      },
+      
+      "color_system": {
+        "mode": "RGB",
+        "rgb_palette": {
+          "primary": [
+            {"name": "Cyan Neon", "rgb": [0, 240, 255], "hex": "#00F0FF"},
+            {"name": "Magenta Shock", "rgb": [255, 0, 85], "hex": "#FF0055"},
+            {"name": "Purple Haze", "rgb": [176, 38, 255], "hex": "#B026FF"},
+            {"name": "Acid Green", "rgb": [57, 255, 20], "hex": "#39FF14"}
+          ],
+          "accent": [
+            {"name": "Electric Yellow", "rgb": [255, 255, 0], "hex": "#FFFF00"},
+            {"name": "Toxic Green", "rgb": [0, 255, 136], "hex": "#00FF88"},
+            {"name": "Orange Alert", "rgb": [255, 107, 0], "hex": "#FF6B00"}
+          ],
+          "background": [
+            {"name": "Deep Black", "rgb": [10, 10, 15], "hex": "#0A0A0F"},
+            {"name": "Dark Void", "rgb": [26, 26, 32], "hex": "#1A1A20"},
+            {"name": "Shadow Gray", "rgb": [16, 16, 21], "hex": "#101015"}
+          ]
+        },
+        "swatch_library": "ONI_Cyberpunk_Neon.ase",
+        "spot_colors": [
+          {"name": "Pantone Neon Cyan", "code": "PANTONE 801 C"},
+          {"name": "Pantone Neon Magenta", "code": "PANTONE 806 C"}
+        ]
+      },
+      
+      "typography_illustrator": {
+        "headers": {
+          "fonts": ["Impact", "Arial Black", "Helvetica Bold"],
+          "fallback_fonts": ["Arial", "Helvetica"],
+          "weight": "Bold/Black",
+          "size_range": [36, 144],
+          "character_spacing": 50,
+          "line_spacing": 0.9,
+          "case": "UPPERCASE",
+          "effects": {
+            "outer_glow": {
+              "enabled": true,
+              "mode": "Screen",
+              "opacity": 75,
+              "blur": 5,
+              "color": "neon_match"
+            },
+            "stroke": {
+              "enabled": true,
+              "width": 2,
+              "align": "outside",
+              "color": "accent"
+            },
+            "gradient_fill": {
+              "enabled": true,
+              "type": "linear",
+              "angle": 90,
+              "colors": ["primary", "accent"]
+            }
+          }
+        },
+        
+        "body": {
+          "fonts": ["Arial", "Helvetica", "Myriad Pro"],
+          "size_range": [10, 18],
+          "line_spacing": 1.4,
+          "justify": "left",
+          "hyphenation": false
+        },
+        
+        "technical": {
+          "fonts": ["Courier", "Courier New", "Monaco"],
+          "size_range": [8, 12],
+          "tracking": 20,
+          "use_for": ["serial_numbers", "codes", "technical_data"]
+        }
+      },
+      
+      "geometry_illustrator": {
+        "primary_shapes": {
+          "rectangle": {
+            "corner_radius": 0,
+            "effect_corner": "round_corners",
+            "radius_value": 5
+          },
+          "polygon": {
+            "sides": 6,
+            "star": false
+          },
+          "ellipse": {
+            "type": "perfect_circle"
+          }
+        },
+        
+        "stroke_styles": {
+          "stroke_width": [1, 2, 3, 5, 8],
+          "stroke_style": "solid",
+          "cap": "round",
+          "join": "round",
+          "align": "center",
+          "dashed": false
+        },
+        
+        "corner_treatments": [
+          "sharp",
+          "round_corners_effect",
+          "chamfer"
+        ],
+        
+        "pathfinder_operations": {
+          "use_unite": true,
+          "use_minus_front": true,
+          "use_intersect": true,
+          "use_exclude": true,
+          "boolean_frequency": 0.6
+        }
+      },
+      
+      "fills_illustrator": {
+        "gradient_fills": [
+          {
+            "name": "Neon Glow Radial",
+            "type": "radial",
+            "gradient_type": "aiGradientRadial",
+            "color_stops": [
+              {"color": "primary", "position": 0, "midpoint": 50},
+              {"color": "background", "position": 100}
+            ]
+          },
+          {
+            "name": "Cyber Gradient",
+            "type": "linear",
+            "gradient_type": "aiGradientLinear",
+            "angle": 135,
+            "color_stops": [
+              {"color": "primary", "position": 0, "midpoint": 50},
+              {"color": "accent", "position": 50, "midpoint": 50},
+              {"color": "primary", "position": 100}
+            ]
+          },
+          {
+            "name": "Holographic",
+            "type": "linear",
+            "gradient_type": "aiGradientLinear",
+            "angle": 0,
+            "color_stops": [
+              {"color": "cyan", "position": 0},
+              {"color": "magenta", "position": 33},
+              {"color": "yellow", "position": 66},
+              {"color": "cyan", "position": 100}
+            ]
+          }
+        ],
+        
+        "pattern_fills": [
+          {
+            "name": "Tech Grid",
+            "type": "vector",
+            "tile_size": 50,
+            "spacing": 5,
+            "angle": 0
+          },
+          {
+            "name": "Circuit Board",
+            "type": "vector",
+            "tile_size": 100,
+            "seamless": true
+          }
+        ],
+        
+        "transparency": {
+          "default_opacity": 100,
+          "blend_modes": ["Screen", "Multiply", "Overlay"],
+          "use_for_glow": true,
+          "gradient_transparency": {
+            "enabled": true,
+            "type": "radial",
+            "from": 100,
+            "to": 0
+          }
+        }
+      },
+      
+      "effects_illustrator": {
+        "stylize": {
+          "outer_glow": {
+            "enabled": true,
+            "mode": "Screen",
+            "opacity": 75,
+            "blur": 15,
+            "color": "match_object"
+          },
+          "inner_glow": {
+            "enabled": false
+          },
+          "drop_shadow": {
+            "enabled": false
+          }
+        },
+        
+        "distort_transform": {
+          "transform": {
+            "enabled": true,
+            "copies": 5,
+            "scale": 95,
+            "rotate": 5
+          }
+        },
+        
+        "warp": {
+          "enabled": false
+        },
+        
+        "path": {
+          "offset_path": {
+            "enabled": true,
+            "offset": 2,
+            "joins": "round",
+            "miter_limit": 4
+          }
+        },
+        
+        "rasterize": {
+          "enabled": false,
+          "note": "Avoid for vector flexibility"
+        }
+      },
+      
+      "layer_organization": {
+        "layer_structure": [
+          {
+            "name": "Background",
+            "order": 1,
+            "visible": true,
+            "locked": false,
+            "printable": true
+          },
+          {
+            "name": "Main Elements",
+            "order": 2,
+            "visible": true,
+            "locked": false,
+            "printable": true
+          },
+          {
+            "name": "Greebles",
+            "order": 3,
+            "visible": true,
+            "locked": false
+          },
+          {
+            "name": "Text",
+            "order": 4,
+            "visible": true,
+            "locked": false
+          },
+          {
+            "name": "Effects",
+            "order": 5,
+            "visible": true,
+            "locked": false,
+            "note": "Glows, glitches, overlays"
+          }
+        ]
+      },
+      
+      "export_settings": {
+        "ai": {
+          "version": "CC 2024",
+          "embed_fonts": true,
+          "subset_fonts": true,
+          "compress": false
+        },
+        "pdf": {
+          "version": "PDF 1.7",
+          "compatibility": "Acrobat 7 (PDF 1.6)",
+          "color_mode": "RGB",
+          "embed_fonts": true,
+          "compress_images": false,
+          "resolution": 300
+        },
+        "svg": {
+          "version": "SVG 1.1",
+          "embed_fonts": true,
+          "css_properties": "Presentation Attributes",
+          "decimal_places": 3,
+          "responsive": true
+        },
+        "png": {
+          "dpi": 300,
+          "color_mode": "RGB",
+          "transparent_background": true,
+          "anti_aliasing": "Art Optimized (Supersampling)"
+        }
+      },
+      
+      "workflow_tips": {
+        "use_smart_guides": true,
+        "snap_to_point": true,
+        "snap_to_grid": false,
+        "alignment_frequent": true,
+        "group_objects": "by_function",
+        "duplicate_shortcut": "Cmd/Ctrl+D",
+        "isolation_mode": "Double-click group"
+      }
+    },
+    
+    {
+      "style_id": "print_brutalism_ai_v1",
+      "name": "Print-Ready Brutalism (Illustrator)",
+      "description": "Raw utilitarian design optimized for CMYK print production in Illustrator",
+      "version": "1.0",
+      "complexity": "low",
+      "print_safe": true,
+      "rgb_optimized": false,
+      
+      "metadata": {
+        "best_for": ["business_cards", "letterhead", "certificates", "posters_print"],
+        "target_size": ["A4", "A3", "business_card_85x55mm"],
+        "recommended_dpi": 300,
+        "bleed": 3
+      },
+      
+      "color_system": {
+        "mode": "CMYK",
+        "cmyk_palette": {
+          "primary": [
+            {"name": "Rich Black", "cmyk": [60, 40, 40, 100], "hex": "#000000"},
+            {"name": "Pure White", "cmyk": [0, 0, 0, 0], "hex": "#FFFFFF"},
+            {"name": "Alert Red", "cmyk": [0, 100, 100, 0], "hex": "#ED1C24"}
+          ],
+          "accent": [
+            {"name": "Safety Yellow", "cmyk": [0, 0, 100, 0], "hex": "#FFF200"},
+            {"name": "Industrial Gray", "cmyk": [0, 0, 0, 50], "hex": "#808080"}
+          ]
+        },
+        "pantone_colors": [
+          {"name": "Black", "code": "PANTONE Black C"},
+          {"name": "Warm Red", "code": "PANTONE Warm Red C"}
+        ],
+        "spot_color_usage": "optional",
+        "overprint_black": true,
+        "rich_black_formula": "C60 M40 Y40 K100"
+      },
+      
+      "typography_illustrator": {
+        "headers": {
+          "fonts": ["Helvetica Bold", "Arial Black", "Impact"],
+          "weight": "Black/Heavy",
+          "size_range": [48, 144],
+          "character_spacing": -20,
+          "line_spacing": 0.85,
+          "case": "UPPERCASE",
+          "effects": {
+            "outer_glow": {"enabled": false},
+            "stroke": {"enabled": false}
+          },
+          "overprint": true
+        },
+        
+        "body": {
+          "fonts": ["Helvetica", "Arial"],
+          "size_range": [9, 14],
+          "line_spacing": 1.3,
+          "justify": "left",
+          "hyphenation": true,
+          "tracking": 0
+        }
+      },
+      
+      "geometry_illustrator": {
+        "primary_shapes": {
+          "rectangle": {
+            "corner_radius": 0,
+            "sharp_corners": true
+          },
+          "lines": {
+            "weight_preference": [3, 5, 10, 20],
+            "style": "solid",
+            "cap": "butt",
+            "join": "miter"
+          }
+        },
+        
+        "grid_system": {
+          "enabled": true,
+          "columns": 12,
+          "gutter": 10,
+          "margin": 20
+        }
+      },
+      
+      "fills_illustrator": {
+        "solid_fills": {
+          "preferred": true,
+          "avoid_gradients": true
+        },
+        
+        "transparency": {
+          "default_opacity": 100,
+          "avoid_transparency": true,
+          "knockout_group": true
+        }
+      },
+      
+      "effects_illustrator": {
+        "stylize": {
+          "outer_glow": {"enabled": false},
+          "drop_shadow": {"enabled": false}
+        },
+        "effects_note": "Minimize effects for print reliability"
+      },
+      
+      "layer_organization": {
+        "layer_structure": [
+          {"name": "Bleed & Trim", "order": 1, "printable": false, "locked": true},
+          {"name": "Background", "order": 2, "printable": true},
+          {"name": "Content", "order": 3, "printable": true},
+          {"name": "Text", "order": 4, "printable": true},
+          {"name": "Crop Marks", "order": 5, "printable": true}
+        ]
+      },
+      
+      "print_production": {
+        "bleed": 3,
+        "safe_margin": 5,
+        "trim_marks": true,
+        "color_bars": true,
+        "crop_marks": true,
+        "registration_marks": true,
+        "overprint_black": true,
+        "minimum_line_weight": 0.25
+      },
+      
+      "export_settings": {
+        "pdf": {
+          "version": "PDF/X-1a:2001",
+          "color_mode": "CMYK",
+          "embed_fonts": true,
+          "subset_fonts": true,
+          "compress_images": true,
+          "resolution": 300,
+          "convert_rgb_to_cmyk": true,
+          "preserve_overprint": true
+        }
+      }
+    },
+    
+    {
+      "style_id": "minimal_corporate_ai_v1",
+      "name": "Minimal Corporate (Illustrator)",
+      "description": "Clean professional design for business applications in Illustrator",
+      "version": "1.0",
+      "complexity": "low",
+      "print_safe": true,
+      
+      "color_system": {
+        "mode": "CMYK_RGB_HYBRID",
+        "cmyk_palette": {
+          "primary": [
+            {"name": "Corporate Blue", "cmyk": [100, 70, 0, 0], "rgb": [0, 82, 165], "hex": "#0052A5"},
+            {"name": "Professional Gray", "cmyk": [0, 0, 0, 70], "rgb": [77, 77, 77], "hex": "#4D4D4D"},
+            {"name": "Pure White", "cmyk": [0, 0, 0, 0], "rgb": [255, 255, 255], "hex": "#FFFFFF"}
+          ],
+          "accent": [
+            {"name": "Trust Blue", "cmyk": [100, 50, 0, 0], "rgb": [0, 114, 206], "hex": "#0072CE"},
+            {"name": "Light Gray", "cmyk": [0, 0, 0, 15], "rgb": [217, 217, 217], "hex": "#D9D9D9"}
+          ]
+        }
+      },
+      
+      "typography_illustrator": {
+        "headers": {
+          "fonts": ["Helvetica", "Myriad Pro", "Arial"],
+          "weight": "Light/Regular",
+          "size_range": [24, 72],
+          "character_spacing": 0,
+          "line_spacing": 1.2,
+          "case": "Sentence case"
+        },
+        
+        "body": {
+          "fonts": ["Helvetica", "Arial", "Myriad Pro"],
+          "size_range": [10, 14],
+          "line_spacing": 1.5,
+          "color": "professional_gray"
+        }
+      },
+      
+      "geometry_illustrator": {
+        "primary_shapes": {
+          "rectangle": {
+            "corner_radius": 3,
+            "subtle_rounds": true
+          },
+          "lines": {
+            "weight_preference": [0.5, 1, 2],
+            "style": "solid",
+            "minimal": true
+          }
+        },
+        
+        "golden_ratio": {
+          "enabled": true,
+          "use_for_layout": true,
+          "phi": 1.618
+        }
+      },
+      
+      "white_space": {
+        "philosophy": "generous",
+        "minimum_margin": 20,
+        "breathing_room": 0.8,
+        "element_spacing": "2x_text_size"
+      }
+    },
+    
+    {
+      "style_id": "badge_technical_ai_v1",
+      "name": "Technical Badge System (Illustrator)",
+      "description": "Precise badge design with QR codes, barcodes, and security elements for Illustrator",
+      "version": "1.0",
+      "print_safe": true,
+      
+      "canvas_specs": {
+        "standard_sizes": [
+          {"name": "ID-1 (Credit Card)", "width": 85.6, "height": 53.98, "unit": "mm", "rounded_corners": 3.18},
+          {"name": "Badge Portrait", "width": 90, "height": 140, "unit": "mm"},
+          {"name": "Access Card", "width": 100, "height": 65, "unit": "mm"}
+        ],
+        "bleed": 0,
+        "safe_zone": 5,
+        "orientation": "portrait"
+      },
+      
+      "required_elements": {
+        "photo": {
+          "enabled": true,
+          "position": "top_center",
+          "size": [30, 40],
+          "unit": "mm",
+          "shape": "rectangle",
+          "border": 1,
+          "clipping_mask": true
+        },
+        
+        "qr_code": {
+          "enabled": true,
+          "position": "bottom_right",
+          "size": 20,
+          "unit": "mm",
+          "error_correction": "M",
+          "quiet_zone": 4,
+          "format": "vector"
+        },
+        
+        "barcode": {
+          "enabled": true,
+          "type": "CODE128",
+          "position": "bottom",
+          "height": 15,
+          "show_text": true,
+          "text_size": 8
+        }
+      }
+    },
+    
+    {
+      "style_id": "synthwave_poster_ai_v1",
+      "name": "Synthwave Poster (Illustrator)",
+      "description": "80s retro aesthetic with gradients and geometric shapes for Illustrator",
+      "version": "1.0",
+      "print_safe": true,
+      
+      "color_system": {
+        "mode": "RGB",
+        "rgb_palette": {
+          "primary": [
+            {"name": "Hot Pink", "rgb": [255, 0, 110], "hex": "#FF006E"},
+            {"name": "Electric Purple", "rgb": [131, 56, 236], "hex": "#8338EC"},
+            {"name": "Cyber Orange", "rgb": [251, 86, 7], "hex": "#FB5607"}
+          ],
+          "gradient_pairs": [
+            ["#FF006E", "#8338EC"],
+            ["#FB5607", "#FFBE0B"],
+            ["#3A86FF", "#06FFA5"]
+          ]
+        }
+      },
+      
+      "geometry_illustrator": {
+        "perspective_grid": {
+          "enabled": true,
+          "type": "one_point",
+          "preset": "1P-Normal View",
+          "horizon_line": 30
+        },
+        
+        "sun_burst": {
+          "enabled": true,
+          "ray_count": 20,
+          "position": "horizon",
+          "blend_tool": true
+        }
+      },
+      
+      "effects_illustrator": {
+        "stylize": {
+          "outer_glow": {
+            "enabled": true,
+            "mode": "Screen",
+            "opacity": 60
+          }
+        }
+      }
+    },
+    
+    {
+      "style_id": "japanese_poster_ai_v1",
+      "name": "Japanese Typography Poster (Illustrator)",
+      "description": "Traditional meets modern Japanese design for Illustrator",
+      "version": "1.0",
+      
+      "color_system": {
+        "mode": "CMYK",
+        "cmyk_palette": {
+          "primary": [
+            {"name": "Japan Red", "cmyk": [0, 100, 100, 0], "pantone": "PANTONE 485 C"},
+            {"name": "Sumi Black", "cmyk": [60, 40, 40, 100]},
+            {"name": "Rice Paper", "cmyk": [0, 0, 0, 0]}
+          ],
+          "accent": [
+            {"name": "Indigo", "cmyk": [100, 100, 0, 20]},
+            {"name": "Gold", "cmyk": [0, 20, 100, 0], "pantone": "PANTONE 871 C"}
+          ]
+        }
+      },
+      
+      "typography_illustrator": {
+        "japanese_fonts": {
+          "fonts": ["Hiragino Sans", "Kozuka Gothic Pro", "Myriad Pro"],
+          "weights": ["Regular", "Bold"],
+          "vertical_text": {
+            "enabled": true,
+            "type_tool": "Vertical Type Tool",
+            "direction": "top_to_bottom",
+            "alignment": "right"
+          }
+        }
+      },
+      
+      "decorative_elements": {
+        "traditional_patterns": [
+          "seigaiha_waves",
+          "asanoha_hemp_leaf",
+          "kikkou_tortoise_shell"
+        ]
+      }
+    },
+    
+    {
+      "style_id": "certificate_formal_ai_v1",
+      "name": "Formal Certificate (Illustrator)",
+      "description": "Traditional certificate with ornamental borders for Illustrator",
+      "version": "1.0",
+      "print_safe": true,
+      
+      "canvas_specs": {
+        "size": "A4",
+        "orientation": "landscape",
+        "borders": {
+          "style": "ornamental",
+          "width": 15,
+          "complexity": "high"
+        }
+      },
+      
+      "decorative_elements": {
+        "ornamental_borders": {
+          "enabled": true,
+          "style": "classical",
+          "symmetry": true,
+          "corner_ornaments": true,
+          "brush_library": "Decorative_Borders"
+        },
+        
+        "seal": {
+          "enabled": true,
+          "type": "wax_seal_effect",
+          "position": "bottom_left",
+          "gradient_mesh": true
+        }
+      }
+    },
+    
+    {
+      "style_id": "infographic_modern_ai_v1",
+      "name": "Modern Infographic (Illustrator)",
+      "description": "Data visualization with clean icons and charts for Illustrator",
+      "version": "1.0",
+      
+      "color_system": {
+        "mode": "RGB",
+        "rgb_palette": {
+          "primary": [
+            {"name": "Data Blue", "rgb": [0, 123, 255], "hex": "#007BFF"},
+            {"name": "Success Green", "rgb": [40, 167, 69], "hex": "#28A745"},
+            {"name": "Warning Orange", "rgb": [253, 126, 20], "hex": "#FD7E14"},
+            {"name": "Danger Red", "rgb": [220, 53, 69], "hex": "#DC3545"}
+          ]
+        },
+        "data_visualization_palette": true,
+        "colorblind_safe": true
+      },
+      
+      "geometry_illustrator": {
+        "icon_style": {
+          "type": "line_icons",
+          "stroke_width": 2,
+          "rounded_caps": true,
+          "size": 64
+        },
+        
+        "charts": {
+          "types": ["column", "line", "pie"],
+          "use_graph_tool": true,
+          "3d_effects": false
+        }
+      }
+    }
+  ],
+  
+  "global_illustrator_settings": {
+    "document_presets": {
+      "units": "Millimeters",
+      "type_units": "Points",
+      "stroke_units": "Points",
+      "ruler_origin": "top_left"
+    },
+    
+    "color_management": {
+      "rgb_profile": "sRGB IEC61966-2.1",
+      "cmyk_profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+      "rendering_intent": "Relative Colorimetric",
+      "proof_setup": "Working CMYK"
+    },
+    
+    "text_settings": {
+      "default_text_size": 12,
+      "default_font": "Myriad Pro",
+      "ligatures": true,
+      "optical_kerning": true
+    },
+    
+    "object_defaults": {
+      "stroke_width": 1,
+      "stroke_color": "black",
+      "fill_color": "none",
+      "smart_guides": true,
+      "snap_to_point": true
+    },
+    
+    "export_optimization": {
+      "use_artboards": true,
+      "trim_view": false,
+      "embed_icc_profiles": true,
+      "preserve_spot_colors": true
+    }
+  },
+  
+  "workflow_automation": {
+    "scripts": {
+      "apply_cyberpunk_neon": "Applies neon glow to selected objects",
+      "create_badge_layout": "Creates complete badge template",
+      "random_greebles": "Adds decorative tech elements",
+      "batch_export": "Exports to PDF/PNG/SVG"
+    },
+    
+    "actions": {
+      "neon_effect": "Records neon glow application",
+      "export_formats": "Batch exports multiple formats",
+      "outline_text": "Converts text to outlines"
+    },
+    
+    "shortcuts": {
+      "align_center": "Shift+Cmd/Ctrl+A",
+      "group": "Cmd/Ctrl+G",
+      "ungroup": "Shift+Cmd/Ctrl+G",
+      "duplicate": "Cmd/Ctrl+C, Cmd/Ctrl+F",
+      "unite_pathfinder": "Cmd/Ctrl+Alt+Shift+U",
+      "isolation_mode": "Double-click group"
+    }
+  }
+}

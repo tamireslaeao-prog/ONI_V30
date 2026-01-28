@@ -1,0 +1,375 @@
+{
+  "version": "3.0-BLENDER",
+  "last_updated": "2026-01-04",
+  "target_software": "Blender 3.0+",
+  "schema_version": "3d_procedural",
+  
+  "meta": {
+    "total_styles": 8,
+    "3d_optimized": true,
+    "render_engines": ["CYCLES", "EEVEE"],
+    "export_formats": ["GLTF", "FBX", "OBJ", "USD"],
+    "default_units": "metric"
+  },
+  
+  "styles": [
+    {
+      "style_id": "cyberpunk_3d_v1",
+      "name": "Cyberpunk Neon 3D",
+      "description": "High-tech dystopian 3D aesthetic with volumetric neon and metallic surfaces",
+      "version": "1.0",
+      "complexity": "high",
+      "render_engine": "CYCLES",
+      
+      "metadata": {
+        "era": "2077",
+        "best_for": ["badges", "id_cards", "props", "environments"],
+        "render_time": "medium",
+        "geometry_complexity": "medium"
+      },
+      
+      "materials": {
+        "primary_shaders": [
+          {
+            "name": "Neon Emission",
+            "type": "emission",
+            "base_color": {"hex": "#00F0FF", "rgba": [0.0, 0.941, 1.0, 1.0]},
+            "emission_strength": 2.5,
+            "use_volumetrics": true,
+            "volume_density": 0.1
+          },
+          {
+            "name": "Chrome Metal",
+            "type": "principled",
+            "base_color": {"hex": "#C0C0C0", "rgba": [0.753, 0.753, 0.753, 1.0]},
+            "metallic": 1.0,
+            "roughness": 0.1,
+            "anisotropic": 0.5
+          },
+          {
+            "name": "Dark Plastic",
+            "type": "principled",
+            "base_color": {"hex": "#0A0A0F", "rgba": [0.039, 0.039, 0.059, 1.0]},
+            "metallic": 0.0,
+            "roughness": 0.8,
+            "specular": 0.3
+          }
+        ],
+        
+        "procedural_textures": [
+          {
+            "name": "Circuit Board",
+            "type": "noise",
+            "scale": 20.0,
+            "detail": 8,
+            "use_as": "bump",
+            "strength": 0.1
+          },
+          {
+            "name": "Tech Grid",
+            "type": "wave",
+            "wave_type": "bands",
+            "scale": 5.0,
+            "use_as": "emission_mask"
+          },
+          {
+            "name": "Hologram Noise",
+            "type": "voronoi",
+            "scale": 50.0,
+            "feature": "F1",
+            "use_as": "transparency_mask"
+          }
+        ],
+        
+        "color_palette": {
+          "primary": [
+            {"name": "Cyan Neon", "hex": "#00F0FF", "rgba": [0.0, 0.941, 1.0, 1.0]},
+            {"name": "Magenta Shock", "hex": "#FF0055", "rgba": [1.0, 0.0, 0.333, 1.0]},
+            {"name": "Purple Haze", "hex": "#B026FF", "rgba": [0.690, 0.149, 1.0, 1.0]}
+          ],
+          "accent": [
+            {"name": "Electric Yellow", "hex": "#FFFF00", "rgba": [1.0, 1.0, 0.0, 1.0]},
+            {"name": "Acid Green", "hex": "#39FF14", "rgba": [0.224, 1.0, 0.078, 1.0]}
+          ],
+          "background": [
+            {"name": "Deep Black", "hex": "#0A0A0F", "rgba": [0.039, 0.039, 0.059, 1.0]},
+            {"name": "Dark Void", "hex": "#1A1A20", "rgba": [0.102, 0.102, 0.125, 1.0]}
+          ]
+        }
+      },
+      
+      "geometry": {
+        "primitives": ["cube", "cylinder", "sphere", "torus"],
+        "modifiers": [
+          {
+            "type": "BEVEL",
+            "width": 0.05,
+            "segments": 4,
+            "limit_method": "ANGLE"
+          },
+          {
+            "type": "SOLIDIFY",
+            "thickness": 0.02,
+            "offset": 1.0
+          },
+          {
+            "type": "ARRAY",
+            "count": 3,
+            "relative_offset": [1.1, 0, 0]
+          }
+        ],
+        
+        "mesh_operations": {
+          "chamfer_edges": true,
+          "inset_faces": 0.1,
+          "extrude_depth": 0.05,
+          "bevel_corners": true
+        },
+        
+        "greebles": {
+          "density": 0.7,
+          "size_range": [0.05, 0.15],
+          "types": ["tech_panel", "vent", "button", "display"],
+          "scatter_method": "poisson_disk"
+        }
+      },
+      
+      "lighting": {
+        "type": "cyberpunk_neon",
+        "key_light": {
+          "type": "AREA",
+          "power": 300,
+          "size": 5,
+          "color": [0.0, 0.941, 1.0],
+          "position": [5, -5, 5]
+        },
+        "fill_light": {
+          "type": "AREA",
+          "power": 150,
+          "size": 4,
+          "color": [1.0, 0.0, 0.333],
+          "position": [-3, -3, 3]
+        },
+        "rim_light": {
+          "type": "SPOT",
+          "power": 200,
+          "color": [1.0, 1.0, 1.0],
+          "position": [0, 3, 4],
+          "spot_size": 45
+        },
+        "volumetrics": {
+          "enabled": true,
+          "scatter": 0.1,
+          "absorption": 0.0,
+          "emission": 0.05
+        }
+      },
+      
+      "camera": {
+        "type": "PERSP",
+        "lens": 50,
+        "sensor_width": 36,
+        "position": [0, -12, 3],
+        "rotation": [80, 0, 0],
+        "depth_of_field": {
+          "enabled": true,
+          "f_stop": 2.8,
+          "focus_distance": 12
+        }
+      },
+      
+      "render_settings": {
+        "engine": "CYCLES",
+        "samples": 128,
+        "max_bounces": 8,
+        "caustics": false,
+        "motion_blur": false,
+        "ambient_occlusion": true,
+        "bloom": {
+          "enabled": true,
+          "threshold": 0.8,
+          "radius": 6.5,
+          "intensity": 0.1
+        }
+      }
+    },
+    
+    {
+      "style_id": "minimal_corporate_3d_v1",
+      "name": "Minimal Corporate 3D",
+      "description": "Clean professional 3D design with subtle materials",
+      "version": "1.0",
+      "complexity": "low",
+      "render_engine": "EEVEE",
+      
+      "materials": {
+        "primary_shaders": [
+          {
+            "name": "Corporate Blue",
+            "type": "principled",
+            "base_color": {"hex": "#0052A5", "rgba": [0.0, 0.322, 0.647, 1.0]},
+            "metallic": 0.2,
+            "roughness": 0.4,
+            "clearcoat": 0.5
+          },
+          {
+            "name": "White Matte",
+            "type": "principled",
+            "base_color": {"hex": "#FFFFFF", "rgba": [1.0, 1.0, 1.0, 1.0]},
+            "metallic": 0.0,
+            "roughness": 0.8,
+            "specular": 0.3
+          }
+        ],
+        
+        "procedural_textures": [
+          {
+            "name": "Subtle Noise",
+            "type": "noise",
+            "scale": 100.0,
+            "detail": 2,
+            "use_as": "roughness",
+            "strength": 0.05
+          }
+        ],
+        
+        "color_palette": {
+          "primary": [
+            {"name": "Corporate Blue", "hex": "#0052A5", "rgba": [0.0, 0.322, 0.647, 1.0]},
+            {"name": "Professional Gray", "hex": "#4D4D4D", "rgba": [0.302, 0.302, 0.302, 1.0]}
+          ],
+          "accent": [
+            {"name": "Trust Blue", "hex": "#0072CE", "rgba": [0.0, 0.447, 0.808, 1.0]}
+          ]
+        }
+      },
+      
+      "geometry": {
+        "primitives": ["cube", "cylinder"],
+        "modifiers": [
+          {
+            "type": "BEVEL",
+            "width": 0.03,
+            "segments": 2,
+            "limit_method": "WEIGHT"
+          }
+        ],
+        "mesh_operations": {
+          "smooth_shading": true,
+          "auto_smooth": 30
+        }
+      },
+      
+      "lighting": {
+        "type": "studio_three_point",
+        "key_light": {
+          "type": "AREA",
+          "power": 200,
+          "size": 5,
+          "color": [1.0, 1.0, 1.0],
+          "position": [5, -5, 5]
+        },
+        "fill_light": {
+          "type": "AREA",
+          "power": 100,
+          "size": 4,
+          "color": [1.0, 1.0, 1.0],
+          "position": [-3, -3, 3]
+        },
+        "rim_light": {
+          "type": "SPOT",
+          "power": 150,
+          "color": [1.0, 1.0, 1.0],
+          "position": [0, 3, 4]
+        }
+      },
+      
+      "render_settings": {
+        "engine": "EEVEE",
+        "samples": 64,
+        "ambient_occlusion": true,
+        "bloom": {
+          "enabled": false
+        },
+        "screen_space_reflections": true
+      }
+    },
+    
+    {
+      "style_id": "holographic_3d_v1",
+      "name": "Holographic Display",
+      "description": "Futuristic hologram effect with translucency and scanlines",
+      "version": "1.0",
+      "complexity": "high",
+      "render_engine": "EEVEE",
+      
+      "materials": {
+        "primary_shaders": [
+          {
+            "name": "Hologram",
+            "type": "principled",
+            "base_color": {"hex": "#00FFFF", "rgba": [0.0, 1.0, 1.0, 1.0]},
+            "metallic": 0.0,
+            "roughness": 0.1,
+            "transmission": 0.9,
+            "emission": [0.0, 1.0, 1.0, 1.0],
+            "emission_strength": 1.5,
+            "alpha": 0.3
+          }
+        ],
+        
+        "procedural_textures": [
+          {
+            "name": "Scanlines",
+            "type": "wave",
+            "wave_type": "saw",
+            "scale": 100.0,
+            "use_as": "alpha_mask",
+            "strength": 0.5
+          },
+          {
+            "name": "Flicker Noise",
+            "type": "noise",
+            "scale": 1.0,
+            "use_as": "emission_modulation",
+            "animate": true,
+            "speed": 2.0
+          }
+        ]
+      },
+      
+      "render_settings": {
+        "engine": "EEVEE",
+        "blend_mode": "ALPHA_BLEND",
+        "show_backface": false,
+        "screen_space_refraction": true,
+        "bloom": {
+          "enabled": true,
+          "threshold": 0.0,
+          "intensity": 0.3
+        }
+      }
+    }
+  ],
+  
+  "global_blender_settings": {
+    "units": {
+      "system": "METRIC",
+      "scale": 0.01,
+      "length_unit": "CENTIMETERS"
+    },
+    
+    "world": {
+      "background": "solid",
+      "color": [0.05, 0.05, 0.05],
+      "strength": 0.1
+    },
+    
+    "viewport_shading": {
+      "type": "MATERIAL",
+      "studio_light": "forest.exr",
+      "studiolight_rotate_z": 0,
+      "studiolight_intensity": 1.0
+    }
+  }
+}

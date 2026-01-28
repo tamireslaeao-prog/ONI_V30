@@ -1,0 +1,752 @@
+{
+    "software": "Microsoft Windows",
+    "version": "Windows 11/10",
+    "category": "operating_system",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para Microsoft Windows",
+    
+    "essential_shortcuts": {
+        "system": {
+            "start_menu": "win",
+            "search": "win+s",
+            "run_dialog": "win+r",
+            "settings": "win+i",
+            "task_manager": "ctrl+shift+esc",
+            "lock_screen": "win+l",
+            "shutdown_dialog": "alt+f4 (desktop)",
+            "emoji_picker": "win+.",
+            "clipboard_history": "win+v",
+            "action_center": "win+a",
+            "notification_center": "win+n",
+            "quick_settings": "win+a (Win11)",
+            "widgets": "win+w (Win11)"
+        },
+        "desktop_management": {
+            "show_desktop": "win+d",
+            "minimize_all": "win+m",
+            "restore_minimized": "win+shift+m",
+            "peek_desktop": "win+, (hold)",
+            "switch_apps": "alt+tab",
+            "switch_windows_same_app": "alt+esc",
+            "task_view": "win+tab",
+            "new_virtual_desktop": "win+ctrl+d",
+            "close_virtual_desktop": "win+ctrl+f4",
+            "switch_desktop_left": "win+ctrl+left",
+            "switch_desktop_right": "win+ctrl+right"
+        },
+        "window_management": {
+            "snap_left": "win+left",
+            "snap_right": "win+right",
+            "snap_up": "win+up",
+            "snap_down": "win+down",
+            "maximize": "win+up",
+            "minimize": "win+down",
+            "restore": "win+down (minimized)",
+            "close_window": "alt+f4",
+            "switch_window": "alt+tab",
+            "cycle_apps": "alt+esc",
+            "minimize_all_except": "win+home",
+            "shake_to_minimize": "drag_titlebar_shake"
+        },
+        "file_explorer": {
+            "open_explorer": "win+e",
+            "new_window": "ctrl+n",
+            "close_window": "ctrl+w",
+            "refresh": "f5",
+            "rename": "f2",
+            "delete": "delete",
+            "permanent_delete": "shift+delete",
+            "properties": "alt+enter",
+            "select_all": "ctrl+a",
+            "copy": "ctrl+c",
+            "cut": "ctrl+x",
+            "paste": "ctrl+v",
+            "undo": "ctrl+z",
+            "new_folder": "ctrl+shift+n",
+            "address_bar": "alt+d",
+            "search": "ctrl+f",
+            "preview_pane": "alt+p",
+            "details_pane": "alt+shift+p"
+        }
+    },
+    
+    "advanced_shortcuts": {
+        "window_snap_layouts": {
+            "snap_assist": "win+z (Win11)",
+            "description": "Mostra layouts de snap disponíveis",
+            "zones": "Múltiplas configurações de janela"
+        },
+        "productivity": {
+            "screenshot_full": "win+print_screen",
+            "screenshot_area": "win+shift+s",
+            "screen_record": "win+alt+r",
+            "game_bar": "win+g",
+            "magnifier": "win+plus",
+            "magnifier_close": "win+esc",
+            "narrator": "win+ctrl+enter",
+            "high_contrast": "alt+shift+print_screen",
+            "filter_keys": "right_shift_8sec"
+        },
+        "power_user": {
+            "power_menu": "win+x",
+            "command_prompt_admin": "win+x depois a",
+            "powershell_admin": "win+x depois a (Win11)",
+            "disk_management": "win+x depois k",
+            "device_manager": "win+x depois m",
+            "network_connections": "win+x depois w",
+            "event_viewer": "win+x depois v",
+            "system": "win+x depois y",
+            "task_manager": "win+x depois t"
+        },
+        "display": {
+            "project_screen": "win+p",
+            "rotate_display": "ctrl+alt+arrow",
+            "resolution_dialog": "win+i depois display",
+            "night_light": "win+a depois night_light",
+            "brightness": "win+a (quick settings)"
+        },
+        "accessibility": {
+            "magnifier_on": "win++",
+            "magnifier_off": "win+esc",
+            "narrator": "win+ctrl+enter",
+            "on_screen_keyboard": "win+ctrl+o",
+            "ease_of_access": "win+u",
+            "color_filters": "win+ctrl+c",
+            "mouse_keys": "alt+shift+num_lock"
+        }
+    },
+    
+    "file_explorer_advanced": {
+        "navigation": {
+            "back": "alt+left",
+            "forward": "alt+right",
+            "up_one_level": "alt+up",
+            "go_to_path": "ctrl+l",
+            "focus_address_bar": "alt+d",
+            "focus_search": "ctrl+e ou ctrl+f",
+            "cycle_panes": "f6",
+            "context_menu": "shift+f10"
+        },
+        "view_options": {
+            "extra_large_icons": "ctrl+shift+1",
+            "large_icons": "ctrl+shift+2",
+            "medium_icons": "ctrl+shift+3",
+            "small_icons": "ctrl+shift+4",
+            "list_view": "ctrl+shift+5",
+            "details_view": "ctrl+shift+6",
+            "tiles_view": "ctrl+shift+7",
+            "content_view": "ctrl+shift+8",
+            "cycle_views": "ctrl+scroll"
+        },
+        "selection": {
+            "select_all": "ctrl+a",
+            "select_first": "home",
+            "select_last": "end",
+            "extend_selection": "shift+arrows",
+            "select_multiple": "ctrl+click",
+            "select_range": "shift+click",
+            "invert_selection": "ctrl+shift+i"
+        },
+        "organization": {
+            "sort_by_name": "click_column_header",
+            "group_by": "right_click_space > group_by",
+            "folder_options": "alt+t+o",
+            "customize_folder": "alt+enter > customize"
+        }
+    },
+    
+    "command_prompt_powershell": {
+        "cmd_basics": {
+            "open_cmd": "win+r depois cmd",
+            "open_admin": "win+x depois a",
+            "clear_screen": "cls",
+            "change_directory": "cd path",
+            "list_directory": "dir",
+            "copy_file": "copy source dest",
+            "move_file": "move source dest",
+            "delete_file": "del filename",
+            "create_directory": "mkdir dirname",
+            "remove_directory": "rmdir dirname",
+            "system_info": "systeminfo",
+            "ip_config": "ipconfig",
+            "network_test": "ping address",
+            "trace_route": "tracert address"
+        },
+        "powershell_basics": {
+            "open_powershell": "win+x depois i (Win10)",
+            "open_admin": "win+x depois a",
+            "list_items": "Get-ChildItem ou ls",
+            "change_directory": "Set-Location ou cd",
+            "copy_item": "Copy-Item",
+            "move_item": "Move-Item",
+            "remove_item": "Remove-Item",
+            "get_help": "Get-Help command",
+            "execution_policy": "Set-ExecutionPolicy",
+            "update_help": "Update-Help"
+        },
+        "useful_commands": {
+            "check_disk": "chkdsk",
+            "system_file_check": "sfc /scannow",
+            "disk_cleanup": "cleanmgr",
+            "defragment": "defrag C:",
+            "list_drivers": "driverquery",
+            "task_list": "tasklist",
+            "kill_task": "taskkill /IM process",
+            "network_stats": "netstat",
+            "flush_dns": "ipconfig /flushdns",
+            "shutdown": "shutdown /s /t 0",
+            "restart": "shutdown /r /t 0"
+        }
+    },
+    
+    "system_maintenance": {
+        "disk_cleanup": {
+            "access": "win+r depois cleanmgr",
+            "steps": [
+                "Selecionar drive",
+                "Calcular espaço",
+                "Marcar itens para limpeza",
+                "Limpar arquivos do sistema (admin)",
+                "OK para confirmar"
+            ],
+            "frequency": "Mensal",
+            "items": ["Temp files", "Downloads", "Recycle Bin", "Windows Update Cleanup"]
+        },
+        "disk_defragmentation": {
+            "access": "win+r depois dfrgui",
+            "ssd_note": "Não desfragmentar SSDs, usar TRIM",
+            "hdd_frequency": "Mensal para HDDs",
+            "automatic": "Configurar agendamento",
+            "optimize": "Analyze primeiro, depois Optimize"
+        },
+        "windows_update": {
+            "check_updates": "win+i > Update & Security",
+            "pause_updates": "win+i > Update > Pause",
+            "update_history": "View update history",
+            "troubleshoot": "Troubleshoot updates",
+            "best_practice": "Instalar atualizações regularmente",
+            "feature_updates": "Podem exigir mais tempo"
+        },
+        "storage_sense": {
+            "access": "win+i > System > Storage",
+            "features": [
+                "Limpeza automática de arquivos temporários",
+                "Gerenciamento de Downloads folder",
+                "Limpeza de Recycle Bin",
+                "OneDrive files on-demand"
+            ],
+            "configure": "Definir frequência de limpeza",
+            "recommendation": "Ativar para manutenção automática"
+        },
+        "system_restore": {
+            "create_point": "Control Panel > System > System Protection",
+            "restore": "rstrui.exe",
+            "recommendation": "Criar antes de mudanças importantes",
+            "disk_space": "Configurar espaço reservado",
+            "note": "Não afeta documentos pessoais"
+        }
+    },
+    
+    "performance_optimization": {
+        "startup_programs": {
+            "access": "Task Manager > Startup tab",
+            "disable": "Right-click > Disable",
+            "impact": "Mostra impacto de inicialização",
+            "recommendation": "Desabilitar programas desnecessários",
+            "exception": "Manter antivírus e drivers essenciais"
+        },
+        "visual_effects": {
+            "access": "sysdm.cpl > Advanced > Performance Settings",
+            "options": [
+                "Let Windows choose",
+                "Adjust for best appearance",
+                "Adjust for best performance",
+                "Custom"
+            ],
+            "recommendation": "Balance ou best performance em PCs mais lentos",
+            "effects_to_keep": ["Show thumbnails", "Smooth edges of screen fonts"]
+        },
+        "power_plan": {
+            "access": "Control Panel > Power Options",
+            "plans": [
+                "Balanced (recomendado)",
+                "Power saver (laptops)",
+                "High performance (desktops)"
+            ],
+            "custom": "Create custom plan",
+            "advanced": "Change advanced power settings",
+            "sleep_settings": "Configure sleep timeouts"
+        },
+        "background_apps": {
+            "access": "win+i > Privacy > Background apps",
+            "recommendation": "Desabilitar apps não essenciais",
+            "note": "Economiza bateria e recursos",
+            "win11": "Settings > Apps > Startup"
+        },
+        "indexing": {
+            "access": "Control Panel > Indexing Options",
+            "purpose": "Acelera buscas",
+            "modify": "Adicionar/remover locais",
+            "rebuild": "Se busca estiver lenta",
+            "advanced": "File types e índice location"
+        }
+    },
+    
+    "security_and_privacy": {
+        "windows_security": {
+            "access": "win+i > Update & Security > Windows Security",
+            "features": [
+                "Virus & threat protection",
+                "Account protection",
+                "Firewall & network protection",
+                "App & browser control",
+                "Device security"
+            ],
+            "scan_types": ["Quick", "Full", "Custom", "Offline"],
+            "recommendations": "Manter Windows Defender ativo"
+        },
+        "user_accounts": {
+            "types": ["Administrator", "Standard User", "Guest"],
+            "access": "Control Panel > User Accounts",
+            "recommendation": "Usar Standard para dia-a-dia",
+            "uac": "User Account Control - manter ativo",
+            "password": "Usar senhas fortes ou PIN/Windows Hello"
+        },
+        "privacy_settings": {
+            "access": "win+i > Privacy",
+            "categories": [
+                "General (tracking)",
+                "Speech",
+                "Diagnostics & feedback",
+                "Activity history",
+                "Location",
+                "Camera",
+                "Microphone",
+                "App permissions"
+            ],
+            "recommendation": "Revisar e ajustar conforme necessário",
+            "telemetry": "Basic ou Security (enterprise)"
+        },
+        "bitlocker": {
+            "access": "Control Panel > BitLocker Drive Encryption",
+            "requirement": "Windows Pro or Enterprise",
+            "purpose": "Criptografar drives",
+            "recovery_key": "Salvar em local seguro",
+            "recommendation": "Ativar para laptops"
+        },
+        "firewall": {
+            "access": "Control Panel > Windows Defender Firewall",
+            "profiles": ["Domain", "Private", "Public"],
+            "rules": "Advanced settings para regras customizadas",
+            "recommendation": "Manter ativo, ajustar exceções",
+            "ports": "Abrir apenas portas necessárias"
+        }
+    },
+    
+    "networking": {
+        "wifi_management": {
+            "connect": "win+a > Wi-Fi",
+            "forget_network": "Settings > Network > Manage known networks",
+            "properties": "Right-click network > Properties",
+            "metered": "Set as metered connection",
+            "troubleshoot": "Settings > Network & Internet > Status > Troubleshoot"
+        },
+        "ethernet": {
+            "properties": "Settings > Network > Ethernet",
+            "ip_settings": "Manual ou DHCP",
+            "dns": "Configurar DNS personalizado",
+            "adapter_settings": "Control Panel > Network Connections"
+        },
+        "network_troubleshooting": {
+            "reset_network": "Settings > Network > Status > Network reset",
+            "flush_dns": "ipconfig /flushdns (cmd)",
+            "renew_ip": "ipconfig /release depois /renew",
+            "netsh_reset": "netsh winsock reset",
+            "ping_test": "ping 8.8.8.8 para testar conectividade"
+        },
+        "sharing": {
+            "file_sharing": "Network and Sharing Center > Change advanced sharing",
+            "homegroup": "Removido no Win10 1803+",
+            "network_discovery": "Ativar em redes privadas",
+            "password_protected": "Configurar conforme necessário",
+            "share_folder": "Right-click > Give access to"
+        },
+        "vpn": {
+            "add_vpn": "Settings > Network & Internet > VPN",
+            "connection_types": ["PPTP", "L2TP/IPsec", "IKEv2", "OpenVPN"],
+            "configure": "Add VPN connection",
+            "connect": "Click to connect após configuração"
+        }
+    },
+    
+    "troubleshooting": {
+        "common_issues": {
+            "slow_startup": {
+                "causes": ["Too many startup programs", "Disk issues", "Outdated drivers"],
+                "solutions": [
+                    "Disable unnecessary startup programs",
+                    "Run disk cleanup",
+                    "Check for Windows updates",
+                    "Scan for malware",
+                    "Check disk health"
+                ]
+            },
+            "blue_screen": {
+                "causes": ["Driver issues", "Hardware failure", "Corrupted system files"],
+                "solutions": [
+                    "Note error code",
+                    "Update/rollback drivers",
+                    "Run Windows Memory Diagnostic",
+                    "Check disk with chkdsk",
+                    "Run sfc /scannow",
+                    "Check Event Viewer for details"
+                ],
+                "prevention": "Keep system and drivers updated"
+            },
+            "application_crashes": {
+                "solutions": [
+                    "Update application",
+                    "Run as administrator",
+                    "Check compatibility mode",
+                    "Reinstall application",
+                    "Check Event Viewer",
+                    "Disable conflicting software"
+                ]
+            },
+            "internet_not_working": {
+                "steps": [
+                    "Check physical connections",
+                    "Restart router/modem",
+                    "Run network troubleshooter",
+                    "Flush DNS cache",
+                    "Reset TCP/IP stack",
+                    "Update network adapter driver",
+                    "Check firewall settings"
+                ]
+            },
+            "audio_not_working": {
+                "solutions": [
+                    "Check volume and mute status",
+                    "Verify correct output device",
+                    "Run audio troubleshooter",
+                    "Update audio drivers",
+                    "Check Device Manager for issues",
+                    "Restart Windows Audio service"
+                ]
+            }
+        },
+        "diagnostic_tools": {
+            "windows_troubleshooters": "Settings > Update & Security > Troubleshoot",
+            "event_viewer": "eventvwr.msc",
+            "reliability_monitor": "perfmon /rel",
+            "resource_monitor": "resmon",
+            "performance_monitor": "perfmon",
+            "system_information": "msinfo32",
+            "directx_diagnostic": "dxdiag"
+        },
+        "safe_mode": {
+            "access": "Hold Shift > Restart > Troubleshoot > Advanced > Startup Settings",
+            "f4": "Enable Safe Mode",
+            "f5": "Enable Safe Mode with Networking",
+            "f6": "Enable Safe Mode with Command Prompt",
+            "purpose": "Troubleshoot driver and software issues",
+            "exit": "Restart normally"
+        },
+        "system_file_checker": {
+            "command": "sfc /scannow",
+            "requirement": "Run as administrator",
+            "time": "15-30 minutes",
+            "purpose": "Repair corrupted system files",
+            "follow_up": "DISM if sfc finds issues"
+        },
+        "dism": {
+            "check": "DISM /Online /Cleanup-Image /CheckHealth",
+            "scan": "DISM /Online /Cleanup-Image /ScanHealth",
+            "restore": "DISM /Online /Cleanup-Image /RestoreHealth",
+            "purpose": "Repair Windows image",
+            "requirement": "Administrator, internet connection"
+        }
+    },
+    
+    "customization": {
+        "personalization": {
+            "access": "win+i > Personalization",
+            "background": "Choose wallpaper, slideshow, solid color",
+            "colors": "Accent color, dark/light mode",
+            "themes": "Apply or create custom themes",
+            "lock_screen": "Customize lock screen",
+            "start_menu": "Layout and folder options",
+            "taskbar": "Position, size, icons"
+        },
+        "taskbar_customization": {
+            "position": "Right-click taskbar > Taskbar settings",
+            "auto_hide": "Automatically hide taskbar",
+            "small_buttons": "Use small taskbar buttons (Win10)",
+            "combine_buttons": "Never, Always, When full",
+            "notification_area": "Select which icons appear",
+            "system_tray": "Customize system icons",
+            "toolbars": "Add toolbars (Links, Desktop, etc)"
+        },
+        "start_menu": {
+            "pin_apps": "Right-click app > Pin to Start",
+            "resize": "Drag edges to resize (Win10)",
+            "folders": "Settings > Personalization > Start",
+            "tile_groups": "Drag to create groups (Win10)",
+            "recommendations": "Show recommendations (Win11)",
+            "layout": "More pins ou more recommendations (Win11)"
+        },
+        "desktop_icons": {
+            "show_hide": "Right-click desktop > View > Show desktop icons",
+            "system_icons": "Personalization > Themes > Desktop icon settings",
+            "size": "Right-click > View > Icon size",
+            "arrange": "Auto arrange, Align to grid",
+            "custom": "Change icon for shortcuts"
+        }
+    },
+    
+    "windows_11_specific": {
+        "new_features": {
+            "snap_layouts": "win+z para layouts de janela",
+            "widgets": "win+w para painel de widgets",
+            "teams_integration": "Chat integrado na taskbar",
+            "virtual_desktops": "Customização melhorada",
+            "android_apps": "Windows Subsystem for Android",
+            "focus_sessions": "Focus timer com integração Spotify"
+        },
+        "interface_changes": {
+            "centered_taskbar": "Taskbar centralizada (pode mudar)",
+            "rounded_corners": "Janelas com cantos arredondados",
+            "context_menus": "Menus de contexto redesenhados",
+            "settings_app": "Interface reorganizada",
+            "start_menu": "Design completamente novo"
+        },
+        "requirements": {
+            "tpm": "TPM 2.0 obrigatório",
+            "secure_boot": "UEFI Secure Boot",
+            "processor": "CPU compatível (Intel 8ª gen+, AMD Ryzen 2000+)",
+            "ram": "4GB mínimo",
+            "storage": "64GB mínimo",
+            "display": "720p, 9\" diagonal mínimo"
+        }
+    },
+    
+    "windows_10_specific": {
+        "features": {
+            "cortana": "Assistente digital (pode ser desabilitado)",
+            "timeline": "Histórico de atividades",
+            "my_people": "Contatos na taskbar",
+            "game_mode": "Otimização para jogos",
+            "dynamic_lock": "Lock baseado em Bluetooth",
+            "storage_spaces": "Gerenciamento de storage"
+        },
+        "editions": {
+            "home": "Recursos básicos",
+            "pro": "BitLocker, Remote Desktop, Hyper-V",
+            "enterprise": "Recursos corporativos",
+            "education": "Similar ao Enterprise para escolas"
+        }
+    },
+    
+    "productivity_tips": {
+        "multitasking": [
+            "Usar múltiplos desktops virtuais",
+            "Snap windows lado a lado",
+            "Task View para overview",
+            "Alt+Tab para trocar rapidamente",
+            "Win+Tab para visualização de desktops"
+        ],
+        "organization": [
+            "Criar estrutura de pastas lógica",
+            "Usar Libraries no File Explorer",
+            "Pin frequently used folders",
+            "Usar Quick Access",
+            "Manter Desktop limpo"
+        ],
+        "efficiency": [
+            "Memorizar atalhos essenciais",
+            "Usar Win+Number para abrir taskbar apps",
+            "Clipboard history (Win+V)",
+            "God Mode para todas as configurações",
+            "Custom keyboard shortcuts"
+        ],
+        "god_mode": {
+            "create": "New folder > Name: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}",
+            "access": "All Control Panel settings in one place",
+            "categories": "Over 200 settings organized"
+        }
+    },
+    
+    "backup_and_recovery": {
+        "file_history": {
+            "access": "Settings > Update & Security > Backup",
+            "requirement": "External drive",
+            "frequency": "Hourly (customizable)",
+            "restore": "Restore files from File History",
+            "recommendation": "Ativar para documentos importantes"
+        },
+        "system_image": {
+            "create": "Control Panel > Backup and Restore (Windows 7)",
+            "purpose": "Full system backup",
+            "storage": "External drive or network location",
+            "restore": "Advanced startup options",
+            "recommendation": "Criar antes de upgrades importantes"
+        },
+        "onedrive": {
+            "access": "Taskbar > OneDrive icon",
+            "sync": "Automático para pastas configuradas",
+            "storage": "5GB grátis, mais com subscription",
+            "files_on_demand": "Economizar espaço local",
+            "recovery": "Recycle bin online por 30 dias"
+        },
+        "reset_this_pc": {
+            "access": "Settings > Update & Security > Recovery",
+            "options": ["Keep my files", "Remove everything"],
+            "cloud_download": "Reinstall from cloud or local",
+            "use": "Quando sistema está muito problemático",
+            "preparation": "Backup primeiro!"
+        }
+    },
+    
+    "hidden_features": {
+        "secret_menus": {
+            "power_user_menu": "win+x",
+            "god_mode": "Special folder name",
+            "hidden_startup_folder": "shell:startup in Run",
+            "all_tasks": "shell:::{ED7BA470-8E54-465E-825C-99712043E01C}",
+            "quick_launch": "shell:quick launch"
+        },
+        "useful_run_commands": {
+            "services": "services.msc",
+            "task_scheduler": "taskschd.msc",
+            "registry_editor": "regedit",
+            "system_config": "msconfig",
+            "computer_management": "compmgmt.msc",
+            "disk_management": "diskmgmt.msc",
+            "device_manager": "devmgmt.msc",
+            "programs_and_features": "appwiz.cpl",
+            "user_accounts": "netplwiz"
+        },
+        "easter_eggs": {
+            "3d_text_screensaver": "Legacy screensaver with custom text",
+            "blue_screen_simulator": "NotMyFault tool",
+            "telnet_star_wars": "telnet towel.blinkenlights.nl"
+        }
+    },
+    
+    "advanced_features": {
+        "hyper_v": {
+            "requirement": "Windows Pro or higher",
+            "enable": "Control Panel > Programs > Windows Features",
+            "purpose": "Run virtual machines",
+            "uses": ["Testing", "Development", "Running other OS"],
+            "performance": "Requires virtualization in BIOS"
+        },
+        "wsl": {
+            "name": "Windows Subsystem for Linux",
+            "install": "wsl --install (PowerShell admin)",
+            "distributions": ["Ubuntu", "Debian", "Kali", "openSUSE"],
+            "purpose": "Run Linux natively on Windows",
+            "uses": ["Development", "Linux tools", "Learning"]
+        },
+        "sandbox": {
+            "requirement": "Windows Pro, Enterprise, Education",
+            "enable": "Windows Features > Windows Sandbox",
+            "purpose": "Isolated environment for testing",
+            "reset": "Closes and resets on exit",
+            "use": "Test suspicious files safely"
+        },
+        "remote_desktop": {
+            "requirement": "Windows Pro or higher",
+            "enable": "Settings > System > Remote Desktop",
+            "connect": "Remote Desktop Connection app",
+            "port": "3389 (default)",
+            "security": "Use strong passwords, VPN recommended"
+        }
+    },
+    
+    "gaming_optimization": {
+        "game_mode": {
+            "access": "Settings > Gaming > Game Mode",
+            "purpose": "Prioritize game performance",
+            "xbox_game_bar": "win+g",
+            "capture": "win+alt+r to record",
+            "screenshot": "win+alt+print_screen"
+        },
+        "graphics_settings": {
+            "access": "Settings > Gaming > Graphics",
+            "options": ["Power saving", "High performance"],
+            "per_app": "Set preferences per application",
+            "hardware_acceleration": "Enable for better performance"
+        },
+        "optimizations": [
+            "Update graphics drivers",
+            "Close background applications",
+            "Disable unnecessary visual effects",
+            "Use High Performance power plan",
+            "Check for Windows updates",
+            "Monitor temperatures"
+        ]
+    },
+    
+    "accessibility_features": {
+        "narrator": "win+ctrl+enter",
+        "magnifier": "win++",
+        "on_screen_keyboard": "win+ctrl+o",
+        "high_contrast": "alt+shift+print_screen",
+        "color_filters": "win+ctrl+c",
+        "closed_captions": "Settings > Accessibility > Captions",
+        "speech_recognition": "Control Panel > Speech Recognition",
+        "eye_control": "Settings > Accessibility > Eye control",
+        "mouse_keys": "Use numpad as mouse",
+        "sticky_keys": "Press Shift 5 times",
+        "filter_keys": "Hold right Shift 8 seconds",
+        "toggle_keys": "Hold Num Lock 5 seconds"
+    },
+    
+    "learning_resources": {
+        "official": [
+            "Microsoft Support site",
+            "Windows Insider Program",
+            "Microsoft Learn",
+            "Windows Blog"
+        ],
+        "communities": [
+            "Microsoft Community forums",
+            "Reddit r/Windows",
+            "r/Windows10",
+            "r/Windows11",
+            "TechNet forums"
+        ],
+        "youtube_channels": [
+            "Microsoft Windows",
+            "Windows Central",
+            "Tech guides"
+        ]
+    },
+    
+    "professional_tips": {
+        "speed": [
+            "Memorizar atalhos Win+X menu",
+            "Usar clipboard history (Win+V)",
+            "Quick Access para pastas frequentes",
+            "Desabilitar animações desnecessárias",
+            "SSD para sistema operacional",
+            "Manter drivers atualizados"
+        ],
+        "security": [
+            "Usar Windows Hello ou PIN",
+            "Ativar BitLocker em laptops",
+            "Manter Windows Defender ativo",
+            "Regular Windows Updates",
+            "Usar Standard User account",
+            "Backup regular de dados importantes"
+        ],
+        "maintenance": [
+            "Disk Cleanup mensal",
+            "Verificar atualizações semanalmente",
+            "Monitor storage regularmente",
+            "Check Task Manager para performance",
+            "Manter lista de programas instalados",
+            "Documentar customizações importantes"
+        ]
+    }
+}

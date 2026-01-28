@@ -1,0 +1,26 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Foxit PDF shortcuts - NOTE: Foxit uses UI customization, not direct XML commands. Configure via Edit > Preferences > Keyboard.",
+    "shortcuts": [
+        {
+            "key": "Ctrl+O",
+            "modifier": "Ctrl",
+            "command": "FileOpen",
+            "description": "Open File (Standard Windows shortcut)"
+        },
+        {
+            "key": "Ctrl+P",
+            "modifier": "Ctrl",
+            "command": "FilePrint",
+            "description": "Print Document (Standard Windows shortcut)"
+        },
+        {
+            "key": "Ctrl+F",
+            "modifier": "Ctrl",
+            "command": "EditFind",
+            "description": "Find Text (Standard Windows shortcut)"
+        }
+    ],
+    "notes": "Foxit customization is done via UI: Menu > Navigate > Customize Quick Access Toolbar > Keyboard tab. No public XML schema for shortcuts available."
+}

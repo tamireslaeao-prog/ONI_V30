@@ -1,0 +1,122 @@
+Aqui está uma **lista completa** dos atalhos de teclado (hotkeys) do **Foxit PhantomPDF / Foxit Reader**, organizados por função.  
+Esses atalhos são válidos para a maioria das versões recentes do Foxit, incluindo as edições **PhantomPDF**, **PDF Editor Pro** e **Reader**.
+
+---
+
+## 📄 **ATALHOS GERAIS**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + N` | Abrir nova janela |
+| `Ctrl + O` | Abrir arquivo PDF |
+| `Ctrl + S` | Salvar documento |
+| `Ctrl + Shift + S` | Salvar como |
+| `Ctrl + P` | Imprimir |
+| `Ctrl + W` | Fechar documento |
+| `Ctrl + F4` | Fechar janela atual |
+| `Ctrl + Q` | Sair do programa |
+| `Ctrl + Z` | Desfazer |
+| `Ctrl + Y` / `F4` | Refazer |
+| `Ctrl + F` | Localizar no documento |
+| `Ctrl + H` | Substituir texto |
+| `Ctrl + G` | Ir para página específica |
+
+---
+
+## 📖 **NAVEGAÇÃO NO DOCUMENTO**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + Home` | Ir para a primeira página |
+| `Ctrl + End` | Ir para a última página |
+| `Page Up` | Rolar para cima |
+| `Page Down` | Rolar para baixo |
+| `+` ou `=` | Ampliar zoom |
+| `-` | Reduzir zoom |
+| `Ctrl + 0` | Zoom automático (ajustar à largura) |
+| `Ctrl + 1` | Zoom real (100%) |
+| `Ctrl + 2` | Zoom ajustado à página |
+| `F` | Tela inteira |
+| `Esc` | Sair do modo tela cheia |
+
+---
+
+## ✏️ **EDIÇÃO DE TEXTO E OBJETOS**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + C` | Copiar seleção |
+| `Ctrl + X` | Cortar seleção |
+| `Ctrl + V` | Colar |
+| `Ctrl + A` | Selecionar tudo |
+| `Delete` | Excluir item selecionado |
+| `Ctrl + D` | Duplicar objeto |
+| `Ctrl + L` | Inserir link |
+| `Shift + F10` | Menu de contexto (como botão direito do mouse) |
+
+---
+
+## 📝 **COMENTÁRIOS E ANOTAÇÕES**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + 7` | Adicionar comentário |
+| `Ctrl + 8` | Inserir forma |
+| `Ctrl + 9` | Inserir carimbo |
+| `Ctrl + Shift + 7` | Mostrar/ocultar painel de comentários |
+| `Ctrl + Shift + C` | Comentar com balão |
+| `Ctrl + Shift + A` | Mostrar todas as anotações |
+
+---
+
+## 🔍 **PESQUISA E MARCAÇÃO**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + F` | Pesquisar no documento |
+| `Ctrl + K` | Abrir ferramenta de pesquisa avançada |
+| `Ctrl + Shift + F` | Pesquisar em múltiplos arquivos |
+| `Ctrl + M` | Marcar texto automaticamente |
+| `Ctrl + J` | Destacar texto |
+
+---
+
+## 🛠️ **FERRAMENTAS E OPÇÕES**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + T` | Abrir painel de ferramentas |
+| `Alt + F` | Abrir menu Arquivo |
+| `Alt + E` | Abrir menu Editar |
+| `Alt + V` | Abrir menu Visualizar |
+| `Alt + I` | Abrir menu Inserir |
+| `Alt + R` | Abrir menu Revisar |
+| `F5` | Atualizar visualização |
+| `F1` | Ajuda |
+
+---
+
+## 📁 **GERENCIAMENTO DE PÁGINAS**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + I` | Inserir páginas |
+| `Ctrl + Shift + I` | Extrair páginas |
+| `Ctrl + R` | Girar páginas |
+| `Ctrl + Shift + R` | Remover páginas |
+| `Ctrl + B` | Dividir PDF |
+| `Ctrl + Shift + B` | Mesclar PDFs |
+
+---
+
+## 🔐 **SEGURANÇA E PROTEÇÃO**
+
+| Atalho | Função |
+|--------|--------|
+| `Ctrl + Shift + P` | Proteger documento (senha) |
+| `Ctrl + Shift + E` | Encriptar documento |
+| `Ctrl + Alt + S` | Configurar permissões |
+
+---
+
+Se quiser, posso gerar um **arquivo .txt ou .pdf com todos esses atalhos** prontos para impressão. Deseja?

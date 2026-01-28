@@ -1,0 +1,768 @@
+{
+    "software": "Adobe After Effects",
+    "version": "2025+",
+    "category": "motion_graphics_vfx",
+    "description": "Guia completo de atalhos, técnicas e melhores práticas para Adobe After Effects",
+    "tool_shortcuts": {
+        "selection": "v",
+        "hand": "h",
+        "zoom": "z",
+        "rotation": "w",
+        "pan_behind": "y",
+        "rectangle": "q",
+        "pen": "g",
+        "text": "ctrl+t",
+        "brush": "ctrl+b",
+        "clone_stamp": "ctrl+b",
+        "eraser": "ctrl+shift+b",
+        "roto_brush": "alt+w",
+        "puppet_pin": "ctrl+p"
+    },
+    "workspace_shortcuts": {
+        "project": "ctrl+0",
+        "render_queue": "ctrl+alt+0",
+        "timeline": "ctrl+1",
+        "composition": "ctrl+2",
+        "layer": "ctrl+3",
+        "effects_controls": "ctrl+4",
+        "audio": "ctrl+5",
+        "info": "ctrl+6",
+        "preview": "ctrl+7",
+        "paint": "ctrl+8",
+        "brush_tips": "ctrl+9",
+        "flowchart": "ctrl+f11",
+        "maximize_panel": "~"
+    },
+    "composition_shortcuts": {
+        "new_composition": "ctrl+n",
+        "composition_settings": "ctrl+k",
+        "new_from_footage": "ctrl+alt+/",
+        "add_to_render_queue": "ctrl+m",
+        "add_to_adobe_media_encoder": "ctrl+alt+m",
+        "save_frame_as_file": "ctrl+alt+s",
+        "pre_compose": "ctrl+shift+c",
+        "trim_comp_to_work_area": "ctrl+shift+x"
+    },
+    "layer_shortcuts": {
+        "new_solid": "ctrl+y",
+        "new_adjustment_layer": "ctrl+alt+y",
+        "new_null_object": "ctrl+alt+shift+y",
+        "new_shape_layer": "ctrl+alt+shift+y",
+        "new_camera": "ctrl+alt+shift+c",
+        "new_light": "ctrl+alt+shift+l",
+        "new_text": "ctrl+alt+shift+t",
+        "duplicate": "ctrl+d",
+        "split_layer": "ctrl+shift+d",
+        "lock_layer": "ctrl+l",
+        "unlock_all": "ctrl+shift+l",
+        "shy_layer": "ctrl+shift+h",
+        "quality_best": "ctrl+u",
+        "quality_draft": "ctrl+shift+u",
+        "sequence_layers": "ctrl+shift+]",
+        "reverse_layer_order": "ctrl+alt+shift+]"
+    },
+    "layer_properties": {
+        "anchor_point": "a",
+        "position": "p",
+        "scale": "s",
+        "rotation": "r",
+        "opacity": "t",
+        "all_transform": "u",
+        "audio_levels": "l",
+        "audio_waveform": "ll",
+        "mask_path": "m",
+        "mask_feather": "f",
+        "mask_opacity": "tt",
+        "effects": "e",
+        "solo_selected": "s",
+        "modified_properties": "u",
+        "all_properties": "uu",
+        "expression": "ee"
+    },
+    "animation_shortcuts": {
+        "keyframe_assistant": "alt+shift+f9",
+        "easy_ease": "f9",
+        "easy_ease_in": "shift+f9",
+        "easy_ease_out": "ctrl+shift+f9",
+        "auto_bezier": "ctrl+alt+b",
+        "convert_to_bezier": "ctrl+alt+c",
+        "linear": "ctrl+alt+l",
+        "hold": "ctrl+alt+h",
+        "toggle_keyframe": "alt+property_shortcut",
+        "go_to_next_keyframe": "j",
+        "go_to_previous_keyframe": "k",
+        "add_keyframe": "alt+shift+property"
+    },
+    "timeline_navigation": {
+        "go_to_beginning": "home",
+        "go_to_end": "end",
+        "go_forward_1_frame": "page_down",
+        "go_back_1_frame": "page_up",
+        "go_forward_10_frames": "shift+page_down",
+        "go_back_10_frames": "shift+page_up",
+        "set_work_area_begin": "b",
+        "set_work_area_end": "n",
+        "zoom_in_timeline": "=",
+        "zoom_out_timeline": "-",
+        "fit_timeline": "shift+;",
+        "current_time_dialog": "ctrl+g"
+    },
+    "preview_shortcuts": {
+        "ram_preview": "0_numpad",
+        "play_pause": "spacebar",
+        "audio_preview": "._numpad",
+        "stop": "._numpad",
+        "purge_all_memory": "ctrl+alt+/",
+        "preview_from_beginning": "ctrl+0",
+        "preview_work_area": "alt+0",
+        "fast_preview_off": "ctrl+alt+1",
+        "fast_preview_adaptive_resolution": "ctrl+alt+2",
+        "fast_preview_draft": "ctrl+alt+3",
+        "fast_preview_wireframe": "ctrl+alt+4"
+    },
+    "view_shortcuts": {
+        "resolution_full": "ctrl+j",
+        "resolution_half": "ctrl+shift+j",
+        "resolution_quarter": "ctrl+shift+alt+j",
+        "show_hide_grid": "ctrl+'",
+        "show_hide_rulers": "ctrl+r",
+        "show_hide_guides": "ctrl+;",
+        "snap_to_grid": "ctrl+shift+'",
+        "snap_to_guides": "ctrl+shift+;",
+        "lock_guides": "ctrl+alt+shift+;",
+        "show_layer_controls": "ctrl+shift+h",
+        "show_safe_zones": "ctrl+'",
+        "fit_composition": "shift+/",
+        "fit_up_to_100%": "alt+/",
+        "zoom_in": ".",
+        "zoom_out": ","
+    },
+    "mask_shape_shortcuts": {
+        "open_close_mask": "ctrl+shift+m",
+        "mask_feather": "ctrl+shift+f",
+        "mask_shape": "ctrl+shift+m",
+        "subtract_mask_mode": "ctrl+shift+s",
+        "add_mask_mode": "ctrl+shift+a",
+        "intersect_mask_mode": "ctrl+shift+i",
+        "lighten_mask_mode": "ctrl+shift+l",
+        "darken_mask_mode": "ctrl+shift+d",
+        "difference_mask_mode": "ctrl+shift+f",
+        "select_all_mask_points": "ctrl+alt+a",
+        "deselect_all_points": "ctrl+shift+a",
+        "convert_vertex_smooth": "ctrl+alt+c",
+        "convert_vertex_corner": "ctrl+alt+v"
+    },
+    "effects_shortcuts": {
+        "effects_presets": "ctrl+5",
+        "delete_effect": "delete",
+        "reset_effect": "ctrl+alt+shift+e",
+        "copy_effects": "ctrl+c",
+        "paste_effects": "ctrl+v",
+        "animation_preset": "ctrl+alt+shift+f",
+        "recent_effects": "ctrl+alt+shift+e",
+        "favorite_effects": "shift+f3"
+    },
+    "common_shortcuts": {
+        "new_project": "ctrl+alt+n",
+        "open_project": "ctrl+o",
+        "save": "ctrl+s",
+        "save_as": "ctrl+shift+s",
+        "import": "ctrl+i",
+        "undo": "ctrl+z",
+        "redo": "ctrl+shift+z",
+        "cut": "ctrl+x",
+        "copy": "ctrl+c",
+        "paste": "ctrl+v",
+        "duplicate": "ctrl+d",
+        "select_all": "ctrl+a",
+        "deselect_all": "ctrl+shift+a",
+        "find": "ctrl+f",
+        "project_settings": "ctrl+alt+shift+k",
+        "preferences": "ctrl+alt+;",
+        "quit": "ctrl+q"
+    },
+    "3d_layer_shortcuts": {
+        "enable_3d": "ctrl+alt+shift+3d",
+        "auto_orient": "ctrl+alt+o",
+        "x_rotation": "r_then_shift+x",
+        "y_rotation": "r_then_shift+y",
+        "z_rotation": "r",
+        "camera_orbit": "c",
+        "camera_track_xy": "c_twice",
+        "camera_track_z": "c_three_times",
+        "reset_camera_view": "ctrl+alt+shift+r"
+    },
+    "expression_shortcuts": {
+        "add_expression": "alt+shift+=",
+        "disable_expression": "ctrl+shift+=",
+        "edit_expression": "ctrl+alt+e",
+        "expression_language_menu": "ctrl+click_stopwatch",
+        "pick_whip": "shift+click_spiral_icon",
+        "jump_to_expression": "ctrl+'"
+    },
+    "recommended_workflow_settings": {
+        "composition_presets": {
+            "hd_1080": {
+                "width": 1920,
+                "height": 1080,
+                "framerate": 30,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Composição Full HD padrão"
+            },
+            "hd_720": {
+                "width": 1280,
+                "height": 720,
+                "framerate": 30,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Composição HD mais leve"
+            },
+            "4k": {
+                "width": 3840,
+                "height": 2160,
+                "framerate": 30,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Composição 4K UHD"
+            },
+            "instagram_square": {
+                "width": 1080,
+                "height": 1080,
+                "framerate": 30,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Post quadrado Instagram"
+            },
+            "instagram_story": {
+                "width": 1080,
+                "height": 1920,
+                "framerate": 30,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Story vertical Instagram"
+            },
+            "youtube_standard": {
+                "width": 1920,
+                "height": 1080,
+                "framerate": 60,
+                "duration": "0:00:10:00",
+                "pixel_aspect": 1.0,
+                "description": "Vídeo YouTube 1080p60"
+            }
+        },
+        "render_settings": {
+            "preview": {
+                "resolution": "Half",
+                "quality": "Draft",
+                "format": "QuickTime",
+                "codec": "H.264",
+                "description": "Para visualização rápida"
+            },
+            "final_delivery": {
+                "resolution": "Full",
+                "quality": "Best",
+                "format": "QuickTime",
+                "codec": "ProRes 422",
+                "description": "Para entrega final de alta qualidade"
+            },
+            "web_optimized": {
+                "resolution": "Full",
+                "quality": "High",
+                "format": "H.264",
+                "bitrate": "10-15 Mbps",
+                "description": "Para web e redes sociais"
+            }
+        }
+    },
+    "pre_animation_checklist": [
+        {
+            "check": "composition_settings",
+            "prompt": "Verifique configurações da composição",
+            "expected": "Resolução, framerate e duração corretos",
+            "fix_if_wrong": "Ctrl+K para abrir settings",
+            "importance": "critical",
+            "verification": "Info panel ou composition settings"
+        },
+        {
+            "check": "layer_quality",
+            "prompt": "Verifique qualidade das layers",
+            "expected": "Best quality para render final",
+            "fix_if_wrong": "Ctrl+U para alternar qualidade",
+            "importance": "high",
+            "verification": "Ícone de qualidade ao lado da layer"
+        },
+        {
+            "check": "work_area",
+            "prompt": "Verifique área de trabalho na timeline",
+            "expected": "Work area cobre o trecho desejado",
+            "fix_if_wrong": "Pressione B para início e N para fim",
+            "importance": "medium",
+            "verification": "Barra azul escura na timeline"
+        },
+        {
+            "check": "motion_blur",
+            "prompt": "Motion blur ativado se necessário",
+            "expected": "Ativado para movimento realista",
+            "fix_if_wrong": "Clique no ícone de motion blur",
+            "importance": "medium",
+            "verification": "Ícone circular na timeline"
+        },
+        {
+            "check": "frame_rate",
+            "prompt": "Frame rate da composição",
+            "expected": "23.976, 24, 25, 30 ou 60 fps",
+            "fix_if_wrong": "Ctrl+K > Frame Rate",
+            "importance": "critical",
+            "verification": "Composition settings"
+        },
+        {
+            "check": "color_depth",
+            "prompt": "Profundidade de cor do projeto",
+            "expected": "8-bit para maioria, 16/32-bit para VFX",
+            "fix_if_wrong": "Clique no seletor na parte inferior do projeto",
+            "importance": "high",
+            "verification": "Canto inferior do painel Project"
+        },
+        {
+            "check": "preview_resolution",
+            "prompt": "Resolução de preview",
+            "expected": "Full para final, Half/Quarter para edição",
+            "fix_if_wrong": "Ctrl+J para alternar",
+            "importance": "medium",
+            "verification": "Botão de resolução no painel Composition"
+        },
+        {
+            "check": "audio_preview",
+            "prompt": "Preview de áudio configurado",
+            "expected": "Duração adequada para sincronização",
+            "fix_if_wrong": "Edit > Preferences > Previews",
+            "importance": "medium",
+            "verification": "Preferences panel"
+        },
+        {
+            "check": "autosave",
+            "prompt": "Autosave ativado",
+            "expected": "A cada 5-10 minutos",
+            "fix_if_wrong": "Edit > Preferences > Auto-Save",
+            "importance": "high",
+            "verification": "Preferences > Auto-Save"
+        },
+        {
+            "check": "disk_cache",
+            "prompt": "Disk cache configurado",
+            "expected": "Em disco rápido (SSD) com espaço",
+            "fix_if_wrong": "Edit > Preferences > Media & Disk Cache",
+            "importance": "medium",
+            "verification": "Preferences panel"
+        }
+    ],
+    "quality_criteria": {
+        "animation": {
+            "smooth_motion": "Movimento suave sem saltos",
+            "proper_easing": "Easy ease em keyframes apropriados",
+            "consistent_timing": "Timing consistente entre elementos",
+            "no_jitter": "Sem tremidas ou instabilidade",
+            "natural_physics": "Movimento respeita física quando necessário",
+            "anticipation": "Antecipação em movimentos maiores",
+            "follow_through": "Continuação natural do movimento"
+        },
+        "composition": {
+            "clean_timeline": "Timeline organizada e nomeada",
+            "layer_organization": "Layers agrupadas logicamente",
+            "no_empty_frames": "Sem frames vazios desnecessários",
+            "proper_nesting": "Pre-comps usados apropriadamente",
+            "efficient_effects": "Efeitos otimizados sem redundância"
+        },
+        "effects": {
+            "purposeful": "Cada efeito tem propósito claro",
+            "not_overdone": "Efeitos não exagerados",
+            "render_efficient": "Configurados para render eficiente",
+            "properly_masked": "Máscaras limpas e precisas"
+        },
+        "overall": {
+            "no_render_errors": "Sem erros de renderização",
+            "proper_color": "Cores consistentes e corretas",
+            "clean_audio": "Áudio sincronizado e limpo",
+            "correct_format": "Formato de saída apropriado"
+        }
+    },
+    "animation_presets": {
+        "bounce_in": {
+            "description": "Entrada com bounce suave",
+            "keyframes": 3,
+            "properties": [
+                "position",
+                "scale"
+            ],
+            "easing": "easy_ease",
+            "overshoot": "10%",
+            "duration": "0.8s"
+        },
+        "fade_in": {
+            "description": "Fade in simples",
+            "keyframes": 2,
+            "properties": [
+                "opacity"
+            ],
+            "easing": "easy_ease",
+            "duration": "0.5s"
+        },
+        "slide_in": {
+            "description": "Entrada deslizante lateral",
+            "keyframes": 2,
+            "properties": [
+                "position"
+            ],
+            "easing": "easy_ease_in_out",
+            "distance": "screen_width",
+            "duration": "0.6s"
+        },
+        "scale_up": {
+            "description": "Crescimento do centro",
+            "keyframes": 2,
+            "properties": [
+                "scale"
+            ],
+            "easing": "easy_ease_out",
+            "start_scale": "0%",
+            "end_scale": "100%",
+            "duration": "0.4s"
+        },
+        "zoom_blur": {
+            "description": "Zoom com motion blur",
+            "keyframes": 3,
+            "properties": [
+                "scale",
+                "position"
+            ],
+            "easing": "custom_bezier",
+            "effects": [
+                "directional_blur"
+            ],
+            "duration": "1.0s"
+        }
+    },
+    "workflow_best_practices": {
+        "project_setup": [
+            "Criar estrutura de pastas no Project panel",
+            "Nomear todos os assets descritivamente",
+            "Configurar composição principal primeiro",
+            "Definir color management e workspace",
+            "Criar composições de referência (HD, 4K, etc)",
+            "Salvar projeto com versionamento"
+        ],
+        "layer_organization": [
+            "Usar cores para categorizar layers",
+            "Nomear todas as layers descritivamente",
+            "Usar pre-comps para agrupar elementos",
+            "Shy layers não utilizadas temporariamente",
+            "Bloquear layers finalizadas",
+            "Comentários em layers complexas"
+        ],
+        "animation_process": [
+            "Começar com animatic/storyboard",
+            "Bloquear timing principal primeiro",
+            "Adicionar easing após timing definido",
+            "Trabalhar em camadas (rough > refine > polish)",
+            "Testar em velocidade real frequentemente",
+            "Obter feedback em checkpoints"
+        ],
+        "effects_workflow": [
+            "Aplicar efeitos em adjustment layers quando possível",
+            "Usar pre-comps para efeitos pesados",
+            "Desabilitar efeitos não essenciais durante edição",
+            "Renderizar pre-comps pesadas",
+            "Documentar configurações de efeitos customizados"
+        ],
+        "performance": [
+            "Usar proxies para footage de alta resolução",
+            "Limpar cache regularmente",
+            "Fechar composições não utilizadas",
+            "Renderizar e substituir seções finalizadas",
+            "Trabalhar em resolução reduzida durante edição"
+        ]
+    },
+    "common_mistakes": {
+        "no_easing": {
+            "problem": "Animações com movimento linear",
+            "solution": "Selecione keyframes e pressione F9",
+            "prevention": "Sempre adicionar easy ease por padrão"
+        },
+        "too_many_effects": {
+            "problem": "Composição lenta por excesso de efeitos",
+            "solution": "Consolidar ou renderizar effects em pre-comp",
+            "prevention": "Usar efeitos com moderação"
+        },
+        "wrong_framerate": {
+            "problem": "Footage com framerate diferente da comp",
+            "solution": "Interpret Footage > Main > Frame Rate",
+            "prevention": "Verificar framerate ao importar"
+        },
+        "missing_keyframes": {
+            "problem": "Propriedades não animam",
+            "solution": "Alt+Property para adicionar keyframe",
+            "prevention": "Verificar stopwatch está ativo"
+        },
+        "collapsed_transformations": {
+            "problem": "Qualidade ruim em nested comps",
+            "solution": "Ativar Collapse Transformations",
+            "prevention": "Sempre ativar em pre-comps com escalamento"
+        },
+        "audio_drift": {
+            "problem": "Áudio dessincronizado",
+            "solution": "Garantir framerate correto e work area precisa",
+            "prevention": "Usar framerate consistente em todo projeto"
+        }
+    },
+    "troubleshooting": {
+        "slow_preview": {
+            "causes": [
+                "Resolução de preview em Full",
+                "Muitos efeitos ativos",
+                "RAM insuficiente",
+                "Cache cheio"
+            ],
+            "solutions": [
+                "Ctrl+Shift+J para Half resolution",
+                "Desabilitar efeitos temporariamente",
+                "Purge All Memory (Ctrl+Alt+/)",
+                "Limpar disk cache"
+            ]
+        },
+        "render_errors": {
+            "causes": [
+                "RAM insuficiente",
+                "Arquivo de origem corrompido",
+                "Efeito incompatível",
+                "Disco cheio"
+            ],
+            "solutions": [
+                "Renderizar em segmentos",
+                "Reimportar footage problemático",
+                "Remover/substituir efeito",
+                "Liberar espaço em disco"
+            ]
+        },
+        "missing_footage": {
+            "causes": [
+                "Arquivo movido ou deletado",
+                "Caminho de rede desconectado",
+                "Nome alterado"
+            ],
+            "solutions": [
+                "File > Replace Footage",
+                "Reconectar manualmente",
+                "Restaurar do backup"
+            ]
+        },
+        "expression_errors": {
+            "causes": [
+                "Sintaxe incorreta",
+                "Referência a layer inexistente",
+                "Propriedade renomeada/deletada"
+            ],
+            "solutions": [
+                "Verificar sintaxe na linha do erro",
+                "Atualizar referências de layers",
+                "Recriar expressão"
+            ]
+        }
+    },
+    "animation_techniques": {
+        "text_animation": {
+            "steps": [
+                "Criar text layer (Ctrl+Alt+Shift+T)",
+                "Abrir Text > Animate > escolher propriedade",
+                "Ajustar Range Selector",
+                "Animar Offset ou Start/End",
+                "Adicionar easing",
+                "Refinar com Advanced options"
+            ],
+            "common_animators": [
+                "Position (entrada/saída)",
+                "Opacity (fade)",
+                "Scale (crescimento)",
+                "Rotation (giro)",
+                "Tracking (espaçamento)"
+            ],
+            "tips": [
+                "Use Wiggly Selector para movimento orgânico",
+                "Combine múltiplos animators",
+                "Preserve palavra/linha para controle fino"
+            ]
+        },
+        "shape_animation": {
+            "steps": [
+                "Criar shape layer (Q para retângulo)",
+                "Adicionar múltiplas shapes se necessário",
+                "Animar propriedades do Contents",
+                "Usar Trim Paths para reveal animado",
+                "Adicionar Repeater para patterns",
+                "Aplicar efeitos se necessário"
+            ],
+            "properties": [
+                "Path (forma)",
+                "Stroke Width (espessura)",
+                "Fill/Stroke Color (cor)",
+                "Trim Paths (revelar)",
+                "Transform (transformação)"
+            ]
+        },
+        "camera_animation": {
+            "steps": [
+                "Converter layers para 3D",
+                "Criar camera (Ctrl+Alt+Shift+C)",
+                "Escolher tipo (One-Node ou Two-Node)",
+                "Animar Position e Point of Interest",
+                "Ajustar Zoom para focal length",
+                "Adicionar Depth of Field se necessário"
+            ],
+            "tips": [
+                "Use null object para controle mais fácil",
+                "Two-Node camera para movimentos complexos",
+                "Ative motion blur para realismo"
+            ]
+        },
+        "particle_systems": {
+            "effects": [
+                "CC Particle World",
+                "CC Particle Systems II",
+                "Particular (plugin)",
+                "Stardust (plugin)"
+            ],
+            "applications": [
+                "Explosões e fogo",
+                "Neve e chuva",
+                "Mágica e energia",
+                "Backgrounds abstratos"
+            ]
+        }
+    },
+    "expression_library": {
+        "wiggle": {
+            "code": "wiggle(frequency, amplitude)",
+            "example": "wiggle(2, 50)",
+            "description": "Movimento aleatório contínuo",
+            "common_use": "Movimento orgânico, tremor de câmera"
+        },
+        "loop_out": {
+            "code": "loopOut(type = \"cycle\", numKeyframes = 0)",
+            "example": "loopOut(\"pingpong\")",
+            "description": "Repetir animação após último keyframe",
+            "types": [
+                "cycle",
+                "pingpong",
+                "offset",
+                "continue"
+            ]
+        },
+        "time": {
+            "code": "time * multiplier",
+            "example": "time * 100",
+            "description": "Animação baseada em tempo",
+            "common_use": "Rotação contínua, contadores"
+        },
+        "index": {
+            "code": "index * multiplier + offset",
+            "example": "index * 50",
+            "description": "Valor baseado na ordem da layer",
+            "common_use": "Delay entre múltiplas layers"
+        },
+        "value_at_time": {
+            "code": "valueAtTime(time - delay)",
+            "example": "valueAtTime(time - 0.5)",
+            "description": "Valor da propriedade no passado/futuro",
+            "common_use": "Delay effect, trail motion"
+        },
+        "linear": {
+            "code": "linear(t, tMin, tMax, value1, value2)",
+            "example": "linear(time, 0, 3, 0, 100)",
+            "description": "Mapear range de valores linearmente",
+            "common_use": "Remapear valores, criar relações"
+        }
+    },
+    "color_correction_workflow": {
+        "basic_correction": [
+            "Adicionar Adjustment Layer",
+            "Levels para ajustar exposure",
+            "Curves para contraste e tonalidade",
+            "Hue/Saturation para ajustes de cor",
+            "Lumetri Color para grading completo"
+        ],
+        "color_grading": [
+            "Primaries: ajustar balanço geral",
+            "Secondaries: isolar e ajustar cores específicas",
+            "LUTs: aplicar looks pré-definidos",
+            "Vignette: adicionar foco",
+            "Final adjustments: polimento fino"
+        ],
+        "common_effects": {
+            "lumetri_color": "Grading completo e profissional",
+            "curves": "Controle preciso de tons",
+            "hue_saturation": "Ajuste de cores específicas",
+            "exposure": "Brilho e contraste rápido",
+            "tint": "Colorização geral"
+        }
+    },
+    "keying_techniques": {
+        "green_screen": {
+            "steps": [
+                "Importar footage com green/blue screen",
+                "Aplicar Keylight effect",
+                "Usar eyedropper no screen color",
+                "Ajustar Screen Gain e Screen Balance",
+                "Refinar edges com Screen Matte",
+                "Adicionar Spill Suppressor se necessário",
+                "Final touches com Advanced Spill Suppressor"
+            ],
+            "tips": [
+                "Iluminação uniforme é crucial",
+                "Evitar sombras no green screen",
+                "Usar footage de alta qualidade",
+                "Considerar light wrap para integração"
+            ]
+        },
+        "rotoscoping": {
+            "tools": [
+                "Roto Brush (Alt+W)",
+                "Refine Edge Tool",
+                "Manual masking com Pen Tool"
+            ],
+            "workflow": [
+                "Definir propagação inicial",
+                "Refinar com Refine Edge",
+                "Freeze quando satisfeito",
+                "Ajustar individual frames se necessário"
+            ]
+        }
+    },
+    "plugin_recommendations": {
+        "essential": {
+            "red_giant_trapcode": "Partículas e efeitos 3D",
+            "video_copilot_element_3d": "3D objects e motion graphics",
+            "boris_fx_continuum": "Coleção massiva de efeitos",
+            "red_giant_universe": "Transições e efeitos modernos"
+        },
+        "color": {
+            "magic_bullet_looks": "Color grading rápido",
+            "colorista": "Correção de cor profissional"
+        },
+        "keying": {
+            "keylight": "Já incluído, melhor para chroma key",
+            "primatte_keyer": "Keying avançado"
+        },
+        "motion_graphics": {
+            "duik": "Rigging gratuito para personagens",
+            "motion_v2": "Scripts para motion graphics",
+            "animation_composer": "Presets de animação"
+        }
+    },
+    "render_optimization": {
+        "settings": {
+            "use_multiprocessing": "Render multiple frames simultaneously",
+            "cache_before_render": "Enable disk cache",
+            "reduce_project_size": "Purge unused footage"
+        }
+    }
+}

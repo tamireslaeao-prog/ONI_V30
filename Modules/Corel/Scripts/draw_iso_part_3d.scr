@@ -1,0 +1,101 @@
+; AutoCAD Script: Peça 3D ISO com Cotas
+; Dimensões: 50x15x30mm, Recorte L 15x10, Furo Ø10
+; ONI V24 - Gerado em 2026-01-09
+
+; === SETUP ===
+_OSMODE
+0
+_DIMSCALE
+2
+-VIEW
+_SW
+_ZOOM
+_E
+
+; === CORPO PRINCIPAL (50x15x30) ===
+_BOX
+0,0,0
+50,15,30
+
+; === RECORTE EM L (15x15x10) no canto inferior esquerdo ===
+_BOX
+0,0,0
+15,15,10
+
+; === SUBTRAÇÃO DO RECORTE ===
+_SUBTRACT
+_L
+
+_P
+
+
+; === CILINDRO PARA FURO ===
+; Centro: X=50-20=30, Y=0 (borda frontal), Z=30/2=15
+; Raio: 5 (diâmetro 10)
+; Altura: 15 (atravessa toda a largura no eixo Y)
+_CYLINDER
+30,0,15
+5
+15
+
+; === SUBTRAÇÃO DO FURO ===
+_SUBTRACT
+_ALL
+
+_R
+_L
+
+
+
+; === COTAS ===
+; Comprimento total 50
+_DIMALIGNED
+0,15,0
+50,15,0
+25,20,0
+
+; Largura 15
+_DIMALIGNED
+50,0,0
+50,15,0
+55,7.5,0
+
+; Altura 30
+_DIMALIGNED
+50,15,0
+50,15,30
+55,15,15
+
+; Recorte base 15
+_DIMALIGNED
+0,15,0
+15,15,0
+7.5,20,0
+
+; Recorte altura 10
+_DIMALIGNED
+0,15,0
+0,15,10
+-5,15,5
+
+; Furo posição 20mm
+_DIMALIGNED
+30,15,0
+50,15,0
+40,20,0
+
+; Furo diâmetro - usando leader
+_QLEADER
+30,7.5,15
+40,25,20
+
+%%c10
+
+; === VISTA FINAL ===
+-VIEW
+_SW
+_ZOOM
+_E
+_VSCURRENT
+_C
+

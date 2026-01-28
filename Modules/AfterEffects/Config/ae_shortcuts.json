@@ -1,0 +1,26 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Real After Effects command shortcuts - using actual Command IDs",
+    "shortcuts": [
+        {
+            "key": "Ctrl+Shift+T",
+            "modifier": "CtrlShift",
+            "command": "2035",
+            "description": "Reveal Expression Editor"
+        },
+        {
+            "key": "U",
+            "modifier": "",
+            "command": "2771",
+            "description": "Show Keyframes"
+        },
+        {
+            "key": "Ctrl+Alt+Shift+K",
+            "modifier": "CtrlAltShift",
+            "command": "2781",
+            "description": "Open Composition Settings"
+        }
+    ],
+    "notes": "Command IDs are numerical values. Find more at hyperbrew.co/blog/after-effects-command-ids"
+}

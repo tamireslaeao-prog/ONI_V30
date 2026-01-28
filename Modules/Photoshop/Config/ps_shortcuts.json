@@ -1,0 +1,41 @@
+{
+    "profile_name": "ONI_Neural",
+    "shortcuts": [
+        {
+            "name": "Quick Export PNG",
+            "kind": "static",
+            "id": "3446",
+            "keys": "F9"
+        },
+        {
+            "name": "Select Subject",
+            "kind": "dynamic",
+            "id": "Select Subject",
+            "keys": "F10"
+        },
+        {
+            "name": "Remove Background",
+            "kind": "dynamic",
+            "id": "Remove Background",
+            "keys": "F11"
+        },
+        {
+            "name": "Sky Replacement...",
+            "kind": "dynamic",
+            "id": "Sky Replacement...",
+            "keys": "F12"
+        },
+        {
+            "name": "Generative Fill",
+            "kind": "static",
+            "id": "GenerativeFill",
+            "keys": "Ctrl+Enter"
+        },
+        {
+            "name": "Place Embedded...",
+            "kind": "dynamic",
+            "id": "Place Embedded...",
+            "keys": "F8"
+        }
+    ]
+}

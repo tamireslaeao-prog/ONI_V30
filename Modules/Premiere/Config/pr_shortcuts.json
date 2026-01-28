@@ -1,0 +1,27 @@
+{
+    "profile_name": "ONI_Neural",
+    "version": "1.0",
+    "description": "Premiere Pro Essential Shortcuts",
+    "shortcuts": [
+        {
+            "name": "Add Edit",
+            "id": "cmd.add_edit",
+            "keys": "Ctrl+K"
+        },
+        {
+            "name": "Ripple Delete",
+            "id": "cmd.ripple_delete",
+            "keys": "Shift+Delete"
+        },
+        {
+            "name": "Nest...",
+            "id": "cmd.nest",
+            "keys": "F8"
+        },
+        {
+            "name": "Export Media",
+            "id": "cmd.export",
+            "keys": "Ctrl+M"
+        }
+    ]
+}

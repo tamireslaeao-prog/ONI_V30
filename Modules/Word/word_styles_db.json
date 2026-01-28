@@ -1,0 +1,825 @@
+{
+  "version": "1.0-WORD",
+  "last_updated": "2026-01-04",
+  "target_software": "Microsoft Word 2019/2021/365",
+  "schema_version": "document_advanced",
+  
+  "meta": {
+    "total_styles": 8,
+    "document_types": ["report", "certificate", "letter", "proposal", "resume", "invoice"],
+    "export_formats": ["DOCX", "PDF", "HTML", "RTF"],
+    "page_sizes": ["Letter", "A4", "Legal"]
+  },
+  
+  "styles": [
+    {
+      "style_id": "modern_corporate_v1",
+      "name": "Modern Corporate",
+      "description": "Clean professional document style for business reports and proposals",
+      "version": "1.0",
+      "complexity": "medium",
+      
+      "metadata": {
+        "best_for": ["reports", "proposals", "white_papers", "business_plans"],
+        "industry": ["tech", "finance", "consulting"],
+        "formality": "high",
+        "target_audience": "executives"
+      },
+      
+      "page_setup": {
+        "size": "Letter",
+        "width": 8.5,
+        "height": 11,
+        "unit": "inches",
+        "orientation": "portrait",
+        "margins": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0,
+          "gutter": 0,
+          "header": 0.5,
+          "footer": 0.5
+        }
+      },
+      
+      "color_system": {
+        "mode": "RGB",
+        "primary": {
+          "name": "Corporate Blue",
+          "rgb": [0, 82, 165],
+          "hex": "#0052A5",
+          "use_for": ["headings", "accents", "links"]
+        },
+        "secondary": {
+          "name": "Professional Gray",
+          "rgb": [77, 77, 77],
+          "hex": "#4D4D4D",
+          "use_for": ["subheadings", "body_text"]
+        },
+        "accent": {
+          "name": "Trust Blue",
+          "rgb": [0, 114, 206],
+          "hex": "#0072CE",
+          "use_for": ["highlights", "callouts"]
+        },
+        "neutral": [
+          {"name": "Black", "rgb": [0, 0, 0], "hex": "#000000"},
+          {"name": "White", "rgb": [255, 255, 255], "hex": "#FFFFFF"},
+          {"name": "Light Gray", "rgb": [217, 217, 217], "hex": "#D9D9D9"}
+        ]
+      },
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Calibri", "Helvetica", "Arial"],
+          "headings": ["Calibri Light", "Helvetica Neue Light", "Arial"],
+          "monospace": ["Consolas", "Courier New"],
+          "decorative": []
+        },
+        
+        "text_styles": {
+          "title": {
+            "font": "Calibri Light",
+            "size": 28,
+            "bold": false,
+            "italic": false,
+            "color": "#0052A5",
+            "alignment": "left",
+            "space_before": 0,
+            "space_after": 12,
+            "line_spacing": 1.0
+          },
+          
+          "heading_1": {
+            "font": "Calibri",
+            "size": 18,
+            "bold": true,
+            "italic": false,
+            "color": "#0052A5",
+            "alignment": "left",
+            "space_before": 18,
+            "space_after": 6,
+            "line_spacing": 1.15,
+            "keep_with_next": true,
+            "page_break_before": false
+          },
+          
+          "heading_2": {
+            "font": "Calibri",
+            "size": 14,
+            "bold": true,
+            "italic": false,
+            "color": "#4D4D4D",
+            "alignment": "left",
+            "space_before": 12,
+            "space_after": 3,
+            "line_spacing": 1.15
+          },
+          
+          "heading_3": {
+            "font": "Calibri",
+            "size": 12,
+            "bold": true,
+            "italic": false,
+            "color": "#4D4D4D",
+            "alignment": "left",
+            "space_before": 6,
+            "space_after": 3,
+            "line_spacing": 1.15
+          },
+          
+          "normal": {
+            "font": "Calibri",
+            "size": 11,
+            "bold": false,
+            "italic": false,
+            "color": "#000000",
+            "alignment": "left",
+            "space_before": 0,
+            "space_after": 8,
+            "line_spacing": 1.3,
+            "first_line_indent": 0
+          },
+          
+          "body_indent": {
+            "font": "Calibri",
+            "size": 11,
+            "first_line_indent": 0.5
+          },
+          
+          "quote": {
+            "font": "Calibri",
+            "size": 11,
+            "italic": true,
+            "color": "#4D4D4D",
+            "left_indent": 0.5,
+            "right_indent": 0.5,
+            "space_before": 6,
+            "space_after": 6,
+            "border_left": true,
+            "border_color": "#0072CE"
+          },
+          
+          "caption": {
+            "font": "Calibri",
+            "size": 9,
+            "italic": true,
+            "color": "#4D4D4D",
+            "alignment": "center",
+            "space_before": 3,
+            "space_after": 12
+          }
+        },
+        
+        "list_styles": {
+          "bullet": {
+            "bullet_char": "•",
+            "font": "Calibri",
+            "size": 11,
+            "indent": 0.25,
+            "hanging_indent": 0.25,
+            "space_after": 3
+          },
+          
+          "numbered": {
+            "number_format": "1.",
+            "font": "Calibri",
+            "size": 11,
+            "indent": 0.25,
+            "hanging_indent": 0.25,
+            "start_at": 1
+          },
+          
+          "multilevel": {
+            "level_1": {"format": "1.", "indent": 0.25},
+            "level_2": {"format": "a.", "indent": 0.5},
+            "level_3": {"format": "i.", "indent": 0.75}
+          }
+        }
+      },
+      
+      "table_styles": {
+        "default_style": "Grid Table 4 - Accent 1",
+        
+        "data_table": {
+          "style_name": "Grid Table 4 - Accent 1",
+          "header_row": true,
+          "banded_rows": true,
+          "first_column": false,
+          "last_column": false,
+          "header_font": "Calibri",
+          "header_size": 11,
+          "header_bold": true,
+          "header_bg_color": "#0052A5",
+          "header_text_color": "#FFFFFF",
+          "body_font": "Calibri",
+          "body_size": 10,
+          "border_style": "single",
+          "border_color": "#D9D9D9",
+          "cell_padding": 3
+        },
+        
+        "summary_table": {
+          "style_name": "Light Grid - Accent 1",
+          "header_row": true,
+          "banded_rows": false,
+          "alignment": "right",
+          "number_format": "$#,##0.00"
+        }
+      },
+      
+      "header_footer": {
+        "header": {
+          "enabled": true,
+          "content": "{Company Name}",
+          "font": "Calibri",
+          "size": 9,
+          "color": "#4D4D4D",
+          "alignment": "right",
+          "include_logo": true,
+          "logo_position": "left"
+        },
+        
+        "footer": {
+          "enabled": true,
+          "content": "Confidential | Page {PAGE} of {NUMPAGES}",
+          "font": "Calibri",
+          "size": 9,
+          "color": "#4D4D4D",
+          "alignment": "center",
+          "border_top": true,
+          "border_color": "#D9D9D9"
+        }
+      },
+      
+      "cover_page": {
+        "template": "modern_minimal",
+        "elements": [
+          {
+            "type": "logo",
+            "position": "top_center",
+            "max_height": 1.5
+          },
+          {
+            "type": "title",
+            "font": "Calibri Light",
+            "size": 36,
+            "bold": true,
+            "color": "#0052A5",
+            "alignment": "center",
+            "vertical_position": "35%"
+          },
+          {
+            "type": "subtitle",
+            "font": "Calibri",
+            "size": 18,
+            "color": "#4D4D4D",
+            "alignment": "center"
+          },
+          {
+            "type": "author_block",
+            "font": "Calibri",
+            "size": 12,
+            "alignment": "center",
+            "vertical_position": "80%",
+            "fields": ["author", "date", "version"]
+          }
+        ]
+      },
+      
+      "special_elements": {
+        "callout_box": {
+          "border": true,
+          "border_width": 1,
+          "border_color": "#0072CE",
+          "background_color": "#F0F8FF",
+          "padding": 10,
+          "margin": 6
+        },
+        
+        "warning_box": {
+          "border": true,
+          "border_width": 2,
+          "border_color": "#FFA500",
+          "background_color": "#FFF8DC",
+          "padding": 10
+        },
+        
+        "code_block": {
+          "font": "Consolas",
+          "size": 9,
+          "background_color": "#F5F5F5",
+          "border": true,
+          "border_color": "#D9D9D9"
+        }
+      }
+    },
+    
+    {
+      "style_id": "traditional_formal_v1",
+      "name": "Traditional Formal",
+      "description": "Classic business document style with serif fonts",
+      "version": "1.0",
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Times New Roman", "Georgia", "Garamond"],
+          "headings": ["Times New Roman", "Georgia"]
+        },
+        
+        "text_styles": {
+          "title": {
+            "font": "Times New Roman",
+            "size": 26,
+            "bold": true,
+            "alignment": "center"
+          },
+          
+          "heading_1": {
+            "font": "Times New Roman",
+            "size": 16,
+            "bold": true,
+            "alignment": "left"
+          },
+          
+          "normal": {
+            "font": "Times New Roman",
+            "size": 12,
+            "line_spacing": 2.0,
+            "first_line_indent": 0.5,
+            "alignment": "justify"
+          }
+        }
+      },
+      
+      "color_system": {
+        "mode": "Grayscale",
+        "primary": {"name": "Black", "rgb": [0, 0, 0]},
+        "accent": {"name": "Dark Gray", "rgb": [64, 64, 64]}
+      }
+    },
+    
+    {
+      "style_id": "minimal_modern_v1",
+      "name": "Minimal Modern",
+      "description": "Clean minimalist style with generous whitespace",
+      "version": "1.0",
+      
+      "page_setup": {
+        "size": "A4",
+        "margins": {
+          "top": 1.5,
+          "bottom": 1.5,
+          "left": 1.5,
+          "right": 1.5
+        }
+      },
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Helvetica", "Arial", "Segoe UI"]
+        },
+        
+        "text_styles": {
+          "title": {
+            "font": "Helvetica",
+            "size": 24,
+            "bold": false,
+            "color": "#000000",
+            "letter_spacing": 2
+          },
+          
+          "heading_1": {
+            "font": "Helvetica",
+            "size": 18,
+            "bold": false,
+            "color": "#000000"
+          },
+          
+          "normal": {
+            "font": "Helvetica",
+            "size": 10,
+            "line_spacing": 1.8
+          }
+        }
+      },
+      
+      "color_system": {
+        "mode": "Monochrome",
+        "primary": {"name": "Black", "rgb": [0, 0, 0]},
+        "secondary": {"name": "Gray", "rgb": [128, 128, 128]}
+      }
+    },
+    
+    {
+      "style_id": "certificate_formal_v1",
+      "name": "Formal Certificate",
+      "description": "Elegant certificate style with ornamental elements",
+      "version": "1.0",
+      
+      "page_setup": {
+        "size": "Letter",
+        "orientation": "landscape",
+        "margins": {
+          "top": 1.5,
+          "bottom": 1.5,
+          "left": 2.0,
+          "right": 2.0
+        },
+        "border": {
+          "enabled": true,
+          "style": "double",
+          "width": 6,
+          "color": "#003366",
+          "art": "decorative_border_1"
+        }
+      },
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Trajan Pro", "Garamond", "Georgia"],
+          "decorative": ["Lucida Handwriting", "Brush Script MT"]
+        },
+        
+        "text_styles": {
+          "title": {
+            "font": "Trajan Pro",
+            "size": 36,
+            "bold": true,
+            "color": "#003366",
+            "alignment": "center",
+            "letter_spacing": 50,
+            "all_caps": true
+          },
+          
+          "recipient_name": {
+            "font": "Lucida Handwriting",
+            "size": 28,
+            "bold": true,
+            "color": "#000000",
+            "alignment": "center"
+          },
+          
+          "body": {
+            "font": "Garamond",
+            "size": 14,
+            "alignment": "center",
+            "line_spacing": 1.5
+          },
+          
+          "signature": {
+            "font": "Lucida Handwriting",
+            "size": 18,
+            "alignment": "center"
+          }
+        }
+      },
+      
+      "color_system": {
+        "primary": {"name": "Navy Blue", "rgb": [0, 51, 102], "hex": "#003366"},
+        "accent": {"name": "Gold", "rgb": [218, 165, 32], "hex": "#DAA520"}
+      },
+      
+      "special_elements": {
+        "seal": {
+          "enabled": true,
+          "position": "bottom_left",
+          "size": 1.5,
+          "style": "embossed"
+        },
+        
+        "signature_line": {
+          "width": 3.0,
+          "style": "solid",
+          "color": "#000000",
+          "thickness": 1
+        }
+      }
+    },
+    
+    {
+      "style_id": "resume_professional_v1",
+      "name": "Professional Resume",
+      "description": "Clean ATS-friendly resume template",
+      "version": "1.0",
+      
+      "page_setup": {
+        "size": "Letter",
+        "margins": {
+          "top": 0.5,
+          "bottom": 0.5,
+          "left": 0.75,
+          "right": 0.75
+        }
+      },
+      
+      "typography": {
+        "text_styles": {
+          "name": {
+            "font": "Calibri",
+            "size": 24,
+            "bold": true,
+            "color": "#0052A5",
+            "alignment": "center"
+          },
+          
+          "contact_info": {
+            "font": "Calibri",
+            "size": 10,
+            "alignment": "center",
+            "color": "#4D4D4D"
+          },
+          
+          "section_header": {
+            "font": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "#0052A5",
+            "border_bottom": true,
+            "border_color": "#0052A5"
+          },
+          
+          "job_title": {
+            "font": "Calibri",
+            "size": 12,
+            "bold": true,
+            "color": "#000000"
+          },
+          
+          "company": {
+            "font": "Calibri",
+            "size": 11,
+            "italic": true,
+            "color": "#4D4D4D"
+          },
+          
+          "body": {
+            "font": "Calibri",
+            "size": 10,
+            "line_spacing": 1.15
+          }
+        }
+      },
+      
+      "sections": [
+        "contact_info",
+        "summary",
+        "experience",
+        "education",
+        "skills",
+        "certifications"
+      ]
+    },
+    
+    {
+      "style_id": "invoice_modern_v1",
+      "name": "Modern Invoice",
+      "description": "Clean professional invoice template",
+      "version": "1.0",
+      
+      "page_setup": {
+        "size": "Letter",
+        "margins": {
+          "top": 0.75,
+          "bottom": 0.75,
+          "left": 0.75,
+          "right": 0.75
+        }
+      },
+      
+      "typography": {
+        "text_styles": {
+          "invoice_title": {
+            "font": "Calibri",
+            "size": 28,
+            "bold": true,
+            "color": "#0052A5"
+          },
+          
+          "section_label": {
+            "font": "Calibri",
+            "size": 10,
+            "bold": true,
+            "color": "#4D4D4D",
+            "all_caps": true
+          },
+          
+          "data": {
+            "font": "Calibri",
+            "size": 10
+          }
+        }
+      },
+      
+      "table_styles": {
+        "line_items": {
+          "header_bg_color": "#0052A5",
+          "header_text_color": "#FFFFFF",
+          "banded_rows": true,
+          "band_color": "#F5F5F5",
+          "columns": [
+            {"name": "Description", "width": 50},
+            {"name": "Quantity", "width": 10, "align": "center"},
+            {"name": "Rate", "width": 15, "align": "right"},
+            {"name": "Amount", "width": 15, "align": "right"}
+          ]
+        },
+        
+        "totals": {
+          "alignment": "right",
+          "bold": true,
+          "border_top": true
+        }
+      },
+      
+      "layout": {
+        "header": {
+          "logo": "top_left",
+          "company_info": "top_right"
+        },
+        
+        "invoice_details": {
+          "invoice_number": true,
+          "date": true,
+          "due_date": true,
+          "po_number": true
+        },
+        
+        "sections": [
+          "bill_to",
+          "ship_to",
+          "line_items",
+          "subtotal",
+          "tax",
+          "total",
+          "payment_terms",
+          "notes"
+        ]
+      }
+    },
+    
+    {
+      "style_id": "proposal_creative_v1",
+      "name": "Creative Proposal",
+      "description": "Modern proposal with visual elements",
+      "version": "1.0",
+      
+      "color_system": {
+        "primary": {"name": "Vibrant Blue", "rgb": [41, 128, 185], "hex": "#2980B9"},
+        "secondary": {"name": "Orange", "rgb": [230, 126, 34], "hex": "#E67E22"},
+        "accent": {"name": "Green", "rgb": [39, 174, 96], "hex": "#27AE60"}
+      },
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Montserrat", "Lato", "Open Sans"],
+          "headings": ["Montserrat Bold", "Raleway Bold"]
+        },
+        
+        "text_styles": {
+          "title": {
+            "font": "Montserrat",
+            "size": 32,
+            "bold": true,
+            "color": "#2980B9"
+          },
+          
+          "heading_1": {
+            "font": "Montserrat",
+            "size": 20,
+            "bold": true,
+            "color": "#2980B9",
+            "background_color": "#ECF0F1",
+            "padding": 6
+          }
+        }
+      },
+      
+      "special_elements": {
+        "icon_list": {
+          "enabled": true,
+          "icon_color": "#E67E22"
+        },
+        
+        "highlight_box": {
+          "border_left": true,
+          "border_width": 5,
+          "border_color": "#27AE60",
+          "background_color": "#E8F8F5",
+          "padding": 12
+        }
+      }
+    },
+    
+    {
+      "style_id": "technical_manual_v1",
+      "name": "Technical Manual",
+      "description": "Structured technical documentation style",
+      "version": "1.0",
+      
+      "typography": {
+        "font_families": {
+          "primary": ["Arial", "Calibri"],
+          "monospace": ["Consolas", "Courier New"]
+        },
+        
+        "text_styles": {
+          "heading_1": {
+            "font": "Arial",
+            "size": 16,
+            "bold": true,
+            "color": "#000000",
+            "numbering": "1.",
+            "page_break_before": true
+          },
+          
+          "heading_2": {
+            "font": "Arial",
+            "size": 14,
+            "bold": true,
+            "numbering": "1.1"
+          },
+          
+          "heading_3": {
+            "font": "Arial",
+            "size": 12,
+            "bold": true,
+            "numbering": "1.1.1"
+          },
+          
+          "code": {
+            "font": "Consolas",
+            "size": 9,
+            "background_color": "#F5F5F5",
+            "border": true
+          },
+          
+          "note": {
+            "font": "Arial",
+            "size": 10,
+            "italic": true,
+            "left_border": true,
+            "border_color": "#0072CE",
+            "background_color": "#E6F2FF"
+          },
+          
+          "warning": {
+            "font": "Arial",
+            "size": 10,
+            "bold": true,
+            "left_border": true,
+            "border_color": "#FFA500",
+            "background_color": "#FFF8DC"
+          }
+        }
+      },
+      
+      "table_of_contents": {
+        "enabled": true,
+        "depth": 3,
+        "show_page_numbers": true,
+        "right_align_numbers": true,
+        "leader": "dots"
+      },
+      
+      "cross_references": {
+        "enabled": true,
+        "format": "Section {number}: {heading}"
+      }
+    }
+  ],
+  
+  "global_word_settings": {
+    "proofing": {
+      "spell_check": true,
+      "grammar_check": true,
+      "auto_correct": true
+    },
+    
+    "tracking": {
+      "track_changes": false,
+      "show_markup": "simple"
+    },
+    
+    "compatibility": {
+      "optimize_for": "Word 2019",
+      "embed_fonts": false,
+      "save_thumbnails": true
+    },
+    
+    "automation": {
+      "auto_save": true,
+      "auto_recover": 10,
+      "background_save": true
+    }
+  },
+  
+  "macros_vba": {
+    "insert_timestamp": "Sub InsertTimestamp()\nSelection.TypeText Format(Now, \"mmmm dd, yyyy\")\nEnd Sub",
+    
+    "apply_corporate_header": "Sub ApplyCorporateHeader()\nActiveDocument.Sections(1).Headers(1).Range.Text = \"Company Name\"\nEnd Sub",
+    
+    "format_table": "Sub FormatTable()\nSelection.Tables(1).AutoFormat Format:=wdTableFormatGrid4\nEnd Sub"
+  }
+}
